@@ -1,0 +1,659 @@
+{
+  "questions": [
+    {
+      "question": "Comment afficher du texte en Python ?",
+      "options": [
+        "print(\"texte\")",
+        "echo \"texte\"",
+        "console.log(\"texte\")",
+        "System.out.print(\"texte\")"
+      ],
+      "answer": "print(\"texte\")",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé permet de définir une fonction en Python ?",
+      "options": ["function", "def", "func", "define"],
+      "answer": "def",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer une liste en Python ?",
+      "options": ["list = []", "list = list()", "list = {}", "list = ()"],
+      "answer": "list = []",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode permet de connaître la longueur d'une liste ?",
+      "options": ["len(list)", "list.length()", "list.size()", "length(list)"],
+      "answer": "len(list)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment ajouter un élément à une liste ?",
+      "options": [
+        "list.add(element)",
+        "list.append(element)",
+        "list.push(element)",
+        "list.insert(element)"
+      ],
+      "answer": "list.append(element)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment faire une boucle qui parcourt une liste ?",
+      "options": [
+        "for i in list:",
+        "for (i=0; i<list.length; i++)",
+        "foreach i in list:",
+        "while list:"
+      ],
+      "answer": "for i in list:",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment vérifier si une clé existe dans un dictionnaire ?",
+      "options": [
+        "if key in dict:",
+        "if dict.hasKey(key):",
+        "if dict.contains(key):",
+        "if dict[key] exists:"
+      ],
+      "answer": "if key in dict:",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment lire une entrée utilisateur ?",
+      "options": [
+        "input = input()",
+        "input = read()",
+        "input = System.in.read()",
+        "input = console.input()"
+      ],
+      "answer": "input = input()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment ouvrir un fichier en lecture ?",
+      "options": [
+        "open('fichier', 'r')",
+        "open('fichier', 'read')",
+        "open('fichier', 'readonly')",
+        "fopen('fichier')"
+      ],
+      "answer": "open('fichier', 'r')",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment convertir une chaîne en entier ?",
+      "options": [
+        "int(str)",
+        "str.toInt()",
+        "Integer.parseInt(str)",
+        "parseInt(str)"
+      ],
+      "answer": "int(str)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer un tuple ?",
+      "options": [
+        "tuple = (1, 2, 3)",
+        "tuple = [1, 2, 3]",
+        "tuple = {1, 2, 3}",
+        "tuple = tuple(1, 2, 3)"
+      ],
+      "answer": "tuple = (1, 2, 3)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment accéder au premier élément d'une liste ?",
+      "options": ["list[0]", "list[1]", "list.first", "list.get(0)"],
+      "answer": "list[0]",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment commenter une ligne en Python ?",
+      "options": [
+        "# Commentaire",
+        "// Commentaire",
+        "/* Commentaire */",
+        "-- Commentaire"
+      ],
+      "answer": "# Commentaire",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre '==' et 'is' ?",
+      "options": [
+        "'==' compare les valeurs, 'is' les identités",
+        "'is' compare les valeurs, '==' les identités",
+        "Aucune différence",
+        "'is' est pour les nombres, '==' pour les chaînes"
+      ],
+      "answer": "'==' compare les valeurs, 'is' les identités",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer un ensemble (set) ?",
+      "options": [
+        "set = {1, 2, 3}",
+        "set = [1, 2, 3]",
+        "set = (1, 2, 3)",
+        "set = set(1, 2, 3)"
+      ],
+      "answer": "set = {1, 2, 3}",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment concaténer deux chaînes ?",
+      "options": [
+        "str1 + str2",
+        "str1.concat(str2)",
+        "str1 & str2",
+        "concat(str1, str2)"
+      ],
+      "answer": "str1 + str2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment faire une condition en Python ?",
+      "options": [
+        "if condition:",
+        "if (condition) {}",
+        "when condition:",
+        "if condition then"
+      ],
+      "answer": "if condition:",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer un dictionnaire ?",
+      "options": [
+        "dict = {'clé': 'valeur'}",
+        "dict = ['clé': 'valeur']",
+        "dict = ('clé': 'valeur')",
+        "dict = dict('clé' = 'valeur')"
+      ],
+      "answer": "dict = {'clé': 'valeur'}",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment obtenir les clés d'un dictionnaire ?",
+      "options": [
+        "dict.keys()",
+        "dict.getKeys()",
+        "keys(dict)",
+        "dict.keySet()"
+      ],
+      "answer": "dict.keys()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment faire une boucle while ?",
+      "options": [
+        "while condition:",
+        "while (condition) {}",
+        "do while condition:",
+        "loop while condition:"
+      ],
+      "answer": "while condition:",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre une méthode de classe (@classmethod) et une méthode statique (@staticmethod) ?",
+      "options": [
+        "La méthode de classe reçoit la classe comme premier argument, la méthode statique non",
+        "La méthode statique peut modifier l'état de la classe, la méthode de classe non",
+        "Il n'y a aucune différence",
+        "Les méthodes de classe sont plus rapides"
+      ],
+      "answer": "La méthode de classe reçoit la classe comme premier argument, la méthode statique non",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment fonctionne le slicing [::-1] sur une liste ?",
+      "options": [
+        "Il crée une copie inversée de la liste",
+        "Il supprime le dernier élément",
+        "Il duplique la liste",
+        "Il extrait les éléments pairs"
+      ],
+      "answer": "Il crée une copie inversée de la liste",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un générateur en Python ?",
+      "options": [
+        "Une fonction qui retourne un itérable sans stocker tous les éléments en mémoire",
+        "Un décorateur pour optimiser les fonctions",
+        "Une classe spéciale pour les boucles",
+        "Un outil de compilation"
+      ],
+      "answer": "Une fonction qui retourne un itérable sans stocker tous les éléments en mémoire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le décorateur @property ?",
+      "options": [
+        "Transforme une méthode en attribut en lecture seule",
+        "Cache l'implémentation d'une méthode",
+        "Force la redéfinition d'une méthode",
+        "Optimise les performances d'une méthode"
+      ],
+      "answer": "Transforme une méthode en attribut en lecture seule",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment gérer proprement les ressources avec Python ?",
+      "options": [
+        "Avec un bloc try/finally",
+        "Avec le mot-clé del",
+        "Avec un bloc with",
+        "Avec le garbage collector"
+      ],
+      "answer": "Avec un bloc with",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la sortie de bool('False') en Python ?",
+      "options": ["False", "True", "None", "Erreur"],
+      "answer": "True",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment fusionner deux dictionnaires en Python 3.5+ ?",
+      "options": [
+        "dict1.update(dict2)",
+        "{**dict1, **dict2}",
+        "dict1 + dict2",
+        "dict.merge(dict1, dict2)"
+      ],
+      "answer": "{**dict1, **dict2}",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le GIL (Global Interpreter Lock) ?",
+      "options": [
+        "Un mécanisme qui synchronise l'accès aux objets Python",
+        "Un verrou pour les variables globales",
+        "Un système de gestion de mémoire",
+        "Un optimiseur de bytecode"
+      ],
+      "answer": "Un mécanisme qui synchronise l'accès aux objets Python",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer une liste de compréhension qui garde seulement les nombres pairs ?",
+      "options": [
+        "[x for x in range(10) if x % 2 == 0]",
+        "[x if x % 2 == 0 for x in range(10)]",
+        "[x % 2 == 0 for x in range(10)]",
+        "[for x in range(10) where x % 2 == 0]"
+      ],
+      "answer": "[x for x in range(10) if x % 2 == 0]",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre deepcopy et copy ?",
+      "options": [
+        "deepcopy copie récursivement les objets, copy seulement la référence",
+        "copy est plus rapide que deepcopy",
+        "deepcopy ne fonctionne qu'avec les listes",
+        "copy crée un nouvel identifiant"
+      ],
+      "answer": "deepcopy copie récursivement les objets, copy seulement la référence",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un enum en Python ?",
+      "options": [
+        "from enum import Enum",
+        "using enum.Enum",
+        "import enum.Enum",
+        "from enum import enum"
+      ],
+      "answer": "from enum import Enum",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le duck typing en Python ?",
+      "options": [
+        "Un système de typage basé sur le comportement plutôt que le type",
+        "Un typage strict des variables",
+        "Un design pattern pour les interfaces",
+        "Un système d'héritage multiple"
+      ],
+      "answer": "Un système de typage basé sur le comportement plutôt que le type",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un contexte personnalisé avec with ?",
+      "options": [
+        "En implémentant __enter__ et __exit__",
+        "Avec le décorateur @contextmanager",
+        "Les deux méthodes sont valides",
+        "En héritant de ContextBase"
+      ],
+      "answer": "Les deux méthodes sont valides",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la fonction zip() ?",
+      "options": [
+        "Combine plusieurs itérables élément par élément",
+        "Compresse des données",
+        "Convertit des listes en tuples",
+        "Transforme des itérables en dictionnaires"
+      ],
+      "answer": "Combine plusieurs itérables élément par élément",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment trier un dictionnaire par ses valeurs ?",
+      "options": [
+        "sorted(dict.items(), key=lambda x: x[1])",
+        "dict.sort_values()",
+        "dict.orderby(value)",
+        "sorted(dict, key=dict.get)"
+      ],
+      "answer": "sorted(dict.items(), key=lambda x: x[1])",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un namedtuple ?",
+      "options": [
+        "Un tuple avec des champs nommés",
+        "Un dictionnaire ordonné",
+        "Un tuple immutable",
+        "Un alias pour les types"
+      ],
+      "answer": "Un tuple avec des champs nommés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer une fonction qui accepte un nombre variable d'arguments nommés ?",
+      "options": [
+        "def func(**kwargs)",
+        "def func(*args, **kwargs)",
+        "def func(args...)",
+        "def func(***kwargs)"
+      ],
+      "answer": "def func(**kwargs)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre __str__ et __repr__ ?",
+      "options": [
+        "__str__ est pour l'affichage informel, __repr__ pour la représentation officielle",
+        "__repr__ est pour le debug, __str__ n'est plus utilisé",
+        "Aucune différence",
+        "__str__ est plus rapide que __repr__"
+      ],
+      "answer": "__str__ est pour l'affichage informel, __repr__ pour la représentation officielle",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment vérifier si un fichier existe ?",
+      "options": [
+        "os.path.exists('fichier')",
+        "pathlib.Path('fichier').exists()",
+        "Les deux méthodes sont valides",
+        "with open('fichier') as f:"
+      ],
+      "answer": "Les deux méthodes sont valides",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le module itertools fournit ?",
+      "options": [
+        "Des fonctions pour manipuler les itérables",
+        "Un système de compilation",
+        "Des optimiseurs de performances",
+        "Des structures de données avancées"
+      ],
+      "answer": "Des fonctions pour manipuler les itérables",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter le pattern de singleton en Python de manière thread-safe ?",
+      "options": [
+        "En utilisant un décorateur avec verrou",
+        "En utilisant un module Python",
+        "En utilisant une métaclasse avec __call__",
+        "Toutes ces réponses sont valides"
+      ],
+      "answer": "Toutes ces réponses sont valides",
+      "difficulty": "difficile",
+      "explanation": "Plusieurs approches existent : décorateur avec threading.Lock(), utilisation du système naturel de modules Python, ou métaclasse avec synchronisation."
+    },
+    {
+      "question": "Qu'est-ce que le problème de référence cyclique en Python et comment le gérer ?",
+      "options": [
+        "Un problème de garbage collection résolu par le module gc",
+        "Quand deux objets se référencent mutuellement",
+        "Peut être résolu avec weakref",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Les références cycliques empêchent le comptage de références de fonctionner, nécessitant le garbage collector et/ou weakref."
+    },
+    {
+      "question": "Comment optimiser une fonction Python avec Cython ?",
+      "options": [
+        "En ajoutant des types statiques avec cdef",
+        "En compilant le code Python",
+        "En utilisant les extensions C",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Cython permet d'ajouter des types statiques, de compiler en C, et d'intégrer du code C."
+    },
+    {
+      "question": "Quelle est la différence entre __slots__ et __dict__ ?",
+      "options": [
+        "__slots__ optimise la mémoire en fixant les attributs",
+        "__dict__ permet des attributs dynamiques",
+        "__slots__ est plus rapide pour l'accès aux attributs",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "__slots__ remplace __dict__ pour une meilleure performance mais limite les attributs dynamiques."
+    },
+    {
+      "question": "Comment implémenter un décorateur qui conserve les métadonnées de la fonction originale ?",
+      "options": [
+        "En utilisant functools.wraps",
+        "En copiant manuellement __name__ et __doc__",
+        "Avec le décorateur @wraps de functools",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "functools.wraps est la méthode standard pour conserver les métadonnées."
+    },
+    {
+      "question": "Qu'est-ce que le GIL (Global Interpreter Lock) et comment le contourner ?",
+      "options": [
+        "Un verrou qui empêche le vrai parallélisme",
+        "Peut être contourné avec multiprocessing",
+        "N'affecte pas les opérations I/O bound",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Le GIL limite l'exécution parallèle de bytecode Python mais pas les opérations bloquantes ou le multiprocessing."
+    },
+    {
+      "question": "Comment créer un descriptor en Python ?",
+      "options": [
+        "En implémentant __get__, __set__ ou __delete__",
+        "En utilisant property()",
+        "Avec le décorateur @descriptor",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "difficile",
+      "explanation": "Les descriptors sont créés via les méthodes spéciales ou la fonction property()."
+    },
+    {
+      "question": "Qu'est-ce que le method resolution order (MRO) en Python ?",
+      "options": [
+        "L'ordre de recherche des méthodes dans l'héritage multiple",
+        "Défini par l'algorithme C3",
+        "Peut être inspecté avec __mro__",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Le MRO détermine l'ordre de recherche des méthodes dans le cas d'héritage multiple."
+    },
+    {
+      "question": "Comment implémenter une métaclasse en Python ?",
+      "options": [
+        "En héritant de type",
+        "En définissant __new__ ou __prepare__",
+        "En utilisant le mot-clé metaclass",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Les métaclasses permettent de customiser la création de classes."
+    },
+    {
+      "question": "Quelle est la différence entre asyncio et threading ?",
+      "options": [
+        "asyncio utilise une seule thread avec event loop",
+        "threading utilise plusieurs threads OS",
+        "asyncio est mieux pour les tâches I/O bound",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "asyncio est single-thread alors que threading utilise le multithreading OS."
+    },
+    {
+      "question": "Comment fonctionne le mécanisme d'import en Python ?",
+      "options": [
+        "Via sys.path et les import hooks",
+        "En utilisant __import__()",
+        "Avec le cache dans __pycache__",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Le système d'import est complexe et configurable."
+    },
+    {
+      "question": "Qu'est-ce qu'un coroutine en Python ?",
+      "options": [
+        "Une fonction qui peut suspendre son exécution",
+        "Définie avec async/await",
+        "Gérée par l'event loop dans asyncio",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Les coroutines sont au cœur de la programmation asynchrone."
+    },
+    {
+      "question": "Comment optimiser les performances d'un programme Python ?",
+      "options": [
+        "En utilisant des structures de données natives",
+        "Avec Cython ou Numba",
+        "En évitant les opérations coûteuses en Python pur",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "L'optimisation nécessite souvent une combinaison d'approches."
+    },
+    {
+      "question": "Qu'est-ce que le monkey patching en Python ?",
+      "options": [
+        "Modification dynamique des classes à l'exécution",
+        "Considéré comme une mauvaise pratique sauf cas spécifiques",
+        "Utilisé dans certains frameworks comme gevent",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Le monkey patching est puissant mais potentiellement dangereux."
+    },
+    {
+      "question": "Comment fonctionne le memory management en Python ?",
+      "options": [
+        "Combinaison de comptage de références et garbage collector",
+        "Avec des arenas pour les petits objets",
+        "Utilisation de pymalloc",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Python utilise plusieurs mécanismes pour gérer la mémoire."
+    },
+    {
+      "question": "Qu'est-ce que le buffer protocol en Python ?",
+      "options": [
+        "Une interface pour accéder à la mémoire bas niveau",
+        "Utilisé par numpy et array",
+        "Permet des conversions efficaces entre types",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Le buffer protocol est essentiel pour les performances."
+    },
+    {
+      "question": "Comment créer une extension C pour Python ?",
+      "options": [
+        "Avec l'API C Python",
+        "En utilisant PyBind11",
+        "Via Cython",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Plusieurs méthodes existent pour étendre Python avec du C."
+    },
+    {
+      "question": "Qu'est-ce que le problème de thundering herd avec asyncio ?",
+      "options": [
+        "Quand plusieurs tâches se réveillent simultanément",
+        "Peut causer une surcharge CPU",
+        "Peut être mitigé avec des verrous",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Un problème classique des systèmes asynchrones."
+    },
+    {
+      "question": "Comment fonctionnent les annotations de type en Python ?",
+      "options": [
+        "Utilisées par mypy pour le type checking",
+        "Stockées dans __annotations__",
+        "N'affectent pas l'exécution",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Les type hints sont uniquement pour l'analyse statique."
+    },
+    {
+      "question": "Qu'est-ce que le module ast en Python ?",
+      "options": [
+        "Permet de manipuler l'AST (Abstract Syntax Tree)",
+        "Utilisé par les linters et formatters",
+        "Base pour des métaprogrammations avancées",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Le module ast donne accès à la représentation interne du code."
+    }
+  ]
+}

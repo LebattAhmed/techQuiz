@@ -1,0 +1,594 @@
+{
+  "questions": [
+    {
+      "question": "Quel mot-clé permet de définir une classe en Java ?",
+      "options": ["class", "struct", "object", "type"],
+      "answer": "class",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode est le point d'entrée d'un programme Java ?",
+      "options": ["main()", "start()", "init()", "run()"],
+      "answer": "main()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment déclarer une variable constante en Java ?",
+      "options": ["const", "let", "final", "static"],
+      "answer": "final",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type de variable utilise-t-on pour vrai/faux en Java ?",
+      "options": ["String", "boolean", "int", "char"],
+      "answer": "boolean",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer un objet en Java ?",
+      "options": [
+        "new MaClasse()",
+        "MaClasse.create()",
+        "MaClasse.new()",
+        "object MaClasse()"
+      ],
+      "answer": "new MaClasse()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel opérateur permet de comparer l'égalité de valeur en Java ?",
+      "options": ["=", "==", "===", "equals()"],
+      "answer": "==",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment importer une classe en Java ?",
+      "options": ["#include", "import", "using", "require"],
+      "answer": "import",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle boucle est préférable quand on connaît le nombre d'itérations ?",
+      "options": ["while", "for", "do-while", "loop"],
+      "answer": "for",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment accéder au premier élément d'un tableau en Java ?",
+      "options": ["array[0]", "array[1]", "array.first", "array.get(0)"],
+      "answer": "array[0]",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé permet d'hériter d'une classe en Java ?",
+      "options": ["extends", "implements", "inherits", "using"],
+      "answer": "extends",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment convertir une String en int en Java ?",
+      "options": [
+        "Integer.parseInt()",
+        "String.toInt()",
+        "int.parse()",
+        "Integer.valueOf()"
+      ],
+      "answer": "Integer.parseInt()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode permet d'afficher du texte en Java ?",
+      "options": [
+        "System.out.print()",
+        "console.log()",
+        "print()",
+        "display()"
+      ],
+      "answer": "System.out.print()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment commenter une ligne en Java ?",
+      "options": [
+        "// Commentaire",
+        "# Commentaire",
+        "/* Commentaire */",
+        "<!-- Commentaire -->"
+      ],
+      "answer": "// Commentaire",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la superclasse de toutes les classes en Java ?",
+      "options": ["Object", "Main", "Super", "Base"],
+      "answer": "Object",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment concaténer deux String en Java ?",
+      "options": [
+        "str1 + str2",
+        "str1.concat(str2)",
+        "String.join(str1, str2)",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé permet d'implémenter une interface ?",
+      "options": ["extends", "implements", "using", "inherit"],
+      "answer": "implements",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment obtenir la longueur d'un tableau en Java ?",
+      "options": ["array.size", "array.length", "array.count", "array.size()"],
+      "answer": "array.length",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure permet de gérer plusieurs conditions en Java ?",
+      "options": ["if/else", "switch", "while", "Réponses 1 et 2"],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer une méthode en Java ?",
+      "options": [
+        "function maMethode() {}",
+        "def maMethode() {}",
+        "void maMethode() {}",
+        "method maMethode() {}"
+      ],
+      "answer": "void maMethode() {}",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode permet de comparer deux String en Java ?",
+      "options": ["equals()", "==", "compare()", "same()"],
+      "answer": "equals()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre '==' et 'equals()' en Java ?",
+      "options": [
+        "'==' compare les références, 'equals()' compare les valeurs",
+        "'==' compare les valeurs, 'equals()' compare les références",
+        "Les deux font la même chose",
+        "'==' est pour les primitifs, 'equals()' pour les objets"
+      ],
+      "answer": "'==' compare les références, 'equals()' compare les valeurs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une classe abstraite en Java ?",
+      "options": [
+        "Une classe qui ne peut pas avoir de méthodes",
+        "Une classe qui ne peut pas être instanciée",
+        "Une classe sans attributs",
+        "Une classe finale"
+      ],
+      "answer": "Une classe qui ne peut pas être instanciée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la sortie de 'System.out.println(10 + 20 + \"30\" + 40)' ?",
+      "options": ["303040", "10203040", "303040", "60\"30\"40"],
+      "answer": "303040",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le polymorphisme en Java ?",
+      "options": [
+        "Capacité d'une variable à référencer différents types d'objets",
+        "Capacité à créer plusieurs constructeurs",
+        "Capacité à utiliser plusieurs interfaces",
+        "Capacité à surcharger les opérateurs"
+      ],
+      "answer": "Capacité d'une variable à référencer différents types d'objets",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment empêcher l'héritage d'une classe en Java ?",
+      "options": [
+        "En utilisant 'private class'",
+        "En utilisant 'final'",
+        "En utilisant 'static'",
+        "En utilisant 'abstract'"
+      ],
+      "answer": "En utilisant 'final'",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre ArrayList et LinkedList ?",
+      "options": [
+        "ArrayList est synchronisé, LinkedList ne l'est pas",
+        "ArrayList utilise un tableau dynamique, LinkedList une liste chaînée",
+        "LinkedList est plus rapide pour l'accès aléatoire",
+        "ArrayList ne peut contenir que des objets"
+      ],
+      "answer": "ArrayList utilise un tableau dynamique, LinkedList une liste chaînée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une méthode statique en Java ?",
+      "options": [
+        "Une méthode qui ne peut pas être modifiée",
+        "Une méthode qui appartient à la classe plutôt qu'à l'instance",
+        "Une méthode qui s'exécute plus rapidement",
+        "Une méthode finale"
+      ],
+      "answer": "Une méthode qui appartient à la classe plutôt qu'à l'instance",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la sortie de 'System.out.println(\"Java\".substring(1, 3))' ?",
+      "options": ["Jav", "ava", "av", "Ja"],
+      "answer": "av",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une interface fonctionnelle en Java ?",
+      "options": [
+        "Une interface avec une seule méthode abstraite",
+        "Une interface qui implémente des méthodes par défaut",
+        "Une interface qui ne peut pas avoir de constantes",
+        "Une interface marquée avec @Functional"
+      ],
+      "answer": "Une interface avec une seule méthode abstraite",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre throw et throws en Java ?",
+      "options": [
+        "'throw' déclare une exception, 'throws' la lance",
+        "'throw' lance une exception, 'throws' la déclare",
+        "Les deux sont interchangeables",
+        "'throws' est pour les exceptions vérifiées, 'throw' pour les non-vérifiées"
+      ],
+      "answer": "'throw' lance une exception, 'throws' la déclare",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le garbage collection en Java ?",
+      "options": [
+        "Un processus pour compresser la mémoire",
+        "Un processus pour libérer la mémoire occupée par les objets inutilisés",
+        "Un processus pour optimiser le bytecode",
+        "Un processus pour gérer les threads"
+      ],
+      "answer": "Un processus pour libérer la mémoire occupée par les objets inutilisés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la sortie de 'System.out.println(0.1 + 0.2 == 0.3)' ?",
+      "options": [
+        "true",
+        "false",
+        "Une erreur de compilation",
+        "0.30000000000000004"
+      ],
+      "answer": "false",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un singleton en Java ?",
+      "options": [
+        "Une classe avec une seule méthode",
+        "Un objet immutable",
+        "Un design pattern qui limite l'instanciation à un seul objet",
+        "Une classe finale"
+      ],
+      "answer": "Un design pattern qui limite l'instanciation à un seul objet",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment fonctionne HashMap en Java ?",
+      "options": [
+        "Utilise un arbre binaire",
+        "Utilise un tableau de listes chaînées",
+        "Utilise deux tableaux parallèles",
+        "Utilise une liste doublement chaînée"
+      ],
+      "answer": "Utilise un tableau de listes chaînées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre String, StringBuilder et StringBuffer ?",
+      "options": [
+        "String est mutable, les autres sont immutables",
+        "StringBuffer est thread-safe, StringBuilder ne l'est pas",
+        "StringBuilder est plus rapide que String",
+        "StringBuffer utilise moins de mémoire"
+      ],
+      "answer": "StringBuffer est thread-safe, StringBuilder ne l'est pas",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un enum en Java ?",
+      "options": [
+        "Un type de données spécial pour les constantes",
+        "Une sous-classe de Object",
+        "Une interface pour les collections",
+        "Un wrapper pour les primitifs"
+      ],
+      "answer": "Un type de données spécial pour les constantes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment fonctionne le try-with-resources en Java ?",
+      "options": [
+        "Gère automatiquement la fermeture des ressources",
+        "Est une alternative au try-catch",
+        "Nécessite une implémentation de Closeable",
+        "Réponses 1 et 3"
+      ],
+      "answer": "Réponses 1 et 3",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la réflexion (reflection) en Java ?",
+      "options": [
+        "Capacité d'une classe à s'auto-décrire",
+        "Capacité à inspecter et modifier le comportement des objets à l'exécution",
+        "Un design pattern pour les factories",
+        "Un mécanisme de cache"
+      ],
+      "answer": "Capacité à inspecter et modifier le comportement des objets à l'exécution",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre Comparator et Comparable ?",
+      "options": [
+        "Comparable est une interface, Comparator une classe",
+        "Comparable définit un ordre naturel, Comparator permet plusieurs ordres",
+        "Comparator est plus rapide",
+        "Comparable est pour les collections, Comparator pour les streams"
+      ],
+      "answer": "Comparable définit un ordre naturel, Comparator permet plusieurs ordres",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un stream en Java 8+ ?",
+      "options": [
+        "Un flux de données séquentiel",
+        "Une nouvelle collection",
+        "Un wrapper pour les tableaux",
+        "Un mécanisme de synchronisation"
+      ],
+      "answer": "Un flux de données séquentiel",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est le résultat de l'opération ((0.1 + 0.2) + 0.3) == (0.1 + (0.2 + 0.3)) en Java ?",
+      "options": [
+        "true",
+        "false",
+        "Une erreur de compilation",
+        "Dépend de la JVM"
+      ],
+      "answer": "false",
+      "difficulty": "difficile",
+      "explanation": "En raison des erreurs d'arrondi en arithmétique flottante, l'associativité n'est pas garantie."
+    },
+    {
+      "question": "Quelle est la complexité temporelle du pire cas pour get() dans une HashMap avec une mauvaise implémentation de hashCode() ?",
+      "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+      "answer": "O(n)",
+      "difficulty": "difficile",
+      "explanation": "Si tous les éléments ont le même hashCode, ils se retrouvent dans le même bucket, transformant la HashMap en liste chaînée."
+    },
+    {
+      "question": "Comment contourner l'immutabilité des String en Java avec la réflexion ?",
+      "options": [
+        "En modifiant le champ 'hash'",
+        "En modifiant le tableau 'value' interne",
+        "En utilisant Unsafe.allocateInstance",
+        "Toutes ces réponses"
+      ],
+      "answer": "En modifiant le tableau 'value' interne",
+      "difficulty": "difficile",
+      "explanation": "On peut accéder au tableau char[] interne via réflexion et le modifier, bien que ce soit extrêmement dangereux."
+    },
+    {
+      "question": "Quel est l'état d'un thread après un IllegalMonitorStateException ?",
+      "options": ["Terminé", "Bloqué", "En attente", "Runnable"],
+      "answer": "Runnable",
+      "difficulty": "difficile",
+      "explanation": "Le thread retourne à l'état runnable après cette exception, contrairement à InterruptedException."
+    },
+    {
+      "question": "Quelle technique permet de contourner la vérification des exceptions vérifiées ?",
+      "options": [
+        "Utiliser Thread.currentThread().stop()",
+        "Utiliser des generics avec RuntimeException",
+        "Utiliser sun.misc.Unsafe",
+        "Toutes ces méthodes"
+      ],
+      "answer": "Utiliser des generics avec RuntimeException",
+      "difficulty": "difficile",
+      "explanation": "On peut lancer des exceptions vérifiées sans les déclarer en utilisant des astuces avec les generics."
+    },
+    {
+      "question": "Quelle est la différence entre Class.forName() et ClassLoader.loadClass() ?",
+      "options": [
+        "forName() initialise la classe, loadClass() non",
+        "loadClass() est plus rapide",
+        "forName() utilise le système de fichiers",
+        "Aucune différence"
+      ],
+      "answer": "forName() initialise la classe, loadClass() non",
+      "difficulty": "difficile",
+      "explanation": "Class.forName() effectue l'initialisation de la classe (static blocks) alors que loadClass() charge seulement la classe."
+    },
+    {
+      "question": "Qu'est-ce que le double-checked locking et pourquoi est-il problématique en Java ?",
+      "options": [
+        "Un pattern de singleton dangereux à cause de la réorganisation des instructions",
+        "Un mécanisme de synchronisation obsolète",
+        "Une technique de compression mémoire",
+        "Un bug du compilateur javac"
+      ],
+      "answer": "Un pattern de singleton dangereux à cause de la réorganisation des instructions",
+      "difficulty": "difficile",
+      "explanation": "Problème dû au modèle mémoire de Java avant Java 5, où les instructions pouvaient être réorganisées."
+    },
+    {
+      "question": "Comment implémenter un pseudo-heritage multiple en Java ?",
+      "options": [
+        "Avec des interfaces default methods",
+        "Avec la composition et le délégation",
+        "Avec des classes proxy",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Plusieurs techniques existent pour simuler l'héritage multiple en Java."
+    },
+    {
+      "question": "Qu'est-ce que le problème de contention false sharing en Java ?",
+      "options": [
+        "Un problème de cache CPU où des threads modifient des données voisines",
+        "Un deadlock dans les collections thread-safe",
+        "Une fuite mémoire dans les ThreadLocals",
+        "Un bug dans le garbage collector"
+      ],
+      "answer": "Un problème de cache CPU où des threads modifient des données voisines",
+      "difficulty": "difficile",
+      "explanation": "Se produit lorsque des threads sur différents cores modifient des variables situées sur la même ligne de cache."
+    },
+    {
+      "question": "Quelle annotation permet de contourner les vérifications de type à la compilation ?",
+      "options": [
+        "@SuppressWarnings",
+        "@SafeVarargs",
+        "@Unchecked",
+        "@Generated"
+      ],
+      "answer": "@SuppressWarnings",
+      "difficulty": "difficile",
+      "explanation": "@SuppressWarnings(\"unchecked\") permet de supprimer les avertissements pour les casts non vérifiés."
+    },
+    {
+      "question": "Quelle est la particularité de String::join en Java 8 ?",
+      "options": [
+        "C'est une méthode static dans une interface",
+        "Elle utilise des varargs",
+        "Elle est intrinsèque",
+        "Elle est thread-safe sans synchronisation"
+      ],
+      "answer": "C'est une méthode static dans une interface",
+      "difficulty": "difficile",
+      "explanation": "Java 8 a introduit les méthodes static dans les interfaces, ce qui était impossible avant."
+    },
+    {
+      "question": "Qu'est-ce que le memory model de Java ?",
+      "options": [
+        "La spécification de comment les threads interagissent via la mémoire",
+        "Le système de gestion de la heap",
+        "L'organisation des objets en mémoire",
+        "Le mécanisme de garbage collection"
+      ],
+      "answer": "La spécification de comment les threads interagissent via la mémoire",
+      "difficulty": "difficile",
+      "explanation": "Définit comment les modifications de mémoire deviennent visibles entre threads."
+    },
+    {
+      "question": "Pourquoi les lambdas en Java 8+ ne sont-elles pas exactement des objets ?",
+      "options": [
+        "Elles sont compilées en méthodes static",
+        "Elles n'ont pas de header d'objet",
+        "Elles utilisent invokedynamic",
+        "Elles sont stockées dans la stack"
+      ],
+      "answer": "Elles utilisent invokedynamic",
+      "difficulty": "difficile",
+      "explanation": "Les lambdas sont implémentées via invokedynamic plutôt que par des classes anonymes traditionnelles."
+    },
+    {
+      "question": "Qu'est-ce que le problème ABA en programmation concurrente ?",
+      "options": [
+        "Un problème de mémoire transactionnelle",
+        "Un cas particulier de race condition",
+        "Un artefact des compare-and-swap",
+        "Un bug dans AtomicReference"
+      ],
+      "answer": "Un artefact des compare-and-swap",
+      "difficulty": "difficile",
+      "explanation": "Se produit quand une valeur passe de A à B puis retourne à A, trompant les algorithmes CAS."
+    },
+    {
+      "question": "Comment fonctionne le biased locking dans la JVM ?",
+      "options": [
+        "Il favorise le premier thread qui accède à l'objet",
+        "Il optimise les locks pour les objets rarement contentés",
+        "Il utilise des flags dans le header d'objet",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Technique d'optimisation qui réduit le coût des locks pour les objets principalement utilisés par un seul thread."
+    },
+    {
+      "question": "Quelle est la différence entre HeapMemory et NativeMemory dans le contexte JVM ?",
+      "options": [
+        "HeapMemory est géré par le GC, NativeMemory non",
+        "NativeMemory est plus rapide",
+        "HeapMemory a une taille fixe",
+        "Aucune différence"
+      ],
+      "answer": "HeapMemory est géré par le GC, NativeMemory non",
+      "difficulty": "difficile",
+      "explanation": "La mémoire native (comme les buffers directs) n'est pas gérée par le garbage collector."
+    },
+    {
+      "question": "Qu'est-ce que le safepoint dans la JVM ?",
+      "options": [
+        "Un point où le GC peut s'exécuter",
+        "Un état cohérent de tous les threads",
+        "Un mécanisme pour les opérations JVM critiques",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Point où tous les threads sont dans un état connu et cohérent pour permettre certaines opérations JVM."
+    },
+    {
+      "question": "Pourquoi System.arraycopy() est-il plus performant qu'une boucle for ?",
+      "options": [
+        "C'est une méthode native",
+        "Il utilise des instructions CPU spécialisées",
+        "Il évite les vérifications de bounds",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Plusieurs optimisations en font une méthode très performante pour copier des tableaux."
+    },
+    {
+      "question": "Qu'est-ce que le problème de l'initialisation circulaire en Java ?",
+      "options": [
+        "Quand deux classes s'initialisent mutuellement dans leurs static blocks",
+        "Un bug du classloader",
+        "Une limitation des generics",
+        "Un problème de sérialisation"
+      ],
+      "answer": "Quand deux classes s'initialisent mutuellement dans leurs static blocks",
+      "difficulty": "difficile",
+      "explanation": "Peut conduire à des valeurs null inattendues ou des exceptions NoClassDefFoundError."
+    },
+    {
+      "question": "Comment fonctionne le string interning dans la JVM ?",
+      "options": [
+        "Utilise la heap normale",
+        "Utilise une zone spéciale appelée StringTable",
+        "Est géré par le garbage collector",
+        "N'existe plus depuis Java 7"
+      ],
+      "answer": "Utilise une zone spéciale appelée StringTable",
+      "difficulty": "difficile",
+      "explanation": "La StringTable est une table de hachage spéciale dans la JVM pour stocker les littéraux de chaînes uniques."
+    }
+  ]
+}

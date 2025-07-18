@@ -1,0 +1,584 @@
+{
+  "questions": [
+    {
+      "question": "Quel mot-clé permet de déclarer une variable en JavaScript ?",
+      "options": ["var", "let", "const", "Toutes ces réponses"],
+      "answer": "Toutes ces réponses",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment afficher un message dans la console ?",
+      "options": ["console.log()", "print()", "log()", "display()"],
+      "answer": "console.log()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel opérateur permet d'ajouter deux nombres ?",
+      "options": ["+", "-", "*", "/"],
+      "answer": "+",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment vérifier si une variable est égale à 5 ?",
+      "options": ["x = 5", "x == 5", "x === 5", "x != 5"],
+      "answer": "x == 5",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode permet de concaténer deux chaînes ?",
+      "options": ["concat()", "merge()", "join()", "add()"],
+      "answer": "concat()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer une fonction nommée 'test' ?",
+      "options": [
+        "function test() {}",
+        "const test = () => {}",
+        "let test = function() {}",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que retourne typeof 'hello' ?",
+      "options": ["string", "number", "boolean", "object"],
+      "answer": "string",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment ajouter un élément à un tableau ?",
+      "options": ["push()", "add()", "insert()", "append()"],
+      "answer": "push()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle boucle est infinie par défaut ?",
+      "options": ["for", "while", "do...while", "Aucune"],
+      "answer": "Aucune",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment obtenir la longueur d'une chaîne ?",
+      "options": ["str.length", "str.size", "str.count", "str.len"],
+      "answer": "str.length",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait l'opérateur % ?",
+      "options": [
+        "Division",
+        "Multiplication",
+        "Reste d'une division",
+        "Pourcentage"
+      ],
+      "answer": "Reste d'une division",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment convertir un nombre en chaîne ?",
+      "options": ["String()", "toString()", "str()", "Réponses 1 et 2"],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode transforme une chaîne en minuscules ?",
+      "options": ["toLower()", "lowerCase()", "toLowerCase()", "minus()"],
+      "answer": "toLowerCase()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer un objet avec une propriété 'nom' ?",
+      "options": [
+        "{nom: 'value'}",
+        "new Object({nom: 'value'})",
+        "Object.create({nom: 'value'})",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait Array.isArray() ?",
+      "options": [
+        "Vérifie si c'est un tableau",
+        "Crée un nouveau tableau",
+        "Convertit en tableau",
+        "Aucune de ces réponses"
+      ],
+      "answer": "Vérifie si c'est un tableau",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment appeler une fonction nommée 'maFunc' ?",
+      "options": ["maFunc", "maFunc()", "call maFunc", "execute maFunc"],
+      "answer": "maFunc()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que retourne Boolean(0) ?",
+      "options": ["true", "false", "0", "null"],
+      "answer": "false",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment commenter une ligne en JavaScript ?",
+      "options": [
+        "// Commentaire",
+        "# Commentaire",
+        "-- Commentaire",
+        "/* Commentaire */"
+      ],
+      "answer": "// Commentaire",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode supprime le dernier élément d'un tableau ?",
+      "options": ["remove()", "delete()", "pop()", "cut()"],
+      "answer": "pop()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment vérifier si x est supérieur à 10 ?",
+      "options": ["x > 10", "x >= 10", "x < 10", "x == 10"],
+      "answer": "x > 10",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une closure en JavaScript ?",
+      "options": [
+        "Une fonction qui a accès à son scope parent même après l'exécution de la fonction parente",
+        "Un moyen de fermer une application JavaScript",
+        "Une méthode pour arrêter une boucle",
+        "Un type de données spécial"
+      ],
+      "answer": "Une fonction qui a accès à son scope parent même après l'exécution de la fonction parente",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que retourne typeof null en JavaScript ?",
+      "options": ["null", "undefined", "object", "string"],
+      "answer": "object",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre == et === ?",
+      "options": [
+        "== compare les valeurs, === compare les valeurs et les types",
+        "=== compare les valeurs, == compare les valeurs et les types",
+        "Il n'y a pas de différence",
+        "== est une nouvelle syntaxe"
+      ],
+      "answer": "== compare les valeurs, === compare les valeurs et les types",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le hoisting en JavaScript ?",
+      "options": [
+        "Le mécanisme qui remonte les déclarations de variables et fonctions en haut de leur scope",
+        "Une méthode pour optimiser les performances",
+        "Un type de boucle",
+        "Une fonction intégrée"
+      ],
+      "answer": "Le mécanisme qui remonte les déclarations de variables et fonctions en haut de leur scope",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer une copie superficielle d'un objet ?",
+      "options": [
+        "Object.assign({}, obj)",
+        "{...obj}",
+        "JSON.parse(JSON.stringify(obj))",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une Promise en JavaScript ?",
+      "options": [
+        "Un objet représentant l'éventuel accomplissement ou échec d'une opération asynchrone",
+        "Une fonction qui s'exécute immédiatement",
+        "Un type de variable",
+        "Une méthode pour déclarer des fonctions"
+      ],
+      "answer": "Un objet représentant l'éventuel accomplissement ou échec d'une opération asynchrone",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le spread operator (...) ?",
+      "options": [
+        "Un opérateur qui permet d'étendre les éléments d'un array ou les propriétés d'un objet",
+        "Une méthode pour diviser des chaînes de caractères",
+        "Un opérateur mathématique",
+        "Une fonction pour copier des objets"
+      ],
+      "answer": "Un opérateur qui permet d'étendre les éléments d'un array ou les propriétés d'un objet",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la valeur de this dans une fonction fléchée ?",
+      "options": [
+        "La valeur de this du contexte parent",
+        "La valeur de this du contexte global",
+        "undefined",
+        "null"
+      ],
+      "answer": "La valeur de this du contexte parent",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le destructuring ?",
+      "options": [
+        "Une syntaxe qui permet d'extraire des valeurs d'objets ou tableaux dans des variables distinctes",
+        "Une méthode pour supprimer des propriétés d'objets",
+        "Un moyen de diviser des chaînes de caractères",
+        "Une fonction pour détruire des objets"
+      ],
+      "answer": "Une syntaxe qui permet d'extraire des valeurs d'objets ou tableaux dans des variables distinctes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment vérifier si une variable est NaN ?",
+      "options": [
+        "isNaN(variable)",
+        "Number.isNaN(variable)",
+        "variable === NaN",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Number.isNaN(variable)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une IIFE (Immediately Invoked Function Expression) ?",
+      "options": [
+        "Une fonction qui s'exécute immédiatement après sa définition",
+        "Un type de boucle",
+        "Une fonction intégrée",
+        "Une méthode pour déclarer des classes"
+      ],
+      "answer": "Une fonction qui s'exécute immédiatement après sa définition",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un Set en JavaScript ?",
+      "options": [
+        "Une collection de valeurs uniques",
+        "Une méthode pour définir des variables",
+        "Un type de tableau",
+        "Une fonction pour configurer des options"
+      ],
+      "answer": "Une collection de valeurs uniques",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment fonctionne Array.reduce() ?",
+      "options": [
+        "Il réduit la taille du tableau",
+        "Il exécute une fonction sur chaque élément",
+        "Il applique une fonction sur un accumulateur et chaque élément pour réduire à une seule valeur",
+        "Il filtre les éléments d'un array"
+      ],
+      "answer": "Il applique une fonction sur un accumulateur et chaque élément pour réduire à une seule valeur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un module en JavaScript ES6+ ?",
+      "options": [
+        "Un fichier JavaScript qui peut exporter et importer des fonctionnalités",
+        "Une fonction particulière",
+        "Un type de variable",
+        "Une méthode de programmation orientée objet"
+      ],
+      "answer": "Un fichier JavaScript qui peut exporter et importer des fonctionnalités",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment gérer plusieurs Promises simultanément ?",
+      "options": [
+        "Promise.all()",
+        "Promise.race()",
+        "Promise.some()",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le prototypage en JavaScript ?",
+      "options": [
+        "Un mécanisme par lequel les objets héritent des propriétés d'autres objets",
+        "Une méthode pour créer des classes",
+        "Un type de fonction",
+        "Une façon de déclarer des variables"
+      ],
+      "answer": "Un mécanisme par lequel les objets héritent des propriétés d'autres objets",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer une copie profonde (deep copy) d'un objet ?",
+      "options": [
+        "Object.assign({}, obj)",
+        "{...obj}",
+        "JSON.parse(JSON.stringify(obj))",
+        "structuredClone(obj)"
+      ],
+      "answer": "JSON.parse(JSON.stringify(obj))",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un générateur (generator) en JavaScript ?",
+      "options": [
+        "Une fonction qui peut être mise en pause et reprise",
+        "Une fonction qui génère des nombres aléatoires",
+        "Un type spécial d'objet",
+        "Une méthode pour créer des instances"
+      ],
+      "answer": "Une fonction qui peut être mise en pause et reprise",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment fonctionne async/await ?",
+      "options": [
+        "Ce sont des alternatives aux Promises",
+        "Ce sont des syntaxes pour gérer les Promises de manière synchrone",
+        "Ce sont des méthodes pour créer des boucles",
+        "Ce sont des types de fonctions"
+      ],
+      "answer": "Ce sont des syntaxes pour gérer les Promises de manière synchrone",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un Map en JavaScript ?",
+      "options": [
+        "Une collection de paires clé-valeur",
+        "Une méthode pour transformer des tableaux",
+        "Une fonction pour créer des cartes géographiques",
+        "Un type de tableau"
+      ],
+      "answer": "Une collection de paires clé-valeur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le 'Event Loop' en JavaScript et comment fonctionne-t-il ?",
+      "options": [
+        "Un mécanisme qui gère l'exécution du code synchrone uniquement",
+        "Un système qui permet l'exécution asynchrone via la pile d'appel, la file d'attente et la boucle d'événements",
+        "Une fonctionnalité pour gérer les événements DOM",
+        "Un type spécial de boucle for"
+      ],
+      "answer": "Un système qui permet l'exécution asynchrone via la pile d'appel, la file d'attente et la boucle d'événements",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter le pattern 'Memoization' en JavaScript ?",
+      "options": [
+        "En utilisant des Promises",
+        "En stockant les résultats de fonctions coûteuses dans un cache",
+        "Avec des fonctions génératrices",
+        "Via l'API Web Storage"
+      ],
+      "answer": "En stockant les résultats de fonctions coûteuses dans un cache",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le 'Currying' en JavaScript ?",
+      "options": [
+        "Transformer une fonction à plusieurs arguments en une séquence de fonctions à un argument",
+        "Une méthode pour optimiser les boucles",
+        "Un design pattern pour gérer les erreurs",
+        "Une technique de compression de code"
+      ],
+      "answer": "Transformer une fonction à plusieurs arguments en une séquence de fonctions à un argument",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment fonctionne l'héritage prototypal en JavaScript ?",
+      "options": [
+        "Via des classes comme dans les langages OOP classiques",
+        "En copiant les propriétés des objets parents",
+        "Par délégation via la chaîne de prototypes",
+        "En utilisant le mot-clé 'extends' exclusivement"
+      ],
+      "answer": "Par délégation via la chaîne de prototypes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un 'Proxy' en JavaScript et quel est son cas d'usage principal ?",
+      "options": [
+        "Un middleware pour les requêtes HTTP",
+        "Un objet qui encapsule un autre objet pour intercepter ses opérations",
+        "Un design pattern pour la création d'objets",
+        "Une fonction de cache"
+      ],
+      "answer": "Un objet qui encapsule un autre objet pour intercepter ses opérations",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter le pattern 'Singleton' en JavaScript moderne ?",
+      "options": [
+        "Avec une classe et une vérification d'instance",
+        "En utilisant des closures et IIFE",
+        "Via des modules ES6",
+        "Toutes ces méthodes sont valides"
+      ],
+      "answer": "Toutes ces méthodes sont valides",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le 'Tail Call Optimization' et comment l'implémenter ?",
+      "options": [
+        "Une optimisation des boucles for",
+        "Une technique pour éviter les stack overflow dans les fonctions récursives",
+        "Un moyen d'optimiser les Promises",
+        "Une fonctionnalité des fonctions fléchées"
+      ],
+      "answer": "Une technique pour éviter les stack overflow dans les fonctions récursives",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment fonctionnent les 'WeakMap' et 'WeakSet' par rapport à leurs équivalents standards ?",
+      "options": [
+        "Ils sont plus performants mais moins sécurisés",
+        "Ils ne maintiennent pas de références fortes à leurs éléments",
+        "Ils ne peuvent stocker que des primitives",
+        "Ils sont immuables"
+      ],
+      "answer": "Ils ne maintiennent pas de références fortes à leurs éléments",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le 'Temporal Dead Zone' (TDZ) en JavaScript ?",
+      "options": [
+        "Une zone mémoire réservée aux variables globales",
+        "La période entre la création d'une variable et son initialisation où elle n'est pas accessible",
+        "Un bug connu du moteur JavaScript",
+        "Une fonctionnalité des Promises"
+      ],
+      "answer": "La période entre la création d'une variable et son initialisation où elle n'est pas accessible",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter efficacement le pattern 'Pub/Sub' en JavaScript ?",
+      "options": [
+        "Avec des fonctions callback",
+        "En utilisant des Promises",
+        "Via des Events ou une classe dédiée gérant des subscribers",
+        "Avec des Web Workers"
+      ],
+      "answer": "Via des Events ou une classe dédiée gérant des subscribers",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le 'Coercion Algorithm' en JavaScript et comment l'éviter ?",
+      "options": [
+        "Un mécanisme de conversion automatique des types, évité avec === et vérifications explicites",
+        "Un système d'optimisation du moteur JS",
+        "Une méthode pour forcer l'exécution synchrone",
+        "Un pattern de conversion des objets"
+      ],
+      "answer": "Un mécanisme de conversion automatique des types, évité avec === et vérifications explicites",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment fonctionnent les 'Generators' (fonctions génératrices) en JavaScript ?",
+      "options": [
+        "Ce sont des fonctions qui produisent plusieurs valeurs à la demande via yield",
+        "Ce sont des factories d'objets",
+        "Ce sont des alternatives aux Promises",
+        "Ce sont des wrappers pour les tableaux"
+      ],
+      "answer": "Ce sont des fonctions qui produisent plusieurs valeurs à la demande via yield",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le 'Double Equals Coercion Algorithm' et dans quel ordre effectue-t-il les conversions ?",
+      "options": [
+        "Number -> String -> Boolean",
+        "String -> Number -> Boolean",
+        "Boolean -> Number -> String",
+        "Il n'y a pas d'ordre défini"
+      ],
+      "answer": "Number -> String -> Boolean",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment optimiser les performances d'une application JavaScript lourde ?",
+      "options": [
+        "Utiliser le Virtual DOM comme React",
+        "Débiter le code en Web Workers",
+        "Implémenter le lazy loading et le code splitting",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le 'Module Pattern' et quels problèmes résout-il ?",
+      "options": [
+        "Un pattern pour organiser le code en modules isolés avec encapsulation",
+        "Une méthode pour charger dynamiquement des scripts",
+        "Un système de compilation",
+        "Une alternative aux classes"
+      ],
+      "answer": "Un pattern pour organiser le code en modules isolés avec encapsulation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment fonctionne 'Object.defineProperty()' et quel est son principal avantage ?",
+      "options": [
+        "Pour créer des propriétés non énumérables",
+        "Pour définir des getters/setters et propriétés immuables",
+        "Pour optimiser les performances",
+        "Pour dupliquer des objets"
+      ],
+      "answer": "Pour définir des getters/setters et propriétés immuables",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la 'Composition vs Héritage' et pourquoi la privilégier en JavaScript ?",
+      "options": [
+        "Une alternative à l'héritage classique plus flexible avec des objets composites",
+        "Une méthode pour optimiser le rendu",
+        "Un pattern de création d'objets",
+        "Une technique de compression de données"
+      ],
+      "answer": "Une alternative à l'héritage classique plus flexible avec des objets composites",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter efficacement le 'Debouncing' ou 'Throttling' ?",
+      "options": [
+        "Avec des Promises",
+        "Via setTimeout/clearTimeout et gestion d'état",
+        "En utilisant des Web Workers",
+        "Avec des fonctions récursives"
+      ],
+      "answer": "Via setTimeout/clearTimeout et gestion d'état",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le 'Shadow DOM' et comment l'utiliser ?",
+      "options": [
+        "Un DOM parallèle pour les Web Components",
+        "Une copie cachée du DOM réel",
+        "Un système de cache du DOM",
+        "Une fonctionnalité de React"
+      ],
+      "answer": "Un DOM parallèle pour les Web Components",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment fonctionnent les 'Microtasks' et 'Macrotasks' dans le cycle d'événements ?",
+      "options": [
+        "Les microtasks (Promises) ont priorité sur les macrotasks (setTimeout)",
+        "Les macrotasks s'exécutent toujours en premier",
+        "Ils partagent la même file d'attente",
+        "Les microtasks sont plus lentes mais plus stables"
+      ],
+      "answer": "Les microtasks (Promises) ont priorité sur les macrotasks (setTimeout)",
+      "difficulty": "difficile"
+    }
+  ]
+}

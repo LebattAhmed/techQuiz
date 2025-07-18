@@ -1,0 +1,564 @@
+{
+  "questions": [
+    {
+      "question": "Que signifie PHP ?",
+      "options": [
+        "Personal Home Page",
+        "PHP: Hypertext Preprocessor",
+        "Private Home Page",
+        "Personal Hypertext Processor"
+      ],
+      "answer": "PHP: Hypertext Preprocessor",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel symbole utilise PHP pour désigner les variables ?",
+      "options": ["&", "$", "#", "@"],
+      "answer": "$",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment se termine un bloc de code PHP ?",
+      "options": ["</php>", "End", "?>", ";;"],
+      "answer": "?>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction affiche du texte en PHP ?",
+      "options": ["print()", "echo()", "display()", "show()"],
+      "answer": "echo()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment commenter une ligne en PHP ?",
+      "options": [
+        "// Commentaire",
+        "# Commentaire",
+        "/* Commentaire */",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle superglobale contient les données des formulaires GET ?",
+      "options": ["$_POST", "$_GET", "$_REQUEST", "$_FORM"],
+      "answer": "$_GET",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction inclut un fichier en PHP ?",
+      "options": ["import()", "require()", "include()", "Réponses 2 et 3"],
+      "answer": "Réponses 2 et 3",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment concaténer des chaînes en PHP ?",
+      "options": ["Avec +", "Avec .", "Avec &", "Avec ,"],
+      "answer": "Avec .",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction retourne la longueur d'une chaîne ?",
+      "options": ["len()", "strlen()", "length()", "str_length()"],
+      "answer": "strlen()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment créer un tableau en PHP ?",
+      "options": ["array()", "[]", "new Array()", "Réponses 1 et 2"],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction transforme une chaîne en minuscules ?",
+      "options": ["strtolower()", "lower()", "strlower()", "toLower()"],
+      "answer": "strtolower()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment vérifier si une variable existe en PHP ?",
+      "options": ["isset()", "exists()", "defined()", "has()"],
+      "answer": "isset()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction retourne la date actuelle ?",
+      "options": ["today()", "now()", "date()", "time()"],
+      "answer": "date()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment lire un fichier en PHP ?",
+      "options": [
+        "readfile()",
+        "file_get_contents()",
+        "fopen()",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction compte le nombre d'éléments dans un tableau ?",
+      "options": ["count()", "size()", "length()", "sizeof()"],
+      "answer": "count()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment déclarer une fonction en PHP ?",
+      "options": [
+        "function maFonction()",
+        "def maFonction()",
+        "func maFonction()",
+        "fn maFonction()"
+      ],
+      "answer": "function maFonction()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle superglobale contient les données de session ?",
+      "options": ["$_COOKIE", "$_SESSION", "$_ENV", "$_SERVER"],
+      "answer": "$_SESSION",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment convertir une chaîne en nombre entier ?",
+      "options": ["intval()", "(int)", "integer()", "Réponses 1 et 2"],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction supprime les espaces en début et fin de chaîne ?",
+      "options": ["trim()", "strip()", "clean()", "removeSpace()"],
+      "answer": "trim()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment rediriger vers une autre page en PHP ?",
+      "options": [
+        "redirect()",
+        "header('Location: ...')",
+        "forward()",
+        "goTo()"
+      ],
+      "answer": "header('Location: ...')",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre == et === en PHP ?",
+      "options": [
+        "== compare les valeurs, === compare les valeurs et les types",
+        "=== est plus rapide que ==",
+        "== convertit les types avant comparaison, === non",
+        "Il n'y a pas de différence"
+      ],
+      "answer": "== compare les valeurs, === compare les valeurs et les types",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment prévenir les injections SQL en PHP ?",
+      "options": [
+        "Utiliser htmlspecialchars()",
+        "Utiliser des requêtes préparées",
+        "Désactiver magic_quotes",
+        "Utiliser addslashes()"
+      ],
+      "answer": "Utiliser des requêtes préparées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une closure en PHP ?",
+      "options": [
+        "Une fonction anonyme",
+        "Une fonction qui peut accéder à des variables hors de son scope",
+        "Une méthode de classe finale",
+        "Un type de commentaire"
+      ],
+      "answer": "Une fonction qui peut accéder à des variables hors de son scope",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter l'autoloading en PHP ?",
+      "options": [
+        "Avec la fonction __autoload()",
+        "En utilisant spl_autoload_register()",
+        "En incluant manuellement tous les fichiers",
+        "Réponses 1 et 2"
+      ],
+      "answer": "En utilisant spl_autoload_register()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que PDO en PHP ?",
+      "options": [
+        "Un package de débogage",
+        "Une extension pour les PDF",
+        "Une interface pour accéder aux bases de données",
+        "Un préprocesseur HTML"
+      ],
+      "answer": "Une interface pour accéder aux bases de données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment gérer les exceptions en PHP ?",
+      "options": [
+        "Avec try/catch",
+        "Avec set_exception_handler()",
+        "Avec trigger_error()",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle méthode permet de sérialiser un objet en PHP ?",
+      "options": ["serialize()", "toJson()", "toString()", "pack()"],
+      "answer": "serialize()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Composer en PHP ?",
+      "options": [
+        "Un framework",
+        "Un gestionnaire de dépendances",
+        "Un préprocesseur CSS",
+        "Un moteur de template"
+      ],
+      "answer": "Un gestionnaire de dépendances",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter le pattern Singleton en PHP ?",
+      "options": [
+        "Avec une classe finale et un constructeur privé",
+        "Avec des traits",
+        "Avec des interfaces",
+        "Avec des classes anonymes"
+      ],
+      "answer": "Avec une classe finale et un constructeur privé",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle fonction PHP permet de générer un hash sécurisé pour les mots de passe ?",
+      "options": ["md5()", "sha1()", "password_hash()", "crypt()"],
+      "answer": "password_hash()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment accéder à une propriété statique dans une classe PHP ?",
+      "options": ["Avec ->", "Avec ::", "Avec self::", "Réponses 2 et 3"],
+      "answer": "Réponses 2 et 3",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que les traits en PHP ?",
+      "options": [
+        "Des interfaces implémentées",
+        "Des classes abstraites",
+        "Des mécanismes de réutilisation de code",
+        "Des exceptions personnalisées"
+      ],
+      "answer": "Des mécanismes de réutilisation de code",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un namespace en PHP ?",
+      "options": [
+        "Avec la directive namespace",
+        "Avec use",
+        "Avec require_once",
+        "Avec class_alias"
+      ],
+      "answer": "Avec la directive namespace",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle méthode magique s'exécute lors de la création d'un objet ?",
+      "options": ["__construct()", "__init()", "__new()", "__start()"],
+      "answer": "__construct()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment itérer sur un tableau avec clés et valeurs en PHP ?",
+      "options": [
+        "Avec foreach($array as $key => $value)",
+        "Avec for()",
+        "Avec while(list($key, $value) = each($array))",
+        "Réponses 1 et 3"
+      ],
+      "answer": "Avec foreach($array as $key => $value)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle fonction permet de filtrer les entrées utilisateur ?",
+      "options": [
+        "filter_var()",
+        "htmlentities()",
+        "strip_tags()",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment activer les erreurs PHP en développement ?",
+      "options": [
+        "error_reporting(E_ALL)",
+        "display_errors = On",
+        "log_errors = Off",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre include et require en PHP ?",
+      "options": [
+        "require génère une erreur fatale si le fichier est manquant",
+        "include est plus rapide",
+        "require ne peut être utilisé qu'une fois",
+        "Il n'y a pas de différence"
+      ],
+      "answer": "require génère une erreur fatale si le fichier est manquant",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter une interface en PHP ?",
+      "options": [
+        "Avec implements",
+        "Avec extends",
+        "Avec use",
+        "Avec interface"
+      ],
+      "answer": "Avec implements",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle méthode permet de lire un fichier ligne par ligne ?",
+      "options": ["file()", "fgets()", "readline()", "Réponses 1 et 2"],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter le pattern Observer en PHP natif ?",
+      "options": [
+        "Avec les interfaces SplSubject et SplObserver",
+        "En utilisant des traits",
+        "Avec des classes anonymes",
+        "Via la réflexion"
+      ],
+      "answer": "Avec les interfaces SplSubject et SplObserver",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le Late Static Binding en PHP ?",
+      "options": [
+        "Un système de cache des méthodes statiques",
+        "Une référence statique au contexte d'appel",
+        "Un mécanisme de surcharge des méthodes",
+        "Un système de compilation différée"
+      ],
+      "answer": "Une référence statique au contexte d'appel",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment optimiser les performances d'une application PHP lourde ?",
+      "options": [
+        "Utiliser OPcache",
+        "Implémenter le lazy loading",
+        "Utiliser des générateurs pour les gros datasets",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre array_merge et array_replace ?",
+      "options": [
+        "array_merge conserve les clés numériques, array_replace non",
+        "array_replace écrase les doublons, array_merge les conserve",
+        "array_merge réindexe les clés numériques",
+        "Il n'y a pas de différence"
+      ],
+      "answer": "array_merge réindexe les clés numériques",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter un système de cache efficace en PHP ?",
+      "options": [
+        "Avec APCu",
+        "En utilisant Redis",
+        "Via Memcached",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la généricité en PHP via les templates PHP ?",
+      "options": [
+        "Une fonctionnalité native de PHP 8",
+        "Un pattern implémenté via des classes abstraites",
+        "Une technique de documentation",
+        "PHP ne supporte pas la généricité"
+      ],
+      "answer": "PHP ne supporte pas la généricité",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment déboguer efficacement une fuite mémoire en PHP ?",
+      "options": [
+        "Avec xdebug",
+        "En utilisant memory_get_usage()",
+        "Via des outils comme Blackfire",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la meilleure pratique pour gérer les dépendances circulaires ?",
+      "options": [
+        "Utiliser l'injection de dépendances",
+        "Implémenter le pattern Mediator",
+        "Refactoriser le code pour les éliminer",
+        "Utiliser des singletons"
+      ],
+      "answer": "Refactoriser le code pour les éliminer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter une transaction ACID en PHP avec PDO ?",
+      "options": [
+        "beginTransaction() + commit()/rollback()",
+        "Avec des SAVEPOINT",
+        "En utilisant des triggers SQL",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le JIT dans PHP 8 ?",
+      "options": [
+        "Un nouveau système de templates",
+        "Un compilateur à la volée",
+        "Un gestionnaire de paquets",
+        "Un nouveau moteur regex"
+      ],
+      "answer": "Un compilateur à la volée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment sécuriser une API REST en PHP ?",
+      "options": [
+        "JWT + HTTPS",
+        "OAuth 2.0",
+        "API Keys avec rotation",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre weak et strong references en PHP ?",
+      "options": [
+        "Les weak references empêchent le garbage collection",
+        "PHP ne supporte que les strong references",
+        "Les weak references permettent la libération mémoire",
+        "C'est identique"
+      ],
+      "answer": "Les weak references permettent la libération mémoire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter le pattern Decorator en PHP ?",
+      "options": [
+        "Avec des classes qui implémentent la même interface",
+        "Via l'héritage multiple",
+        "En utilisant __call()",
+        "Réponses 1 et 3"
+      ],
+      "answer": "Avec des classes qui implémentent la même interface",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle technique utiliser pour le traitement asynchrone en PHP ?",
+      "options": [
+        "ReactPHP",
+        "Workers avec pcntl",
+        "Filesystem + Cron",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment optimiser l'autoloading avec Composer ?",
+      "options": [
+        "Utiliser classmap",
+        "Générer un fichier autoload optimisé",
+        "Exclure les fichiers inutiles",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la covariance et la contravariance en PHP ?",
+      "options": [
+        "Un système de typage des tableaux",
+        "Des règles pour l'héritage des types",
+        "Une technique de compression",
+        "Un pattern de conception"
+      ],
+      "answer": "Des règles pour l'héritage des types",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment déboguer efficacement des problèmes de concurrence ?",
+      "options": [
+        "Avec des locks",
+        "En utilisant des transactions",
+        "Via des outils comme strace",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la meilleure pratique pour les migrations de base de données ?",
+      "options": [
+        "Utiliser Doctrine Migrations",
+        "Implémenter un système de versioning",
+        "Tester les migrations en pré-production",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter une stratégie de cache multi-niveaux ?",
+      "options": [
+        "APCu + Redis",
+        "Memcached + CDN",
+        "Cache navigateur + serveur",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle technique utiliser pour minimiser les requêtes N+1 ?",
+      "options": [
+        "Eager loading",
+        "Lazy loading avec proxy",
+        "Utiliser des jointures",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    }
+  ]
+}

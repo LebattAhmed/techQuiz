@@ -1,0 +1,574 @@
+{
+  "questions": [
+    {
+      "question": "Quel est le type de retour de la fonction main() en C ?",
+      "options": ["void", "int", "char", "float"],
+      "answer": "int",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel opérateur permet d'accéder à l'adresse d'une variable ?",
+      "options": ["*", "&", "#", "@"],
+      "answer": "&",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment déclarer un pointeur en C ?",
+      "options": ["int ptr;", "int *ptr;", "pointer int ptr;", "&int ptr;"],
+      "answer": "int *ptr;",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction permet d'afficher du texte à l'écran ?",
+      "options": ["print()", "console.log()", "printf()", "display()"],
+      "answer": "printf()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le résultat de 5 / 2 en C ?",
+      "options": ["2.5", "2", "2.0", "3"],
+      "answer": "2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment inclure la bibliothèque standard d'entrée/sortie ?",
+      "options": [
+        "#include <stdio.h>",
+        "#include <iostream>",
+        "#import <stdio.h>",
+        "using stdio;"
+      ],
+      "answer": "#include <stdio.h>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé permet de créer une constante ?",
+      "options": ["constant", "#define", "const", "let"],
+      "answer": "const",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment déclarer un tableau de 10 entiers ?",
+      "options": [
+        "int array[10];",
+        "array int[10];",
+        "int[] array = new int[10];",
+        "int array(10);"
+      ],
+      "answer": "int array[10];",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle boucle est préférable quand on connaît le nombre d'itérations ?",
+      "options": ["while", "for", "do-while", "loop"],
+      "answer": "for",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment accéder au 3ème élément d'un tableau ?",
+      "options": ["array[3]", "array[2]", "array(3)", "array.3"],
+      "answer": "array[2]",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel opérateur permet de déréférencer un pointeur ?",
+      "options": ["&", "*", "#", "->"],
+      "answer": "*",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction permet de lire une entrée utilisateur ?",
+      "options": ["scanf()", "input()", "getchar()", "read()"],
+      "answer": "scanf()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment terminer un programme prématurément ?",
+      "options": ["exit()", "return", "break", "stop()"],
+      "answer": "exit()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le résultat de sizeof(int) sur un système 32 bits ?",
+      "options": ["2", "4", "8", "Dépend du compilateur"],
+      "answer": "4",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment commenter une ligne en C ?",
+      "options": [
+        "// Commentaire",
+        "# Commentaire",
+        "/* Commentaire */",
+        "Réponses 1 et 3"
+      ],
+      "answer": "Réponses 1 et 3",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type utilise-t-on pour un caractère ?",
+      "options": ["string", "char", "character", "chr"],
+      "answer": "char",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment concaténer deux chaînes de caractères ?",
+      "options": ["strcat()", "concat()", "str_concat()", "string_add()"],
+      "answer": "strcat()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure permet de regrouper différentes variables ?",
+      "options": ["array", "struct", "union", "object"],
+      "answer": "struct",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction permet de comparer deux chaînes ?",
+      "options": ["strcmp()", "compare()", "str_diff()", "string_compare()"],
+      "answer": "strcmp()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment allouer dynamiquement de la mémoire ?",
+      "options": ["alloc()", "malloc()", "new", "create()"],
+      "answer": "malloc()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre malloc() et calloc() ?",
+      "options": [
+        "malloc() initialise la mémoire à zéro, calloc() non",
+        "calloc() initialise la mémoire à zéro, malloc() non",
+        "malloc() est plus rapide que calloc()",
+        "Il n'y a pas de différence"
+      ],
+      "answer": "calloc() initialise la mémoire à zéro, malloc() non",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment passer un tableau à une fonction en C ?",
+      "options": [
+        "En passant directement le tableau",
+        "En passant un pointeur vers le premier élément",
+        "En passant la taille du tableau",
+        "Réponses 2 et 3"
+      ],
+      "answer": "Réponses 2 et 3",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un pointeur de fonction en C ?",
+      "options": [
+        "Un pointeur vers une variable",
+        "Un pointeur vers l'adresse d'une fonction",
+        "Une fonction qui retourne un pointeur",
+        "Un type spécial de tableau"
+      ],
+      "answer": "Un pointeur vers l'adresse d'une fonction",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter une liste chaînée en C ?",
+      "options": [
+        "Avec un tableau dynamique",
+        "Avec une structure contenant un pointeur vers le même type",
+        "Avec la bibliothèque standard list.h",
+        "C'est impossible en C"
+      ],
+      "answer": "Avec une structure contenant un pointeur vers le même type",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est l'utilité du mot-clé 'volatile' en C ?",
+      "options": [
+        "Optimiser les accès mémoire",
+        "Indiquer que la variable peut être modifiée asynchronement",
+        "Rendre la variable constante",
+        "Désactiver le cache pour cette variable"
+      ],
+      "answer": "Indiquer que la variable peut être modifiée asynchronement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un type énuméré en C ?",
+      "options": [
+        "enum {VAL1, VAL2};",
+        "typedef enum {VAL1, VAL2} MonEnum;",
+        "#define ENUM(val1, val2)",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le préprocesseur en C ?",
+      "options": [
+        "Un compilateur optimisé",
+        "Une étape avant la compilation qui traite les directives #",
+        "Un outil de débogage",
+        "Une bibliothèque standard"
+      ],
+      "answer": "Une étape avant la compilation qui traite les directives #",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment utiliser les arguments de la ligne de commande ?",
+      "options": [
+        "Avec les variables argc et argv",
+        "Via la fonction getargs()",
+        "En lisant stdin",
+        "Avec la bibliothèque cmdline.h"
+      ],
+      "answer": "Avec les variables argc et argv",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre ++i et i++ ?",
+      "options": [
+        "++i incrémente avant utilisation, i++ après",
+        "i++ est plus rapide que ++i",
+        "++i fonctionne seulement avec les entiers",
+        "Il n'y a pas de différence"
+      ],
+      "answer": "++i incrémente avant utilisation, i++ après",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment copier une chaîne de caractères en C ?",
+      "options": ["strcopy()", "strdup()", "strcpy()", "string_copy()"],
+      "answer": "strcpy()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une union en C ?",
+      "options": [
+        "Une structure spéciale",
+        "Un type partageant la même mémoire pour différents membres",
+        "Une collection de fonctions",
+        "Un alias de type"
+      ],
+      "answer": "Un type partageant la même mémoire pour différents membres",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment gérer les erreurs de fichier en C ?",
+      "options": [
+        "Vérifier la valeur de retour de fopen()",
+        "Utiliser errno et perror()",
+        "Tester ferror() et feof()",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est l'utilité de typedef ?",
+      "options": [
+        "Créer de nouveaux types",
+        "Donner des alias à des types existants",
+        "Définir des constantes",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter le passage par référence en C ?",
+      "options": [
+        "En utilisant des pointeurs",
+        "Avec le mot-clé ref",
+        "En passant des tableaux",
+        "Réponses 1 et 3"
+      ],
+      "answer": "Réponses 1 et 3",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre . et -> pour accéder aux membres d'une structure ?",
+      "options": [
+        ". pour les structures, -> pour les pointeurs de structures",
+        "-> est plus rapide que .",
+        ". fonctionne seulement avec les unions",
+        "Il n'y a pas de différence"
+      ],
+      "answer": ". pour les structures, -> pour les pointeurs de structures",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un fichier d'en-tête (.h) en C ?",
+      "options": [
+        "Avec #create header",
+        "En écrivant les déclarations dans un fichier .h",
+        "Le compilateur les génère automatiquement",
+        "Avec la commande makeheader"
+      ],
+      "answer": "En écrivant les déclarations dans un fichier .h",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la récursivité en C ?",
+      "options": [
+        "Une fonction qui s'appelle elle-même",
+        "Un type de boucle",
+        "Une structure de contrôle",
+        "Une technique d'optimisation"
+      ],
+      "answer": "Une fonction qui s'appelle elle-même",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment trier un tableau en C ?",
+      "options": [
+        "Avec la fonction sort()",
+        "En utilisant qsort()",
+        "En implémentant un algorithme de tri",
+        "Réponses 2 et 3"
+      ],
+      "answer": "Réponses 2 et 3",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est l'utilité des bits fields en C ?",
+      "options": [
+        "Optimiser l'espace mémoire",
+        "Manipuler des bits individuels",
+        "Créer des masques binaires",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer une variable globale dans plusieurs fichiers ?",
+      "options": [
+        "Avec extern",
+        "En la déclarant dans un header",
+        "Avec #global",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter un polymorphisme en C ?",
+      "options": [
+        "Avec des pointeurs de fonctions dans des structures",
+        "En utilisant des macros",
+        "Avec l'héritage via des structures imbriquées",
+        "Réponses 1 et 3"
+      ],
+      "answer": "Réponses 1 et 3",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le strict aliasing en C et comment l'éviter ?",
+      "options": [
+        "Une règle d'optimisation, utiliser union ou char* pour le contourner",
+        "Un type de pointeur, éviter avec restrict",
+        "Une erreur de compilation, corriger avec des casts",
+        "Un warning, ignorer avec pragma"
+      ],
+      "answer": "Une règle d'optimisation, utiliser union ou char* pour le contourner",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter un garbage collector en C ?",
+      "options": [
+        "Avec des pointeurs intelligents",
+        "En utilisant Boehm GC",
+        "Via un comptage de références manuel",
+        "Réponses 2 et 3"
+      ],
+      "answer": "Réponses 2 et 3",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre TLS (Thread Local Storage) et les variables globales ?",
+      "options": [
+        "TLS est plus rapide",
+        "TLS a une copie par thread",
+        "Les globales sont thread-safe",
+        "Aucune différence"
+      ],
+      "answer": "TLS a une copie par thread",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment optimiser une boucle critique avec SIMD en C ?",
+      "options": [
+        "Utiliser les intrinsics du compilateur",
+        "Écrire en assembleur inline",
+        "Utiliser OpenMP",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le restrict keyword en C99 et son impact ?",
+      "options": [
+        "Garantit l'exclusivité d'accès à un pointeur pour optimisation",
+        "Limite la portée d'un pointeur",
+        "Empêche la modification via le pointeur",
+        "N'a aucun effet réel"
+      ],
+      "answer": "Garantit l'exclusivité d'accès à un pointeur pour optimisation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter des continuations en C ?",
+      "options": [
+        "Avec setjmp/longjmp",
+        "En utilisant des coroutines via swapcontext",
+        "Via des threads utilisateurs",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle technique permet d'implémenter des templates en C ?",
+      "options": [
+        "Les macros préprocesseur",
+        "Les fichiers .h avec types génériques",
+        "Les pointeurs void*",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment déboguer un heap corruption en C ?",
+      "options": [
+        "Avec Valgrind",
+        "En surchargeant malloc/free",
+        "Via les guards pages",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'ABI et comment affecte-t-elle la compatibilité ?",
+      "options": [
+        "Interface binaire, impacte l'appel de fonctions entre compilateurs",
+        "Abstract Binary Interface, gère l'endianness",
+        "API binaire, concerne seulement les systèmes d'exploitation",
+        "N'affecte pas le C pur"
+      ],
+      "answer": "Interface binaire, impacte l'appel de fonctions entre compilateurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter un lock-free queue en C ?",
+      "options": [
+        "Avec des opérations atomiques C11",
+        "En utilisant des CAS (Compare-And-Swap)",
+        "Via des barrières mémoire",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la technique pour réduire le false sharing en multithread ?",
+      "options": [
+        "Padding des structures",
+        "Utiliser TLS",
+        "Alignement sur ligne de cache",
+        "Réponses 1 et 3"
+      ],
+      "answer": "Réponses 1 et 3",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment optimiser les accès mémoire pour éviter les cache misses ?",
+      "options": [
+        "Prefetching",
+        "Structure de données contiguës",
+        "Optimisation de la localité",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le volatile en C embarqué et quand l'utiliser ?",
+      "options": [
+        "Pour les registres matériels et variables partagées avec les ISR",
+        "Pour toutes les variables globales",
+        "Pour optimiser les accès mémoire",
+        "Jamais, c'est obsolète"
+      ],
+      "answer": "Pour les registres matériels et variables partagées avec les ISR",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter un allocateur mémoire personnalisé en C ?",
+      "options": [
+        "Memory pools",
+        "Arenas allocators",
+        "Buddy system",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle technique permet de détecter les memory leaks dans une application complexe ?",
+      "options": [
+        "Wrapper malloc/free avec tracking",
+        "LD_PRELOAD avec bibliothèque de débogage",
+        "Analyse du core dump",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment implémenter des exceptions en C ?",
+      "options": [
+        "Avec setjmp/longjmp",
+        "Via des codes d'erreur",
+        "En utilisant goto",
+        "Réponses 1 et 2"
+      ],
+      "answer": "Réponses 1 et 2",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la vectorisation de boucles et comment la contrôler en C ?",
+      "options": [
+        "Transformation en SIMD, avec pragmas ou attributs",
+        "Optimisation de pipeline, avec volatile",
+        "Déroulage de boucles automatique",
+        "N'existe pas en C"
+      ],
+      "answer": "Transformation en SIMD, avec pragmas ou attributs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment sécuriser un programme C contre les attaques par débordement ?",
+      "options": [
+        "Stack canaries",
+        "ASLR (Address Space Layout Randomization)",
+        "DEP (Data Execution Prevention)",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la meilleure pratique pour gérer les dépendances entre fichiers en C ?",
+      "options": [
+        "Forward declarations",
+        "Fichiers d'en-tête minimaux",
+        "Include guards",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile"
+    }
+  ]
+}
