@@ -1,0 +1,624 @@
+{
+  "questions": [
+    {
+      "question": "Que signifie l'acronyme HTML ?",
+      "options": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language",
+        "Hyper Text Making Links"
+      ],
+      "answer": "Hyper Text Markup Language",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise est utilisée pour créer un lien hypertexte ?",
+      "options": ["<link>", "<a>", "<href>", "<hyperlink>"],
+      "answer": "<a>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle propriété CSS change la couleur du texte ?",
+      "options": ["text-color", "font-color", "color", "text-style"],
+      "answer": "color",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise HTML est utilisée pour le contenu principal ?",
+      "options": ["<main>", "<content>", "<body>", "<section>"],
+      "answer": "<main>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment inclure du CSS dans une page HTML ?",
+      "options": [
+        "Avec la balise <style>",
+        "Avec l'attribut style",
+        "Avec un fichier .css externe",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle unité CSS est relative à la taille de police de l'élément parent ?",
+      "options": ["px", "em", "rem", "vw"],
+      "answer": "em",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise crée une liste non ordonnée ?",
+      "options": ["<ul>", "<ol>", "<li>", "<list>"],
+      "answer": "<ul>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle propriété CSS permet d'arrondir les coins d'un élément ?",
+      "options": [
+        "border-round",
+        "corner-radius",
+        "border-radius",
+        "round-corner"
+      ],
+      "answer": "border-radius",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise est utilisée pour insérer une image ?",
+      "options": ["<img>", "<image>", "<picture>", "<src>"],
+      "answer": "<img>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait la propriété CSS 'display: none' ?",
+      "options": [
+        "Masque l'élément mais conserve l'espace",
+        "Masque l'élément et supprime l'espace",
+        "Rend l'élément transparent",
+        "Affiche l'élément par défaut"
+      ],
+      "answer": "Masque l'élément et supprime l'espace",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise HTML5 est utilisée pour le pied de page ?",
+      "options": ["<footer>", "<bottom>", "<foot>", "<end>"],
+      "answer": "<footer>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle propriété CSS permet de centrer horizontalement un élément block ?",
+      "options": [
+        "margin: auto;",
+        "text-align: center;",
+        "align: center;",
+        "position: center;"
+      ],
+      "answer": "margin: auto;",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise est utilisée pour créer un tableau ?",
+      "options": ["<table>", "<tab>", "<grid>", "<tr>"],
+      "answer": "<table>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle pseudo-classe CSS cible un élément au survol ?",
+      "options": [":hover", ":active", ":focus", ":over"],
+      "answer": ":hover",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise est utilisée pour créer un formulaire ?",
+      "options": ["<form>", "<input>", "<submit>", "<fieldset>"],
+      "answer": "<form>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle propriété CSS change l'espacement entre les lettres ?",
+      "options": [
+        "letter-spacing",
+        "text-spacing",
+        "font-spacing",
+        "word-spacing"
+      ],
+      "answer": "letter-spacing",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise HTML5 est utilisée pour la navigation ?",
+      "options": ["<nav>", "<navig>", "<menu>", "<links>"],
+      "answer": "<nav>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle propriété CSS permet de créer des animations ?",
+      "options": [
+        "animation",
+        "transition",
+        "transform",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise est utilisée pour le titre principal d'une page ?",
+      "options": ["<h1>", "<title>", "<header>", "<main-title>"],
+      "answer": "<h1>",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle propriété CSS permet de créer un dégradé de couleurs ?",
+      "options": [
+        "background-gradient",
+        "gradient",
+        "background-image",
+        "color-gradient"
+      ],
+      "answer": "background-image",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre display: none et visibility: hidden en CSS ?",
+      "options": [
+        "Aucune différence",
+        "display: none supprime l'élément du flux, visibility: hidden le cache mais conserve l'espace",
+        "visibility: hidden supprime l'élément du flux, display: none le cache mais conserve l'espace",
+        "Seul display: none est supporté par tous les navigateurs"
+      ],
+      "answer": "display: none supprime l'élément du flux, visibility: hidden le cache mais conserve l'espace",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un layout en grille (grid) avec CSS ?",
+      "options": [
+        "Avec display: grid",
+        "Avec display: flex",
+        "Avec float: grid",
+        "Avec position: grid"
+      ],
+      "answer": "Avec display: grid",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la spécificité en CSS ?",
+      "options": [
+        "Le nombre de propriétés dans une règle CSS",
+        "La manière dont les navigateurs déterminent quelle règle CSS s'applique",
+        "La vitesse d'exécution des règles CSS",
+        "La compatibilité entre différents navigateurs"
+      ],
+      "answer": "La manière dont les navigateurs déterminent quelle règle CSS s'applique",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment centrer verticalement un élément avec Flexbox ?",
+      "options": [
+        "align-items: center",
+        "justify-content: center",
+        "flex-center: true",
+        "vertical-align: middle"
+      ],
+      "answer": "align-items: center",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre rem et em en CSS ?",
+      "options": [
+        "rem est relatif à la racine, em est relatif à l'élément parent",
+        "em est relatif à la racine, rem est relatif à l'élément parent",
+        "Ils sont identiques",
+        "rem n'existe pas en CSS"
+      ],
+      "answer": "rem est relatif à la racine, em est relatif à l'élément parent",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer une animation CSS qui change la couleur de fond progressivement ?",
+      "options": [
+        "Avec @keyframes et animation",
+        "Avec transition sur background-color",
+        "Les deux méthodes fonctionnent",
+        "Impossible sans JavaScript"
+      ],
+      "answer": "Les deux méthodes fonctionnent",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que BEM en CSS ?",
+      "options": [
+        "Un préprocesseur CSS",
+        "Une méthodologie de nommage des classes",
+        "Un nouveau sélecteur CSS",
+        "Une propriété expérimentale"
+      ],
+      "answer": "Une méthodologie de nommage des classes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un effet de superposition (overlay) avec CSS ?",
+      "options": [
+        "Avec position: absolute et z-index",
+        "Avec display: overlay",
+        "Avec opacity: 0.5 uniquement",
+        "Avec la propriété overlay"
+      ],
+      "answer": "Avec position: absolute et z-index",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre :nth-child() et :nth-of-type() ?",
+      "options": [
+        "Aucune différence",
+        ":nth-child() compte tous les enfants, :nth-of-type() seulement ceux du type spécifié",
+        ":nth-of-type() est plus performant",
+        ":nth-child() est obsolète"
+      ],
+      "answer": ":nth-child() compte tous les enfants, :nth-of-type() seulement ceux du type spécifié",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment optimiser le chargement des polices web ?",
+      "options": [
+        "Avec font-display: swap",
+        "En préchargeant les polices",
+        "En utilisant des formats modernes comme woff2",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le Shadow DOM ?",
+      "options": [
+        "Une technique pour créer des ombres en CSS",
+        "Un DOM séparé pour les composants web",
+        "Une propriété expérimentale de flexbox",
+        "Un type de sélecteur CSS"
+      ],
+      "answer": "Un DOM séparé pour les composants web",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un effet de flou (blur) sur un arrière-plan sans affecter le contenu ?",
+      "options": [
+        "Avec backdrop-filter: blur()",
+        "Avec filter: blur() sur l'élément parent",
+        "Avec blur: true",
+        "Impossible sans JavaScript"
+      ],
+      "answer": "Avec backdrop-filter: blur()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre margin et padding ?",
+      "options": [
+        "margin ajoute de l'espace à l'intérieur de la bordure, padding à l'extérieur",
+        "padding ajoute de l'espace à l'intérieur de la bordure, margin à l'extérieur",
+        "Ils sont interchangeables",
+        "padding n'existe pas en CSS"
+      ],
+      "answer": "padding ajoute de l'espace à l'intérieur de la bordure, margin à l'extérieur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter le dark mode en CSS ?",
+      "options": [
+        "Avec @media (prefers-color-scheme: dark)",
+        "En utilisant des variables CSS",
+        "Les deux méthodes peuvent être combinées",
+        "Impossible sans JavaScript"
+      ],
+      "answer": "Les deux méthodes peuvent être combinées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le CSS-in-JS ?",
+      "options": [
+        "Une technique pour écrire du CSS dans des fichiers JavaScript",
+        "Un nouveau standard CSS",
+        "Une alternative à Sass",
+        "Une propriété obsolète"
+      ],
+      "answer": "Une technique pour écrire du CSS dans des fichiers JavaScript",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un design responsive sans media queries ?",
+      "options": [
+        "Avec les unités relatives (%, vw, vh)",
+        "Avec les grilles CSS (grid)",
+        "Avec Flexbox",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre position: sticky et position: fixed ?",
+      "options": [
+        "sticky devient fixed quand on scroll, fixed est toujours fixe",
+        "fixed devient sticky quand on scroll, sticky est toujours fixe",
+        "Ils sont identiques",
+        "sticky n'existe pas en CSS"
+      ],
+      "answer": "sticky devient fixed quand on scroll, fixed est toujours fixe",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment optimiser les performances CSS ?",
+      "options": [
+        "En évitant les sélecteurs trop spécifiques",
+        "En minimisant les reflows et repaints",
+        "En utilisant will-change pour les animations",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un pseudo-élément en CSS ?",
+      "options": [
+        "Un élément qui n'existe pas dans le DOM",
+        "Une classe spéciale",
+        "Un sélecteur pour états particuliers",
+        "Une propriété expérimentale"
+      ],
+      "answer": "Un élément qui n'existe pas dans le DOM",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment créer un effet de parallaxe en CSS ?",
+      "options": [
+        "Avec perspective et translateZ",
+        "Avec background-attachment: fixed",
+        "Les deux méthodes fonctionnent",
+        "Impossible sans JavaScript"
+      ],
+      "answer": "Les deux méthodes fonctionnent",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter le pattern 'Render Props' en CSS pur ?",
+      "options": [
+        "En utilisant des variables CSS et le sélecteur :has()",
+        "C'est impossible sans JavaScript",
+        "Avec @property et des custom properties",
+        "En combinant ::before et content: attr()"
+      ],
+      "answer": "En utilisant des variables CSS et le sélecteur :has()",
+      "difficulty": "difficile",
+      "explanation": "Le pattern Render Props peut être simulé en CSS avec des variables et :has() pour créer des composants dynamiques."
+    },
+    {
+      "question": "Quelle technique permet de contourner le problème de 'margin collapse' dans les layouts complexes ?",
+      "options": [
+        "Utiliser display: flow-root",
+        "Ajouter overflow: hidden",
+        "Utiliser des paddings à la place",
+        "Les réponses 1 et 2"
+      ],
+      "answer": "Les réponses 1 et 2",
+      "difficulty": "difficile",
+      "explanation": "display: flow-root crée un nouveau contexte de formatage, tout comme overflow:hidden, empêchant le margin collapse."
+    },
+    {
+      "question": "Comment créer un système de thèmes imbriqués avec CSS Custom Properties ?",
+      "options": [
+        "En utilisant var(--var, fallback)",
+        "Avec @layer et cascade layers",
+        "En exploitant l'héritage des variables CSS",
+        "C'est impossible sans préprocesseur"
+      ],
+      "answer": "En exploitant l'héritage des variables CSS",
+      "difficulty": "difficile",
+      "explanation": "Les variables CSS héritent naturellement, permettant des thèmes imbriqués en redéfinissant les variables à différents niveaux du DOM."
+    },
+    {
+      "question": "Quelle est la technique la plus performante pour animer un élément sur la propriété 'transform' ?",
+      "options": [
+        "Utiliser will-change: transform",
+        "Favoriser les animations GPU-accelerated",
+        "Utiliser translate3d() au lieu de translate()",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Ces techniques combinées maximisent les performances en utilisant l'accélération matérielle."
+    },
+    {
+      "question": "Comment implémenter un Virtual Scroller en CSS pur ?",
+      "options": [
+        "Avec scroll-snap-type et scroll-snap-align",
+        "En utilisant contain: strict",
+        "Avec display: contents et des grilles CSS",
+        "Approximation possible avec position: sticky et hauteurs calculées"
+      ],
+      "answer": "Approximation possible avec position: sticky et hauteurs calculées",
+      "difficulty": "difficile",
+      "explanation": "Bien que limité, on peut simuler un virtual scroller avec des techniques CSS avancées de positionnement."
+    },
+    {
+      "question": "Quelle est la différence critique entre aspect-ratio et padding-top hack pour les ratios ?",
+      "options": [
+        "aspect-ratio est plus performant",
+        "padding-top hack fonctionne mieux avec les images",
+        "aspect-ratio préserve la sémantique du contenu",
+        "Il n'y a pas de différence fonctionnelle"
+      ],
+      "answer": "aspect-ratio préserve la sémantique du contenu",
+      "difficulty": "difficile",
+      "explanation": "aspect-ratio maintient l'accessibilité et la structure sémantique contrairement au padding hack."
+    },
+    {
+      "question": "Comment créer un système de design token dynamique avec CSS ?",
+      "options": [
+        "Avec des variables CSS et calc()",
+        "En utilisant @property pour typer les variables",
+        "En combinant var() et les unités relatives",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "CSS moderne permet des design systems dynamiques grâce à ces fonctionnalités combinées."
+    },
+    {
+      "question": "Quelle technique CSS permet de contourner le problème de 'z-index stacking context' ?",
+      "options": [
+        "Utiliser isolation: isolate",
+        "Réorganiser le DOM",
+        "Utiliser position: fixed",
+        "Les réponses 1 et 2"
+      ],
+      "answer": "Les réponses 1 et 2",
+      "difficulty": "difficile",
+      "explanation": "isolation: isolate crée un nouveau stacking context sans affecter le z-index, tout comme restructurer le DOM."
+    },
+    {
+      "question": "Comment implémenter un 'state machine' en CSS pur ?",
+      "options": [
+        "Avec :target et fragments d'URL",
+        "En utilisant des inputs radio et :checked",
+        "Avec des variables CSS et :has()",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "CSS offre plusieurs méthodes pour gérer des états complexes sans JavaScript."
+    },
+    {
+      "question": "Quelle est la technique la plus efficace pour le 'CSS-only masonry layout' ?",
+      "options": [
+        "Utiliser column-count",
+        "Combiner grid-auto-flow: dense et minmax()",
+        "Utiliser Flexbox avec des hauteurs fixes",
+        "Aucune solution native n'existe"
+      ],
+      "answer": "Combiner grid-auto-flow: dense et minmax()",
+      "difficulty": "difficile",
+      "explanation": "Bien qu'imparfait, c'est la méthode CSS native la plus proche du masonry layout."
+    },
+    {
+      "question": "Comment optimiser le CLS (Cumulative Layout Shift) en CSS ?",
+      "options": [
+        "Définir des dimensions explicites aux médias",
+        "Utiliser aspect-ratio",
+        "Précharger les polices avec font-display",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Ces techniques combinées minimisent les décalages de layout pendant le chargement."
+    },
+    {
+      "question": "Quelle méthode CSS permet de créer des 'container queries' avant leur support natif ?",
+      "options": [
+        "Utiliser des viewport units avec calc()",
+        "Exploiter les propriétés personnalisées et font-size",
+        "C'est impossible sans JavaScript",
+        "Approximation avec @media et custom properties"
+      ],
+      "answer": "Approximation avec @media et custom properties",
+      "difficulty": "difficile",
+      "explanation": "Des solutions créatives existaient avant l'implémentation native des container queries."
+    },
+    {
+      "question": "Comment implémenter un système de 'scoped styles' sans Shadow DOM ?",
+      "options": [
+        "Utiliser des attributs data-* et sélecteurs d'attribut",
+        "Avec la méthodologie BEM",
+        "En préfixant toutes les classes",
+        "Les réponses 1 et 2"
+      ],
+      "answer": "Les réponses 1 et 2",
+      "difficulty": "difficile",
+      "explanation": "Ces techniques permettent d'isoler les styles avant l'ère des Web Components."
+    },
+    {
+      "question": "Quelle technique permet de contourner les limitations de :has() pour les ancêtres ?",
+      "options": [
+        "Utiliser des sélecteurs adjacents et l'ordre du DOM",
+        "Exploiter :focus-within",
+        "Utiliser des variables CSS comme passerelles",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Plusieurs astuces CSS permettent de simuler un sélecteur parent."
+    },
+    {
+      "question": "Comment créer un système de 'CSS-only micro-interactions' accessible ?",
+      "options": [
+        "Utiliser :focus-visible",
+        "Combiner prefers-reduced-motion",
+        "Implémenter des alternatives visuelles",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "L'accessibilité des micro-interactions nécessite ces considérations."
+    },
+    {
+      "question": "Quelle est la technique la plus efficace pour 'lazy-load' du CSS ?",
+      "options": [
+        "Utiliser media='print' puis le changer dynamiquement",
+        "Charger via <link rel='preload'>",
+        "Découper en fichiers critiques/non-critiques",
+        "Les réponses 2 et 3"
+      ],
+      "answer": "Les réponses 2 et 3",
+      "difficulty": "difficile",
+      "explanation": "Le lazy-loading CSS efficace combine plusieurs techniques."
+    },
+    {
+      "question": "Comment implémenter un 'dark mode' avec conservation des contrastes dynamiques ?",
+      "options": [
+        "Utiliser color-mix()",
+        "Calculer les couleurs avec hsl() et calc()",
+        "Utiliser des custom properties avec des seuils",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "Maintenir les contrastes en dark mode nécessite des calculs dynamiques."
+    },
+    {
+      "question": "Quelle méthode CSS permet de créer des 'responsive typography' fluide ?",
+      "options": [
+        "Utiliser clamp()",
+        "Combiner viewport units et media queries",
+        "Utiliser des custom properties avec calc()",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "La typographie responsive fluide peut être implémentée de plusieurs façons."
+    },
+    {
+      "question": "Comment optimiser le rendu des animations CSS pour les appareils mobiles ?",
+      "options": [
+        "Utiliser will-change stratégiquement",
+        "Limiter les propriétés animées à opacity et transform",
+        "Implémenter des media queries pour prefers-reduced-motion",
+        "Toutes ces réponses"
+      ],
+      "answer": "Toutes ces réponses",
+      "difficulty": "difficile",
+      "explanation": "L'optimisation mobile nécessite ces techniques combinées."
+    },
+    {
+      "question": "Quelle technique CSS avancée permet de créer des 'morphing shapes' ?",
+      "options": [
+        "Utiliser clip-path avec des transitions",
+        "Combiner SVG et CSS animations",
+        "Utiliser la propriété path() avec @keyframes",
+        "Les réponses 1 et 2"
+      ],
+      "answer": "Les réponses 1 et 2",
+      "difficulty": "difficile",
+      "explanation": "Le morphing de formes complexes nécessite des techniques CSS avancées."
+    }
+  ]
+}

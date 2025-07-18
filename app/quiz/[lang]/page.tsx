@@ -3,6 +3,7 @@ import PythonQuiz from "@/components/quiz-python";
 import PhpQuiz from "@/components/quiz-php";
 import JavaQuiz from "@/components/quiz-java";
 import CQuiz from "@/components/quiz-c";
+import ReseauQuiz from "@/components/quiz-reseau";
 
 export async function generateStaticParams() {
   return [
@@ -11,6 +12,7 @@ export async function generateStaticParams() {
     { lang: "php" },
     { lang: "java" },
     { lang: "c" },
+    { lang: "reseau" },
   ];
 }
 
@@ -27,6 +29,7 @@ export default async function QuizPage({
     php: PhpQuiz,
     java: JavaQuiz,
     c: CQuiz,
+    reseau: ReseauQuiz,
   };
 
   const QuizComponent = quizzes[awaitedParams.lang.toLowerCase()] || Quiz;
