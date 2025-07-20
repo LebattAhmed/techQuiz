@@ -31,6 +31,15 @@ export default function JavaQuiz() {
     return shuffled.slice(0, n);
   };
 
+  function shuffleArray<T>(array: T[]): T[] {
+    const result = [...array];
+    for (let i = result.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [result[i], result[j]] = [result[j], result[i]];
+    }
+    return result;
+  }
+
   // Initialiser le quiz avec 15 questions aléatoires
   const startQuiz = (difficulty: Difficulty) => {
     let filteredQuestions = [];
@@ -59,7 +68,15 @@ export default function JavaQuiz() {
       );
     }
 
-    setQuestions(filteredQuestions);
+    const shuffledQuestions = shuffleArray(filteredQuestions);
+
+    // Mélanger les options pour chaque question
+    const questionsWithShuffledOptions = shuffledQuestions.map((q) => ({
+      ...q,
+      options: shuffleArray(q.options),
+    }));
+
+    setQuestions(questionsWithShuffledOptions);
     setSelectedDifficulty(difficulty);
     setQuizStarted(true);
     setCurrent(0);
@@ -240,89 +257,85 @@ export default function JavaQuiz() {
               </div>
 
               <div className="grid gap-3">
-                {[...question.options]
-                  .sort(() => 0.5 - Math.random())
-                  .map((option) => {
-                    const isCorrect = option === question.answer;
-                    const isWrong = selected === option && !isCorrect;
-                    const isSelected = selected === option;
+                {question.options.map((option) => {
+                  const isCorrect = option === question.answer;
+                  const isWrong = selected === option && !isCorrect;
+                  const isSelected = selected === option;
 
-                    return (
-                      <motion.div
-                        key={option}
-                        whileTap={!selected ? { scale: 0.98 } : {}}
+                  return (
+                    <motion.div
+                      key={option}
+                      whileTap={!selected ? { scale: 0.98 } : {}}
+                    >
+                      <label
+                        onClick={() => handleOptionClick(option)}
+                        className={cn(
+                          "cursor-pointer px-4 py-3 rounded-lg text-sm transition-all duration-200",
+                          "border hover:border-indigo-300 flex items-center gap-3",
+                          !selected
+                            ? "bg-white border-gray-200 hover:bg-indigo-50"
+                            : "",
+                          isSelected && isCorrect
+                            ? "bg-green-50 border-green-300"
+                            : "",
+                          isSelected && isWrong
+                            ? "bg-red-50 border-red-300"
+                            : "",
+                          selected && !isSelected ? "opacity-70 bg-gray-50" : ""
+                        )}
                       >
-                        <label
-                          onClick={() => handleOptionClick(option)}
+                        <div
                           className={cn(
-                            "cursor-pointer px-4 py-3 rounded-lg text-sm transition-all duration-200",
-                            "border hover:border-indigo-300 flex items-center gap-3",
+                            "w-5 h-5 rounded-full border flex items-center justify-center",
                             !selected
-                              ? "bg-white border-gray-200 hover:bg-indigo-50"
-                              : "",
-                            isSelected && isCorrect
-                              ? "bg-green-50 border-green-300"
-                              : "",
-                            isSelected && isWrong
-                              ? "bg-red-50 border-red-300"
-                              : "",
-                            selected && !isSelected
-                              ? "opacity-70 bg-gray-50"
-                              : ""
+                              ? "border-gray-300"
+                              : isSelected && isCorrect
+                              ? "border-green-500 bg-green-500"
+                              : isSelected && isWrong
+                              ? "border-red-500 bg-red-500"
+                              : "border-gray-300 bg-gray-100"
                           )}
                         >
-                          <div
-                            className={cn(
-                              "w-5 h-5 rounded-full border flex items-center justify-center",
-                              !selected
-                                ? "border-gray-300"
-                                : isSelected && isCorrect
-                                ? "border-green-500 bg-green-500"
-                                : isSelected && isWrong
-                                ? "border-red-500 bg-red-500"
-                                : "border-gray-300 bg-gray-100"
-                            )}
-                          >
-                            {isSelected && (
-                              <svg
-                                className={cn(
-                                  "w-3 h-3",
-                                  isCorrect ? "text-white" : "text-white"
-                                )}
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                              >
-                                {isCorrect ? (
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M5 13l4 4L19 7"
-                                  />
-                                ) : (
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M6 18L18 6M6 6l12 12"
-                                  />
-                                )}
-                              </svg>
-                            )}
-                          </div>
-                          <span
-                            className={cn(
-                              isSelected && isCorrect ? "text-green-700" : "",
-                              isSelected && isWrong ? "text-red-700" : ""
-                            )}
-                          >
-                            {option}
-                          </span>
-                        </label>
-                      </motion.div>
-                    );
-                  })}
+                          {isSelected && (
+                            <svg
+                              className={cn(
+                                "w-3 h-3",
+                                isCorrect ? "text-white" : "text-white"
+                              )}
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                            >
+                              {isCorrect ? (
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M5 13l4 4L19 7"
+                                />
+                              ) : (
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M6 18L18 6M6 6l12 12"
+                                />
+                              )}
+                            </svg>
+                          )}
+                        </div>
+                        <span
+                          className={cn(
+                            isSelected && isCorrect ? "text-green-700" : "",
+                            isSelected && isWrong ? "text-red-700" : ""
+                          )}
+                        >
+                          {option}
+                        </span>
+                      </label>
+                    </motion.div>
+                  );
+                })}
               </div>
 
               {showAnswer && (
