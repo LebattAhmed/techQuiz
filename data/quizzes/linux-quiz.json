@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quelle commande affiche le répertoire courant ?",
+      "options": [
+        "pwd",
+        "cd",
+        "ls",
+        "dir -p"
+      ],
+      "answer": "pwd",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande liste le contenu d'un répertoire ?",
+      "options": [
+        "ls",
+        "cd",
+        "pwd",
+        "cat"
+      ],
+      "answer": "ls",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande change de répertoire ?",
+      "options": [
+        "cd",
+        "mv",
+        "ls",
+        "chdir -r"
+      ],
+      "answer": "cd",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée un répertoire ?",
+      "options": [
+        "mkdir",
+        "touch",
+        "mkfile",
+        "newdir"
+      ],
+      "answer": "mkdir",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande copie un fichier ?",
+      "options": [
+        "cp",
+        "mv",
+        "rm",
+        "ln"
+      ],
+      "answer": "cp",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande déplace ou renomme un fichier ?",
+      "options": [
+        "mv",
+        "cp",
+        "rn",
+        "rename -f"
+      ],
+      "answer": "mv",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche le contenu d'un fichier ?",
+      "options": [
+        "cat",
+        "ls",
+        "cd",
+        "mkdir"
+      ],
+      "answer": "cat",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel utilisateur possède tous les droits sur un système Linux ?",
+      "options": [
+        "root",
+        "admin",
+        "superuser",
+        "system"
+      ],
+      "answer": "root",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande exécute une commande avec les droits administrateur ?",
+      "options": [
+        "sudo",
+        "su -c uniquement",
+        "admin",
+        "runas"
+      ],
+      "answer": "sudo",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche le manuel d'une commande ?",
+      "options": [
+        "man",
+        "help-me",
+        "doc",
+        "info-cmd"
+      ],
+      "answer": "man",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que représente le répertoire ~ ?",
+      "options": [
+        "Le répertoire personnel de l'utilisateur",
+        "La racine du système",
+        "Le répertoire temporaire",
+        "Le répertoire précédent"
+      ],
+      "answer": "Le répertoire personnel de l'utilisateur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que représente le répertoire / ?",
+      "options": [
+        "La racine du système de fichiers",
+        "Le répertoire personnel",
+        "Le répertoire courant",
+        "Le répertoire parent"
+      ],
+      "answer": "La racine du système de fichiers",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée un fichier vide ?",
+      "options": [
+        "touch",
+        "mkdir",
+        "new",
+        "create"
+      ],
+      "answer": "touch",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande recherche un motif de texte dans des fichiers ?",
+      "options": [
+        "grep",
+        "find",
+        "locate",
+        "sort"
+      ],
+      "answer": "grep",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche les processus en temps réel ?",
+      "options": [
+        "top",
+        "ps -once",
+        "jobs",
+        "kill"
+      ],
+      "answer": "top",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans quel répertoire se trouvent la plupart des fichiers de configuration ?",
+      "options": [
+        "/etc",
+        "/bin",
+        "/home",
+        "/tmp"
+      ],
+      "answer": "/etc",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel gestionnaire de paquets utilise Debian ou Ubuntu ?",
+      "options": [
+        "apt",
+        "dnf",
+        "pacman",
+        "brew"
+      ],
+      "answer": "apt",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait le symbole > dans une commande ?",
+      "options": [
+        "Rediriger la sortie vers un fichier en l'écrasant",
+        "Comparer deux fichiers",
+        "Lancer en arrière-plan",
+        "Exécuter en root"
+      ],
+      "answer": "Rediriger la sortie vers un fichier en l'écrasant",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait le symbole >> ?",
+      "options": [
+        "Ajouter la sortie à la fin d'un fichier",
+        "Écraser le fichier",
+        "Lire un fichier",
+        "Rediriger les erreurs"
+      ],
+      "answer": "Ajouter la sortie à la fin d'un fichier",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche l'espace disque des systèmes de fichiers ?",
+      "options": [
+        "df -h",
+        "du -s",
+        "free -m",
+        "lsblk -h"
+      ],
+      "answer": "df -h",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifient les permissions rwxr-xr-- ?",
+      "options": [
+        "Propriétaire : tout ; groupe : lecture et exécution ; autres : lecture",
+        "Tout le monde a tous les droits",
+        "Seul le groupe peut écrire",
+        "Personne ne peut exécuter"
+      ],
+      "answer": "Propriétaire : tout ; groupe : lecture et exécution ; autres : lecture",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle valeur numérique correspond à rwxr-xr-x ?",
+      "options": [
+        "755",
+        "644",
+        "777",
+        "700"
+      ],
+      "answer": "755",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande change les permissions d'un fichier ?",
+      "options": [
+        "chmod",
+        "chown",
+        "chgrp",
+        "umask -s"
+      ],
+      "answer": "chmod",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande change le propriétaire d'un fichier ?",
+      "options": [
+        "chown",
+        "chmod",
+        "usermod -f",
+        "passwd"
+      ],
+      "answer": "chown",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le pipe | entre deux commandes ?",
+      "options": [
+        "Envoyer la sortie de la première commande en entrée de la seconde",
+        "Exécuter les deux commandes en parallèle sans lien",
+        "Rediriger vers un fichier",
+        "Comparer les deux sorties"
+      ],
+      "answer": "Envoyer la sortie de la première commande en entrée de la seconde",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel signal envoie kill -9 ?",
+      "options": [
+        "SIGKILL, qui arrête le processus sans qu'il puisse l'intercepter",
+        "SIGTERM",
+        "SIGHUP",
+        "SIGINT"
+      ],
+      "answer": "SIGKILL, qui arrête le processus sans qu'il puisse l'intercepter",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre SIGTERM et SIGKILL ?",
+      "options": [
+        "SIGTERM demande un arrêt propre et peut être géré ; SIGKILL ne peut pas être intercepté",
+        "SIGKILL est plus doux",
+        "SIGTERM redémarre le processus",
+        "Ils sont identiques"
+      ],
+      "answer": "SIGTERM demande un arrêt propre et peut être géré ; SIGKILL ne peut pas être intercepté",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait 2>&1 ?",
+      "options": [
+        "Rediriger la sortie d'erreur vers la même destination que la sortie standard",
+        "Exécuter deux commandes",
+        "Doubler la sortie",
+        "Ignorer les erreurs"
+      ],
+      "answer": "Rediriger la sortie d'erreur vers la même destination que la sortie standard",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande trouve des fichiers selon des critères (nom, taille…) ?",
+      "options": [
+        "find",
+        "grep",
+        "which",
+        "cat"
+      ],
+      "answer": "find",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que systemd ?",
+      "options": [
+        "Le système d'initialisation et de gestion des services de nombreuses distributions",
+        "Un éditeur de texte",
+        "Un gestionnaire de paquets",
+        "Un système de fichiers"
+      ],
+      "answer": "Le système d'initialisation et de gestion des services de nombreuses distributions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande démarre un service avec systemd ?",
+      "options": [
+        "systemctl start nom",
+        "service-run nom",
+        "init start nom",
+        "systemd nom"
+      ],
+      "answer": "systemctl start nom",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande affiche les journaux d'un service systemd ?",
+      "options": [
+        "journalctl -u nom",
+        "logcat nom",
+        "dmesg nom",
+        "tail /var/systemd"
+      ],
+      "answer": "journalctl -u nom",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un lien symbolique ?",
+      "options": [
+        "Un fichier spécial qui pointe vers un autre chemin",
+        "Une copie complète d'un fichier",
+        "Un raccourci réseau",
+        "Un fichier caché"
+      ],
+      "answer": "Un fichier spécial qui pointe vers un autre chemin",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre un lien symbolique et un lien physique (hard link) ?",
+      "options": [
+        "Le lien physique pointe vers le même inode ; le symbolique pointe vers un chemin",
+        "Le symbolique copie les données",
+        "Le physique fonctionne entre systèmes de fichiers",
+        "Ils sont identiques"
+      ],
+      "answer": "Le lien physique pointe vers le même inode ; le symbolique pointe vers un chemin",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la commande awk '{print $1}' ?",
+      "options": [
+        "Afficher le premier champ de chaque ligne",
+        "Afficher la première ligne",
+        "Supprimer la première colonne",
+        "Compter les lignes"
+      ],
+      "answer": "Afficher le premier champ de chaque ligne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert le fichier /etc/passwd ?",
+      "options": [
+        "Lister les comptes utilisateurs et leurs informations de base",
+        "Stocker les mots de passe en clair",
+        "Configurer le réseau",
+        "Lister les services"
+      ],
+      "answer": "Lister les comptes utilisateurs et leurs informations de base",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Où sont stockés les hachages des mots de passe ?",
+      "options": [
+        "Dans /etc/shadow",
+        "Dans /etc/passwd",
+        "Dans /home",
+        "Dans /var/log"
+      ],
+      "answer": "Dans /etc/shadow",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait cron ?",
+      "options": [
+        "Exécuter des tâches planifiées à intervalles réguliers",
+        "Compresser des fichiers",
+        "Gérer les utilisateurs",
+        "Surveiller le réseau"
+      ],
+      "answer": "Exécuter des tâches planifiées à intervalles réguliers",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie « 0 3 * * * » dans une crontab ?",
+      "options": [
+        "Tous les jours à 3 h 00",
+        "Toutes les 3 minutes",
+        "Le 3 de chaque mois",
+        "Toutes les 3 heures"
+      ],
+      "answer": "Tous les jours à 3 h 00",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la commande ssh-keygen ?",
+      "options": [
+        "Générer une paire de clés SSH",
+        "Se connecter à un serveur",
+        "Copier des fichiers",
+        "Ouvrir un port"
+      ],
+      "answer": "Générer une paire de clés SSH",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un inode ?",
+      "options": [
+        "La structure qui contient les métadonnées d'un fichier et l'emplacement de ses données",
+        "Le nom d'un fichier",
+        "Un processus noyau",
+        "Un type de partition"
+      ],
+      "answer": "La structure qui contient les métadonnées d'un fichier et l'emplacement de ses données",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait le bit SUID sur un exécutable ?",
+      "options": [
+        "Il s'exécute avec les droits du propriétaire du fichier",
+        "Il rend le fichier invisible",
+        "Il interdit la suppression",
+        "Il chiffre le fichier"
+      ],
+      "answer": "Il s'exécute avec les droits du propriétaire du fichier",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait le sticky bit sur un répertoire comme /tmp ?",
+      "options": [
+        "Seul le propriétaire d'un fichier peut le supprimer ou le renommer",
+        "Les fichiers ne peuvent jamais être supprimés",
+        "Le répertoire est en lecture seule",
+        "Les fichiers sont supprimés au redémarrage"
+      ],
+      "answer": "Seul le propriétaire d'un fichier peut le supprimer ou le renommer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « load average » ?",
+      "options": [
+        "Le nombre moyen de processus en exécution ou en attente sur 1, 5 et 15 minutes",
+        "Le pourcentage d'utilisation du CPU",
+        "La quantité de mémoire utilisée",
+        "Le débit réseau moyen"
+      ],
+      "answer": "Le nombre moyen de processus en exécution ou en attente sur 1, 5 et 15 minutes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'OOM killer ?",
+      "options": [
+        "Le mécanisme du noyau qui tue un processus quand la mémoire est épuisée",
+        "Un antivirus",
+        "Un outil de nettoyage de disque",
+        "Un gestionnaire de swap"
+      ],
+      "answer": "Le mécanisme du noyau qui tue un processus quand la mémoire est épuisée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un processus zombie ?",
+      "options": [
+        "Un processus terminé dont le parent n'a pas encore récupéré le statut",
+        "Un processus qui consomme 100 % du CPU",
+        "Un processus caché",
+        "Un processus malveillant"
+      ],
+      "answer": "Un processus terminé dont le parent n'a pas encore récupéré le statut",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les namespaces du noyau Linux ?",
+      "options": [
+        "Des mécanismes d'isolation des ressources (PID, réseau, montages…), base des conteneurs",
+        "Des espaces de noms de fichiers",
+        "Des domaines DNS",
+        "Des groupes d'utilisateurs"
+      ],
+      "answer": "Des mécanismes d'isolation des ressources (PID, réseau, montages…), base des conteneurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les cgroups ?",
+      "options": [
+        "Un mécanisme qui limite et mesure les ressources (CPU, mémoire) d'un groupe de processus",
+        "Des groupes d'utilisateurs",
+        "Des groupes de fichiers",
+        "Des clusters réseau"
+      ],
+      "answer": "Un mécanisme qui limite et mesure les ressources (CPU, mémoire) d'un groupe de processus",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert strace ?",
+      "options": [
+        "Tracer les appels système d'un processus",
+        "Tracer les paquets réseau",
+        "Compiler du code",
+        "Surveiller le disque"
+      ],
+      "answer": "Tracer les appels système d'un processus",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que SELinux ?",
+      "options": [
+        "Un module de contrôle d'accès obligatoire qui applique des politiques de sécurité",
+        "Une distribution Linux",
+        "Un pare-feu réseau",
+        "Un gestionnaire de paquets"
+      ],
+      "answer": "Un module de contrôle d'accès obligatoire qui applique des politiques de sécurité",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que contient /proc ?",
+      "options": [
+        "Un système de fichiers virtuel exposant des informations sur les processus et le noyau",
+        "Les programmes installés",
+        "Les fichiers temporaires",
+        "Les journaux système"
+      ],
+      "answer": "Un système de fichiers virtuel exposant des informations sur les processus et le noyau",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre la mémoire « buff/cache » et la mémoire utilisée ?",
+      "options": [
+        "Le cache est de la mémoire libérable que le noyau utilise pour accélérer les E/S",
+        "Le cache est de la mémoire perdue",
+        "Le cache est réservé au swap",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Le cache est de la mémoire libérable que le noyau utilise pour accélérer les E/S",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait la commande lsof ?",
+      "options": [
+        "Lister les fichiers ouverts, y compris les sockets, par les processus",
+        "Lister les systèmes de fichiers",
+        "Lister les utilisateurs connectés",
+        "Lister les paquets installés"
+      ],
+      "answer": "Lister les fichiers ouverts, y compris les sockets, par les processus",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « shebang » (#!) en début de script ?",
+      "options": [
+        "L'indication de l'interpréteur à utiliser pour exécuter le script",
+        "Un commentaire décoratif",
+        "Une commande root",
+        "Un marqueur de fin"
+      ],
+      "answer": "L'indication de l'interpréteur à utiliser pour exécuter le script",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait « set -euo pipefail » dans un script Bash ?",
+      "options": [
+        "Arrêter le script sur erreur, variable non définie ou échec dans un pipe",
+        "Activer le mode verbeux",
+        "Désactiver les pipes",
+        "Exécuter en root"
+      ],
+      "answer": "Arrêter le script sur erreur, variable non définie ou échec dans un pipe",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « file descriptor » ?",
+      "options": [
+        "Un entier qui référence un fichier ou une ressource ouverte par un processus",
+        "Le nom complet d'un fichier",
+        "Une permission",
+        "Un inode"
+      ],
+      "answer": "Un entier qui référence un fichier ou une ressource ouverte par un processus",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait la commande « ulimit -n » ?",
+      "options": [
+        "Afficher ou fixer le nombre maximal de fichiers ouverts par processus",
+        "Limiter le réseau",
+        "Limiter le nombre d'utilisateurs",
+        "Limiter le CPU"
+      ],
+      "answer": "Afficher ou fixer le nombre maximal de fichiers ouverts par processus",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que LVM ?",
+      "options": [
+        "Une couche de gestion de volumes logiques permettant de redimensionner et combiner des disques",
+        "Un hyperviseur",
+        "Un système de fichiers réseau",
+        "Un gestionnaire de paquets"
+      ],
+      "answer": "Une couche de gestion de volumes logiques permettant de redimensionner et combiner des disques",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « swappiness » ?",
+      "options": [
+        "Un paramètre qui règle la tendance du noyau à utiliser le swap",
+        "La vitesse du disque",
+        "La taille de la RAM",
+        "Un mode d'économie d'énergie"
+      ],
+      "answer": "Un paramètre qui règle la tendance du noyau à utiliser le swap",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi l'authentification SSH par clé est-elle préférable au mot de passe ?",
+      "options": [
+        "Elle résiste à la force brute et évite d'envoyer un secret réutilisable",
+        "Elle est plus rapide à taper",
+        "Elle ne nécessite aucun fichier",
+        "Elle fonctionne sans réseau"
+      ],
+      "answer": "Elle résiste à la force brute et évite d'envoyer un secret réutilisable",
+      "difficulty": "difficile"
+    }
+  ]
 }

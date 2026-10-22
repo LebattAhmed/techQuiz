@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Django est un framework pour quel langage ?",
+      "options": [
+        "Python",
+        "PHP",
+        "Ruby",
+        "JavaScript"
+      ],
+      "answer": "Python",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée un nouveau projet Django ?",
+      "options": [
+        "django-admin startproject",
+        "django new",
+        "python create project",
+        "pip startproject"
+      ],
+      "answer": "django-admin startproject",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée une application dans un projet ?",
+      "options": [
+        "python manage.py startapp",
+        "django-admin newapp",
+        "python manage.py createapp",
+        "pip install app"
+      ],
+      "answer": "python manage.py startapp",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande lance le serveur de développement ?",
+      "options": [
+        "python manage.py runserver",
+        "python manage.py start",
+        "django serve",
+        "python server.py"
+      ],
+      "answer": "python manage.py runserver",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel motif d'architecture décrit Django ?",
+      "options": [
+        "MTV (Modèle, Template, Vue)",
+        "MVVM",
+        "Flux",
+        "Redux"
+      ],
+      "answer": "MTV (Modèle, Template, Vue)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans quel fichier définit-on les modèles d'une application ?",
+      "options": [
+        "models.py",
+        "views.py",
+        "urls.py",
+        "admin.py"
+      ],
+      "answer": "models.py",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans quel fichier associe-t-on des URL à des vues ?",
+      "options": [
+        "urls.py",
+        "models.py",
+        "settings.py",
+        "forms.py"
+      ],
+      "answer": "urls.py",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier contient la configuration globale du projet ?",
+      "options": [
+        "settings.py",
+        "config.json",
+        "manage.py",
+        "wsgi.ini"
+      ],
+      "answer": "settings.py",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande génère les fichiers de migration ?",
+      "options": [
+        "python manage.py makemigrations",
+        "python manage.py migrate",
+        "python manage.py dbsync",
+        "python manage.py schema"
+      ],
+      "answer": "python manage.py makemigrations",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande applique les migrations ?",
+      "options": [
+        "python manage.py migrate",
+        "python manage.py makemigrations",
+        "python manage.py apply",
+        "python manage.py update"
+      ],
+      "answer": "python manage.py migrate",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée un compte administrateur ?",
+      "options": [
+        "python manage.py createsuperuser",
+        "python manage.py admin",
+        "python manage.py adduser",
+        "django-admin root"
+      ],
+      "answer": "python manage.py createsuperuser",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'offre l'interface d'administration de Django ?",
+      "options": [
+        "Une interface web générée pour gérer les modèles",
+        "Un éditeur de code",
+        "Un serveur de base de données",
+        "Un outil de déploiement"
+      ],
+      "answer": "Une interface web générée pour gérer les modèles",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise de template affiche une variable ?",
+      "options": [
+        "{{ variable }}",
+        "{% variable %}",
+        "<%= variable %>",
+        "${variable}"
+      ],
+      "answer": "{{ variable }}",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle syntaxe de template sert aux instructions comme for ou if ?",
+      "options": [
+        "{% … %}",
+        "{{ … }}",
+        "{# … #}",
+        "[[ … ]]"
+      ],
+      "answer": "{% … %}",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle balise protège un formulaire POST contre le CSRF ?",
+      "options": [
+        "{% csrf_token %}",
+        "{% secure %}",
+        "{{ csrf }}",
+        "{% token %}"
+      ],
+      "answer": "{% csrf_token %}",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment récupérer tous les objets d'un modèle Article ?",
+      "options": [
+        "Article.objects.all()",
+        "Article.all()",
+        "Article.get_all()",
+        "Article.query()"
+      ],
+      "answer": "Article.objects.all()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel paramètre doit être False en production ?",
+      "options": [
+        "DEBUG",
+        "USE_TZ",
+        "INSTALLED_APPS",
+        "ROOT_URLCONF"
+      ],
+      "answer": "DEBUG",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que contient INSTALLED_APPS ?",
+      "options": [
+        "La liste des applications activées dans le projet",
+        "Les paquets pip installés",
+        "Les utilisateurs connectés",
+        "Les routes du site"
+      ],
+      "answer": "La liste des applications activées dans le projet",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle bibliothèque est très utilisée pour créer des API REST avec Django ?",
+      "options": [
+        "Django REST framework",
+        "Flask-RESTful",
+        "Express",
+        "FastAPI-Django"
+      ],
+      "answer": "Django REST framework",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que représente un champ ForeignKey ?",
+      "options": [
+        "Une relation plusieurs-à-un vers un autre modèle",
+        "Une clé de chiffrement",
+        "Un mot de passe étranger",
+        "Un champ texte traduit"
+      ],
+      "answer": "Une relation plusieurs-à-un vers un autre modèle",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que renvoie Article.objects.filter(...) ?",
+      "options": [
+        "Un QuerySet, évalué paresseusement",
+        "Une liste Python déjà chargée",
+        "Un seul objet",
+        "Un dictionnaire"
+      ],
+      "answer": "Un QuerySet, évalué paresseusement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que se passe-t-il si get() ne trouve aucun résultat ?",
+      "options": [
+        "Il lève l'exception DoesNotExist",
+        "Il renvoie None",
+        "Il renvoie une liste vide",
+        "Il crée l'objet"
+      ],
+      "answer": "Il lève l'exception DoesNotExist",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait select_related ?",
+      "options": [
+        "Il charge les relations ForeignKey en une seule requête avec une jointure",
+        "Il filtre les objets liés",
+        "Il trie les résultats",
+        "Il crée des relations"
+      ],
+      "answer": "Il charge les relations ForeignKey en une seule requête avec une jointure",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre select_related et prefetch_related ?",
+      "options": [
+        "select_related utilise une jointure SQL ; prefetch_related fait une requête séparée par relation et assemble en Python",
+        "prefetch_related est réservé aux ForeignKey",
+        "select_related ne fonctionne qu'avec PostgreSQL",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "select_related utilise une jointure SQL ; prefetch_related fait une requête séparée par relation et assemble en Python",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un middleware Django ?",
+      "options": [
+        "Un composant qui traite chaque requête et réponse de façon globale",
+        "Un modèle intermédiaire",
+        "Un template partiel",
+        "Une migration"
+      ],
+      "answer": "Un composant qui traite chaque requête et réponse de façon globale",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre une vue fonction et une vue classe (CBV) ?",
+      "options": [
+        "Une CBV organise la logique en méthodes réutilisables et extensibles par héritage",
+        "Les CBV sont plus rapides",
+        "Les vues fonctions sont obsolètes",
+        "Les CBV ne gèrent que GET"
+      ],
+      "answer": "Une CBV organise la logique en méthodes réutilisables et extensibles par héritage",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un ModelForm ?",
+      "options": [
+        "Générer un formulaire à partir d'un modèle, avec validation",
+        "Créer un modèle depuis un formulaire HTML",
+        "Migrer la base",
+        "Styliser un formulaire"
+      ],
+      "answer": "Générer un formulaire à partir d'un modèle, avec validation",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les signaux Django ?",
+      "options": [
+        "Un mécanisme pour réagir à des événements, comme après l'enregistrement d'un modèle",
+        "Des messages d'erreur",
+        "Des notifications push",
+        "Des tâches planifiées"
+      ],
+      "answer": "Un mécanisme pour réagir à des événements, comme après l'enregistrement d'un modèle",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'objet Q ?",
+      "options": [
+        "Construire des conditions complexes avec OU et NON dans les requêtes",
+        "Créer une file d'attente",
+        "Mettre en cache une requête",
+        "Compter des objets"
+      ],
+      "answer": "Construire des conditions complexes avec OU et NON dans les requêtes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert l'expression F() ?",
+      "options": [
+        "Faire référence à la valeur d'un champ dans la requête, côté base de données",
+        "Formater une date",
+        "Créer un formulaire",
+        "Filtrer par fichier"
+      ],
+      "answer": "Faire référence à la valeur d'un champ dans la requête, côté base de données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande collecte les fichiers statiques pour la production ?",
+      "options": [
+        "python manage.py collectstatic",
+        "python manage.py static",
+        "python manage.py build",
+        "python manage.py assets"
+      ],
+      "answer": "python manage.py collectstatic",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment étendre le modèle d'utilisateur de façon recommandée en début de projet ?",
+      "options": [
+        "Définir un modèle personnalisé héritant d'AbstractUser et le référencer dans AUTH_USER_MODEL",
+        "Modifier le code source de Django",
+        "Créer une seconde table sans lien",
+        "Ajouter des colonnes manuellement en SQL"
+      ],
+      "answer": "Définir un modèle personnalisé héritant d'AbstractUser et le référencer dans AUTH_USER_MODEL",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le décorateur @login_required ?",
+      "options": [
+        "Il redirige vers la page de connexion si l'utilisateur n'est pas authentifié",
+        "Il crée un compte",
+        "Il chiffre la vue",
+        "Il désactive le CSRF"
+      ],
+      "answer": "Il redirige vers la page de connexion si l'utilisateur n'est pas authentifié",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait get_object_or_404 ?",
+      "options": [
+        "Il renvoie l'objet ou lève une Http404 s'il n'existe pas",
+        "Il supprime l'objet",
+        "Il crée l'objet manquant",
+        "Il renvoie une liste vide"
+      ],
+      "answer": "Il renvoie l'objet ou lève une Http404 s'il n'existe pas",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet l'héritage de templates avec {% extends %} et {% block %} ?",
+      "options": [
+        "Définir une structure commune et redéfinir des zones dans les pages filles",
+        "Copier un modèle",
+        "Importer du Python dans le template",
+        "Créer des migrations"
+      ],
+      "answer": "Définir une structure commune et redéfinir des zones dans les pages filles",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre WSGI et ASGI ?",
+      "options": [
+        "ASGI supporte l'asynchrone et les WebSockets, WSGI est synchrone",
+        "WSGI est plus récent",
+        "ASGI est réservé à Windows",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "ASGI supporte l'asynchrone et les WebSockets, WSGI est synchrone",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un serializer dans Django REST framework ?",
+      "options": [
+        "Une classe qui convertit des objets en JSON et valide les données entrantes",
+        "Un gestionnaire de files",
+        "Un serveur web",
+        "Un modèle de base de données"
+      ],
+      "answer": "Une classe qui convertit des objets en JSON et valide les données entrantes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait ALLOWED_HOSTS ?",
+      "options": [
+        "Il restreint les noms d'hôte que le site accepte de servir",
+        "Il liste les adresses IP bannies",
+        "Il configure les CORS",
+        "Il définit les administrateurs"
+      ],
+      "answer": "Il restreint les noms d'hôte que le site accepte de servir",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la méthode annotate() ?",
+      "options": [
+        "Ajouter à chaque objet une valeur calculée, comme un Count",
+        "Ajouter des commentaires au code",
+        "Créer un index",
+        "Traduire les champs"
+      ],
+      "answer": "Ajouter à chaque objet une valeur calculée, comme un Count",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait aggregate() ?",
+      "options": [
+        "Calculer une valeur globale sur tout le QuerySet, comme une somme",
+        "Fusionner deux tables",
+        "Grouper des migrations",
+        "Ajouter un champ"
+      ],
+      "answer": "Calculer une valeur globale sur tout le QuerySet, comme une somme",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi un QuerySet est-il dit « paresseux » ?",
+      "options": [
+        "La requête SQL n'est exécutée qu'au moment où les résultats sont réellement utilisés",
+        "Il est lent",
+        "Il ne met jamais à jour les données",
+        "Il charge une ligne par seconde"
+      ],
+      "answer": "La requête SQL n'est exécutée qu'au moment où les résultats sont réellement utilisés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment éviter une condition de course sur un compteur (vues += 1) ?",
+      "options": [
+        "Utiliser update(vues=F(\"vues\") + 1) pour faire l'incrément dans la base",
+        "Lire puis enregistrer en Python",
+        "Utiliser un signal",
+        "Augmenter le nombre de workers"
+      ],
+      "answer": "Utiliser update(vues=F(\"vues\") + 1) pour faire l'incrément dans la base",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait select_for_update() ?",
+      "options": [
+        "Verrouiller les lignes sélectionnées jusqu'à la fin de la transaction",
+        "Sélectionner les champs modifiés",
+        "Mettre à jour tous les objets",
+        "Créer un index"
+      ],
+      "answer": "Verrouiller les lignes sélectionnées jusqu'à la fin de la transaction",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet transaction.atomic ?",
+      "options": [
+        "Exécuter un bloc dans une transaction, annulée en cas d'exception",
+        "Rendre une vue asynchrone",
+        "Mettre en cache une requête",
+        "Accélérer les migrations"
+      ],
+      "answer": "Exécuter un bloc dans une transaction, annulée en cas d'exception",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait transaction.on_commit ?",
+      "options": [
+        "Exécuter une fonction seulement après la validation réussie de la transaction",
+        "Valider la transaction immédiatement",
+        "Annuler la transaction",
+        "Commiter dans Git"
+      ],
+      "answer": "Exécuter une fonction seulement après la validation réussie de la transaction",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi l'ORM protège-t-il des injections SQL ?",
+      "options": [
+        "Il passe les valeurs comme paramètres séparés de la requête",
+        "Il chiffre la base",
+        "Il interdit les chaînes de caractères",
+        "Il filtre les mots-clés SQL"
+      ],
+      "answer": "Il passe les valeurs comme paramètres séparés de la requête",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel usage de l'ORM réintroduit un risque d'injection ?",
+      "options": [
+        "Construire une requête raw() ou extra() par concaténation de chaînes utilisateur",
+        "Utiliser filter()",
+        "Utiliser get()",
+        "Utiliser annotate()"
+      ],
+      "answer": "Construire une requête raw() ou extra() par concaténation de chaînes utilisateur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une migration de données (RunPython) ?",
+      "options": [
+        "Une migration qui exécute du code Python pour transformer des données",
+        "Une migration qui supprime la base",
+        "Une sauvegarde automatique",
+        "Une migration vers un autre SGBD"
+      ],
+      "answer": "Une migration qui exécute du code Python pour transformer des données",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permettent les « database routers » ?",
+      "options": [
+        "Diriger les requêtes de certains modèles vers des bases différentes",
+        "Router le trafic HTTP",
+        "Définir les URL",
+        "Répartir les fichiers statiques"
+      ],
+      "answer": "Diriger les requêtes de certains modèles vers des bases différentes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que only() et defer() ?",
+      "options": [
+        "Charger seulement certains champs, ou différer le chargement de certains champs",
+        "Filtrer les objets uniques",
+        "Retarder une migration",
+        "Exécuter une requête plus tard"
+      ],
+      "answer": "Charger seulement certains champs, ou différer le chargement de certains champs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait iterator() sur un QuerySet ?",
+      "options": [
+        "Lire les résultats par lots sans les mettre en cache, pour économiser la mémoire",
+        "Créer un générateur aléatoire",
+        "Trier les résultats",
+        "Répéter la requête"
+      ],
+      "answer": "Lire les résultats par lots sans les mettre en cache, pour économiser la mémoire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi éviter un appel à l'ORM synchrone directement dans une vue async ?",
+      "options": [
+        "Il bloquerait la boucle d'événements ; il faut utiliser les API async ou sync_to_async",
+        "Il est interdit et provoque une erreur de syntaxe",
+        "Il supprime les données",
+        "Il désactive les transactions"
+      ],
+      "answer": "Il bloquerait la boucle d'événements ; il faut utiliser les API async ou sync_to_async",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Django Channels ?",
+      "options": [
+        "Une extension qui ajoute WebSockets et protocoles asynchrones à Django",
+        "Un système de chaînes de caractères",
+        "Un outil de traduction",
+        "Un cache de templates"
+      ],
+      "answer": "Une extension qui ajoute WebSockets et protocoles asynchrones à Django",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est l'utilité de bulk_create ?",
+      "options": [
+        "Insérer de nombreux objets en un minimum de requêtes",
+        "Créer une base de données",
+        "Générer des tests",
+        "Créer plusieurs projets"
+      ],
+      "answer": "Insérer de nombreux objets en un minimum de requêtes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel inconvénient a bulk_create ?",
+      "options": [
+        "Il n'appelle pas save() ni les signaux pre_save et post_save",
+        "Il ne fonctionne qu'avec SQLite",
+        "Il est plus lent que save()",
+        "Il ne gère pas les chaînes"
+      ],
+      "answer": "Il n'appelle pas save() ni les signaux pre_save et post_save",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Manager personnalisé ?",
+      "options": [
+        "Une classe qui ajoute des méthodes de requêtes à objects ou en remplace le comportement",
+        "Un administrateur du site",
+        "Un middleware",
+        "Un modèle abstrait"
+      ],
+      "answer": "Une classe qui ajoute des méthodes de requêtes à objects ou en remplace le comportement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel en-tête Django active-t-il via SECURE_HSTS_SECONDS ?",
+      "options": [
+        "Strict-Transport-Security",
+        "Content-Security-Policy",
+        "X-Powered-By",
+        "Cache-Control"
+      ],
+      "answer": "Strict-Transport-Security",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le cache par vue (cache_page) ?",
+      "options": [
+        "Mettre en cache la réponse complète d'une vue pendant une durée",
+        "Mettre en cache les migrations",
+        "Mettre en cache les modèles en mémoire",
+        "Mettre en cache le code Python"
+      ],
+      "answer": "Mettre en cache la réponse complète d'une vue pendant une durée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la SECRET_KEY doit-elle rester secrète ?",
+      "options": [
+        "Elle sert à signer sessions, jetons et données ; sa fuite permet de les falsifier",
+        "Elle chiffre la base de données",
+        "Elle sert de mot de passe admin",
+        "Elle n'a aucun rôle"
+      ],
+      "answer": "Elle sert à signer sessions, jetons et données ; sa fuite permet de les falsifier",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un modèle proxy ?",
+      "options": [
+        "Un modèle qui change le comportement Python d'un modèle existant sans créer de table",
+        "Un modèle stocké à distance",
+        "Un modèle de cache",
+        "Un modèle temporaire"
+      ],
+      "answer": "Un modèle qui change le comportement Python d'un modèle existant sans créer de table",
+      "difficulty": "difficile"
+    }
+  ]
 }

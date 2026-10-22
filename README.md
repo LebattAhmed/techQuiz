@@ -1,7 +1,8 @@
 # Tech Quiz
 
 Quiz en français pour évaluer ses connaissances en informatique : langages, réseau,
-sécurité, développement web et mobile, bases de données, DevOps.
+sécurité, développement web et mobile, bases de données, DevOps, algorithmique, IA & data
+et génie logiciel : 10 catégories, 43 sujets, environ 2 600 questions.
 
 Next.js 15 (App Router) · React 19 · Tailwind CSS 4 · framer-motion.
 
@@ -23,17 +24,18 @@ npm run dev        # http://localhost:3000
 
 ```
 app/
-  page.tsx                          accueil
-  quiz/page.tsx                     /quiz : liste des catégories
-  quiz/[category]/page.tsx          /quiz/langages : sujets d'une catégorie
+  page.tsx                            accueil : présentation + catégories
+  quiz/[category]/page.tsx            /quiz/langages : sujets d'une catégorie
   quiz/[category]/[subject]/page.tsx  /quiz/langages/python : le quiz
-components/quiz.tsx                 composant de quiz unique (tous les sujets)
-components/choice-grid.tsx          grille de cartes (catégories, sujets)
-lib/quizzes.ts                      catalogue des catégories/sujets + lecture des questions
-lib/shuffle.ts                      tirage des questions et mélange des options
-lib/option-rules.mjs                règles sur les options (partagées avec le validateur)
-data/quizzes/<sujet>-quiz.json      questions
-scripts/validate-quizzes.mjs        validation des questions
+components/quiz.tsx                   le quiz (niveaux, partie, résultat, correction)
+components/cards.tsx                  cartes de catégories et de sujets
+components/site-header.tsx            en-tête et bascule clair/sombre (theme-toggle.tsx)
+lib/quizzes.ts                        catalogue des catégories/sujets + lecture des questions
+lib/shuffle.ts                        tirage des questions et mélange des options
+lib/best-score.ts                     meilleur score par sujet (stocké dans le navigateur)
+lib/option-rules.mjs                  règles sur les options (partagées avec le validateur)
+data/quizzes/<sujet>-quiz.json        questions
+scripts/validate-quizzes.mjs          validation des questions
 ```
 
 ## Ajouter des questions

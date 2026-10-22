@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que Docker ?",
+      "options": [
+        "Une plateforme pour créer et exécuter des applications dans des conteneurs",
+        "Une machine virtuelle complète",
+        "Un langage de programmation",
+        "Un système d'exploitation"
+      ],
+      "answer": "Une plateforme pour créer et exécuter des applications dans des conteneurs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une image Docker ?",
+      "options": [
+        "Un modèle en lecture seule qui contient tout le nécessaire pour lancer une application",
+        "Une capture d'écran",
+        "Un conteneur en cours d'exécution",
+        "Un fichier de logs"
+      ],
+      "answer": "Un modèle en lecture seule qui contient tout le nécessaire pour lancer une application",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un conteneur ?",
+      "options": [
+        "Une instance en cours d'exécution d'une image",
+        "Un fichier de configuration",
+        "Une image compressée",
+        "Un serveur physique"
+      ],
+      "answer": "Une instance en cours d'exécution d'une image",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier décrit la construction d'une image ?",
+      "options": [
+        "Dockerfile",
+        "docker.json",
+        "compose.ini",
+        "image.yaml"
+      ],
+      "answer": "Dockerfile",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande construit une image ?",
+      "options": [
+        "docker build",
+        "docker run",
+        "docker make",
+        "docker create-image"
+      ],
+      "answer": "docker build",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande lance un conteneur ?",
+      "options": [
+        "docker run",
+        "docker build",
+        "docker start-image",
+        "docker exec"
+      ],
+      "answer": "docker run",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande liste les conteneurs en cours d'exécution ?",
+      "options": [
+        "docker ps",
+        "docker list",
+        "docker images",
+        "docker show"
+      ],
+      "answer": "docker ps",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande liste les images locales ?",
+      "options": [
+        "docker images",
+        "docker ps",
+        "docker list-images",
+        "docker pull"
+      ],
+      "answer": "docker images",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande télécharge une image depuis un registre ?",
+      "options": [
+        "docker pull",
+        "docker push",
+        "docker get",
+        "docker fetch"
+      ],
+      "answer": "docker pull",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le registre public par défaut ?",
+      "options": [
+        "Docker Hub",
+        "GitHub Pages",
+        "npm",
+        "PyPI"
+      ],
+      "answer": "Docker Hub",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle instruction Dockerfile définit l'image de base ?",
+      "options": [
+        "FROM",
+        "BASE",
+        "IMAGE",
+        "START"
+      ],
+      "answer": "FROM",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle instruction exécute une commande pendant la construction ?",
+      "options": [
+        "RUN",
+        "CMD",
+        "EXEC",
+        "DO"
+      ],
+      "answer": "RUN",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle instruction copie des fichiers dans l'image ?",
+      "options": [
+        "COPY",
+        "MOVE",
+        "PUT",
+        "IMPORT"
+      ],
+      "answer": "COPY",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle option de docker run publie un port ?",
+      "options": [
+        "-p 8080:80",
+        "-port 8080",
+        "--expose-only",
+        "-n 80"
+      ],
+      "answer": "-p 8080:80",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande arrête un conteneur ?",
+      "options": [
+        "docker stop",
+        "docker kill-all",
+        "docker end",
+        "docker pause-forever"
+      ],
+      "answer": "docker stop",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil décrit et lance une application multi-conteneurs ?",
+      "options": [
+        "Docker Compose",
+        "Docker Swarm Desktop",
+        "Dockerfile seul",
+        "Docker Hub"
+      ],
+      "answer": "Docker Compose",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande démarre les services décrits dans compose.yaml ?",
+      "options": [
+        "docker compose up",
+        "docker compose run-all",
+        "docker start compose",
+        "compose build"
+      ],
+      "answer": "docker compose up",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier exclut des fichiers du contexte de build ?",
+      "options": [
+        ".dockerignore",
+        ".gitignore",
+        ".buildignore",
+        "docker.exclude"
+      ],
+      "answer": ".dockerignore",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande exécute une commande dans un conteneur en cours ?",
+      "options": [
+        "docker exec",
+        "docker run",
+        "docker attach-cmd",
+        "docker shell"
+      ],
+      "answer": "docker exec",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche les journaux d'un conteneur ?",
+      "options": [
+        "docker logs",
+        "docker journal",
+        "docker events-only",
+        "docker print"
+      ],
+      "answer": "docker logs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre CMD et ENTRYPOINT ?",
+      "options": [
+        "ENTRYPOINT définit l'exécutable principal ; CMD fournit des arguments par défaut remplaçables",
+        "CMD s'exécute pendant le build",
+        "ENTRYPOINT est obsolète",
+        "Ils sont identiques"
+      ],
+      "answer": "ENTRYPOINT définit l'exécutable principal ; CMD fournit des arguments par défaut remplaçables",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre COPY et ADD ?",
+      "options": [
+        "ADD sait aussi extraire des archives et télécharger des URL ; COPY se limite à copier",
+        "COPY est obsolète",
+        "ADD ne copie que des dossiers",
+        "Ils sont identiques"
+      ],
+      "answer": "ADD sait aussi extraire des archives et télécharger des URL ; COPY se limite à copier",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une couche (layer) d'image ?",
+      "options": [
+        "Le résultat d'une instruction du Dockerfile, mis en cache et réutilisable",
+        "Un conteneur",
+        "Un volume",
+        "Un réseau"
+      ],
+      "answer": "Le résultat d'une instruction du Dockerfile, mis en cache et réutilisable",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi copier package.json et installer les dépendances avant de copier le code source ?",
+      "options": [
+        "Pour profiter du cache des couches quand seul le code change",
+        "Parce que Docker l'impose",
+        "Pour réduire la sécurité",
+        "Pour accélérer le réseau"
+      ],
+      "answer": "Pour profiter du cache des couches quand seul le code change",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un volume ?",
+      "options": [
+        "Un stockage persistant géré par Docker, indépendant du cycle de vie du conteneur",
+        "Le niveau sonore du conteneur",
+        "Une image compressée",
+        "Un réseau virtuel"
+      ],
+      "answer": "Un stockage persistant géré par Docker, indépendant du cycle de vie du conteneur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un bind mount ?",
+      "options": [
+        "Le montage d'un dossier de l'hôte dans le conteneur",
+        "Un volume chiffré",
+        "Un réseau partagé",
+        "Une copie de l'image"
+      ],
+      "answer": "Le montage d'un dossier de l'hôte dans le conteneur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un build multi-étapes (multi-stage) ?",
+      "options": [
+        "Utiliser plusieurs FROM pour ne garder que les artefacts finaux dans une image légère",
+        "Construire plusieurs images en parallèle",
+        "Construire une image sur plusieurs machines",
+        "Lancer plusieurs conteneurs"
+      ],
+      "answer": "Utiliser plusieurs FROM pour ne garder que les artefacts finaux dans une image légère",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi éviter d'exécuter le processus en root dans le conteneur ?",
+      "options": [
+        "Pour limiter l'impact en cas de compromission",
+        "Parce que root est plus lent",
+        "Parce que Docker l'interdit",
+        "Pour réduire la taille de l'image"
+      ],
+      "answer": "Pour limiter l'impact en cas de compromission",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle instruction change l'utilisateur d'exécution ?",
+      "options": [
+        "USER",
+        "RUNAS",
+        "ROOT",
+        "SETUSER"
+      ],
+      "answer": "USER",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment les conteneurs d'un même réseau Compose se joignent-ils ?",
+      "options": [
+        "Par le nom du service, résolu par le DNS interne",
+        "Uniquement par adresse IP fixe",
+        "Par localhost",
+        "Ils ne peuvent pas communiquer"
+      ],
+      "answer": "Par le nom du service, résolu par le DNS interne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi un tag « latest » peut-il poser problème en production ?",
+      "options": [
+        "Il ne garantit pas une version précise et reproductible",
+        "Il est toujours vide",
+        "Il est réservé aux tests",
+        "Il est plus lent à télécharger"
+      ],
+      "answer": "Il ne garantit pas une version précise et reproductible",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre une image et un conteneur en termes de modification ?",
+      "options": [
+        "L'image est immuable ; le conteneur ajoute une couche inscriptible temporaire",
+        "Le conteneur est immuable",
+        "Les deux sont modifiables à l'identique",
+        "L'image est supprimée au démarrage"
+      ],
+      "answer": "L'image est immuable ; le conteneur ajoute une couche inscriptible temporaire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait docker system prune ?",
+      "options": [
+        "Supprimer les conteneurs arrêtés, réseaux inutilisés et images orphelines",
+        "Mettre à jour Docker",
+        "Supprimer toutes les images y compris utilisées",
+        "Redémarrer le démon"
+      ],
+      "answer": "Supprimer les conteneurs arrêtés, réseaux inutilisés et images orphelines",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert HEALTHCHECK ?",
+      "options": [
+        "Définir une commande qui vérifie que l'application du conteneur fonctionne",
+        "Surveiller le disque de l'hôte",
+        "Scanner les vulnérabilités",
+        "Redémarrer Docker"
+      ],
+      "answer": "Définir une commande qui vérifie que l'application du conteneur fonctionne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'option --restart unless-stopped ?",
+      "options": [
+        "Redémarrer automatiquement le conteneur sauf s'il a été arrêté manuellement",
+        "Empêcher tout redémarrage",
+        "Redémarrer l'hôte",
+        "Redémarrer toutes les heures"
+      ],
+      "answer": "Redémarrer automatiquement le conteneur sauf s'il a été arrêté manuellement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi choisir une image de base légère (alpine, slim, distroless) ?",
+      "options": [
+        "Moins de taille et moins de surface d'attaque",
+        "Elle est toujours plus rapide à l'exécution",
+        "Elle inclut plus d'outils",
+        "Elle est obligatoire"
+      ],
+      "answer": "Moins de taille et moins de surface d'attaque",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'instruction ENV ?",
+      "options": [
+        "Définir des variables d'environnement dans l'image",
+        "Charger un fichier .env de l'hôte automatiquement",
+        "Créer un environnement virtuel Python",
+        "Définir le réseau"
+      ],
+      "answer": "Définir des variables d'environnement dans l'image",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi ne pas mettre de secrets dans une instruction ENV ou ARG ?",
+      "options": [
+        "Ils restent visibles dans les métadonnées et l'historique de l'image",
+        "Ils ralentissent le build",
+        "Ils sont supprimés au démarrage",
+        "Docker les refuse"
+      ],
+      "answer": "Ils restent visibles dans les métadonnées et l'historique de l'image",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait docker compose down -v ?",
+      "options": [
+        "Arrêter et supprimer les conteneurs, réseaux et volumes du projet",
+        "Mettre à jour les images",
+        "Redémarrer les services",
+        "Supprimer seulement les logs"
+      ],
+      "answer": "Arrêter et supprimer les conteneurs, réseaux et volumes du projet",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'instruction EXPOSE ?",
+      "options": [
+        "Documenter le port écouté par l'application, sans le publier",
+        "Publier le port sur l'hôte",
+        "Ouvrir le pare-feu",
+        "Créer un réseau"
+      ],
+      "answer": "Documenter le port écouté par l'application, sans le publier",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Sur quelles fonctionnalités du noyau Linux repose l'isolation des conteneurs ?",
+      "options": [
+        "Les namespaces et les cgroups",
+        "L'hyperviseur KVM uniquement",
+        "Le chiffrement du disque",
+        "Les machines virtuelles Java"
+      ],
+      "answer": "Les namespaces et les cgroups",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'OCI ?",
+      "options": [
+        "L'initiative qui standardise les formats d'images et les runtimes de conteneurs",
+        "Un registre d'images",
+        "Un orchestrateur",
+        "Un pare-feu"
+      ],
+      "answer": "L'initiative qui standardise les formats d'images et les runtimes de conteneurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel runtime bas niveau exécute les conteneurs sous Docker ?",
+      "options": [
+        "runc (via containerd)",
+        "systemd",
+        "QEMU",
+        "LXD uniquement"
+      ],
+      "answer": "runc (via containerd)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un système de fichiers union (overlayfs) ?",
+      "options": [
+        "La superposition de couches en lecture seule et d'une couche inscriptible",
+        "Un système de fichiers réseau",
+        "Un RAID logiciel",
+        "Un système de fichiers chiffré"
+      ],
+      "answer": "La superposition de couches en lecture seule et d'une couche inscriptible",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi monter le socket /var/run/docker.sock dans un conteneur est-il dangereux ?",
+      "options": [
+        "Cela donne au conteneur le contrôle du démon Docker, donc de l'hôte",
+        "Cela ralentit le réseau",
+        "Cela supprime les volumes",
+        "Cela désactive les logs"
+      ],
+      "answer": "Cela donne au conteneur le contrôle du démon Docker, donc de l'hôte",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait l'option --privileged ?",
+      "options": [
+        "Donner au conteneur la quasi-totalité des capacités de l'hôte",
+        "Lancer le conteneur plus vite",
+        "Activer le chiffrement",
+        "Créer un utilisateur administrateur dans l'image"
+      ],
+      "answer": "Donner au conteneur la quasi-totalité des capacités de l'hôte",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les « capabilities » Linux dans Docker ?",
+      "options": [
+        "Des privilèges root découpés, qu'on peut retirer avec --cap-drop",
+        "Des quotas de CPU",
+        "Des étiquettes d'image",
+        "Des réseaux virtuels"
+      ],
+      "answer": "Des privilèges root découpés, qu'on peut retirer avec --cap-drop",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment passer un secret au moment du build sans qu'il reste dans l'image ?",
+      "options": [
+        "Avec les secrets BuildKit (RUN --mount=type=secret)",
+        "Avec ARG",
+        "Avec ENV",
+        "En le copiant puis en le supprimant dans une autre couche"
+      ],
+      "answer": "Avec les secrets BuildKit (RUN --mount=type=secret)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi supprimer un fichier dans une couche ultérieure ne réduit-il pas la taille de l'image ?",
+      "options": [
+        "Le fichier reste présent dans la couche précédente",
+        "Docker annule la suppression",
+        "La suppression est interdite",
+        "La taille est recalculée à l'exécution"
+      ],
+      "answer": "Le fichier reste présent dans la couche précédente",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un digest d'image (sha256:…) ?",
+      "options": [
+        "L'identifiant immuable du contenu exact d'une image",
+        "Un tag modifiable",
+        "Le nom du registre",
+        "La date de build"
+      ],
+      "answer": "L'identifiant immuable du contenu exact d'une image",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une image multi-architecture ?",
+      "options": [
+        "Un manifeste qui référence des variantes pour amd64, arm64, etc.",
+        "Une image avec plusieurs Dockerfiles",
+        "Une image contenant plusieurs applications",
+        "Une image compressée deux fois"
+      ],
+      "answer": "Un manifeste qui référence des variantes pour amd64, arm64, etc.",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel outil construit des images multi-plateformes ?",
+      "options": [
+        "docker buildx",
+        "docker compose",
+        "docker swarm",
+        "docker machine"
+      ],
+      "answer": "docker buildx",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi le processus PID 1 d'un conteneur doit-il gérer les signaux ?",
+      "options": [
+        "Sinon le conteneur ne s'arrête pas proprement et les zombies ne sont pas récupérés",
+        "Parce qu'il gère le réseau",
+        "Parce qu'il compile l'application",
+        "Ce n'est pas nécessaire"
+      ],
+      "answer": "Sinon le conteneur ne s'arrête pas proprement et les zombies ne sont pas récupérés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle option ajoute un mini init (tini) comme PID 1 ?",
+      "options": [
+        "--init",
+        "--pid1",
+        "--tini-mode",
+        "--signals"
+      ],
+      "answer": "--init",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre la forme exec et la forme shell de CMD ?",
+      "options": [
+        "La forme exec (tableau JSON) lance le processus directement, sans shell intermédiaire qui bloque les signaux",
+        "La forme shell est plus sûre",
+        "La forme exec n'accepte pas d'arguments",
+        "Elles sont identiques"
+      ],
+      "answer": "La forme exec (tableau JSON) lance le processus directement, sans shell intermédiaire qui bloque les signaux",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le mode rootless de Docker ?",
+      "options": [
+        "Exécuter le démon et les conteneurs sans privilèges root sur l'hôte",
+        "Des images sans système de fichiers",
+        "Des conteneurs sans utilisateur",
+        "Un mode sans réseau"
+      ],
+      "answer": "Exécuter le démon et les conteneurs sans privilèges root sur l'hôte",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un scanner de vulnérabilités d'images comme Trivy ?",
+      "options": [
+        "Un outil qui détecte les paquets vulnérables dans une image",
+        "Un outil de compression",
+        "Un registre privé",
+        "Un orchestrateur"
+      ],
+      "answer": "Un outil qui détecte les paquets vulnérables dans une image",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un SBOM ?",
+      "options": [
+        "La liste des composants et dépendances contenus dans un logiciel ou une image",
+        "Un format de log",
+        "Un type de volume",
+        "Une politique réseau"
+      ],
+      "answer": "La liste des composants et dépendances contenus dans un logiciel ou une image",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte le cache de build distant (--cache-from) en CI ?",
+      "options": [
+        "Réutiliser les couches déjà construites ailleurs pour accélérer les builds",
+        "Chiffrer les images",
+        "Partager les volumes",
+        "Supprimer les anciennes images"
+      ],
+      "answer": "Réutiliser les couches déjà construites ailleurs pour accélérer les builds",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle limite fixe l'option --memory sur un conteneur ?",
+      "options": [
+        "La mémoire maximale ; au-delà, le processus peut être tué par l'OOM killer",
+        "La taille de l'image",
+        "L'espace disque",
+        "La bande passante"
+      ],
+      "answer": "La mémoire maximale ; au-delà, le processus peut être tué par l'OOM killer",
+      "difficulty": "difficile"
+    }
+  ]
 }

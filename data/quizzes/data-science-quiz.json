@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce que la data science ?",
+      "options": [
+        "L'extraction de connaissances à partir de données avec des statistiques et de l'informatique",
+        "La gestion de bases de données uniquement",
+        "La création de sites web",
+        "La réparation de disques durs"
+      ],
+      "answer": "L'extraction de connaissances à partir de données avec des statistiques et de l'informatique",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle bibliothèque Python manipule des tableaux de données (DataFrame) ?",
+      "options": [
+        "pandas",
+        "requests",
+        "Flask",
+        "pytest"
+      ],
+      "answer": "pandas",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle bibliothèque Python est la base du calcul numérique sur des tableaux ?",
+      "options": [
+        "NumPy",
+        "Django",
+        "BeautifulSoup",
+        "Pillow"
+      ],
+      "answer": "NumPy",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle bibliothèque Python est classique pour tracer des graphiques ?",
+      "options": [
+        "Matplotlib",
+        "SQLAlchemy",
+        "Celery",
+        "FastAPI"
+      ],
+      "answer": "Matplotlib",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil permet de mêler code, résultats et texte dans un même document interactif ?",
+      "options": [
+        "Jupyter Notebook",
+        "Notepad",
+        "Git",
+        "Docker"
+      ],
+      "answer": "Jupyter Notebook",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la moyenne ?",
+      "options": [
+        "La somme des valeurs divisée par leur nombre",
+        "La valeur du milieu après tri",
+        "La valeur la plus fréquente",
+        "L'écart entre min et max"
+      ],
+      "answer": "La somme des valeurs divisée par leur nombre",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la médiane ?",
+      "options": [
+        "La valeur qui partage les données triées en deux moitiés",
+        "La moyenne des valeurs",
+        "La valeur la plus fréquente",
+        "La plus grande valeur"
+      ],
+      "answer": "La valeur qui partage les données triées en deux moitiés",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le mode ?",
+      "options": [
+        "La valeur la plus fréquente",
+        "La valeur moyenne",
+        "La valeur centrale",
+        "L'écart-type"
+      ],
+      "answer": "La valeur la plus fréquente",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que mesure l'écart-type ?",
+      "options": [
+        "La dispersion des valeurs autour de la moyenne",
+        "La valeur maximale",
+        "Le nombre de valeurs",
+        "La tendance centrale"
+      ],
+      "answer": "La dispersion des valeurs autour de la moyenne",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel graphique montre la distribution d'une variable numérique ?",
+      "options": [
+        "Un histogramme",
+        "Un camembert",
+        "Une carte",
+        "Un organigramme"
+      ],
+      "answer": "Un histogramme",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel graphique montre la relation entre deux variables numériques ?",
+      "options": [
+        "Un nuage de points",
+        "Un camembert",
+        "Un histogramme",
+        "Un diagramme de Gantt"
+      ],
+      "answer": "Un nuage de points",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait df.head() en pandas ?",
+      "options": [
+        "Afficher les premières lignes du DataFrame",
+        "Supprimer l'en-tête",
+        "Trier le DataFrame",
+        "Afficher les colonnes uniquement"
+      ],
+      "answer": "Afficher les premières lignes du DataFrame",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction pandas lit un fichier CSV ?",
+      "options": [
+        "pd.read_csv()",
+        "pd.open_csv()",
+        "pd.load()",
+        "pd.csv()"
+      ],
+      "answer": "pd.read_csv()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une valeur manquante ?",
+      "options": [
+        "Une valeur absente dans les données, souvent notée NaN",
+        "Une valeur égale à zéro",
+        "Une valeur négative",
+        "Une valeur en double"
+      ],
+      "answer": "Une valeur absente dans les données, souvent notée NaN",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie « nettoyer les données » ?",
+      "options": [
+        "Corriger erreurs, doublons, formats et valeurs manquantes",
+        "Supprimer toutes les données",
+        "Chiffrer les données",
+        "Compresser les données"
+      ],
+      "answer": "Corriger erreurs, doublons, formats et valeurs manquantes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une valeur aberrante (outlier) ?",
+      "options": [
+        "Une observation très éloignée des autres",
+        "Une valeur manquante",
+        "Une moyenne",
+        "Une colonne vide"
+      ],
+      "answer": "Une observation très éloignée des autres",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel langage est très utilisé en statistiques en plus de Python ?",
+      "options": [
+        "R",
+        "COBOL",
+        "Assembly",
+        "Pascal"
+      ],
+      "answer": "R",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une variable catégorielle ?",
+      "options": [
+        "Une variable qui prend des valeurs parmi des catégories, comme une couleur",
+        "Une variable numérique continue",
+        "Une variable toujours vide",
+        "Une variable de date"
+      ],
+      "answer": "Une variable qui prend des valeurs parmi des catégories, comme une couleur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la visualisation de données ?",
+      "options": [
+        "La représentation graphique des données pour les comprendre et les communiquer",
+        "L'affichage du code source",
+        "La lecture d'un fichier",
+        "L'impression d'un tableau"
+      ],
+      "answer": "La représentation graphique des données pour les comprendre et les communiquer",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait df.describe() en pandas ?",
+      "options": [
+        "Afficher des statistiques descriptives des colonnes numériques",
+        "Décrire le code du DataFrame",
+        "Supprimer les colonnes",
+        "Exporter en CSV"
+      ],
+      "answer": "Afficher des statistiques descriptives des colonnes numériques",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi la médiane est-elle plus robuste que la moyenne ?",
+      "options": [
+        "Elle est peu influencée par les valeurs aberrantes",
+        "Elle est plus rapide à calculer",
+        "Elle utilise toutes les valeurs",
+        "Elle est toujours plus grande"
+      ],
+      "answer": "Elle est peu influencée par les valeurs aberrantes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que mesure le coefficient de corrélation de Pearson ?",
+      "options": [
+        "La force et le sens d'une relation linéaire entre deux variables",
+        "Une relation de cause à effet",
+        "La moyenne de deux variables",
+        "Le nombre d'observations"
+      ],
+      "answer": "La force et le sens d'une relation linéaire entre deux variables",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie « corrélation n'est pas causalité » ?",
+      "options": [
+        "Deux variables peuvent varier ensemble sans que l'une cause l'autre",
+        "La corrélation est toujours fausse",
+        "La causalité n'existe pas",
+        "Les données sont mal mesurées"
+      ],
+      "answer": "Deux variables peuvent varier ensemble sans que l'une cause l'autre",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait groupby en pandas ?",
+      "options": [
+        "Regrouper les lignes par valeurs de colonnes pour calculer des agrégats",
+        "Trier les colonnes",
+        "Supprimer les doublons",
+        "Fusionner deux fichiers"
+      ],
+      "answer": "Regrouper les lignes par valeurs de colonnes pour calculer des agrégats",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait merge en pandas ?",
+      "options": [
+        "Joindre deux DataFrames sur des colonnes communes",
+        "Concaténer des chaînes",
+        "Fusionner des cellules",
+        "Additionner deux colonnes"
+      ],
+      "answer": "Joindre deux DataFrames sur des colonnes communes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre loc et iloc en pandas ?",
+      "options": [
+        "loc sélectionne par étiquettes, iloc par positions",
+        "iloc sélectionne par étiquettes",
+        "Ils sont identiques",
+        "loc ne fonctionne qu'avec des lignes"
+      ],
+      "answer": "loc sélectionne par étiquettes, iloc par positions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'encodage one-hot ?",
+      "options": [
+        "Représenter une catégorie par un vecteur de 0 avec un seul 1",
+        "Chiffrer les catégories",
+        "Remplacer les catégories par leur fréquence",
+        "Supprimer les catégories rares"
+      ],
+      "answer": "Représenter une catégorie par un vecteur de 0 avec un seul 1",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi la vectorisation NumPy est-elle plus rapide qu'une boucle Python ?",
+      "options": [
+        "Les opérations s'exécutent en code compilé sur des tableaux entiers",
+        "Elle utilise le GPU automatiquement",
+        "Elle saute des éléments",
+        "Elle utilise moins de précision"
+      ],
+      "answer": "Les opérations s'exécutent en code compilé sur des tableaux entiers",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un intervalle de confiance à 95 % ?",
+      "options": [
+        "Un intervalle construit par une méthode qui contient le vrai paramètre dans 95 % des échantillons",
+        "Un intervalle contenant 95 % des données",
+        "Une probabilité de 95 % que l'hypothèse soit vraie",
+        "Une erreur de 5 %"
+      ],
+      "answer": "Un intervalle construit par une méthode qui contient le vrai paramètre dans 95 % des échantillons",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une p-valeur ?",
+      "options": [
+        "La probabilité d'observer un résultat au moins aussi extrême si l'hypothèse nulle est vraie",
+        "La probabilité que l'hypothèse nulle soit vraie",
+        "La précision du modèle",
+        "La proportion de valeurs manquantes"
+      ],
+      "answer": "La probabilité d'observer un résultat au moins aussi extrême si l'hypothèse nulle est vraie",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test A/B ?",
+      "options": [
+        "Comparer deux variantes sur des groupes aléatoires pour mesurer un effet",
+        "Tester deux bases de données",
+        "Comparer deux langages",
+        "Un test unitaire"
+      ],
+      "answer": "Comparer deux variantes sur des groupes aléatoires pour mesurer un effet",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une distribution normale ?",
+      "options": [
+        "Une distribution en cloche symétrique autour de la moyenne",
+        "Une distribution uniforme",
+        "Une distribution sans variance",
+        "Une distribution toujours positive"
+      ],
+      "answer": "Une distribution en cloche symétrique autour de la moyenne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Environ quelle proportion des valeurs d'une loi normale se trouve à moins d'un écart-type de la moyenne ?",
+      "options": [
+        "68 %",
+        "50 %",
+        "95 %",
+        "99,7 %"
+      ],
+      "answer": "68 %",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que montre une boîte à moustaches (boxplot) ?",
+      "options": [
+        "La médiane, les quartiles et les valeurs aberrantes",
+        "L'évolution dans le temps",
+        "La part de chaque catégorie",
+        "La corrélation de deux variables"
+      ],
+      "answer": "La médiane, les quartiles et les valeurs aberrantes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'imputation ?",
+      "options": [
+        "Le remplacement des valeurs manquantes par des valeurs estimées",
+        "La suppression des colonnes",
+        "L'accusation d'une erreur",
+        "Le calcul de la moyenne"
+      ],
+      "answer": "Le remplacement des valeurs manquantes par des valeurs estimées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le feature engineering ?",
+      "options": [
+        "Créer ou transformer des variables pour mieux représenter le problème",
+        "Construire du matériel",
+        "Écrire des tests",
+        "Optimiser une base SQL"
+      ],
+      "answer": "Créer ou transformer des variables pour mieux représenter le problème",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi le camembert est-il souvent déconseillé ?",
+      "options": [
+        "L'œil compare mal les angles et les surfaces",
+        "Il ne peut pas afficher de couleurs",
+        "Il est trop lent à générer",
+        "Il ne fonctionne qu'avec deux catégories"
+      ],
+      "answer": "L'œil compare mal les angles et les surfaces",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'écart interquartile (IQR) ?",
+      "options": [
+        "La différence entre le troisième et le premier quartile",
+        "La différence entre max et min",
+        "La moyenne des quartiles",
+        "L'écart-type divisé par deux"
+      ],
+      "answer": "La différence entre le troisième et le premier quartile",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la standardisation (z-score) ?",
+      "options": [
+        "Centrer et réduire une variable pour qu'elle ait une moyenne 0 et un écart-type 1",
+        "Arrondir les valeurs",
+        "Mettre les valeurs entre 0 et 100",
+        "Supprimer la moyenne uniquement"
+      ],
+      "answer": "Centrer et réduire une variable pour qu'elle ait une moyenne 0 et un écart-type 1",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un ETL ?",
+      "options": [
+        "Un processus d'extraction, transformation et chargement de données",
+        "Un langage de requêtes",
+        "Un type de graphique",
+        "Un modèle statistique"
+      ],
+      "answer": "Un processus d'extraction, transformation et chargement de données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le paradoxe de Simpson ?",
+      "options": [
+        "Une tendance présente dans des groupes s'inverse ou disparaît quand on les combine",
+        "Un biais de mesure",
+        "Une erreur de calcul de la moyenne",
+        "Une corrélation parfaite"
+      ],
+      "answer": "Une tendance présente dans des groupes s'inverse ou disparaît quand on les combine",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que dit le théorème central limite ?",
+      "options": [
+        "La moyenne d'échantillons suffisamment grands suit approximativement une loi normale",
+        "Toutes les données sont normales",
+        "La médiane converge vers zéro",
+        "La variance augmente avec la taille"
+      ],
+      "answer": "La moyenne d'échantillons suffisamment grands suit approximativement une loi normale",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une erreur de type I ?",
+      "options": [
+        "Rejeter à tort une hypothèse nulle vraie (faux positif)",
+        "Accepter à tort une hypothèse nulle fausse",
+        "Une erreur de saisie",
+        "Une erreur d'arrondi"
+      ],
+      "answer": "Rejeter à tort une hypothèse nulle vraie (faux positif)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une erreur de type II ?",
+      "options": [
+        "Ne pas rejeter une hypothèse nulle fausse (faux négatif)",
+        "Rejeter une hypothèse vraie",
+        "Une erreur de code",
+        "Une valeur aberrante"
+      ],
+      "answer": "Ne pas rejeter une hypothèse nulle fausse (faux négatif)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la puissance statistique d'un test ?",
+      "options": [
+        "La probabilité de détecter un effet quand il existe réellement",
+        "La rapidité du test",
+        "Le nombre de variables",
+        "La p-valeur"
+      ],
+      "answer": "La probabilité de détecter un effet quand il existe réellement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le p-hacking ?",
+      "options": [
+        "Multiplier analyses ou tests jusqu'à obtenir un résultat « significatif »",
+        "Pirater un serveur de statistiques",
+        "Calculer des p-valeurs exactes",
+        "Corriger les tests multiples"
+      ],
+      "answer": "Multiplier analyses ou tests jusqu'à obtenir un résultat « significatif »",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle correction tient compte des tests multiples ?",
+      "options": [
+        "La correction de Bonferroni",
+        "La correction de Pearson",
+        "Le z-score",
+        "La normalisation min-max"
+      ],
+      "answer": "La correction de Bonferroni",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le biais de survie ?",
+      "options": [
+        "Ne considérer que les cas qui ont « survécu » à une sélection, ce qui fausse les conclusions",
+        "Un biais lié à l'âge",
+        "Un biais d'arrondi",
+        "Une erreur de saisie"
+      ],
+      "answer": "Ne considérer que les cas qui ont « survécu » à une sélection, ce qui fausse les conclusions",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le bootstrap en statistiques ?",
+      "options": [
+        "Rééchantillonner avec remise pour estimer la variabilité d'une statistique",
+        "Un framework CSS",
+        "Une initialisation de serveur",
+        "Une méthode de nettoyage"
+      ],
+      "answer": "Rééchantillonner avec remise pour estimer la variabilité d'une statistique",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'inférence bayésienne ?",
+      "options": [
+        "Mettre à jour une croyance a priori avec les données pour obtenir une distribution a posteriori",
+        "Une méthode sans probabilités",
+        "Un test A/B classique",
+        "Un algorithme de tri"
+      ],
+      "answer": "Mettre à jour une croyance a priori avec les données pour obtenir une distribution a posteriori",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un format de stockage colonnaire comme Parquet ?",
+      "options": [
+        "Un format qui stocke les données par colonne, efficace pour l'analytique",
+        "Un format de texte ligne par ligne",
+        "Un format d'image",
+        "Un format de compression vidéo"
+      ],
+      "answer": "Un format qui stocke les données par colonne, efficace pour l'analytique",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi pandas peut-il émettre un « SettingWithCopyWarning » ?",
+      "options": [
+        "On modifie peut-être une copie au lieu du DataFrame d'origine",
+        "Le fichier est en lecture seule",
+        "La colonne n'existe pas",
+        "Le DataFrame est vide"
+      ],
+      "answer": "On modifie peut-être une copie au lieu du DataFrame d'origine",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le broadcasting NumPy ?",
+      "options": [
+        "L'extension automatique de tableaux de formes compatibles lors d'opérations",
+        "L'envoi de données sur le réseau",
+        "La copie d'un tableau",
+        "La diffusion de graphiques"
+      ],
+      "answer": "L'extension automatique de tableaux de formes compatibles lors d'opérations",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une série temporelle stationnaire ?",
+      "options": [
+        "Une série dont les propriétés statistiques (moyenne, variance) ne changent pas dans le temps",
+        "Une série constante",
+        "Une série sans valeurs manquantes",
+        "Une série croissante"
+      ],
+      "answer": "Une série dont les propriétés statistiques (moyenne, variance) ne changent pas dans le temps",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'échantillonnage stratifié ?",
+      "options": [
+        "Tirer des échantillons dans chaque sous-groupe pour préserver leurs proportions",
+        "Tirer au hasard sans règle",
+        "Prendre les premières lignes",
+        "Trier puis échantillonner"
+      ],
+      "answer": "Tirer des échantillons dans chaque sous-groupe pour préserver leurs proportions",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la multicolinéarité ?",
+      "options": [
+        "Une forte corrélation entre variables explicatives, qui rend les coefficients instables",
+        "Plusieurs colonnes vides",
+        "Plusieurs graphiques sur une figure",
+        "Des données en plusieurs couleurs"
+      ],
+      "answer": "Une forte corrélation entre variables explicatives, qui rend les coefficients instables",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « data lake » ?",
+      "options": [
+        "Un stockage centralisé de données brutes de formats variés",
+        "Une base relationnelle normalisée",
+        "Un graphique en vagues",
+        "Un cache mémoire"
+      ],
+      "answer": "Un stockage centralisé de données brutes de formats variés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le quartet d'Anscombe illustre ?",
+      "options": [
+        "Des jeux de données aux statistiques identiques peuvent être très différents visuellement",
+        "Quatre lois de probabilité",
+        "Quatre types de graphiques",
+        "Quatre étapes de l'ETL"
+      ],
+      "answer": "Des jeux de données aux statistiques identiques peuvent être très différents visuellement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « confounder » (facteur de confusion) ?",
+      "options": [
+        "Une variable qui influence à la fois la cause supposée et l'effet",
+        "Une valeur manquante",
+        "Une erreur de mesure aléatoire",
+        "Une variable cible"
+      ],
+      "answer": "Une variable qui influence à la fois la cause supposée et l'effet",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « lazy evaluation » dans des outils comme Polars ou Spark ?",
+      "options": [
+        "Construire un plan de calcul et ne l'exécuter qu'au besoin, ce qui permet de l'optimiser",
+        "Calculer lentement volontairement",
+        "Ignorer les erreurs",
+        "Charger toutes les données en mémoire d'abord"
+      ],
+      "answer": "Construire un plan de calcul et ne l'exécuter qu'au besoin, ce qui permet de l'optimiser",
+      "difficulty": "difficile"
+    }
+  ]
+}

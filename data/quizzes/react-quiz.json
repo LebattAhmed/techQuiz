@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que React ?",
+      "options": [
+        "Une bibliothèque JavaScript pour construire des interfaces utilisateur",
+        "Un langage de programmation",
+        "Une base de données",
+        "Un serveur web"
+      ],
+      "answer": "Une bibliothèque JavaScript pour construire des interfaces utilisateur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle entreprise a créé React ?",
+      "options": [
+        "Meta (Facebook)",
+        "Google",
+        "Microsoft",
+        "Apple"
+      ],
+      "answer": "Meta (Facebook)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que JSX ?",
+      "options": [
+        "Une syntaxe qui permet d'écrire du balisage proche du HTML dans du JavaScript",
+        "Un nouveau langage compilé en Java",
+        "Un format de fichier de configuration",
+        "Un moteur de base de données"
+      ],
+      "answer": "Une syntaxe qui permet d'écrire du balisage proche du HTML dans du JavaScript",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un composant React ?",
+      "options": [
+        "Une fonction (ou classe) qui retourne une partie de l'interface",
+        "Un fichier CSS",
+        "Une table de base de données",
+        "Un serveur Node.js"
+      ],
+      "answer": "Une fonction (ou classe) qui retourne une partie de l'interface",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que sont les props ?",
+      "options": [
+        "Les données passées d'un composant parent à un composant enfant",
+        "Les variables globales de l'application",
+        "Les styles CSS d'un composant",
+        "Les routes de l'application"
+      ],
+      "answer": "Les données passées d'un composant parent à un composant enfant",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel hook permet de gérer un état local dans un composant fonctionnel ?",
+      "options": [
+        "useState",
+        "useEffect",
+        "useRef",
+        "useContext"
+      ],
+      "answer": "useState",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel hook sert à exécuter un effet de bord, comme un appel réseau ?",
+      "options": [
+        "useEffect",
+        "useState",
+        "useMemo",
+        "useId"
+      ],
+      "answer": "useEffect",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi faut-il une prop « key » quand on affiche une liste ?",
+      "options": [
+        "Pour que React identifie chaque élément entre deux rendus",
+        "Pour chiffrer la liste",
+        "Pour trier la liste automatiquement",
+        "Pour styliser les éléments"
+      ],
+      "answer": "Pour que React identifie chaque élément entre deux rendus",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment ajoute-t-on une classe CSS à un élément en JSX ?",
+      "options": [
+        "Avec l'attribut className",
+        "Avec l'attribut class",
+        "Avec l'attribut style-class",
+        "Avec cssName"
+      ],
+      "answer": "Avec l'attribut className",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Les props sont-elles modifiables par le composant enfant ?",
+      "options": [
+        "Non, elles sont en lecture seule",
+        "Oui, librement",
+        "Oui, mais seulement les chaînes",
+        "Seulement dans useEffect"
+      ],
+      "answer": "Non, elles sont en lecture seule",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment gérer un clic sur un bouton en React ?",
+      "options": [
+        "Avec la prop onClick",
+        "Avec l'attribut onclick en minuscules et une chaîne",
+        "Avec addEventListener obligatoirement",
+        "Avec la prop click"
+      ],
+      "answer": "Avec la prop onClick",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que se passe-t-il quand l'état d'un composant change ?",
+      "options": [
+        "React refait le rendu du composant",
+        "La page entière est rechargée",
+        "Rien du tout",
+        "Le composant est supprimé"
+      ],
+      "answer": "React refait le rendu du composant",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Fragment (<>...</>) ?",
+      "options": [
+        "Un conteneur qui regroupe des éléments sans ajouter de nœud au DOM",
+        "Une erreur de syntaxe",
+        "Un composant de chargement",
+        "Un type de hook"
+      ],
+      "answer": "Un conteneur qui regroupe des éléments sans ajouter de nœud au DOM",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment afficher un élément seulement si une condition est vraie ?",
+      "options": [
+        "Avec un opérateur ternaire ou && dans le JSX",
+        "Avec la balise <if>",
+        "Avec la prop visible obligatoire",
+        "C'est impossible en JSX"
+      ],
+      "answer": "Avec un opérateur ternaire ou && dans le JSX",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil moderne est souvent utilisé pour créer un projet React ?",
+      "options": [
+        "Vite",
+        "Maven",
+        "Composer",
+        "pip"
+      ],
+      "answer": "Vite",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que retourne useState ?",
+      "options": [
+        "Un tableau avec la valeur courante et une fonction pour la modifier",
+        "Seulement la valeur",
+        "Une promesse",
+        "Un objet DOM"
+      ],
+      "answer": "Un tableau avec la valeur courante et une fonction pour la modifier",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le Virtual DOM ?",
+      "options": [
+        "Une représentation en mémoire de l'interface, comparée avant de mettre à jour le vrai DOM",
+        "Un navigateur virtuel",
+        "Une base de données de composants",
+        "Un serveur de rendu"
+      ],
+      "answer": "Une représentation en mémoire de l'interface, comparée avant de mettre à jour le vrai DOM",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment insère-t-on une expression JavaScript dans du JSX ?",
+      "options": [
+        "Entre accolades { }",
+        "Entre crochets [ ]",
+        "Entre doubles guillemets",
+        "Avec le signe $"
+      ],
+      "answer": "Entre accolades { }",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un composant contrôlé dans un formulaire ?",
+      "options": [
+        "Un champ dont la valeur est pilotée par l'état React",
+        "Un champ désactivé",
+        "Un champ validé par le serveur",
+        "Un champ masqué"
+      ],
+      "answer": "Un champ dont la valeur est pilotée par l'état React",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment nomme-t-on un composant React ?",
+      "options": [
+        "Avec une majuscule au début",
+        "Tout en minuscules",
+        "Avec un préfixe « react_ »",
+        "Avec un tiret obligatoire"
+      ],
+      "answer": "Avec une majuscule au début",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie un tableau de dépendances vide dans useEffect ?",
+      "options": [
+        "L'effet ne s'exécute qu'après le premier rendu (montage)",
+        "L'effet s'exécute à chaque rendu",
+        "L'effet ne s'exécute jamais",
+        "L'effet s'exécute avant le rendu"
+      ],
+      "answer": "L'effet ne s'exécute qu'après le premier rendu (montage)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert la fonction retournée par un useEffect ?",
+      "options": [
+        "À nettoyer l'effet (désabonnement, timer…) avant le prochain effet ou le démontage",
+        "À retourner une valeur au composant",
+        "À relancer l'effet immédiatement",
+        "À mettre à jour l'état"
+      ],
+      "answer": "À nettoyer l'effet (désabonnement, timer…) avant le prochain effet ou le démontage",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert useRef ?",
+      "options": [
+        "Conserver une valeur mutable entre rendus sans déclencher de rendu, ou référencer un élément DOM",
+        "Créer un état global",
+        "Mémoriser un calcul coûteux",
+        "Gérer les routes"
+      ],
+      "answer": "Conserver une valeur mutable entre rendus sans déclencher de rendu, ou référencer un élément DOM",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « lifting state up » ?",
+      "options": [
+        "Remonter l'état dans le parent commun pour le partager entre composants",
+        "Mettre l'état dans le localStorage",
+        "Supprimer l'état inutile",
+        "Déplacer l'état dans un useEffect"
+      ],
+      "answer": "Remonter l'état dans le parent commun pour le partager entre composants",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel problème résout le Context ?",
+      "options": [
+        "Le passage de données à travers de nombreux niveaux de composants (prop drilling)",
+        "Les performances du rendu",
+        "Les appels réseau",
+        "Le routage"
+      ],
+      "answer": "Le passage de données à travers de nombreux niveaux de composants (prop drilling)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert useMemo ?",
+      "options": [
+        "Mémoriser le résultat d'un calcul entre rendus tant que ses dépendances ne changent pas",
+        "Gérer un état local",
+        "Créer une référence DOM",
+        "Exécuter un effet asynchrone"
+      ],
+      "answer": "Mémoriser le résultat d'un calcul entre rendus tant que ses dépendances ne changent pas",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert useCallback ?",
+      "options": [
+        "Conserver la même instance de fonction entre rendus tant que les dépendances ne changent pas",
+        "Appeler une API",
+        "Gérer les erreurs",
+        "Créer un contexte"
+      ],
+      "answer": "Conserver la même instance de fonction entre rendus tant que les dépendances ne changent pas",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait React.memo ?",
+      "options": [
+        "Il évite de refaire le rendu d'un composant si ses props n'ont pas changé",
+        "Il stocke des notes dans le composant",
+        "Il met en cache les requêtes réseau",
+        "Il crée un état global"
+      ],
+      "answer": "Il évite de refaire le rendu d'un composant si ses props n'ont pas changé",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi ne faut-il pas modifier directement un objet d'état (state.x = 1) ?",
+      "options": [
+        "React compare les références ; sans nouvel objet, il peut ne pas détecter le changement",
+        "Cela provoque une erreur de syntaxe",
+        "Les objets sont interdits dans l'état",
+        "Cela supprime le composant"
+      ],
+      "answer": "React compare les références ; sans nouvel objet, il peut ne pas détecter le changement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment mettre à jour un état qui dépend de sa valeur précédente ?",
+      "options": [
+        "Avec la forme fonctionnelle setX(prev => prev + 1)",
+        "Avec setX(x++)",
+        "En modifiant x directement",
+        "Avec useEffect obligatoirement"
+      ],
+      "answer": "Avec la forme fonctionnelle setX(prev => prev + 1)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la règle principale des hooks ?",
+      "options": [
+        "Les appeler au niveau supérieur d'un composant ou d'un hook, jamais dans une condition ou une boucle",
+        "Les appeler uniquement dans des classes",
+        "Les appeler seulement dans useEffect",
+        "Les appeler une seule fois par application"
+      ],
+      "answer": "Les appeler au niveau supérieur d'un composant ou d'un hook, jamais dans une condition ou une boucle",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un hook personnalisé ?",
+      "options": [
+        "Une fonction commençant par « use » qui réutilise de la logique utilisant d'autres hooks",
+        "Un hook fourni par un plugin payant",
+        "Un composant de classe",
+        "Un fichier de configuration"
+      ],
+      "answer": "Une fonction commençant par « use » qui réutilise de la logique utilisant d'autres hooks",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le StrictMode en développement ?",
+      "options": [
+        "Il active des vérifications supplémentaires, comme le double appel de certains effets",
+        "Il bloque les erreurs en production",
+        "Il interdit les hooks",
+        "Il accélère le rendu"
+      ],
+      "answer": "Il active des vérifications supplémentaires, comme le double appel de certains effets",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « prop drilling » ?",
+      "options": [
+        "Faire passer des props à travers plusieurs composants qui n'en ont pas besoin",
+        "Percer un trou dans le DOM",
+        "Un outil de débogage",
+        "Une optimisation de rendu"
+      ],
+      "answer": "Faire passer des props à travers plusieurs composants qui n'en ont pas besoin",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quand utiliser useReducer plutôt que useState ?",
+      "options": [
+        "Quand la logique de mise à jour de l'état est complexe ou comporte plusieurs actions",
+        "Pour tous les booléens",
+        "Pour les appels réseau",
+        "Jamais, il est obsolète"
+      ],
+      "answer": "Quand la logique de mise à jour de l'état est complexe ou comporte plusieurs actions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un Error Boundary ?",
+      "options": [
+        "Un composant qui capture les erreurs de rendu de ses enfants et affiche une interface de secours",
+        "Une limite de taille des composants",
+        "Un hook de validation",
+        "Une règle ESLint"
+      ],
+      "answer": "Un composant qui capture les erreurs de rendu de ses enfants et affiche une interface de secours",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert React.lazy avec Suspense ?",
+      "options": [
+        "Charger un composant à la demande et afficher un fallback pendant le chargement",
+        "Ralentir le rendu pour les animations",
+        "Mettre en cache l'état",
+        "Charger les images en basse qualité"
+      ],
+      "answer": "Charger un composant à la demande et afficher un fallback pendant le chargement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un portail (createPortal) ?",
+      "options": [
+        "Le rendu d'enfants dans un nœud DOM situé ailleurs, par exemple pour une modale",
+        "Une redirection vers une autre page",
+        "Une connexion WebSocket",
+        "Un composant de navigation"
+      ],
+      "answer": "Le rendu d'enfants dans un nœud DOM situé ailleurs, par exemple pour une modale",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait useId ?",
+      "options": [
+        "Il génère un identifiant unique stable, utile pour l'accessibilité",
+        "Il récupère l'identifiant de l'utilisateur connecté",
+        "Il crée une clé de liste",
+        "Il génère un UUID côté serveur uniquement"
+      ],
+      "answer": "Il génère un identifiant unique stable, utile pour l'accessibilité",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi utiliser l'index du tableau comme key peut-il poser problème ?",
+      "options": [
+        "Si la liste est réordonnée ou modifiée, l'état peut être associé au mauvais élément",
+        "L'index n'est pas un nombre",
+        "React interdit les nombres comme key",
+        "Cela ralentit le serveur"
+      ],
+      "answer": "Si la liste est réordonnée ou modifiée, l'état peut être associé au mauvais élément",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la réconciliation dans React ?",
+      "options": [
+        "L'algorithme qui compare l'ancien et le nouvel arbre pour calculer les changements minimaux",
+        "La synchronisation avec la base de données",
+        "La fusion de deux composants",
+        "La gestion des conflits Git"
+      ],
+      "answer": "L'algorithme qui compare l'ancien et le nouvel arbre pour calculer les changements minimaux",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait React quand le type d'un élément change entre deux rendus (div devient span) ?",
+      "options": [
+        "Il démonte l'ancien sous-arbre et monte le nouveau, perdant son état",
+        "Il garde l'état et change seulement la balise",
+        "Il lève une erreur",
+        "Il ignore le changement"
+      ],
+      "answer": "Il démonte l'ancien sous-arbre et monte le nouveau, perdant son état",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Fiber dans React ?",
+      "options": [
+        "L'architecture interne qui permet de découper et prioriser le travail de rendu",
+        "Une bibliothèque de styles",
+        "Un framework de tests",
+        "Un format de fichier JSX"
+      ],
+      "answer": "L'architecture interne qui permet de découper et prioriser le travail de rendu",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte useTransition ?",
+      "options": [
+        "Marquer une mise à jour comme non urgente pour garder l'interface réactive",
+        "Animer les transitions CSS",
+        "Gérer les routes",
+        "Remplacer useEffect"
+      ],
+      "answer": "Marquer une mise à jour comme non urgente pour garder l'interface réactive",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que useDeferredValue ?",
+      "options": [
+        "Une version différée d'une valeur, mise à jour avec une priorité plus faible",
+        "Une valeur stockée dans le localStorage",
+        "Un état partagé entre onglets",
+        "Une valeur calculée côté serveur"
+      ],
+      "answer": "Une version différée d'une valeur, mise à jour avec une priorité plus faible",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un React Server Component ?",
+      "options": [
+        "Un composant rendu uniquement sur le serveur, qui n'envoie pas son code au navigateur",
+        "Un composant qui fait des requêtes au serveur",
+        "Un composant de classe",
+        "Un composant pour Node.js uniquement"
+      ],
+      "answer": "Un composant rendu uniquement sur le serveur, qui n'envoie pas son code au navigateur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que signifie la directive \"use client\" ?",
+      "options": [
+        "Elle marque la frontière à partir de laquelle les composants s'exécutent aussi côté client",
+        "Elle désactive le rendu serveur pour toute l'application",
+        "Elle force l'utilisation du navigateur Chrome",
+        "Elle importe une bibliothèque cliente"
+      ],
+      "answer": "Elle marque la frontière à partir de laquelle les composants s'exécutent aussi côté client",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une « stale closure » avec les hooks ?",
+      "options": [
+        "Une fonction qui capture une ancienne valeur d'état ou de props",
+        "Un composant non utilisé",
+        "Un effet qui ne se nettoie pas",
+        "Un état mis en cache par le navigateur"
+      ],
+      "answer": "Une fonction qui capture une ancienne valeur d'état ou de props",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le batching automatique de React 18 ?",
+      "options": [
+        "Le regroupement de plusieurs mises à jour d'état en un seul rendu, même hors des gestionnaires d'événements",
+        "L'envoi groupé des requêtes HTTP",
+        "La compilation de plusieurs composants en un",
+        "Le chargement simultané des images"
+      ],
+      "answer": "Le regroupement de plusieurs mises à jour d'état en un seul rendu, même hors des gestionnaires d'événements",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'hydratation ?",
+      "options": [
+        "Attacher les gestionnaires d'événements et l'état au HTML rendu par le serveur",
+        "Remplir une base de données",
+        "Charger les données dans un formulaire",
+        "Compresser le JavaScript"
+      ],
+      "answer": "Attacher les gestionnaires d'événements et l'état au HTML rendu par le serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que provoque une erreur d'hydratation (« hydration mismatch ») ?",
+      "options": [
+        "Le HTML serveur ne correspond pas au premier rendu client",
+        "Le serveur est hors ligne",
+        "Le CSS n'est pas chargé",
+        "Une clé de liste est manquante"
+      ],
+      "answer": "Le HTML serveur ne correspond pas au premier rendu client",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert useLayoutEffect ?",
+      "options": [
+        "Exécuter un effet de façon synchrone après les mutations du DOM, avant que le navigateur ne peigne",
+        "Gérer la mise en page CSS",
+        "Remplacer useEffect partout",
+        "Charger des polices"
+      ],
+      "answer": "Exécuter un effet de façon synchrone après les mutations du DOM, avant que le navigateur ne peigne",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert useSyncExternalStore ?",
+      "options": [
+        "S'abonner de façon sûre à une source de données externe compatible avec le rendu concurrent",
+        "Synchroniser l'état avec une base SQL",
+        "Remplacer Redux obligatoirement",
+        "Gérer les WebSockets uniquement"
+      ],
+      "answer": "S'abonner de façon sûre à une source de données externe compatible avec le rendu concurrent",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le hook use() introduit dans React 19 ?",
+      "options": [
+        "Il lit la valeur d'une promesse ou d'un contexte, et peut être appelé conditionnellement",
+        "Il remplace useState",
+        "Il importe un module dynamiquement",
+        "Il active le mode strict"
+      ],
+      "answer": "Il lit la valeur d'une promesse ou d'un contexte, et peut être appelé conditionnellement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet useActionState (React 19) ?",
+      "options": [
+        "Gérer l'état et le statut en attente d'une action, par exemple l'envoi d'un formulaire",
+        "Enregistrer les actions de l'utilisateur pour l'analytique",
+        "Remplacer Redux",
+        "Annuler une requête réseau"
+      ],
+      "answer": "Gérer l'état et le statut en attente d'une action, par exemple l'envoi d'un formulaire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait useOptimistic ?",
+      "options": [
+        "Afficher immédiatement un état prévu pendant qu'une action asynchrone est en cours",
+        "Optimiser automatiquement le rendu",
+        "Mettre en cache les requêtes",
+        "Supprimer les rendus inutiles"
+      ],
+      "answer": "Afficher immédiatement un état prévu pendant qu'une action asynchrone est en cours",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait le React Compiler ?",
+      "options": [
+        "Il ajoute automatiquement la mémoïsation au moment de la compilation",
+        "Il compile React en WebAssembly",
+        "Il remplace Babel pour le TypeScript",
+        "Il génère des tests"
+      ],
+      "answer": "Il ajoute automatiquement la mémoïsation au moment de la compilation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi une clé qui change à chaque rendu est-elle un problème ?",
+      "options": [
+        "React démonte et remonte l'élément à chaque rendu, perdant son état et ses performances",
+        "React refuse de compiler",
+        "La liste est triée à l'envers",
+        "Le composant devient contrôlé"
+      ],
+      "answer": "React démonte et remonte l'élément à chaque rendu, perdant son état et ses performances",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment réinitialiser volontairement l'état d'un composant ?",
+      "options": [
+        "En changeant sa prop key",
+        "En appelant forceUpdate dans un hook",
+        "En supprimant le fichier",
+        "En utilisant useMemo"
+      ],
+      "answer": "En changeant sa prop key",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi éviter de dériver un état avec useEffect (setState dans un effet à partir des props) ?",
+      "options": [
+        "Cela provoque un rendu supplémentaire ; mieux vaut calculer la valeur pendant le rendu",
+        "C'est interdit par React",
+        "Cela crée une fuite mémoire garantie",
+        "Les props ne sont pas accessibles dans un effet"
+      ],
+      "answer": "Cela provoque un rendu supplémentaire ; mieux vaut calculer la valeur pendant le rendu",
+      "difficulty": "difficile"
+    }
+  ]
 }

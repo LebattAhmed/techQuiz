@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Que signifie CI ?",
+      "options": [
+        "Intégration continue",
+        "Code interne",
+        "Contrôle informatique",
+        "Compilation instantanée"
+      ],
+      "answer": "Intégration continue",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie CD dans CI/CD ?",
+      "options": [
+        "Livraison ou déploiement continu",
+        "Code dynamique",
+        "Compilation distribuée",
+        "Contrôle des données"
+      ],
+      "answer": "Livraison ou déploiement continu",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est l'objectif de l'intégration continue ?",
+      "options": [
+        "Intégrer et tester automatiquement le code fréquemment",
+        "Déployer une fois par an",
+        "Écrire la documentation",
+        "Supprimer les tests"
+      ],
+      "answer": "Intégrer et tester automatiquement le code fréquemment",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un pipeline CI/CD ?",
+      "options": [
+        "Une suite d'étapes automatisées comme build, tests et déploiement",
+        "Un câble réseau",
+        "Un serveur de base de données",
+        "Un éditeur de code"
+      ],
+      "answer": "Une suite d'étapes automatisées comme build, tests et déploiement",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel service CI est intégré à GitHub ?",
+      "options": [
+        "GitHub Actions",
+        "Jenkins",
+        "Travis Pages",
+        "Bitbucket Pipelines"
+      ],
+      "answer": "GitHub Actions",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans quel dossier se trouvent les workflows GitHub Actions ?",
+      "options": [
+        ".github/workflows",
+        ".ci/pipelines",
+        "workflows/github",
+        ".actions"
+      ],
+      "answer": ".github/workflows",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier définit les pipelines GitLab CI ?",
+      "options": [
+        ".gitlab-ci.yml",
+        "gitlab.json",
+        ".ci.yaml",
+        "pipeline.gitlab"
+      ],
+      "answer": ".gitlab-ci.yml",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel serveur d'automatisation open source historique est très utilisé ?",
+      "options": [
+        "Jenkins",
+        "Nginx",
+        "Redis",
+        "Kafka"
+      ],
+      "answer": "Jenkins",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un build ?",
+      "options": [
+        "La transformation du code source en un artefact exécutable ou déployable",
+        "Une réunion d'équipe",
+        "Un bug",
+        "Une branche Git"
+      ],
+      "answer": "La transformation du code source en un artefact exécutable ou déployable",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un artefact ?",
+      "options": [
+        "Un fichier produit par le pipeline, comme un binaire ou une image",
+        "Un commentaire de code",
+        "Un ticket de bug",
+        "Un utilisateur"
+      ],
+      "answer": "Un fichier produit par le pipeline, comme un binaire ou une image",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi lancer les tests automatiquement à chaque commit ?",
+      "options": [
+        "Détecter rapidement les régressions",
+        "Ralentir le développement",
+        "Remplacer la revue de code",
+        "Augmenter la taille du dépôt"
+      ],
+      "answer": "Détecter rapidement les régressions",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre livraison continue et déploiement continu ?",
+      "options": [
+        "En livraison continue, la mise en production reste une décision manuelle ; en déploiement continu elle est automatique",
+        "Ce sont des synonymes",
+        "Le déploiement continu n'a pas de tests",
+        "La livraison continue ne produit pas d'artefact"
+      ],
+      "answer": "En livraison continue, la mise en production reste une décision manuelle ; en déploiement continu elle est automatique",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un environnement de staging ?",
+      "options": [
+        "Un environnement proche de la production pour valider avant mise en ligne",
+        "L'ordinateur du développeur",
+        "Un serveur de sauvegarde",
+        "Un environnement sans données"
+      ],
+      "answer": "Un environnement proche de la production pour valider avant mise en ligne",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que déclenche généralement un workflow CI ?",
+      "options": [
+        "Un événement comme un push ou une pull request",
+        "L'ouverture d'un email",
+        "Le redémarrage d'un poste",
+        "Une mise à jour du navigateur"
+      ],
+      "answer": "Un événement comme un push ou une pull request",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un runner (ou agent) ?",
+      "options": [
+        "La machine qui exécute les jobs du pipeline",
+        "Un développeur pressé",
+        "Un test de performance",
+        "Un serveur DNS"
+      ],
+      "answer": "La machine qui exécute les jobs du pipeline",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi un build doit-il être reproductible ?",
+      "options": [
+        "Pour obtenir le même résultat à partir des mêmes sources",
+        "Pour aller plus vite uniquement",
+        "Pour éviter les tests",
+        "Pour réduire le nombre de branches"
+      ],
+      "answer": "Pour obtenir le même résultat à partir des mêmes sources",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « linter » dans un pipeline ?",
+      "options": [
+        "Un outil qui vérifie le style et les erreurs probables du code",
+        "Un outil de déploiement",
+        "Un compresseur",
+        "Un pare-feu"
+      ],
+      "answer": "Un outil qui vérifie le style et les erreurs probables du code",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Où stocke-t-on les mots de passe utilisés par le pipeline ?",
+      "options": [
+        "Dans les secrets chiffrés de l'outil CI",
+        "En clair dans le fichier YAML",
+        "Dans le README",
+        "Dans un commentaire du code"
+      ],
+      "answer": "Dans les secrets chiffrés de l'outil CI",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie un pipeline « au rouge » ?",
+      "options": [
+        "Une étape a échoué",
+        "Le pipeline est en pause",
+        "Le déploiement a réussi",
+        "Le serveur est surchargé"
+      ],
+      "answer": "Une étape a échoué",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le « shift left » ?",
+      "options": [
+        "Avancer tests et sécurité le plus tôt possible dans le cycle de développement",
+        "Déplacer le code vers la gauche",
+        "Retarder les tests",
+        "Changer de clavier"
+      ],
+      "answer": "Avancer tests et sécurité le plus tôt possible dans le cycle de développement",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un déploiement blue-green ?",
+      "options": [
+        "Deux environnements identiques ; on bascule le trafic de l'ancien vers le nouveau d'un coup",
+        "Un déploiement en deux couleurs d'interface",
+        "Un déploiement uniquement la nuit",
+        "Un déploiement sans tests"
+      ],
+      "answer": "Deux environnements identiques ; on bascule le trafic de l'ancien vers le nouveau d'un coup",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un déploiement canary ?",
+      "options": [
+        "Envoyer d'abord une petite partie du trafic vers la nouvelle version",
+        "Déployer sur un seul serveur de test",
+        "Déployer sans surveillance",
+        "Annuler un déploiement"
+      ],
+      "answer": "Envoyer d'abord une petite partie du trafic vers la nouvelle version",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un feature flag ?",
+      "options": [
+        "Un interrupteur qui active ou désactive une fonctionnalité sans redéployer",
+        "Un drapeau dans l'interface",
+        "Une branche Git",
+        "Un test unitaire"
+      ],
+      "answer": "Un interrupteur qui active ou désactive une fonctionnalité sans redéployer",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une matrice de build ?",
+      "options": [
+        "Exécuter un même job sur plusieurs combinaisons (versions, OS)",
+        "Un tableau de résultats",
+        "Une base de données de builds",
+        "Un graphe de dépendances"
+      ],
+      "answer": "Exécuter un même job sur plusieurs combinaisons (versions, OS)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert le cache des dépendances dans un pipeline ?",
+      "options": [
+        "Éviter de retélécharger les dépendances à chaque exécution",
+        "Stocker les secrets",
+        "Mémoriser les résultats des tests",
+        "Supprimer les artefacts"
+      ],
+      "answer": "Éviter de retélécharger les dépendances à chaque exécution",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test « flaky » ?",
+      "options": [
+        "Un test qui échoue ou réussit de façon aléatoire sans changement de code",
+        "Un test très rapide",
+        "Un test désactivé",
+        "Un test de sécurité"
+      ],
+      "answer": "Un test qui échoue ou réussit de façon aléatoire sans changement de code",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le SAST ?",
+      "options": [
+        "L'analyse statique du code source à la recherche de vulnérabilités",
+        "Un test de charge",
+        "Un test sur l'application en exécution",
+        "Une sauvegarde automatique"
+      ],
+      "answer": "L'analyse statique du code source à la recherche de vulnérabilités",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le DAST ?",
+      "options": [
+        "Tester la sécurité d'une application en cours d'exécution, de l'extérieur",
+        "Lire le code source",
+        "Analyser les dépendances",
+        "Compiler le code"
+      ],
+      "answer": "Tester la sécurité d'une application en cours d'exécution, de l'extérieur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la SCA (Software Composition Analysis) ?",
+      "options": [
+        "L'analyse des dépendances tierces et de leurs vulnérabilités connues",
+        "L'analyse des performances",
+        "L'analyse de l'architecture",
+        "L'analyse des logs"
+      ],
+      "answer": "L'analyse des dépendances tierces et de leurs vulnérabilités connues",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une « quality gate » ?",
+      "options": [
+        "Un seuil de qualité (couverture, bugs…) à respecter pour que le pipeline passe",
+        "Un portail réseau",
+        "Un pare-feu applicatif",
+        "Une branche protégée"
+      ],
+      "answer": "Un seuil de qualité (couverture, bugs…) à respecter pour que le pipeline passe",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi protéger la branche principale ?",
+      "options": [
+        "Exiger revues et CI au vert avant toute fusion",
+        "Pour empêcher les clones",
+        "Pour la rendre invisible",
+        "Pour accélérer les push"
+      ],
+      "answer": "Exiger revues et CI au vert avant toute fusion",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le versionnement sémantique ?",
+      "options": [
+        "Un format MAJEUR.MINEUR.CORRECTIF qui signale la nature des changements",
+        "Un versionnement par date",
+        "Un nom de code aléatoire",
+        "Un numéro de build"
+      ],
+      "answer": "Un format MAJEUR.MINEUR.CORRECTIF qui signale la nature des changements",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Dans SemVer, quand incrémente-t-on le numéro majeur ?",
+      "options": [
+        "Lors d'un changement incompatible avec les versions précédentes",
+        "Pour chaque correctif",
+        "Chaque mois",
+        "Pour une nouvelle fonctionnalité compatible"
+      ],
+      "answer": "Lors d'un changement incompatible avec les versions précédentes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un « rollback » ?",
+      "options": [
+        "Revenir à la version précédente après un déploiement problématique",
+        "Un test de charge",
+        "Une migration de base",
+        "Une fusion de branches"
+      ],
+      "answer": "Revenir à la version précédente après un déploiement problématique",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que mesure le « lead time for changes » des métriques DORA ?",
+      "options": [
+        "Le temps entre un commit et sa mise en production",
+        "Le temps de compilation",
+        "Le nombre de commits",
+        "La durée des réunions"
+      ],
+      "answer": "Le temps entre un commit et sa mise en production",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelles sont les quatre métriques DORA ?",
+      "options": [
+        "Fréquence de déploiement, délai des changements, taux d'échec des changements, temps de restauration",
+        "Bugs, commits, tests, revues",
+        "CPU, RAM, disque, réseau",
+        "Coût, délai, qualité, risque"
+      ],
+      "answer": "Fréquence de déploiement, délai des changements, taux d'échec des changements, temps de restauration",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un pipeline en « fan-out / fan-in » ?",
+      "options": [
+        "Des jobs parallèles qui se rejoignent ensuite dans une étape commune",
+        "Un pipeline sans tests",
+        "Un pipeline qui s'exécute en boucle",
+        "Un pipeline manuel"
+      ],
+      "answer": "Des jobs parallèles qui se rejoignent ensuite dans une étape commune",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi construire l'artefact une seule fois et le promouvoir entre environnements ?",
+      "options": [
+        "Garantir que ce qui est testé est exactement ce qui est déployé",
+        "Pour économiser de l'espace uniquement",
+        "Parce que les environnements l'exigent",
+        "Pour éviter les tests"
+      ],
+      "answer": "Garantir que ce qui est testé est exactement ce qui est déployé",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un job « needs » ou une dépendance entre jobs ?",
+      "options": [
+        "Un job qui attend la réussite d'un autre avant de démarrer",
+        "Un job sans runner",
+        "Un job facultatif",
+        "Un job qui s'exécute deux fois"
+      ],
+      "answer": "Un job qui attend la réussite d'un autre avant de démarrer",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi épingler les actions tierces sur un SHA de commit ?",
+      "options": [
+        "Éviter qu'une modification malveillante d'un tag ne s'exécute dans le pipeline",
+        "Pour accélérer le pipeline",
+        "Parce que les tags n'existent pas",
+        "Pour réduire les logs"
+      ],
+      "answer": "Éviter qu'une modification malveillante d'un tag ne s'exécute dans le pipeline",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'authentification OIDC entre la CI et un cloud ?",
+      "options": [
+        "La CI obtient des identifiants temporaires du cloud sans stocker de secret à longue durée",
+        "Un mot de passe partagé",
+        "Une clé SSH permanente",
+        "Un VPN entre la CI et le cloud"
+      ],
+      "answer": "La CI obtient des identifiants temporaires du cloud sans stocker de secret à longue durée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que SLSA ?",
+      "options": [
+        "Un cadre de niveaux de garanties pour l'intégrité de la chaîne d'approvisionnement logicielle",
+        "Un outil de tests",
+        "Un format de log",
+        "Un langage de pipeline"
+      ],
+      "answer": "Un cadre de niveaux de garanties pour l'intégrité de la chaîne d'approvisionnement logicielle",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la provenance d'un artefact ?",
+      "options": [
+        "Des métadonnées vérifiables indiquant comment, où et à partir de quoi il a été construit",
+        "Le pays du développeur",
+        "Le nom du dépôt",
+        "La date de suppression"
+      ],
+      "answer": "Des métadonnées vérifiables indiquant comment, où et à partir de quoi il a été construit",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert la signature d'images (par ex. Sigstore / cosign) ?",
+      "options": [
+        "Vérifier qu'une image provient bien du pipeline attendu et n'a pas été modifiée",
+        "Compresser les images",
+        "Chiffrer les images",
+        "Accélérer le pull"
+      ],
+      "answer": "Vérifier qu'une image provient bien du pipeline attendu et n'a pas été modifiée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi une pull request venant d'un fork ne doit-elle pas accéder aux secrets ?",
+      "options": [
+        "Le code non fiable pourrait exfiltrer les secrets pendant l'exécution",
+        "Les forks sont plus lents",
+        "Les secrets expirent",
+        "GitHub ne supporte pas les forks"
+      ],
+      "answer": "Le code non fiable pourrait exfiltrer les secrets pendant l'exécution",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel risque présente « pull_request_target » mal utilisé dans GitHub Actions ?",
+      "options": [
+        "Exécuter du code de la PR avec les droits et secrets du dépôt cible",
+        "Bloquer toutes les PR",
+        "Supprimer la branche principale",
+        "Désactiver le cache"
+      ],
+      "answer": "Exécuter du code de la PR avec les droits et secrets du dépôt cible",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un déploiement progressif avec analyse automatique ?",
+      "options": [
+        "Augmenter le trafic par étapes en vérifiant les métriques et annuler si elles se dégradent",
+        "Un déploiement manuel lent",
+        "Un déploiement nocturne",
+        "Un déploiement sans monitoring"
+      ],
+      "answer": "Augmenter le trafic par étapes en vérifiant les métriques et annuler si elles se dégradent",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une migration de base de données « expand and contract » ?",
+      "options": [
+        "Ajouter d'abord le nouveau schéma compatible, migrer, puis retirer l'ancien, pour éviter les coupures",
+        "Agrandir le disque puis le réduire",
+        "Supprimer et recréer la base",
+        "Compresser les tables"
+      ],
+      "answer": "Ajouter d'abord le nouveau schéma compatible, migrer, puis retirer l'ancien, pour éviter les coupures",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi les migrations de schéma doivent-elles être rétrocompatibles lors d'un déploiement progressif ?",
+      "options": [
+        "Ancienne et nouvelle versions de l'application tournent en même temps",
+        "Pour réduire la taille de la base",
+        "Parce que SQL l'exige",
+        "Pour accélérer les tests"
+      ],
+      "answer": "Ancienne et nouvelle versions de l'application tournent en même temps",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « trunk-based development » implique pour la CI ?",
+      "options": [
+        "Des intégrations très fréquentes avec un pipeline rapide et fiable",
+        "Des branches de plusieurs mois",
+        "Aucun test automatisé",
+        "Des déploiements annuels"
+      ],
+      "answer": "Des intégrations très fréquentes avec un pipeline rapide et fiable",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « merge queue » ?",
+      "options": [
+        "Une file qui teste chaque PR combinée aux PR précédentes avant fusion",
+        "Une liste de branches à supprimer",
+        "Une file de déploiements manuels",
+        "Un backlog de bugs"
+      ],
+      "answer": "Une file qui teste chaque PR combinée aux PR précédentes avant fusion",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « ephemeral environment » ?",
+      "options": [
+        "Un environnement temporaire créé pour une PR puis détruit",
+        "Un environnement de production",
+        "Un poste de développeur",
+        "Un cache de build"
+      ],
+      "answer": "Un environnement temporaire créé pour une PR puis détruit",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le test de mutation ?",
+      "options": [
+        "Introduire des modifications dans le code pour vérifier que les tests les détectent",
+        "Tester des données aléatoires",
+        "Tester sur plusieurs OS",
+        "Tester la base de données"
+      ],
+      "answer": "Introduire des modifications dans le code pour vérifier que les tests les détectent",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la couverture de code seule est-elle un indicateur trompeur ?",
+      "options": [
+        "Du code exécuté par un test n'est pas forcément vérifié par une assertion",
+        "Elle est toujours de 100 %",
+        "Elle ralentit le pipeline",
+        "Elle ignore les fichiers de test"
+      ],
+      "answer": "Du code exécuté par un test n'est pas forcément vérifié par une assertion",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'« Infrastructure as Code » apporte au CD ?",
+      "options": [
+        "Des environnements reproductibles, versionnés et revus comme du code",
+        "La suppression des serveurs",
+        "Des déploiements manuels plus rapides",
+        "L'absence de configuration"
+      ],
+      "answer": "Des environnements reproductibles, versionnés et revus comme du code",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « dark launch » ?",
+      "options": [
+        "Déployer une fonctionnalité en production sans l'exposer aux utilisateurs",
+        "Déployer la nuit",
+        "Déployer sans logs",
+        "Déployer en mode sombre"
+      ],
+      "answer": "Déployer une fonctionnalité en production sans l'exposer aux utilisateurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un build hermétique ?",
+      "options": [
+        "Un build qui ne dépend que d'entrées déclarées, sans accès réseau imprévu",
+        "Un build chiffré",
+        "Un build sans tests",
+        "Un build sur un serveur isolé physiquement uniquement"
+      ],
+      "answer": "Un build qui ne dépend que d'entrées déclarées, sans accès réseau imprévu",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « change failure rate » ?",
+      "options": [
+        "La proportion de déploiements qui causent un incident ou un rollback",
+        "Le nombre de commits échoués",
+        "Le nombre de tests flaky",
+        "Le temps de build moyen"
+      ],
+      "answer": "La proportion de déploiements qui causent un incident ou un rollback",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi limiter les permissions du GITHUB_TOKEN dans un workflow ?",
+      "options": [
+        "Appliquer le moindre privilège en cas de compromission d'une étape",
+        "Accélérer le workflow",
+        "Parce que le jeton expire",
+        "Pour réduire les logs"
+      ],
+      "answer": "Appliquer le moindre privilège en cas de compromission d'une étape",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « policy as code » (ex. OPA) dans une chaîne CD ?",
+      "options": [
+        "Des règles de conformité versionnées et appliquées automatiquement aux déploiements",
+        "Une politique RH",
+        "Un fichier README",
+        "Un contrat juridique"
+      ],
+      "answer": "Des règles de conformité versionnées et appliquées automatiquement aux déploiements",
+      "difficulty": "difficile"
+    }
+  ]
 }

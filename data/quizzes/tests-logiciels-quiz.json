@@ -1,0 +1,653 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'un test unitaire ?",
+      "options": [
+        "Un test qui vérifie une petite unité de code isolée, comme une fonction",
+        "Un test de toute l'application",
+        "Un test réalisé par l'utilisateur final",
+        "Un test de charge"
+      ],
+      "answer": "Un test qui vérifie une petite unité de code isolée, comme une fonction",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un test d'intégration ?",
+      "options": [
+        "Un test qui vérifie que plusieurs composants fonctionnent ensemble",
+        "Un test d'une seule fonction",
+        "Un test de l'interface uniquement",
+        "Un test de sécurité"
+      ],
+      "answer": "Un test qui vérifie que plusieurs composants fonctionnent ensemble",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un test de bout en bout (end-to-end) ?",
+      "options": [
+        "Un test qui simule un parcours utilisateur complet dans l'application",
+        "Un test d'une variable",
+        "Un test de compilation",
+        "Un test du réseau uniquement"
+      ],
+      "answer": "Un test qui simule un parcours utilisateur complet dans l'application",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une assertion ?",
+      "options": [
+        "Une vérification qu'un résultat correspond à la valeur attendue",
+        "Une déclaration de variable",
+        "Un commentaire",
+        "Une exception"
+      ],
+      "answer": "Une vérification qu'un résultat correspond à la valeur attendue",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un test de régression ?",
+      "options": [
+        "Un test qui vérifie qu'une modification n'a pas cassé ce qui fonctionnait",
+        "Un test de performance",
+        "Un test statistique",
+        "Un test de recul de version"
+      ],
+      "answer": "Un test qui vérifie qu'une modification n'a pas cassé ce qui fonctionnait",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie TDD ?",
+      "options": [
+        "Test-Driven Development",
+        "Technical Design Document",
+        "Total Debug Deployment",
+        "Test Data Definition"
+      ],
+      "answer": "Test-Driven Development",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la boucle du TDD ?",
+      "options": [
+        "Rouge, vert, refactoring",
+        "Coder, livrer, tester",
+        "Tester, supprimer, recommencer",
+        "Planifier, coder, oublier"
+      ],
+      "answer": "Rouge, vert, refactoring",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel framework de tests est très utilisé en JavaScript ?",
+      "options": [
+        "Jest",
+        "JUnit",
+        "pytest",
+        "PHPUnit"
+      ],
+      "answer": "Jest",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel framework de tests est le standard en Java ?",
+      "options": [
+        "JUnit",
+        "Jest",
+        "Mocha",
+        "RSpec"
+      ],
+      "answer": "JUnit",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel framework de tests est très populaire en Python ?",
+      "options": [
+        "pytest",
+        "JUnit",
+        "Jasmine",
+        "NUnit"
+      ],
+      "answer": "pytest",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la couverture de code ?",
+      "options": [
+        "La proportion du code exécutée par les tests",
+        "Le nombre de tests",
+        "La taille du code",
+        "Le nombre de bugs trouvés"
+      ],
+      "answer": "La proportion du code exécutée par les tests",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un test manuel ?",
+      "options": [
+        "Un test exécuté par une personne sans automatisation",
+        "Un test écrit dans un manuel",
+        "Un test sur papier",
+        "Un test sans résultat"
+      ],
+      "answer": "Un test exécuté par une personne sans automatisation",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un bug ?",
+      "options": [
+        "Un défaut qui fait que le logiciel ne se comporte pas comme prévu",
+        "Une nouvelle fonctionnalité",
+        "Un test qui réussit",
+        "Un fichier de configuration"
+      ],
+      "answer": "Un défaut qui fait que le logiciel ne se comporte pas comme prévu",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi automatiser les tests ?",
+      "options": [
+        "Pour les exécuter rapidement et souvent, sans erreur humaine",
+        "Pour supprimer les développeurs",
+        "Pour ralentir les livraisons",
+        "Pour éviter d'écrire du code"
+      ],
+      "answer": "Pour les exécuter rapidement et souvent, sans erreur humaine",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un test fonctionnel ?",
+      "options": [
+        "Un test qui vérifie que le logiciel répond aux exigences fonctionnelles",
+        "Un test qui vérifie la vitesse",
+        "Un test du code machine",
+        "Un test du matériel"
+      ],
+      "answer": "Un test qui vérifie que le logiciel répond aux exigences fonctionnelles",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un test de performance ?",
+      "options": [
+        "Un test qui mesure le comportement du système sous une charge donnée",
+        "Un test de fonctionnalité",
+        "Un test unitaire",
+        "Un test de sécurité"
+      ],
+      "answer": "Un test qui mesure le comportement du système sous une charge donnée",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la recette (test d'acceptation) ?",
+      "options": [
+        "La validation par le client que le logiciel répond à ses besoins",
+        "Le premier test unitaire",
+        "La compilation finale",
+        "Une liste de bugs"
+      ],
+      "answer": "La validation par le client que le logiciel répond à ses besoins",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil est populaire pour les tests de bout en bout dans le navigateur ?",
+      "options": [
+        "Playwright",
+        "JUnit",
+        "pandas",
+        "Docker"
+      ],
+      "answer": "Playwright",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la pyramide des tests ?",
+      "options": [
+        "Beaucoup de tests unitaires, moins d'intégration, encore moins de bout en bout",
+        "Beaucoup de tests manuels en bas",
+        "Uniquement des tests de bout en bout",
+        "Un diagramme de bugs"
+      ],
+      "answer": "Beaucoup de tests unitaires, moins d'intégration, encore moins de bout en bout",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie un test « au vert » ?",
+      "options": [
+        "Le test a réussi",
+        "Le test a échoué",
+        "Le test est ignoré",
+        "Le test est en cours"
+      ],
+      "answer": "Le test a réussi",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un mock ?",
+      "options": [
+        "Un faux objet qui remplace une dépendance et permet de vérifier comment il est appelé",
+        "Un vrai serveur de production",
+        "Un test qui se moque du code",
+        "Une base de données réelle"
+      ],
+      "answer": "Un faux objet qui remplace une dépendance et permet de vérifier comment il est appelé",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle différence entre un stub et un mock ?",
+      "options": [
+        "Un stub renvoie des réponses préparées ; un mock vérifie aussi les interactions attendues",
+        "Ils sont identiques",
+        "Un mock ne renvoie rien",
+        "Un stub vérifie les appels"
+      ],
+      "answer": "Un stub renvoie des réponses préparées ; un mock vérifie aussi les interactions attendues",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un fake ?",
+      "options": [
+        "Une implémentation simplifiée mais fonctionnelle, comme une base en mémoire",
+        "Un test truqué",
+        "Un bug volontaire",
+        "Une donnée de production"
+      ],
+      "answer": "Une implémentation simplifiée mais fonctionnelle, comme une base en mémoire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie le schéma AAA d'un test ?",
+      "options": [
+        "Arrange, Act, Assert",
+        "Add, Assert, Approve",
+        "Analyse, Action, Audit",
+        "Access, Apply, Archive"
+      ],
+      "answer": "Arrange, Act, Assert",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le BDD ?",
+      "options": [
+        "Un développement guidé par des comportements décrits en langage proche du métier",
+        "Une base de données de tests",
+        "Un débogueur",
+        "Un outil de déploiement"
+      ],
+      "answer": "Un développement guidé par des comportements décrits en langage proche du métier",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel format décrit les scénarios BDD avec Given, When, Then ?",
+      "options": [
+        "Gherkin",
+        "YAML",
+        "JSON Schema",
+        "Markdown"
+      ],
+      "answer": "Gherkin",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test flaky ?",
+      "options": [
+        "Un test dont le résultat varie sans changement de code",
+        "Un test très rapide",
+        "Un test désactivé",
+        "Un test de sécurité"
+      ],
+      "answer": "Un test dont le résultat varie sans changement de code",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelles sont des causes fréquentes de tests flaky ?",
+      "options": [
+        "Dépendances au temps, à l'ordre d'exécution, au réseau ou à la concurrence",
+        "Un code trop bien écrit",
+        "Une couverture de 100 %",
+        "L'utilisation d'assertions"
+      ],
+      "answer": "Dépendances au temps, à l'ordre d'exécution, au réseau ou à la concurrence",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test paramétré ?",
+      "options": [
+        "Un même test exécuté avec plusieurs jeux d'entrées et de sorties attendues",
+        "Un test avec un paramètre de configuration global",
+        "Un test sans assertion",
+        "Un test aléatoire"
+      ],
+      "answer": "Un même test exécuté avec plusieurs jeux d'entrées et de sorties attendues",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une fixture ?",
+      "options": [
+        "Un contexte ou des données préparées pour exécuter des tests",
+        "Un bug corrigé",
+        "Un test ignoré",
+        "Une dépendance de production"
+      ],
+      "answer": "Un contexte ou des données préparées pour exécuter des tests",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'analyse des valeurs limites ?",
+      "options": [
+        "Tester aux bornes des plages valides, juste dessous et juste dessus",
+        "Tester uniquement les valeurs moyennes",
+        "Tester la mémoire limite",
+        "Tester sans données"
+      ],
+      "answer": "Tester aux bornes des plages valides, juste dessous et juste dessus",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le partitionnement en classes d'équivalence ?",
+      "options": [
+        "Diviser les entrées en groupes traités de la même façon et tester un représentant de chacun",
+        "Tester toutes les valeurs possibles",
+        "Diviser les tests entre développeurs",
+        "Tester seulement les cas d'erreur"
+      ],
+      "answer": "Diviser les entrées en groupes traités de la même façon et tester un représentant de chacun",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test boîte noire ?",
+      "options": [
+        "Un test basé sur les spécifications, sans connaître le code interne",
+        "Un test du code source ligne par ligne",
+        "Un test de sécurité physique",
+        "Un test en mode sombre"
+      ],
+      "answer": "Un test basé sur les spécifications, sans connaître le code interne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test boîte blanche ?",
+      "options": [
+        "Un test conçu à partir de la structure interne du code",
+        "Un test sans code",
+        "Un test d'interface",
+        "Un test utilisateur"
+      ],
+      "answer": "Un test conçu à partir de la structure interne du code",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test de fumée (smoke test) ?",
+      "options": [
+        "Une vérification rapide que les fonctions essentielles marchent après un déploiement",
+        "Un test de détection d'incendie",
+        "Un test exhaustif",
+        "Un test de charge extrême"
+      ],
+      "answer": "Une vérification rapide que les fonctions essentielles marchent après un déploiement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test de charge ?",
+      "options": [
+        "Mesurer le comportement sous une charge attendue",
+        "Tester le chargement d'un fichier",
+        "Tester la batterie",
+        "Tester la compilation"
+      ],
+      "answer": "Mesurer le comportement sous une charge attendue",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un test de stress ?",
+      "options": [
+        "Pousser le système au-delà de ses limites pour observer comment il se dégrade",
+        "Un test sur le moral de l'équipe",
+        "Un test unitaire rapide",
+        "Un test de régression"
+      ],
+      "answer": "Pousser le système au-delà de ses limites pour observer comment il se dégrade",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi un test doit-il être indépendant des autres ?",
+      "options": [
+        "Pour pouvoir l'exécuter seul ou dans n'importe quel ordre avec le même résultat",
+        "Pour aller plus vite uniquement",
+        "Parce que les frameworks l'imposent",
+        "Pour réduire la couverture"
+      ],
+      "answer": "Pour pouvoir l'exécuter seul ou dans n'importe quel ordre avec le même résultat",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un snapshot test ?",
+      "options": [
+        "Comparer une sortie (rendu, JSON) à une version de référence enregistrée",
+        "Une capture d'écran manuelle",
+        "Un test de base de données",
+        "Un test de sauvegarde"
+      ],
+      "answer": "Comparer une sortie (rendu, JSON) à une version de référence enregistrée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le test de mutation ?",
+      "options": [
+        "Modifier légèrement le code pour vérifier que les tests détectent ces mutants",
+        "Tester des données génétiques",
+        "Tester une application qui change souvent",
+        "Tester sur plusieurs navigateurs"
+      ],
+      "answer": "Modifier légèrement le code pour vérifier que les tests détectent ces mutants",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le property-based testing ?",
+      "options": [
+        "Vérifier des propriétés générales sur de nombreuses entrées générées automatiquement",
+        "Tester les propriétés CSS",
+        "Tester les getters et setters",
+        "Tester les fichiers de configuration"
+      ],
+      "answer": "Vérifier des propriétés générales sur de nombreuses entrées générées automatiquement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait le « shrinking » dans le property-based testing ?",
+      "options": [
+        "Réduire un contre-exemple trouvé à sa forme la plus simple",
+        "Compresser les tests",
+        "Supprimer des tests inutiles",
+        "Réduire la couverture"
+      ],
+      "answer": "Réduire un contre-exemple trouvé à sa forme la plus simple",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le fuzzing ?",
+      "options": [
+        "Envoyer des entrées aléatoires ou malformées pour provoquer des plantages ou failles",
+        "Flouter l'interface",
+        "Tester la lisibilité",
+        "Compresser les logs"
+      ],
+      "answer": "Envoyer des entrées aléatoires ou malformées pour provoquer des plantages ou failles",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le contract testing ?",
+      "options": [
+        "Vérifier que fournisseur et consommateur d'une API respectent un contrat commun",
+        "Tester un contrat juridique",
+        "Tester les licences",
+        "Tester la base de données"
+      ],
+      "answer": "Vérifier que fournisseur et consommateur d'une API respectent un contrat commun",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le test de « golden master » (characterization test) ?",
+      "options": [
+        "Capturer le comportement actuel d'un code existant pour le refactorer sans le changer",
+        "Un test du code le plus ancien",
+        "Un test réservé aux experts",
+        "Un test de sécurité"
+      ],
+      "answer": "Capturer le comportement actuel d'un code existant pour le refactorer sans le changer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi trop de mocks peut-il nuire à la valeur des tests ?",
+      "options": [
+        "Les tests vérifient l'implémentation plutôt que le comportement et cassent au moindre refactoring",
+        "Les mocks sont lents",
+        "Les mocks sont interdits",
+        "Les mocks augmentent la couverture"
+      ],
+      "answer": "Les tests vérifient l'implémentation plutôt que le comportement et cassent au moindre refactoring",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « test pyramid » inversée (cornet de glace) ?",
+      "options": [
+        "Un anti-pattern avec beaucoup de tests manuels et E2E et peu de tests unitaires",
+        "Une stratégie recommandée",
+        "Un graphique de couverture",
+        "Une pyramide de bugs"
+      ],
+      "answer": "Un anti-pattern avec beaucoup de tests manuels et E2E et peu de tests unitaires",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « testing trophy » ?",
+      "options": [
+        "Un modèle qui met l'accent sur les tests d'intégration, avec de l'analyse statique à la base",
+        "Une récompense pour 100 % de couverture",
+        "Un outil de reporting",
+        "Un framework de tests"
+      ],
+      "answer": "Un modèle qui met l'accent sur les tests d'intégration, avec de l'analyse statique à la base",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la couverture de branches par rapport à la couverture de lignes ?",
+      "options": [
+        "Elle vérifie que chaque branche de chaque condition a été exécutée",
+        "Elle compte les branches Git",
+        "Elle est toujours égale",
+        "Elle ignore les conditions"
+      ],
+      "answer": "Elle vérifie que chaque branche de chaque condition a été exécutée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un test de chaos (chaos engineering) ?",
+      "options": [
+        "Injecter volontairement des pannes en production contrôlée pour vérifier la résilience",
+        "Un test sans plan",
+        "Un test aléatoire de l'interface",
+        "Un test exécuté par des débutants"
+      ],
+      "answer": "Injecter volontairement des pannes en production contrôlée pour vérifier la résilience",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'injection de dépendances apporte à la testabilité ?",
+      "options": [
+        "Remplacer facilement les dépendances réelles par des doublures de test",
+        "Augmenter la vitesse des tests",
+        "Supprimer les tests",
+        "Rendre les tests inutiles"
+      ],
+      "answer": "Remplacer facilement les dépendances réelles par des doublures de test",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi contrôler l'horloge dans les tests (fake timers, clock injectable) ?",
+      "options": [
+        "Rendre les tests déterministes et rapides quand le code dépend du temps",
+        "Pour tester l'heure du serveur",
+        "Pour accélérer le processeur",
+        "Pour ignorer les fuseaux horaires"
+      ],
+      "answer": "Rendre les tests déterministes et rapides quand le code dépend du temps",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permettent les Testcontainers ?",
+      "options": [
+        "Lancer de vraies dépendances (bases, brokers) dans des conteneurs jetables pour les tests",
+        "Contenir les tests dans un fichier",
+        "Désactiver les tests lents",
+        "Partager des mocks"
+      ],
+      "answer": "Lancer de vraies dépendances (bases, brokers) dans des conteneurs jetables pour les tests",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le test de non-régression visuelle ?",
+      "options": [
+        "Comparer des captures d'écran à des références pour détecter des changements d'interface",
+        "Tester la vue du développeur",
+        "Tester la luminosité",
+        "Tester les images du store"
+      ],
+      "answer": "Comparer des captures d'écran à des références pour détecter des changements d'interface",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « mutation score » ?",
+      "options": [
+        "La proportion de mutants détectés (tués) par la suite de tests",
+        "Le nombre de bugs en production",
+        "La couverture de lignes",
+        "Le temps d'exécution des tests"
+      ],
+      "answer": "La proportion de mutants détectés (tués) par la suite de tests",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le shift-right testing ?",
+      "options": [
+        "Tester et observer en production (canary, monitoring, feature flags)",
+        "Déplacer les tests à la fin du projet uniquement",
+        "Supprimer les tests unitaires",
+        "Tester sur un écran à droite"
+      ],
+      "answer": "Tester et observer en production (canary, monitoring, feature flags)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un test hermétique ?",
+      "options": [
+        "Un test qui ne dépend d'aucune ressource externe non contrôlée",
+        "Un test chiffré",
+        "Un test secret",
+        "Un test sans assertion"
+      ],
+      "answer": "Un test qui ne dépend d'aucune ressource externe non contrôlée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi le TDD influence-t-il la conception du code ?",
+      "options": [
+        "Écrire le test d'abord pousse vers des unités petites, découplées et faciles à utiliser",
+        "Il impose un langage",
+        "Il supprime le besoin de conception",
+        "Il augmente la taille des classes"
+      ],
+      "answer": "Écrire le test d'abord pousse vers des unités petites, découplées et faciles à utiliser",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'« approval testing » ?",
+      "options": [
+        "Valider une sortie complexe une fois manuellement puis la comparer automatiquement ensuite",
+        "Un test validé par un manager",
+        "Un test de conformité légale",
+        "Un test d'autorisation"
+      ],
+      "answer": "Valider une sortie complexe une fois manuellement puis la comparer automatiquement ensuite",
+      "difficulty": "difficile"
+    }
+  ]
+}

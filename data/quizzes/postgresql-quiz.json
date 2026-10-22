@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que PostgreSQL ?",
+      "options": [
+        "Un système de gestion de bases de données relationnelles open source",
+        "Un langage de programmation",
+        "Un serveur web",
+        "Un tableur en ligne"
+      ],
+      "answer": "Un système de gestion de bases de données relationnelles open source",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le port par défaut de PostgreSQL ?",
+      "options": [
+        "5432",
+        "3306",
+        "1521",
+        "6379"
+      ],
+      "answer": "5432",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est l'outil en ligne de commande de PostgreSQL ?",
+      "options": [
+        "psql",
+        "mysql",
+        "sqlcmd",
+        "pgshell"
+      ],
+      "answer": "psql",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méta-commande psql liste les tables ?",
+      "options": [
+        "\\dt",
+        "SHOW TABLES",
+        "\\list tables",
+        ".tables"
+      ],
+      "answer": "\\dt",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méta-commande psql liste les bases de données ?",
+      "options": [
+        "\\l",
+        "\\db",
+        "SHOW ALL",
+        "\\bases"
+      ],
+      "answer": "\\l",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type crée une colonne entière auto-incrémentée de façon standard ?",
+      "options": [
+        "GENERATED ALWAYS AS IDENTITY",
+        "AUTO_INCREMENT",
+        "IDENTITY(1,1)",
+        "AUTONUMBER"
+      ],
+      "answer": "GENERATED ALWAYS AS IDENTITY",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type stocke du JSON binaire indexable ?",
+      "options": [
+        "JSONB",
+        "JSONTEXT",
+        "BLOB",
+        "XMLB"
+      ],
+      "answer": "JSONB",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil graphique est souvent utilisé pour administrer PostgreSQL ?",
+      "options": [
+        "pgAdmin",
+        "MySQL Workbench",
+        "SSMS",
+        "Toad for MongoDB"
+      ],
+      "answer": "pgAdmin",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle clause renvoie les lignes modifiées par un INSERT ou un UPDATE ?",
+      "options": [
+        "RETURNING",
+        "OUTPUT",
+        "SELECT AFTER",
+        "RESULT"
+      ],
+      "answer": "RETURNING",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée une base de données ?",
+      "options": [
+        "CREATE DATABASE",
+        "NEW DATABASE",
+        "MAKE DB",
+        "INIT DATABASE"
+      ],
+      "answer": "CREATE DATABASE",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type stocke une date avec heure et fuseau horaire ?",
+      "options": [
+        "TIMESTAMPTZ",
+        "DATE",
+        "TIME",
+        "INTERVAL"
+      ],
+      "answer": "TIMESTAMPTZ",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel opérateur effectue une recherche de motif insensible à la casse ?",
+      "options": [
+        "ILIKE",
+        "LIKE",
+        "MATCH",
+        "CONTAINS"
+      ],
+      "answer": "ILIKE",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type stocke un identifiant universel unique ?",
+      "options": [
+        "UUID",
+        "GUIDTEXT",
+        "SERIAL",
+        "OID"
+      ],
+      "answer": "UUID",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment s'appelle un ensemble logique de tables dans une base PostgreSQL ?",
+      "options": [
+        "Un schéma",
+        "Un cluster",
+        "Un tablespace",
+        "Un rôle"
+      ],
+      "answer": "Un schéma",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le schéma par défaut ?",
+      "options": [
+        "public",
+        "dbo",
+        "main",
+        "default"
+      ],
+      "answer": "public",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil sauvegarde une base PostgreSQL ?",
+      "options": [
+        "pg_dump",
+        "mysqldump",
+        "bcp",
+        "expdp"
+      ],
+      "answer": "pg_dump",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un rôle dans PostgreSQL ?",
+      "options": [
+        "Une entité qui peut représenter un utilisateur ou un groupe de privilèges",
+        "Une table système",
+        "Un type de colonne",
+        "Une extension"
+      ],
+      "answer": "Une entité qui peut représenter un utilisateur ou un groupe de privilèges",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type stocke un tableau d'entiers ?",
+      "options": [
+        "INTEGER[]",
+        "ARRAY OF INT",
+        "INTLIST",
+        "SET<INT>"
+      ],
+      "answer": "INTEGER[]",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande ajoute une extension comme pgcrypto ?",
+      "options": [
+        "CREATE EXTENSION",
+        "INSTALL EXTENSION",
+        "ADD PLUGIN",
+        "LOAD MODULE"
+      ],
+      "answer": "CREATE EXTENSION",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel opérateur concatène deux chaînes en SQL standard et PostgreSQL ?",
+      "options": [
+        "||",
+        "+",
+        "&",
+        "CONCAT seul"
+      ],
+      "answer": "||",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que MVCC dans PostgreSQL ?",
+      "options": [
+        "Chaque transaction voit un instantané, les mises à jour créent de nouvelles versions de lignes",
+        "Un outil de migration",
+        "Un type d'index",
+        "Un mode de réplication"
+      ],
+      "answer": "Chaque transaction voit un instantané, les mises à jour créent de nouvelles versions de lignes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert VACUUM ?",
+      "options": [
+        "Récupérer l'espace des versions de lignes mortes et éviter le bouclage des identifiants de transaction",
+        "Supprimer une base",
+        "Vider le cache",
+        "Compresser les sauvegardes"
+      ],
+      "answer": "Récupérer l'espace des versions de lignes mortes et éviter le bouclage des identifiants de transaction",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'autovacuum ?",
+      "options": [
+        "Il lance automatiquement VACUUM et ANALYZE selon l'activité des tables",
+        "Il supprime les tables inutilisées",
+        "Il sauvegarde la base chaque nuit",
+        "Il redémarre le serveur"
+      ],
+      "answer": "Il lance automatiquement VACUUM et ANALYZE selon l'activité des tables",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert ANALYZE ?",
+      "options": [
+        "Collecter des statistiques utilisées par le planificateur de requêtes",
+        "Vérifier l'intégrité des données",
+        "Afficher le plan d'une requête",
+        "Analyser les logs"
+      ],
+      "answer": "Collecter des statistiques utilisées par le planificateur de requêtes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande affiche le plan d'exécution réel avec les temps ?",
+      "options": [
+        "EXPLAIN ANALYZE",
+        "EXPLAIN seul",
+        "SHOW PLAN",
+        "DESCRIBE"
+      ],
+      "answer": "EXPLAIN ANALYZE",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est le type d'index par défaut ?",
+      "options": [
+        "B-tree",
+        "GIN",
+        "Hash",
+        "BRIN"
+      ],
+      "answer": "B-tree",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel type d'index convient à la recherche dans du JSONB ou des tableaux ?",
+      "options": [
+        "GIN",
+        "B-tree",
+        "Hash",
+        "BRIN"
+      ],
+      "answer": "GIN",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un index partiel ?",
+      "options": [
+        "Un index qui ne porte que sur les lignes vérifiant une condition",
+        "Un index incomplet en cours de création",
+        "Un index sur une partie d'une colonne texte uniquement",
+        "Un index désactivé"
+      ],
+      "answer": "Un index qui ne porte que sur les lignes vérifiant une condition",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait ON CONFLICT ... DO UPDATE ?",
+      "options": [
+        "Un « upsert » : mettre à jour la ligne si l'insertion viole une contrainte unique",
+        "Ignorer toutes les erreurs",
+        "Supprimer la ligne en conflit",
+        "Créer une nouvelle table"
+      ],
+      "answer": "Un « upsert » : mettre à jour la ligne si l'insertion viole une contrainte unique",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une CTE (WITH) ?",
+      "options": [
+        "Une sous-requête nommée utilisable dans la requête principale",
+        "Une table permanente",
+        "Un index",
+        "Un trigger"
+      ],
+      "answer": "Une sous-requête nommée utilisable dans la requête principale",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une vue matérialisée ?",
+      "options": [
+        "Une vue dont le résultat est stocké et doit être rafraîchi",
+        "Une vue toujours à jour en temps réel",
+        "Une table temporaire",
+        "Une copie de sauvegarde"
+      ],
+      "answer": "Une vue dont le résultat est stocké et doit être rafraîchi",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment rafraîchit-on une vue matérialisée sans bloquer les lectures ?",
+      "options": [
+        "REFRESH MATERIALIZED VIEW CONCURRENTLY (avec un index unique)",
+        "UPDATE VIEW",
+        "RELOAD VIEW",
+        "VACUUM VIEW"
+      ],
+      "answer": "REFRESH MATERIALIZED VIEW CONCURRENTLY (avec un index unique)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel opérateur extrait une valeur texte d'un champ JSONB ?",
+      "options": [
+        "->>",
+        "->",
+        "::",
+        "@>"
+      ],
+      "answer": "->>",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que teste l'opérateur @> sur du JSONB ?",
+      "options": [
+        "Si le document de gauche contient celui de droite",
+        "Si deux documents sont égaux",
+        "La taille du document",
+        "La validité du JSON"
+      ],
+      "answer": "Si le document de gauche contient celui de droite",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le WAL ?",
+      "options": [
+        "Le journal d'écriture anticipée qui garantit la durabilité et sert à la réplication",
+        "Un outil d'administration web",
+        "Un type d'index",
+        "Un fichier de configuration"
+      ],
+      "answer": "Le journal d'écriture anticipée qui garantit la durabilité et sert à la réplication",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est le niveau d'isolation par défaut ?",
+      "options": [
+        "READ COMMITTED",
+        "SERIALIZABLE",
+        "REPEATABLE READ",
+        "READ UNCOMMITTED"
+      ],
+      "answer": "READ COMMITTED",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait CREATE INDEX CONCURRENTLY ?",
+      "options": [
+        "Créer un index sans bloquer les écritures sur la table",
+        "Créer plusieurs index en parallèle",
+        "Créer un index sur plusieurs bases",
+        "Créer un index temporaire"
+      ],
+      "answer": "Créer un index sans bloquer les écritures sur la table",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel opérateur effectue une conversion de type (cast) propre à PostgreSQL ?",
+      "options": [
+        "::",
+        "->",
+        "##",
+        "=>"
+      ],
+      "answer": "::",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert l'extension pg_stat_statements ?",
+      "options": [
+        "Suivre les statistiques d'exécution des requêtes",
+        "Chiffrer les données",
+        "Gérer les sauvegardes",
+        "Répliquer les tables"
+      ],
+      "answer": "Suivre les statistiques d'exécution des requêtes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un tablespace ?",
+      "options": [
+        "Un emplacement du système de fichiers où stocker des objets de la base",
+        "Un schéma",
+        "Une table vide",
+        "Un rôle"
+      ],
+      "answer": "Un emplacement du système de fichiers où stocker des objets de la base",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « transaction ID wraparound » ?",
+      "options": [
+        "Le bouclage du compteur 32 bits des transactions, évité grâce au gel des lignes par VACUUM",
+        "Une transaction qui dure trop longtemps",
+        "Une erreur de réplication",
+        "Un deadlock circulaire"
+      ],
+      "answer": "Le bouclage du compteur 32 bits des transactions, évité grâce au gel des lignes par VACUUM",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une mise à jour HOT (Heap-Only Tuple) ?",
+      "options": [
+        "Une mise à jour qui évite de toucher les index si aucune colonne indexée ne change et que la page a de la place",
+        "Une mise à jour en mémoire uniquement",
+        "Une mise à jour urgente",
+        "Une mise à jour d'index uniquement"
+      ],
+      "answer": "Une mise à jour qui évite de toucher les index si aucune colonne indexée ne change et que la page a de la place",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert le fillfactor d'une table ?",
+      "options": [
+        "Laisser de l'espace libre dans les pages pour favoriser les mises à jour HOT",
+        "Remplir la table de données de test",
+        "Limiter le nombre de lignes",
+        "Compresser les pages"
+      ],
+      "answer": "Laisser de l'espace libre dans les pages pour favoriser les mises à jour HOT",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quand un index BRIN est-il pertinent ?",
+      "options": [
+        "Pour de très grandes tables dont les valeurs sont corrélées à l'ordre physique, comme des dates d'insertion",
+        "Pour les recherches plein texte",
+        "Pour les colonnes JSONB",
+        "Pour les petites tables"
+      ],
+      "answer": "Pour de très grandes tables dont les valeurs sont corrélées à l'ordre physique, comme des dates d'insertion",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la Row Level Security (RLS) ?",
+      "options": [
+        "Des politiques qui filtrent les lignes visibles ou modifiables selon l'utilisateur",
+        "Le chiffrement de chaque ligne",
+        "Un verrou par ligne",
+        "Une sauvegarde ligne par ligne"
+      ],
+      "answer": "Des politiques qui filtrent les lignes visibles ou modifiables selon l'utilisateur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle différence entre réplication physique (streaming) et logique ?",
+      "options": [
+        "La physique réplique les blocs WAL de tout le cluster ; la logique réplique des changements de tables choisies",
+        "La logique est plus rapide dans tous les cas",
+        "La physique ne fonctionne qu'entre versions différentes",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "La physique réplique les blocs WAL de tout le cluster ; la logique réplique des changements de tables choisies",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi utiliser un pooler comme PgBouncer ?",
+      "options": [
+        "Chaque connexion PostgreSQL est un processus coûteux ; le pooler mutualise les connexions",
+        "Pour chiffrer les connexions",
+        "Pour répliquer la base",
+        "Pour sauvegarder la base"
+      ],
+      "answer": "Chaque connexion PostgreSQL est un processus coûteux ; le pooler mutualise les connexions",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le niveau SERIALIZABLE dans PostgreSQL ?",
+      "options": [
+        "Une isolation qui détecte les anomalies et peut annuler une transaction avec une erreur de sérialisation",
+        "Une exécution des transactions une par une",
+        "Un mode de sauvegarde",
+        "Un mode sans verrou"
+      ],
+      "answer": "Une isolation qui détecte les anomalies et peut annuler une transaction avec une erreur de sérialisation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « advisory lock » ?",
+      "options": [
+        "Un verrou applicatif dont le sens est défini par l'application",
+        "Un verrou automatique sur les index",
+        "Un conseil du planificateur",
+        "Un verrou de maintenance"
+      ],
+      "answer": "Un verrou applicatif dont le sens est défini par l'application",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet SKIP LOCKED dans SELECT ... FOR UPDATE ?",
+      "options": [
+        "Ignorer les lignes déjà verrouillées, utile pour implémenter une file de tâches",
+        "Supprimer les verrous",
+        "Verrouiller toute la table",
+        "Lire sans transaction"
+      ],
+      "answer": "Ignorer les lignes déjà verrouillées, utile pour implémenter une file de tâches",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le partitionnement déclaratif ?",
+      "options": [
+        "Définir une table parente partitionnée par plage, liste ou hachage",
+        "Un découpage automatique de la base en plusieurs serveurs",
+        "Un index partiel",
+        "Une vue matérialisée"
+      ],
+      "answer": "Définir une table parente partitionnée par plage, liste ou hachage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « partition pruning » ?",
+      "options": [
+        "L'exclusion par le planificateur des partitions qui ne peuvent pas contenir de résultats",
+        "La suppression des anciennes partitions",
+        "La compression des partitions",
+        "La fusion des partitions"
+      ],
+      "answer": "L'exclusion par le planificateur des partitions qui ne peuvent pas contenir de résultats",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que TOAST ?",
+      "options": [
+        "Le mécanisme de stockage hors ligne et de compression des grandes valeurs",
+        "Un outil de test",
+        "Un type d'index",
+        "Un format de sauvegarde"
+      ],
+      "answer": "Le mécanisme de stockage hors ligne et de compression des grandes valeurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet le PITR (Point-In-Time Recovery) ?",
+      "options": [
+        "Restaurer la base à un instant précis grâce à une sauvegarde de base et aux WAL archivés",
+        "Restaurer une seule table",
+        "Accélérer les requêtes",
+        "Répliquer en temps réel"
+      ],
+      "answer": "Restaurer la base à un instant précis grâce à une sauvegarde de base et aux WAL archivés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la recherche plein texte avec tsvector et tsquery ?",
+      "options": [
+        "Un mécanisme intégré d'indexation et de recherche de documents textuels",
+        "Une recherche par expression régulière",
+        "Un moteur externe obligatoire",
+        "Une recherche sur les noms de colonnes"
+      ],
+      "answer": "Un mécanisme intégré d'indexation et de recherche de documents textuels",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un index d'expression ?",
+      "options": [
+        "Un index construit sur le résultat d'une expression, comme lower(email)",
+        "Un index sur une vue",
+        "Un index temporaire",
+        "Un index de type regex"
+      ],
+      "answer": "Un index construit sur le résultat d'une expression, comme lower(email)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que mesure le « bloat » d'une table ?",
+      "options": [
+        "L'espace occupé inutilement par des lignes mortes ou des pages à moitié vides",
+        "Le nombre de colonnes",
+        "La taille du WAL",
+        "Le nombre de connexions"
+      ],
+      "answer": "L'espace occupé inutilement par des lignes mortes ou des pages à moitié vides",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte l'extension pgvector ?",
+      "options": [
+        "Le stockage de vecteurs et la recherche par similarité, par exemple pour l'IA",
+        "La gestion des versions de schéma",
+        "Le chiffrement des colonnes",
+        "La réplication multi-maître"
+      ],
+      "answer": "Le stockage de vecteurs et la recherche par similarité, par exemple pour l'IA",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « LATERAL » join ?",
+      "options": [
+        "Une jointure où la sous-requête de droite peut référencer les colonnes de la table de gauche",
+        "Une jointure sans condition",
+        "Une jointure entre deux bases",
+        "Une jointure réservée aux vues"
+      ],
+      "answer": "Une jointure où la sous-requête de droite peut référencer les colonnes de la table de gauche",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait le paramètre work_mem ?",
+      "options": [
+        "Il fixe la mémoire disponible pour chaque opération de tri ou de hachage d'une requête",
+        "Il fixe la mémoire totale du serveur",
+        "Il limite la taille du WAL",
+        "Il définit le cache partagé"
+      ],
+      "answer": "Il fixe la mémoire disponible pour chaque opération de tri ou de hachage d'une requête",
+      "difficulty": "difficile"
+    }
+  ]
 }

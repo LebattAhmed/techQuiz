@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quelle entreprise a créé Flutter ?",
+      "options": [
+        "Google",
+        "Meta",
+        "Apple",
+        "Microsoft"
+      ],
+      "answer": "Google",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel langage utilise Flutter ?",
+      "options": [
+        "Dart",
+        "Kotlin",
+        "Swift",
+        "JavaScript"
+      ],
+      "answer": "Dart",
+      "difficulty": "facile"
+    },
+    {
+      "question": "En Flutter, de quoi est composée l'interface ?",
+      "options": [
+        "De widgets",
+        "De fichiers HTML",
+        "De storyboards",
+        "De fichiers XML uniquement"
+      ],
+      "answer": "De widgets",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la fonction d'entrée d'une application Flutter ?",
+      "options": [
+        "main()",
+        "start()",
+        "init()",
+        "run()"
+      ],
+      "answer": "main()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction lance l'application en lui passant le widget racine ?",
+      "options": [
+        "runApp()",
+        "startApp()",
+        "launch()",
+        "render()"
+      ],
+      "answer": "runApp()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre StatelessWidget et StatefulWidget ?",
+      "options": [
+        "Un StatefulWidget possède un état qui peut changer, un StatelessWidget non",
+        "Un StatelessWidget est plus récent",
+        "Un StatefulWidget ne peut pas être affiché",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Un StatefulWidget possède un état qui peut changer, un StatelessWidget non",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode demande la reconstruction d'un StatefulWidget après un changement d'état ?",
+      "options": [
+        "setState()",
+        "update()",
+        "refresh()",
+        "rebuild()"
+      ],
+      "answer": "setState()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel widget empile ses enfants verticalement ?",
+      "options": [
+        "Column",
+        "Row",
+        "Stack",
+        "Wrap"
+      ],
+      "answer": "Column",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel widget aligne ses enfants horizontalement ?",
+      "options": [
+        "Row",
+        "Column",
+        "ListView",
+        "Center"
+      ],
+      "answer": "Row",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel widget superpose ses enfants les uns sur les autres ?",
+      "options": [
+        "Stack",
+        "Column",
+        "Row",
+        "Expanded"
+      ],
+      "answer": "Stack",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier déclare les dépendances d'un projet Flutter ?",
+      "options": [
+        "pubspec.yaml",
+        "package.json",
+        "build.gradle",
+        "Podfile"
+      ],
+      "answer": "pubspec.yaml",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le dépôt officiel des paquets Dart et Flutter ?",
+      "options": [
+        "pub.dev",
+        "npmjs.com",
+        "PyPI",
+        "Maven Central"
+      ],
+      "answer": "pub.dev",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonctionnalité met à jour l'app en direct pendant le développement en gardant l'état ?",
+      "options": [
+        "Le hot reload",
+        "Le cold boot",
+        "Le live deploy",
+        "Le fast build"
+      ],
+      "answer": "Le hot reload",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée un nouveau projet ?",
+      "options": [
+        "flutter create",
+        "flutter new",
+        "dart init app",
+        "flutter start"
+      ],
+      "answer": "flutter create",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande vérifie l'installation de l'environnement Flutter ?",
+      "options": [
+        "flutter doctor",
+        "flutter check",
+        "flutter verify",
+        "flutter status"
+      ],
+      "answer": "flutter doctor",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel widget fournit la structure de base d'un écran Material (barre, corps, bouton flottant) ?",
+      "options": [
+        "Scaffold",
+        "Container",
+        "Padding",
+        "SizedBox"
+      ],
+      "answer": "Scaffold",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel widget permet d'ajouter des marges intérieures autour d'un enfant ?",
+      "options": [
+        "Padding",
+        "Margin",
+        "Spacer",
+        "Border"
+      ],
+      "answer": "Padding",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel widget affiche une liste défilante ?",
+      "options": [
+        "ListView",
+        "Column seule",
+        "Text",
+        "Row"
+      ],
+      "answer": "ListView",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Sur quelles plateformes Flutter peut-il produire des applications ?",
+      "options": [
+        "Mobile, web et bureau",
+        "Android uniquement",
+        "iOS uniquement",
+        "Web uniquement"
+      ],
+      "answer": "Mobile, web et bureau",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé Dart déclare une variable qui ne sera assignée qu'une fois ?",
+      "options": [
+        "final",
+        "var",
+        "dynamic",
+        "late seulement"
+      ],
+      "answer": "final",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre final et const en Dart ?",
+      "options": [
+        "const est une constante connue à la compilation, final est assignée une fois à l'exécution",
+        "final est connue à la compilation",
+        "Ce sont des synonymes",
+        "const ne s'applique qu'aux chaînes"
+      ],
+      "answer": "const est une constante connue à la compilation, final est assignée une fois à l'exécution",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi utiliser des constructeurs const pour les widgets ?",
+      "options": [
+        "Flutter peut réutiliser l'instance et éviter des reconstructions inutiles",
+        "Pour rendre le widget invisible",
+        "Pour l'animer",
+        "C'est obligatoire"
+      ],
+      "answer": "Flutter peut réutiliser l'instance et éviter des reconstructions inutiles",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert le widget Expanded ?",
+      "options": [
+        "Faire occuper à un enfant l'espace restant dans une Row ou une Column",
+        "Agrandir le texte",
+        "Ouvrir un menu",
+        "Afficher en plein écran"
+      ],
+      "answer": "Faire occuper à un enfant l'espace restant dans une Row ou une Column",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un Future en Dart ?",
+      "options": [
+        "Une valeur qui sera disponible plus tard, résultat d'une opération asynchrone",
+        "Une date dans le futur",
+        "Un widget animé",
+        "Une classe abstraite"
+      ],
+      "answer": "Une valeur qui sera disponible plus tard, résultat d'une opération asynchrone",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un Stream en Dart ?",
+      "options": [
+        "Une séquence de valeurs asynchrones dans le temps",
+        "Une vidéo",
+        "Une liste triée",
+        "Un fichier"
+      ],
+      "answer": "Une séquence de valeurs asynchrones dans le temps",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel widget construit l'interface à partir du résultat d'un Future ?",
+      "options": [
+        "FutureBuilder",
+        "StreamBuilder",
+        "AsyncWidget",
+        "LoadingBuilder"
+      ],
+      "answer": "FutureBuilder",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est le rôle du BuildContext ?",
+      "options": [
+        "Il représente l'emplacement du widget dans l'arbre et donne accès aux ancêtres",
+        "Il contient les paramètres de compilation",
+        "Il stocke l'état global",
+        "Il gère le réseau"
+      ],
+      "answer": "Il représente l'emplacement du widget dans l'arbre et donne accès aux ancêtres",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la null safety en Dart ?",
+      "options": [
+        "Les types ne peuvent pas être null sauf s'ils sont déclarés nullables avec ?",
+        "Les variables sont toujours null au départ",
+        "Une bibliothèque de validation",
+        "Un mode de débogage"
+      ],
+      "answer": "Les types ne peuvent pas être null sauf s'ils sont déclarés nullables avec ?",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le mot-clé late ?",
+      "options": [
+        "Déclarer une variable non nullable initialisée plus tard",
+        "Retarder l'exécution d'une fonction",
+        "Créer un Future",
+        "Désactiver la null safety"
+      ],
+      "answer": "Déclarer une variable non nullable initialisée plus tard",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Provider ?",
+      "options": [
+        "Un paquet de gestion d'état basé sur InheritedWidget",
+        "Un fournisseur cloud",
+        "Un widget de mise en page",
+        "Un outil de tests"
+      ],
+      "answer": "Un paquet de gestion d'état basé sur InheritedWidget",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que InheritedWidget ?",
+      "options": [
+        "Un widget qui rend des données accessibles efficacement à ses descendants",
+        "Un widget qui hérite d'une classe",
+        "Un widget obsolète",
+        "Un widget de navigation"
+      ],
+      "answer": "Un widget qui rend des données accessibles efficacement à ses descendants",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment navigue-t-on vers un nouvel écran avec le Navigator classique ?",
+      "options": [
+        "Navigator.push()",
+        "Navigator.go() uniquement",
+        "Router.open()",
+        "Screen.show()"
+      ],
+      "answer": "Navigator.push()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Riverpod ?",
+      "options": [
+        "Une solution de gestion d'état et d'injection, indépendante du BuildContext",
+        "Un moteur de rendu",
+        "Un serveur web",
+        "Un émulateur"
+      ],
+      "answer": "Une solution de gestion d'état et d'injection, indépendante du BuildContext",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le pattern BLoC ?",
+      "options": [
+        "Séparer la logique métier de l'interface via des flux d'événements et d'états",
+        "Un widget de bloc de texte",
+        "Un outil de compilation",
+        "Une base de données"
+      ],
+      "answer": "Séparer la logique métier de l'interface via des flux d'événements et d'états",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle méthode du State est appelée une seule fois à la création ?",
+      "options": [
+        "initState()",
+        "build()",
+        "didChangeDependencies() uniquement",
+        "setState()"
+      ],
+      "answer": "initState()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi appeler dispose() sur un AnimationController ou un TextEditingController ?",
+      "options": [
+        "Pour libérer les ressources et éviter les fuites",
+        "Pour enregistrer la saisie",
+        "Pour fermer l'application",
+        "Ce n'est jamais nécessaire"
+      ],
+      "answer": "Pour libérer les ressources et éviter les fuites",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment utiliser du code natif spécifique à une plateforme ?",
+      "options": [
+        "Via des platform channels (MethodChannel)",
+        "En écrivant du Kotlin dans le fichier Dart",
+        "C'est impossible",
+        "Via le fichier pubspec.lock"
+      ],
+      "answer": "Via des platform channels (MethodChannel)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le widget LayoutBuilder ?",
+      "options": [
+        "Construire l'interface selon les contraintes de taille du parent",
+        "Construire automatiquement des layouts",
+        "Générer du code",
+        "Charger des polices"
+      ],
+      "answer": "Construire l'interface selon les contraintes de taille du parent",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre hot reload et hot restart ?",
+      "options": [
+        "Le hot restart réinitialise l'état de l'application, le hot reload le conserve",
+        "Le hot reload recompile le code natif",
+        "Ils sont identiques",
+        "Le hot restart ne fonctionne qu'en release"
+      ],
+      "answer": "Le hot restart réinitialise l'état de l'application, le hot reload le conserve",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie l'erreur « RenderFlex overflowed » ?",
+      "options": [
+        "Le contenu d'une Row ou Column dépasse l'espace disponible",
+        "Un problème réseau",
+        "Une variable null",
+        "Une fuite mémoire"
+      ],
+      "answer": "Le contenu d'une Row ou Column dépasse l'espace disponible",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quels sont les trois arbres principaux de Flutter ?",
+      "options": [
+        "L'arbre des widgets, des éléments et des render objects",
+        "L'arbre DOM, CSS et JS",
+        "L'arbre des fichiers, des classes et des tests",
+        "L'arbre des routes, des états et des thèmes"
+      ],
+      "answer": "L'arbre des widgets, des éléments et des render objects",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle règle résume la mise en page Flutter ?",
+      "options": [
+        "Les contraintes descendent, les tailles remontent, le parent fixe la position",
+        "Les enfants fixent la taille du parent librement",
+        "Tout est en position absolue",
+        "La taille est toujours celle de l'écran"
+      ],
+      "answer": "Les contraintes descendent, les tailles remontent, le parent fixe la position",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi servent les Keys en Flutter ?",
+      "options": [
+        "À préserver l'état ou l'identité d'un widget quand il change de place dans l'arbre",
+        "À chiffrer les widgets",
+        "À gérer les raccourcis clavier",
+        "À identifier les utilisateurs"
+      ],
+      "answer": "À préserver l'état ou l'identité d'un widget quand il change de place dans l'arbre",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre une GlobalKey et une ValueKey ?",
+      "options": [
+        "Une GlobalKey est unique dans toute l'application et donne accès à l'état ; une ValueKey compare par valeur entre frères",
+        "Une ValueKey est globale",
+        "Elles sont identiques",
+        "Une GlobalKey est plus légère"
+      ],
+      "answer": "Une GlobalKey est unique dans toute l'application et donne accès à l'état ; une ValueKey compare par valeur entre frères",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un isolate en Dart ?",
+      "options": [
+        "Un fil d'exécution avec sa propre mémoire, qui communique par messages",
+        "Un thread partageant la mémoire",
+        "Un widget isolé",
+        "Un module natif"
+      ],
+      "answer": "Un fil d'exécution avec sa propre mémoire, qui communique par messages",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment exécuter un calcul lourd sans bloquer l'interface ?",
+      "options": [
+        "Le lancer dans un isolate, par exemple avec Isolate.run ou compute",
+        "Le placer dans setState",
+        "L'exécuter dans build()",
+        "Augmenter la fréquence d'images"
+      ],
+      "answer": "Le lancer dans un isolate, par exemple avec Isolate.run ou compute",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'Impeller ?",
+      "options": [
+        "Le moteur de rendu de Flutter qui précompile les shaders pour éviter les saccades",
+        "Un outil de tests",
+        "Un gestionnaire de paquets",
+        "Une bibliothèque d'icônes"
+      ],
+      "answer": "Le moteur de rendu de Flutter qui précompile les shaders pour éviter les saccades",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la compilation AOT est-elle utilisée en release ?",
+      "options": [
+        "Elle produit du code natif rapide au démarrage et à l'exécution",
+        "Elle permet le hot reload",
+        "Elle rend l'application plus lourde volontairement",
+        "Elle est réservée au web"
+      ],
+      "answer": "Elle produit du code natif rapide au démarrage et à l'exécution",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi le mode debug est-il plus lent que la release ?",
+      "options": [
+        "Il utilise la compilation JIT et des vérifications supplémentaires",
+        "Il désactive le GPU",
+        "Il charge des images en double",
+        "Il n'utilise qu'un seul cœur"
+      ],
+      "answer": "Il utilise la compilation JIT et des vérifications supplémentaires",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait RepaintBoundary ?",
+      "options": [
+        "Isoler une zone dans sa propre couche pour éviter de repeindre le reste",
+        "Ajouter une bordure",
+        "Bloquer les gestes",
+        "Recharger l'écran"
+      ],
+      "answer": "Isoler une zone dans sa propre couche pour éviter de repeindre le reste",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le coût caché du widget Opacity animé ?",
+      "options": [
+        "Il peut nécessiter un rendu dans une couche hors écran ; FadeTransition est souvent préférable",
+        "Il désactive les animations",
+        "Il ne fonctionne que sur iOS",
+        "Il augmente la taille du binaire"
+      ],
+      "answer": "Il peut nécessiter un rendu dans une couche hors écran ; FadeTransition est souvent préférable",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi éviter un travail coûteux dans la méthode build() ?",
+      "options": [
+        "build() peut être appelée très souvent, à chaque reconstruction",
+        "build() n'est appelée qu'une fois",
+        "build() s'exécute sur un autre thread",
+        "build() ne peut pas contenir de code"
+      ],
+      "answer": "build() peut être appelée très souvent, à chaque reconstruction",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un CustomPainter ?",
+      "options": [
+        "Une classe pour dessiner directement sur un canevas",
+        "Un thème personnalisé",
+        "Un outil de capture d'écran",
+        "Un widget de texte"
+      ],
+      "answer": "Une classe pour dessiner directement sur un canevas",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permettent les sealed classes et le pattern matching de Dart 3 ?",
+      "options": [
+        "Exprimer des états finis et vérifier à la compilation que tous les cas sont traités",
+        "Chiffrer les classes",
+        "Interdire l'héritage partout",
+        "Accélérer le hot reload"
+      ],
+      "answer": "Exprimer des états finis et vérifier à la compilation que tous les cas sont traités",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les records en Dart 3 ?",
+      "options": [
+        "Des valeurs composées anonymes et immuables, comme (int, String)",
+        "Des enregistrements audio",
+        "Des tables de base de données",
+        "Des logs"
+      ],
+      "answer": "Des valeurs composées anonymes et immuables, comme (int, String)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que signifie la tree shaking appliquée aux icônes ?",
+      "options": [
+        "Ne conserver dans le build que les icônes réellement utilisées",
+        "Animer les icônes",
+        "Trier les icônes",
+        "Charger les icônes depuis Internet"
+      ],
+      "answer": "Ne conserver dans le build que les icônes réellement utilisées",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le DevTools « Performance overlay » montre ?",
+      "options": [
+        "Les temps de rendu des threads UI et raster par image",
+        "La consommation réseau",
+        "Le nombre de widgets",
+        "Les erreurs de compilation"
+      ],
+      "answer": "Les temps de rendu des threads UI et raster par image",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que go_router ?",
+      "options": [
+        "Un paquet de routage déclaratif basé sur les URL, compatible avec les deep links",
+        "Un routeur réseau en Go",
+        "Un serveur web",
+        "Un outil de build"
+      ],
+      "answer": "Un paquet de routage déclaratif basé sur les URL, compatible avec les deep links",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi utiliser « mounted » avant setState après un await ?",
+      "options": [
+        "Le widget peut avoir été retiré de l'arbre pendant l'attente",
+        "setState est asynchrone",
+        "mounted active le hot reload",
+        "Pour accélérer la reconstruction"
+      ],
+      "answer": "Le widget peut avoir été retiré de l'arbre pendant l'attente",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'obfuscation Dart en release (--obfuscate) ?",
+      "options": [
+        "Rendre les noms de symboles illisibles, avec un fichier de symboles pour décoder les traces",
+        "Chiffrer les données utilisateur",
+        "Compresser les images",
+        "Masquer l'icône de l'app"
+      ],
+      "answer": "Rendre les noms de symboles illisibles, avec un fichier de symboles pour décoder les traces",
+      "difficulty": "difficile"
+    }
+  ]
 }

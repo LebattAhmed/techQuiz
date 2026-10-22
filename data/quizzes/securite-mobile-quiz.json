@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Pourquoi installer les applications uniquement depuis les stores officiels ?",
+      "options": [
+        "Elles y sont contrôlées, ce qui réduit le risque d'applications malveillantes",
+        "Elles sont toujours gratuites",
+        "Elles consomment moins de batterie",
+        "Elles n'ont jamais de publicité"
+      ],
+      "answer": "Elles y sont contrôlées, ce qui réduit le risque d'applications malveillantes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que sont les permissions d'une application mobile ?",
+      "options": [
+        "Les accès qu'elle demande aux données et fonctions du téléphone",
+        "Les licences payantes de l'application",
+        "Les mises à jour automatiques",
+        "Les avis des utilisateurs"
+      ],
+      "answer": "Les accès qu'elle demande aux données et fonctions du téléphone",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi se méfier d'une lampe torche qui demande l'accès aux contacts ?",
+      "options": [
+        "La permission n'a aucun rapport avec la fonction, ce qui peut cacher une collecte abusive",
+        "Elle va vider la batterie",
+        "Elle ne fonctionnera pas sans",
+        "C'est obligatoire sur Android"
+      ],
+      "answer": "La permission n'a aucun rapport avec la fonction, ce qui peut cacher une collecte abusive",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie « jailbreak » sur iOS ?",
+      "options": [
+        "Supprimer les restrictions du système pour obtenir des privilèges élevés",
+        "Réparer un écran cassé",
+        "Changer d'opérateur",
+        "Mettre à jour iOS"
+      ],
+      "answer": "Supprimer les restrictions du système pour obtenir des privilèges élevés",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment appelle-t-on l'équivalent du jailbreak sur Android ?",
+      "options": [
+        "Le rootage",
+        "Le flashage d'écran",
+        "Le débridage Wi-Fi",
+        "Le sideloading iOS"
+      ],
+      "answer": "Le rootage",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi un téléphone rooté est-il plus exposé ?",
+      "options": [
+        "Les protections du système sont affaiblies et les malwares peuvent obtenir plus de droits",
+        "Il est plus lent à charger",
+        "Il ne peut plus téléphoner",
+        "Il perd sa garantie d'écran uniquement"
+      ],
+      "answer": "Les protections du système sont affaiblies et les malwares peuvent obtenir plus de droits",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le « sideloading » ?",
+      "options": [
+        "Installer une application en dehors du store officiel",
+        "Charger le téléphone sans fil",
+        "Transférer des photos",
+        "Mettre l'écran en mode paysage"
+      ],
+      "answer": "Installer une application en dehors du store officiel",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi activer le verrouillage de l'écran ?",
+      "options": [
+        "Pour protéger les données si le téléphone est perdu ou volé",
+        "Pour économiser la batterie uniquement",
+        "Pour accélérer le téléphone",
+        "Pour améliorer le réseau"
+      ],
+      "answer": "Pour protéger les données si le téléphone est perdu ou volé",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le « smishing » ?",
+      "options": [
+        "Du phishing par SMS",
+        "Un malware Bluetooth",
+        "Un chargeur piégé",
+        "Une application de messagerie sécurisée"
+      ],
+      "answer": "Du phishing par SMS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi mettre à jour le système de son smartphone ?",
+      "options": [
+        "Les mises à jour corrigent des failles de sécurité",
+        "Pour changer le fond d'écran",
+        "Pour réduire la luminosité",
+        "Ce n'est utile que pour les jeux"
+      ],
+      "answer": "Les mises à jour corrigent des failles de sécurité",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le chiffrement de l'appareil ?",
+      "options": [
+        "Les données stockées sont illisibles sans le déverrouillage",
+        "Le téléphone ne peut plus se connecter à Internet",
+        "Les appels sont enregistrés",
+        "Les applications sont compressées"
+      ],
+      "answer": "Les données stockées sont illisibles sans le déverrouillage",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi éviter de stocker un mot de passe en clair dans une application ?",
+      "options": [
+        "Il pourrait être récupéré en analysant l'application ou le stockage",
+        "Il prend trop de place",
+        "Il ralentit l'application",
+        "Les stores l'interdisent toujours"
+      ],
+      "answer": "Il pourrait être récupéré en analysant l'application ou le stockage",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait la fonction « localiser mon appareil » ?",
+      "options": [
+        "Elle permet de retrouver, verrouiller ou effacer un téléphone perdu",
+        "Elle partage la position avec tous les contacts",
+        "Elle désactive le GPS",
+        "Elle bloque les appels inconnus"
+      ],
+      "answer": "Elle permet de retrouver, verrouiller ou effacer un téléphone perdu",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « juice jacking » ?",
+      "options": [
+        "Une attaque via une borne USB publique de recharge",
+        "Un vol de batterie",
+        "Une application de régime",
+        "Un piratage de distributeur de boissons"
+      ],
+      "answer": "Une attaque via une borne USB publique de recharge",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi désactiver le Bluetooth quand on ne l'utilise pas ?",
+      "options": [
+        "Pour réduire la surface d'attaque face aux failles Bluetooth",
+        "Pour éviter que l'écran s'éteigne",
+        "Pour améliorer le son",
+        "Parce qu'il bloque le Wi-Fi"
+      ],
+      "answer": "Pour réduire la surface d'attaque face aux failles Bluetooth",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le magasin officiel d'applications d'Android ?",
+      "options": [
+        "Google Play Store",
+        "App Store",
+        "Microsoft Store",
+        "F-Droid uniquement"
+      ],
+      "answer": "Google Play Store",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi l'authentification biométrique est-elle pratique ?",
+      "options": [
+        "Elle offre un déverrouillage rapide tout en restant liée à l'utilisateur",
+        "Elle remplace le chiffrement",
+        "Elle fonctionne sans capteur",
+        "Elle est impossible à contourner dans tous les cas"
+      ],
+      "answer": "Elle offre un déverrouillage rapide tout en restant liée à l'utilisateur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie MDM en entreprise ?",
+      "options": [
+        "Mobile Device Management, la gestion centralisée des appareils mobiles",
+        "Mobile Data Messaging",
+        "Multi Device Memory",
+        "Mobile Download Manager"
+      ],
+      "answer": "Mobile Device Management, la gestion centralisée des appareils mobiles",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « stalkerware » ?",
+      "options": [
+        "Un logiciel caché utilisé pour surveiller une personne à son insu",
+        "Une application de fitness",
+        "Un antivirus mobile",
+        "Une application de navigation"
+      ],
+      "answer": "Un logiciel caché utilisé pour surveiller une personne à son insu",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que contient l'OWASP Mobile Top 10 ?",
+      "options": [
+        "Les principaux risques de sécurité des applications mobiles",
+        "Les dix meilleurs smartphones",
+        "Les dix applications les plus téléchargées",
+        "Les dix opérateurs les plus sûrs"
+      ],
+      "answer": "Les principaux risques de sécurité des applications mobiles",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Où stocker des secrets de façon sûre sur iOS ?",
+      "options": [
+        "Dans le Keychain",
+        "Dans UserDefaults",
+        "Dans un fichier texte du bundle",
+        "Dans le presse-papiers"
+      ],
+      "answer": "Dans le Keychain",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel composant Android protège les clés cryptographiques, idéalement adossé au matériel ?",
+      "options": [
+        "Android Keystore",
+        "SharedPreferences",
+        "Le dossier Download",
+        "Le fichier AndroidManifest.xml"
+      ],
+      "answer": "Android Keystore",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi SharedPreferences n'est-il pas adapté aux secrets en clair ?",
+      "options": [
+        "Ses données sont stockées dans un fichier XML lisible sur un appareil rooté",
+        "Il est trop lent",
+        "Il ne stocke que des images",
+        "Il est effacé à chaque lancement"
+      ],
+      "answer": "Ses données sont stockées dans un fichier XML lisible sur un appareil rooté",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un composant Android « exporté » ?",
+      "options": [
+        "Un composant accessible par d'autres applications",
+        "Un composant compilé en natif",
+        "Un composant publié sur le store",
+        "Un composant supprimé de l'APK"
+      ],
+      "answer": "Un composant accessible par d'autres applications",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi un composant exporté sans permission est-il risqué ?",
+      "options": [
+        "Une autre application peut l'appeler et accéder à ses fonctions ou données",
+        "Il augmente la taille de l'APK",
+        "Il plante au démarrage",
+        "Il empêche les mises à jour"
+      ],
+      "answer": "Une autre application peut l'appeler et accéder à ses fonctions ou données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait App Transport Security (ATS) sur iOS ?",
+      "options": [
+        "Il impose par défaut des connexions HTTPS sécurisées",
+        "Il chiffre les photos",
+        "Il bloque les notifications",
+        "Il signe les applications"
+      ],
+      "answer": "Il impose par défaut des connexions HTTPS sécurisées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel fichier Android permet de configurer la sécurité réseau, par exemple interdire le trafic en clair ?",
+      "options": [
+        "network_security_config.xml",
+        "build.gradle",
+        "strings.xml",
+        "proguard-rules.pro"
+      ],
+      "answer": "network_security_config.xml",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi le code d'une application Android est-il facile à décompiler ?",
+      "options": [
+        "Le bytecode DEX conserve beaucoup d'informations sur le code d'origine",
+        "Il est distribué en texte brut",
+        "Le store publie le code source",
+        "Android interdit l'obfuscation"
+      ],
+      "answer": "Le bytecode DEX conserve beaucoup d'informations sur le code d'origine",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert l'obfuscation (par ex. R8 ou ProGuard) ?",
+      "options": [
+        "Rendre le code décompilé plus difficile à comprendre",
+        "Chiffrer les données utilisateur",
+        "Accélérer le réseau",
+        "Remplacer HTTPS"
+      ],
+      "answer": "Rendre le code décompilé plus difficile à comprendre",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi ne faut-il pas embarquer une clé d'API secrète dans une application mobile ?",
+      "options": [
+        "Elle peut être extraite de l'application par n'importe qui",
+        "Elle expire plus vite",
+        "Elle ralentit l'application",
+        "Les stores la suppriment"
+      ],
+      "answer": "Elle peut être extraite de l'application par n'importe qui",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un deep link mal sécurisé ?",
+      "options": [
+        "Un lien qui ouvre l'application et déclenche une action sans vérifier son origine ni ses paramètres",
+        "Un lien cassé",
+        "Un lien trop long",
+        "Un lien vers une page web lente"
+      ],
+      "answer": "Un lien qui ouvre l'application et déclenche une action sans vérifier son origine ni ses paramètres",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre App Links (Android) et un schéma d'URL personnalisé ?",
+      "options": [
+        "App Links sont vérifiés par le domaine, un schéma personnalisé peut être revendiqué par une autre app",
+        "App Links ne fonctionnent qu'en Wi-Fi",
+        "Les schémas personnalisés sont chiffrés",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "App Links sont vérifiés par le domaine, un schéma personnalisé peut être revendiqué par une autre app",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une WebView et quel risque présente-t-elle ?",
+      "options": [
+        "Un navigateur intégré à l'app ; mal configurée, elle peut exposer des fonctions natives à du contenu non fiable",
+        "Un outil de capture d'écran ; aucun risque",
+        "Un module de paiement ; il bloque les achats",
+        "Un composant de notification ; il vide la batterie"
+      ],
+      "answer": "Un navigateur intégré à l'app ; mal configurée, elle peut exposer des fonctions natives à du contenu non fiable",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet Frida en test de sécurité mobile ?",
+      "options": [
+        "Instrumenter dynamiquement une application pour observer et modifier son comportement",
+        "Compiler des applications iOS",
+        "Publier sur le store",
+        "Chiffrer les sauvegardes"
+      ],
+      "answer": "Instrumenter dynamiquement une application pour observer et modifier son comportement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « tapjacking » ?",
+      "options": [
+        "Superposer une fenêtre trompeuse pour faire toucher à l'utilisateur un élément caché",
+        "Voler le téléphone dans une poche",
+        "Saturer l'écran tactile",
+        "Pirater le clavier Bluetooth"
+      ],
+      "answer": "Superposer une fenêtre trompeuse pour faire toucher à l'utilisateur un élément caché",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi les journaux (logs) d'une application peuvent-ils fuiter des données ?",
+      "options": [
+        "Des informations sensibles y sont parfois écrites et lisibles par d'autres outils",
+        "Ils sont envoyés au store",
+        "Ils sont publics par défaut sur Internet",
+        "Ils sont imprimés automatiquement"
+      ],
+      "answer": "Des informations sensibles y sont parfois écrites et lisibles par d'autres outils",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que vérifie Play Integrity (ex-SafetyNet) ?",
+      "options": [
+        "Que l'appareil et l'application sont authentiques et non modifiés",
+        "Que la batterie est en bon état",
+        "Que l'utilisateur est majeur",
+        "Que le Wi-Fi est sécurisé"
+      ],
+      "answer": "Que l'appareil et l'application sont authentiques et non modifiés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le sandboxing des applications mobiles ?",
+      "options": [
+        "Chaque application est isolée et ne peut accéder qu'à ses propres données",
+        "Un mode jeu",
+        "Un dossier partagé entre applications",
+        "Une sauvegarde automatique"
+      ],
+      "answer": "Chaque application est isolée et ne peut accéder qu'à ses propres données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi le presse-papiers est-il une source de fuite ?",
+      "options": [
+        "D'autres applications peuvent lire ce qui y est copié, comme un mot de passe",
+        "Il est envoyé à l'opérateur",
+        "Il s'efface au bout d'une seconde",
+        "Il est chiffré par défaut"
+      ],
+      "answer": "D'autres applications peuvent lire ce qui y est copié, comme un mot de passe",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie MAM par rapport au MDM ?",
+      "options": [
+        "Gérer et protéger les applications et leurs données plutôt que tout l'appareil",
+        "Gérer uniquement la batterie",
+        "Un MDM pour ordinateurs",
+        "Un antivirus mobile"
+      ],
+      "answer": "Gérer et protéger les applications et leurs données plutôt que tout l'appareil",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le certificate pinning dans une application mobile ?",
+      "options": [
+        "N'accepter qu'un certificat ou une clé publique précise pour le serveur",
+        "Épingler une notification",
+        "Stocker le certificat dans la galerie",
+        "Signer l'application avec deux certificats"
+      ],
+      "answer": "N'accepter qu'un certificat ou une clé publique précise pour le serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est l'inconvénient opérationnel du certificate pinning ?",
+      "options": [
+        "Un changement de certificat mal anticipé peut couper l'application chez tous les utilisateurs",
+        "Il double la taille de l'application",
+        "Il est interdit par les stores",
+        "Il désactive HTTPS"
+      ],
+      "answer": "Un changement de certificat mal anticipé peut couper l'application chez tous les utilisateurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi une détection de root côté client ne suffit-elle jamais ?",
+      "options": [
+        "Elle s'exécute sur un appareil contrôlé par l'attaquant, qui peut la contourner",
+        "Elle est interdite sur Android",
+        "Elle bloque les vrais utilisateurs à coup sûr",
+        "Elle ne fonctionne qu'en Wi-Fi"
+      ],
+      "answer": "Elle s'exécute sur un appareil contrôlé par l'attaquant, qui peut la contourner",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « Secure Enclave » d'Apple ?",
+      "options": [
+        "Un coprocesseur isolé qui protège les clés et les données biométriques",
+        "Un dossier chiffré iCloud",
+        "Un mode avion renforcé",
+        "Un store privé d'entreprise"
+      ],
+      "answer": "Un coprocesseur isolé qui protège les clés et les données biométriques",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi une biométrie doit-elle être liée à une clé matérielle plutôt qu'à un simple booléen ?",
+      "options": [
+        "Un simple résultat « succès » peut être falsifié par instrumentation, pas une opération cryptographique",
+        "Le booléen consomme trop de mémoire",
+        "Les clés matérielles sont plus rapides",
+        "La biométrie ne retourne jamais de booléen"
+      ],
+      "answer": "Un simple résultat « succès » peut être falsifié par instrumentation, pas une opération cryptographique",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'attestation de clé Android ?",
+      "options": [
+        "Une preuve signée que la clé a été générée dans un matériel sécurisé avec certaines propriétés",
+        "Une signature de l'APK",
+        "Un certificat TLS du serveur",
+        "Un code PIN de secours"
+      ],
+      "answer": "Une preuve signée que la clé a été générée dans un matériel sécurisé avec certaines propriétés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel risque présente « android:allowBackup=true » sans précaution ?",
+      "options": [
+        "Les données de l'application peuvent être extraites par une sauvegarde",
+        "L'application ne peut plus être mise à jour",
+        "Les notifications sont désactivées",
+        "Le code source est publié"
+      ],
+      "answer": "Les données de l'application peuvent être extraites par une sauvegarde",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par « intent redirection » sur Android ?",
+      "options": [
+        "Amener une application à relancer un intent fourni par l'attaquant avec ses propres privilèges",
+        "Rediriger un appel téléphonique",
+        "Changer l'application par défaut",
+        "Détourner un SMS"
+      ],
+      "answer": "Amener une application à relancer un intent fourni par l'attaquant avec ses propres privilèges",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi servent les PendingIntent immuables (FLAG_IMMUTABLE) ?",
+      "options": [
+        "Empêcher une autre application de modifier l'intent qu'on lui confie",
+        "Accélérer les notifications",
+        "Chiffrer les intents",
+        "Bloquer les intents implicites"
+      ],
+      "answer": "Empêcher une autre application de modifier l'intent qu'on lui confie",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « task hijacking » (StrandHogg) sur Android ?",
+      "options": [
+        "Une application malveillante s'insère dans la pile de tâches d'une autre pour afficher une fausse interface",
+        "Le vol de la batterie",
+        "Une saturation du processeur",
+        "Un détournement de SMS"
+      ],
+      "answer": "Une application malveillante s'insère dans la pile de tâches d'une autre pour afficher une fausse interface",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par « SIM swap » ?",
+      "options": [
+        "Faire transférer le numéro de la victime sur une SIM de l'attaquant pour recevoir ses codes SMS",
+        "Échanger deux SIM dans le même téléphone",
+        "Cloner l'IMEI",
+        "Bloquer le roaming"
+      ],
+      "answer": "Faire transférer le numéro de la victime sur une SIM de l'attaquant pour recevoir ses codes SMS",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi les codes 2FA par SMS sont-ils considérés comme faibles ?",
+      "options": [
+        "Ils sont exposés au SIM swap et à l'interception",
+        "Ils sont trop longs",
+        "Ils expirent trop vite",
+        "Ils nécessitent Internet"
+      ],
+      "answer": "Ils sont exposés au SIM swap et à l'interception",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apportent les passkeys (FIDO2/WebAuthn) sur mobile ?",
+      "options": [
+        "Une authentification par clé publique liée au domaine, résistante au phishing",
+        "Un mot de passe plus long",
+        "Un code SMS chiffré",
+        "Un déverrouillage sans écran"
+      ],
+      "answer": "Une authentification par clé publique liée au domaine, résistante au phishing",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'analyse de l'IPA ou de l'APK pour des secrets codés en dur ?",
+      "options": [
+        "Rechercher clés, jetons ou URL sensibles laissés dans le binaire",
+        "Mesurer la taille de l'application",
+        "Tester l'interface graphique",
+        "Vérifier la traduction"
+      ],
+      "answer": "Rechercher clés, jetons ou URL sensibles laissés dans le binaire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « runtime application self-protection » (RASP) ?",
+      "options": [
+        "Des protections intégrées à l'application qui détectent manipulation et instrumentation à l'exécution",
+        "Un antivirus du store",
+        "Un pare-feu réseau",
+        "Un gestionnaire de mots de passe"
+      ],
+      "answer": "Des protections intégrées à l'application qui détectent manipulation et instrumentation à l'exécution",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une « zero-click exploit » sur mobile ?",
+      "options": [
+        "Une attaque qui compromet l'appareil sans aucune action de l'utilisateur",
+        "Un bug qui empêche de cliquer",
+        "Une publicité invisible",
+        "Une application sans interface"
+      ],
+      "answer": "Une attaque qui compromet l'appareil sans aucune action de l'utilisateur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel mode iOS réduit fortement la surface d'attaque pour les personnes très ciblées ?",
+      "options": [
+        "Le mode Isolement (Lockdown Mode)",
+        "Le mode Avion",
+        "Le mode Économie d'énergie",
+        "Le mode Concentration"
+      ],
+      "answer": "Le mode Isolement (Lockdown Mode)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi le stockage externe Android est-il risqué pour les données sensibles ?",
+      "options": [
+        "Il est partagé et accessible à d'autres applications ou par connexion de l'appareil",
+        "Il est trop lent",
+        "Il s'efface au redémarrage",
+        "Il est réservé aux photos"
+      ],
+      "answer": "Il est partagé et accessible à d'autres applications ou par connexion de l'appareil",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « scoped storage » introduit dans Android 10 ?",
+      "options": [
+        "Une limitation de l'accès des applications au stockage partagé",
+        "Un stockage cloud chiffré",
+        "Un système de fichiers en lecture seule",
+        "Un quota de stockage par application"
+      ],
+      "answer": "Une limitation de l'accès des applications au stockage partagé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le rôle de la signature d'une application mobile ?",
+      "options": [
+        "Garantir l'origine de l'application et que les mises à jour viennent du même développeur",
+        "Chiffrer les données utilisateur",
+        "Compresser l'application",
+        "Autoriser le root"
+      ],
+      "answer": "Garantir l'origine de l'application et que les mises à jour viennent du même développeur",
+      "difficulty": "difficile"
+    }
+  ]
 }

@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce que le machine learning ?",
+      "options": [
+        "Des méthodes qui apprennent des modèles à partir de données",
+        "La programmation de robots industriels",
+        "La réparation de machines",
+        "Un langage de programmation"
+      ],
+      "answer": "Des méthodes qui apprennent des modèles à partir de données",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'apprentissage supervisé ?",
+      "options": [
+        "Apprendre à partir d'exemples étiquetés avec la réponse attendue",
+        "Apprendre sans aucune donnée",
+        "Apprendre sous la surveillance d'un humain en direct",
+        "Apprendre uniquement par essais et erreurs"
+      ],
+      "answer": "Apprendre à partir d'exemples étiquetés avec la réponse attendue",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'apprentissage non supervisé ?",
+      "options": [
+        "Trouver des structures dans des données sans étiquettes",
+        "Apprendre avec des étiquettes",
+        "Apprendre sans ordinateur",
+        "Apprendre avec un professeur"
+      ],
+      "answer": "Trouver des structures dans des données sans étiquettes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'apprentissage par renforcement ?",
+      "options": [
+        "Un agent apprend en recevant des récompenses ou pénalités selon ses actions",
+        "Apprendre en relisant les données plusieurs fois",
+        "Apprendre avec des étiquettes renforcées",
+        "Apprendre à partir d'images uniquement"
+      ],
+      "answer": "Un agent apprend en recevant des récompenses ou pénalités selon ses actions",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Prédire le prix d'une maison est un problème de…",
+      "options": [
+        "Régression",
+        "Classification",
+        "Clustering",
+        "Réduction de dimension"
+      ],
+      "answer": "Régression",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Détecter si un email est un spam est un problème de…",
+      "options": [
+        "Classification",
+        "Régression",
+        "Clustering",
+        "Génération"
+      ],
+      "answer": "Classification",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Regrouper des clients similaires sans catégories connues est un problème de…",
+      "options": [
+        "Clustering",
+        "Régression",
+        "Classification supervisée",
+        "Traduction"
+      ],
+      "answer": "Clustering",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une feature (caractéristique) ?",
+      "options": [
+        "Une variable d'entrée utilisée par le modèle",
+        "Le résultat prédit",
+        "Une couche du réseau",
+        "Un bug du modèle"
+      ],
+      "answer": "Une variable d'entrée utilisée par le modèle",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le jeu de test ?",
+      "options": [
+        "Des données mises de côté pour évaluer le modèle sur des exemples non vus",
+        "Les données d'entraînement",
+        "Les données de production",
+        "Les données mal étiquetées"
+      ],
+      "answer": "Des données mises de côté pour évaluer le modèle sur des exemples non vus",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle bibliothèque Python est très utilisée pour le machine learning classique ?",
+      "options": [
+        "scikit-learn",
+        "Django",
+        "Flask",
+        "Requests"
+      ],
+      "answer": "scikit-learn",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un réseau de neurones ?",
+      "options": [
+        "Un modèle composé de couches de neurones artificiels reliés par des poids",
+        "Un réseau informatique",
+        "Une base de données biologique",
+        "Un réseau social"
+      ],
+      "answer": "Un modèle composé de couches de neurones artificiels reliés par des poids",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'entraînement d'un modèle ?",
+      "options": [
+        "Ajuster ses paramètres pour réduire l'erreur sur les données d'apprentissage",
+        "L'installer sur un serveur",
+        "Le documenter",
+        "Le tester en production"
+      ],
+      "answer": "Ajuster ses paramètres pour réduire l'erreur sur les données d'apprentissage",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel algorithme de clustering regroupe les points autour de k centres ?",
+      "options": [
+        "k-means",
+        "k plus proches voisins",
+        "Régression linéaire",
+        "Arbre de décision"
+      ],
+      "answer": "k-means",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait l'algorithme des k plus proches voisins (k-NN) ?",
+      "options": [
+        "Il classe un point selon les classes de ses k voisins les plus proches",
+        "Il regroupe les données en k clusters",
+        "Il réduit les données à k dimensions",
+        "Il crée k arbres de décision"
+      ],
+      "answer": "Il classe un point selon les classes de ses k voisins les plus proches",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'exactitude (accuracy) ?",
+      "options": [
+        "La proportion de prédictions correctes",
+        "Le temps d'entraînement",
+        "Le nombre de paramètres",
+        "La taille des données"
+      ],
+      "answer": "La proportion de prédictions correctes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un arbre de décision ?",
+      "options": [
+        "Un modèle qui prend des décisions par une suite de questions sur les features",
+        "Un graphe de dépendances",
+        "Un arbre généalogique",
+        "Une structure de fichiers"
+      ],
+      "answer": "Un modèle qui prend des décisions par une suite de questions sur les features",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le deep learning ?",
+      "options": [
+        "L'apprentissage avec des réseaux de neurones à nombreuses couches",
+        "L'apprentissage très lent",
+        "L'apprentissage sur des données profondes en base",
+        "L'apprentissage sans données"
+      ],
+      "answer": "L'apprentissage avec des réseaux de neurones à nombreuses couches",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un jeu de données étiqueté ?",
+      "options": [
+        "Des exemples accompagnés de la bonne réponse",
+        "Des données triées par date",
+        "Des données chiffrées",
+        "Des données sans valeurs manquantes"
+      ],
+      "answer": "Des exemples accompagnés de la bonne réponse",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel framework de deep learning a été développé par Meta ?",
+      "options": [
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "Keras uniquement"
+      ],
+      "answer": "PyTorch",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un modèle de langage ?",
+      "options": [
+        "Un modèle qui prédit ou génère du texte",
+        "Un dictionnaire",
+        "Un traducteur humain",
+        "Une grammaire formelle écrite à la main"
+      ],
+      "answer": "Un modèle qui prédit ou génère du texte",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le surapprentissage (overfitting) ?",
+      "options": [
+        "Le modèle mémorise les données d'entraînement et généralise mal",
+        "Le modèle est trop simple",
+        "Le modèle s'entraîne trop vite",
+        "Le modèle manque de données de test"
+      ],
+      "answer": "Le modèle mémorise les données d'entraînement et généralise mal",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le sous-apprentissage (underfitting) ?",
+      "options": [
+        "Le modèle est trop simple pour capturer la structure des données",
+        "Le modèle mémorise le bruit",
+        "Le modèle est trop grand",
+        "Le modèle a trop de données"
+      ],
+      "answer": "Le modèle est trop simple pour capturer la structure des données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la validation croisée ?",
+      "options": [
+        "Évaluer le modèle sur plusieurs découpages entraînement/validation successifs",
+        "Valider le code par un collègue",
+        "Tester sur les données d'entraînement",
+        "Croiser deux modèles"
+      ],
+      "answer": "Évaluer le modèle sur plusieurs découpages entraînement/validation successifs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la régularisation ?",
+      "options": [
+        "Pénaliser la complexité du modèle pour limiter le surapprentissage",
+        "Normaliser les données",
+        "Supprimer les valeurs manquantes",
+        "Augmenter le taux d'apprentissage"
+      ],
+      "answer": "Pénaliser la complexité du modèle pour limiter le surapprentissage",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la descente de gradient ?",
+      "options": [
+        "Une méthode qui ajuste les paramètres dans la direction qui diminue la fonction de perte",
+        "Un algorithme de tri",
+        "Une technique de visualisation",
+        "Une méthode de compression"
+      ],
+      "answer": "Une méthode qui ajuste les paramètres dans la direction qui diminue la fonction de perte",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que contrôle le taux d'apprentissage (learning rate) ?",
+      "options": [
+        "La taille des pas lors de la mise à jour des paramètres",
+        "Le nombre de couches",
+        "La taille du jeu de test",
+        "Le nombre de classes"
+      ],
+      "answer": "La taille des pas lors de la mise à jour des paramètres",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que se passe-t-il si le taux d'apprentissage est trop élevé ?",
+      "options": [
+        "L'entraînement peut osciller ou diverger",
+        "L'entraînement devient très lent mais stable",
+        "Le modèle a moins de paramètres",
+        "Rien de particulier"
+      ],
+      "answer": "L'entraînement peut osciller ou diverger",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la précision (precision) ?",
+      "options": [
+        "La proportion de prédictions positives qui sont réellement positives",
+        "La proportion de positifs réels détectés",
+        "La proportion de prédictions correctes",
+        "L'erreur moyenne"
+      ],
+      "answer": "La proportion de prédictions positives qui sont réellement positives",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le rappel (recall) ?",
+      "options": [
+        "La proportion de positifs réels que le modèle a détectés",
+        "La proportion de prédictions positives correctes",
+        "Le temps de réponse",
+        "Le nombre d'époques"
+      ],
+      "answer": "La proportion de positifs réels que le modèle a détectés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi l'exactitude est-elle trompeuse sur des classes très déséquilibrées ?",
+      "options": [
+        "Prédire toujours la classe majoritaire donne une exactitude élevée sans rien détecter",
+        "Elle est toujours de 50 %",
+        "Elle ne se calcule pas",
+        "Elle favorise la classe minoritaire"
+      ],
+      "answer": "Prédire toujours la classe majoritaire donne une exactitude élevée sans rien détecter",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le score F1 ?",
+      "options": [
+        "La moyenne harmonique de la précision et du rappel",
+        "La moyenne de l'exactitude",
+        "Le premier score de validation",
+        "Le taux d'erreur"
+      ],
+      "answer": "La moyenne harmonique de la précision et du rappel",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une matrice de confusion ?",
+      "options": [
+        "Un tableau croisant classes réelles et classes prédites",
+        "Une matrice de poids du réseau",
+        "Une erreur de calcul",
+        "Un graphe de corrélation"
+      ],
+      "answer": "Un tableau croisant classes réelles et classes prédites",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une époque (epoch) ?",
+      "options": [
+        "Un passage complet sur l'ensemble des données d'entraînement",
+        "Une couche du réseau",
+        "Une unité de temps fixe",
+        "Une version du modèle en production"
+      ],
+      "answer": "Un passage complet sur l'ensemble des données d'entraînement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un hyperparamètre ?",
+      "options": [
+        "Un réglage fixé avant l'entraînement, comme le taux d'apprentissage",
+        "Un poids appris par le modèle",
+        "Une feature très importante",
+        "Une sortie du modèle"
+      ],
+      "answer": "Un réglage fixé avant l'entraînement, comme le taux d'apprentissage",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi normaliser les features ?",
+      "options": [
+        "Mettre les variables à des échelles comparables aide de nombreux algorithmes à converger",
+        "Pour supprimer les valeurs aberrantes",
+        "Pour augmenter le nombre de features",
+        "Pour chiffrer les données"
+      ],
+      "answer": "Mettre les variables à des échelles comparables aide de nombreux algorithmes à converger",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction d'activation ?",
+      "options": [
+        "Une fonction non linéaire appliquée à la sortie d'un neurone",
+        "Une fonction qui démarre l'entraînement",
+        "Une fonction de perte",
+        "Une fonction de normalisation des données"
+      ],
+      "answer": "Une fonction non linéaire appliquée à la sortie d'un neurone",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la fuite de données (data leakage) ?",
+      "options": [
+        "Des informations du test ou du futur utilisées pendant l'entraînement, faussant l'évaluation",
+        "Une fuite de données personnelles",
+        "Une perte de fichiers",
+        "Un modèle trop lent"
+      ],
+      "answer": "Des informations du test ou du futur utilisées pendant l'entraînement, faussant l'évaluation",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la forêt aléatoire (random forest) ?",
+      "options": [
+        "Un ensemble d'arbres de décision entraînés sur des sous-échantillons, dont on agrège les votes",
+        "Un arbre unique très profond",
+        "Un algorithme de clustering",
+        "Un réseau de neurones"
+      ],
+      "answer": "Un ensemble d'arbres de décision entraînés sur des sous-échantillons, dont on agrège les votes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'analyse en composantes principales (ACP) ?",
+      "options": [
+        "Une réduction de dimension qui projette les données sur les directions de plus grande variance",
+        "Un algorithme de classification",
+        "Un réseau de neurones",
+        "Une méthode d'imputation"
+      ],
+      "answer": "Une réduction de dimension qui projette les données sur les directions de plus grande variance",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'apprentissage par transfert ?",
+      "options": [
+        "Réutiliser un modèle préentraîné et l'adapter à une nouvelle tâche",
+        "Transférer des données entre serveurs",
+        "Copier un modèle sans modification",
+        "Entraîner deux modèles en même temps"
+      ],
+      "answer": "Réutiliser un modèle préentraîné et l'adapter à une nouvelle tâche",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le compromis biais-variance ?",
+      "options": [
+        "Un modèle trop simple a un biais élevé, un modèle trop complexe une variance élevée",
+        "Un compromis entre vitesse et mémoire",
+        "Un compromis entre données d'entraînement et de test",
+        "Un réglage du taux d'apprentissage"
+      ],
+      "answer": "Un modèle trop simple a un biais élevé, un modèle trop complexe une variance élevée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la rétropropagation ?",
+      "options": [
+        "Le calcul des gradients de la perte par rapport aux poids via la règle de dérivation en chaîne",
+        "La propagation des données de la sortie vers l'entrée en production",
+        "Un algorithme de tri",
+        "Une méthode de régularisation"
+      ],
+      "answer": "Le calcul des gradients de la perte par rapport aux poids via la règle de dérivation en chaîne",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le problème du gradient qui s'évanouit ?",
+      "options": [
+        "Les gradients deviennent très petits dans les couches profondes, ce qui bloque leur apprentissage",
+        "Le gradient devient infini",
+        "La perte devient nulle",
+        "Le modèle perd ses poids"
+      ],
+      "answer": "Les gradients deviennent très petits dans les couches profondes, ce qui bloque leur apprentissage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi ReLU a-t-elle aidé l'entraînement des réseaux profonds ?",
+      "options": [
+        "Sa dérivée vaut 1 pour les valeurs positives, ce qui limite l'évanouissement du gradient",
+        "Elle est bornée entre 0 et 1",
+        "Elle supprime le besoin de rétropropagation",
+        "Elle normalise les données"
+      ],
+      "answer": "Sa dérivée vaut 1 pour les valeurs positives, ce qui limite l'évanouissement du gradient",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le dropout ?",
+      "options": [
+        "Désactiver aléatoirement des neurones pendant l'entraînement pour réduire le surapprentissage",
+        "Supprimer des données aberrantes",
+        "Arrêter l'entraînement tôt",
+        "Réduire le taux d'apprentissage"
+      ],
+      "answer": "Désactiver aléatoirement des neurones pendant l'entraînement pour réduire le surapprentissage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'early stopping ?",
+      "options": [
+        "Arrêter l'entraînement quand la performance sur la validation cesse de s'améliorer",
+        "Arrêter après une époque",
+        "Arrêter quand la perte d'entraînement est nulle",
+        "Arrêter en cas d'erreur"
+      ],
+      "answer": "Arrêter l'entraînement quand la performance sur la validation cesse de s'améliorer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre régularisation L1 et L2 ?",
+      "options": [
+        "L1 pousse des poids exactement à zéro (sparsité), L2 réduit les poids sans les annuler",
+        "L2 annule les poids",
+        "L1 n'a aucun effet",
+        "Elles sont identiques"
+      ],
+      "answer": "L1 pousse des poids exactement à zéro (sparsité), L2 réduit les poids sans les annuler",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le mécanisme d'attention ?",
+      "options": [
+        "Un calcul qui pondère l'importance des éléments de la séquence les uns par rapport aux autres",
+        "Une couche de convolution",
+        "Une technique d'augmentation de données",
+        "Un algorithme de clustering"
+      ],
+      "answer": "Un calcul qui pondère l'importance des éléments de la séquence les uns par rapport aux autres",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Sur quelle architecture reposent la plupart des grands modèles de langage ?",
+      "options": [
+        "Le Transformer",
+        "Le perceptron simple",
+        "Les arbres de décision",
+        "Les SVM"
+      ],
+      "answer": "Le Transformer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le gradient boosting ?",
+      "options": [
+        "Ajouter successivement des modèles faibles qui corrigent les erreurs résiduelles des précédents",
+        "Augmenter le taux d'apprentissage",
+        "Moyenner des arbres indépendants",
+        "Un réseau de neurones récurrent"
+      ],
+      "answer": "Ajouter successivement des modèles faibles qui corrigent les erreurs résiduelles des précédents",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'AUC de la courbe ROC ?",
+      "options": [
+        "La probabilité qu'un positif aléatoire reçoive un score supérieur à un négatif aléatoire",
+        "L'exactitude moyenne",
+        "L'aire sous la courbe de perte",
+        "Le taux d'erreur maximal"
+      ],
+      "answer": "La probabilité qu'un positif aléatoire reçoive un score supérieur à un négatif aléatoire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un embedding ?",
+      "options": [
+        "Une représentation vectorielle dense d'un objet (mot, image) où la proximité reflète la similarité",
+        "Une compression de fichier",
+        "Une couche de sortie",
+        "Une étiquette de classe"
+      ],
+      "answer": "Une représentation vectorielle dense d'un objet (mot, image) où la proximité reflète la similarité",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un réseau de neurones convolutif (CNN) ?",
+      "options": [
+        "Un réseau qui applique des filtres partagés sur des zones locales, adapté aux images",
+        "Un réseau récurrent pour le texte",
+        "Un réseau sans poids",
+        "Un modèle de clustering"
+      ],
+      "answer": "Un réseau qui applique des filtres partagés sur des zones locales, adapté aux images",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la normalisation par lots (batch normalization) ?",
+      "options": [
+        "Normaliser les activations d'une couche sur chaque mini-lot pour stabiliser l'entraînement",
+        "Normaliser le jeu de test",
+        "Diviser les données en lots égaux",
+        "Supprimer les lots aberrants"
+      ],
+      "answer": "Normaliser les activations d'une couche sur chaque mini-lot pour stabiliser l'entraînement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le fine-tuning d'un modèle préentraîné ?",
+      "options": [
+        "Poursuivre l'entraînement sur des données spécifiques à la tâche visée",
+        "Réduire la taille du modèle",
+        "Changer les hyperparamètres sans entraîner",
+        "Supprimer des couches au hasard"
+      ],
+      "answer": "Poursuivre l'entraînement sur des données spécifiques à la tâche visée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la dérive des données (data drift) ?",
+      "options": [
+        "Un changement de la distribution des données en production par rapport à l'entraînement",
+        "Une perte de fichiers",
+        "Un bug de stockage",
+        "Un modèle qui s'entraîne seul"
+      ],
+      "answer": "Un changement de la distribution des données en production par rapport à l'entraînement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le RAG (Retrieval-Augmented Generation) ?",
+      "options": [
+        "Fournir à un modèle génératif des documents récupérés pour appuyer sa réponse",
+        "Une méthode de compression de modèle",
+        "Un algorithme de clustering",
+        "Une technique d'entraînement par renforcement"
+      ],
+      "answer": "Fournir à un modèle génératif des documents récupérés pour appuyer sa réponse",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la quantification d'un modèle ?",
+      "options": [
+        "Représenter les poids avec moins de bits pour réduire mémoire et calcul",
+        "Mesurer la qualité du modèle",
+        "Ajouter des paramètres",
+        "Compter les neurones"
+      ],
+      "answer": "Représenter les poids avec moins de bits pour réduire mémoire et calcul",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le SVM (machine à vecteurs de support) ?",
+      "options": [
+        "Un classifieur qui cherche l'hyperplan séparant les classes avec la marge maximale",
+        "Un réseau de neurones profond",
+        "Un algorithme de clustering",
+        "Une forêt d'arbres"
+      ],
+      "answer": "Un classifieur qui cherche l'hyperplan séparant les classes avec la marge maximale",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'astuce du noyau (kernel trick) ?",
+      "options": [
+        "Calculer des produits scalaires dans un espace de grande dimension sans y projeter explicitement les données",
+        "Une optimisation du noyau Linux",
+        "Une méthode d'augmentation de données",
+        "Un type de régularisation"
+      ],
+      "answer": "Calculer des produits scalaires dans un espace de grande dimension sans y projeter explicitement les données",
+      "difficulty": "difficile"
+    }
+  ]
+}

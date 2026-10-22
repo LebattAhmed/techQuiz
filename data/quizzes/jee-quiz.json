@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quel est le nom actuel de Java EE ?",
+      "options": [
+        "Jakarta EE",
+        "Java Enterprise 2",
+        "Oracle EE",
+        "Spring EE"
+      ],
+      "answer": "Jakarta EE",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fondation gère Jakarta EE ?",
+      "options": [
+        "La fondation Eclipse",
+        "La fondation Apache",
+        "La fondation Linux",
+        "Oracle uniquement"
+      ],
+      "answer": "La fondation Eclipse",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une servlet ?",
+      "options": [
+        "Une classe Java qui traite des requêtes HTTP côté serveur",
+        "Un composant graphique Swing",
+        "Une base de données",
+        "Un fichier de configuration"
+      ],
+      "answer": "Une classe Java qui traite des requêtes HTTP côté serveur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel serveur est un conteneur de servlets populaire ?",
+      "options": [
+        "Apache Tomcat",
+        "Nginx",
+        "Node.js",
+        "IIS Express"
+      ],
+      "answer": "Apache Tomcat",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode d'une HttpServlet traite les requêtes GET ?",
+      "options": [
+        "doGet",
+        "handleGet",
+        "onGet",
+        "serviceGet"
+      ],
+      "answer": "doGet",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie JSP ?",
+      "options": [
+        "Jakarta Server Pages",
+        "Java Script Pages",
+        "Java Secure Protocol",
+        "Jakarta Service Platform"
+      ],
+      "answer": "Jakarta Server Pages",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel format d'archive déploie une application web Java ?",
+      "options": [
+        "WAR",
+        "ZIP",
+        "EXE",
+        "APK"
+      ],
+      "answer": "WAR",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie JPA ?",
+      "options": [
+        "Jakarta Persistence (API)",
+        "Java Programming Archive",
+        "Java Protocol Adapter",
+        "Jakarta Page Architecture"
+      ],
+      "answer": "Jakarta Persistence (API)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle implémentation de JPA est la plus répandue ?",
+      "options": [
+        "Hibernate",
+        "Eloquent",
+        "Sequelize",
+        "Mongoose"
+      ],
+      "answer": "Hibernate",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle annotation marque une classe comme entité persistante ?",
+      "options": [
+        "@Entity",
+        "@Table seule",
+        "@Persistent",
+        "@Model"
+      ],
+      "answer": "@Entity",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle annotation désigne la clé primaire d'une entité ?",
+      "options": [
+        "@Id",
+        "@Key",
+        "@Primary",
+        "@PK"
+      ],
+      "answer": "@Id",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier est le descripteur de déploiement d'une application web ?",
+      "options": [
+        "web.xml",
+        "pom.xml",
+        "app.json",
+        "server.ini"
+      ],
+      "answer": "web.xml",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle annotation déclare une servlet sans web.xml ?",
+      "options": [
+        "@WebServlet",
+        "@Servlet",
+        "@HttpHandler",
+        "@Route"
+      ],
+      "answer": "@WebServlet",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que JAX-RS (Jakarta RESTful Web Services) ?",
+      "options": [
+        "L'API pour créer des services web REST",
+        "Un moteur de templates",
+        "Un serveur d'applications",
+        "Un outil de build"
+      ],
+      "answer": "L'API pour créer des services web REST",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle annotation JAX-RS associe une méthode à une requête GET ?",
+      "options": [
+        "@GET",
+        "@Get",
+        "@RequestGet",
+        "@HttpGet"
+      ],
+      "answer": "@GET",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil de build est souvent utilisé pour les projets Jakarta EE ?",
+      "options": [
+        "Maven",
+        "npm",
+        "pip",
+        "Composer"
+      ],
+      "answer": "Maven",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que permet l'objet HttpSession ?",
+      "options": [
+        "Conserver des données associées à un utilisateur entre plusieurs requêtes",
+        "Ouvrir une connexion à la base",
+        "Créer un thread",
+        "Lire un fichier"
+      ],
+      "answer": "Conserver des données associées à un utilisateur entre plusieurs requêtes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie CDI ?",
+      "options": [
+        "Contexts and Dependency Injection",
+        "Component Deployment Interface",
+        "Central Data Integration",
+        "Class Definition Index"
+      ],
+      "answer": "Contexts and Dependency Injection",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle annotation injecte une dépendance avec CDI ?",
+      "options": [
+        "@Inject",
+        "@Autowired",
+        "@Import",
+        "@Provide"
+      ],
+      "answer": "@Inject",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Citez un serveur d'applications Jakarta EE complet.",
+      "options": [
+        "WildFly",
+        "Express",
+        "Gunicorn",
+        "Apache httpd seul"
+      ],
+      "answer": "WildFly",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le cycle de vie d'une servlet ?",
+      "options": [
+        "init(), puis service() pour chaque requête, puis destroy()",
+        "start(), run(), stop()",
+        "create(), update(), delete()",
+        "open(), read(), close()"
+      ],
+      "answer": "init(), puis service() pour chaque requête, puis destroy()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Combien d'instances d'une servlet le conteneur crée-t-il généralement ?",
+      "options": [
+        "Une seule, partagée par plusieurs threads",
+        "Une par requête",
+        "Une par utilisateur",
+        "Une par session"
+      ],
+      "answer": "Une seule, partagée par plusieurs threads",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi éviter les champs d'instance mutables dans une servlet ?",
+      "options": [
+        "L'instance est partagée entre threads, ce qui crée des conditions de course",
+        "Ils sont interdits par le compilateur",
+        "Ils ralentissent le démarrage",
+        "Ils empêchent le déploiement"
+      ],
+      "answer": "L'instance est partagée entre threads, ce qui crée des conditions de course",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un filtre (Filter) ?",
+      "options": [
+        "Un composant qui intercepte les requêtes et réponses avant et après les servlets",
+        "Une requête SQL",
+        "Un validateur de formulaire",
+        "Un composant JSF"
+      ],
+      "answer": "Un composant qui intercepte les requêtes et réponses avant et après les servlets",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre forward et redirect ?",
+      "options": [
+        "forward transfère côté serveur sans changer l'URL ; redirect demande au navigateur une nouvelle requête",
+        "redirect est plus rapide",
+        "forward change l'URL du navigateur",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "forward transfère côté serveur sans changer l'URL ; redirect demande au navigateur une nouvelle requête",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'EntityManager ?",
+      "options": [
+        "L'interface JPA qui gère les entités et leur persistance",
+        "Un serveur de base de données",
+        "Un gestionnaire de sessions HTTP",
+        "Un outil de migration"
+      ],
+      "answer": "L'interface JPA qui gère les entités et leur persistance",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que JPQL ?",
+      "options": [
+        "Un langage de requêtes orienté objet portant sur les entités",
+        "Un dialecte SQL d'Oracle",
+        "Un langage de templates",
+        "Un format de configuration"
+      ],
+      "answer": "Un langage de requêtes orienté objet portant sur les entités",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre FetchType.LAZY et EAGER ?",
+      "options": [
+        "LAZY charge la relation à la demande, EAGER immédiatement avec l'entité",
+        "EAGER est toujours plus performant",
+        "LAZY supprime les relations",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "LAZY charge la relation à la demande, EAGER immédiatement avec l'entité",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait @Transactional ?",
+      "options": [
+        "Exécuter la méthode dans une transaction gérée par le conteneur",
+        "Créer une table",
+        "Chiffrer les données",
+        "Lancer un thread"
+      ],
+      "answer": "Exécuter la méthode dans une transaction gérée par le conteneur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que représente @OneToMany ?",
+      "options": [
+        "Une relation un-à-plusieurs entre entités",
+        "Une table avec une seule ligne",
+        "Une servlet multiple",
+        "Un index unique"
+      ],
+      "answer": "Une relation un-à-plusieurs entre entités",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les EJB ?",
+      "options": [
+        "Des composants métier gérés par le conteneur, avec transactions et sécurité",
+        "Des fichiers JavaScript",
+        "Des pages web dynamiques",
+        "Des bibliothèques graphiques"
+      ],
+      "answer": "Des composants métier gérés par le conteneur, avec transactions et sécurité",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre un EJB @Stateless et @Stateful ?",
+      "options": [
+        "Stateful conserve un état propre à chaque client, Stateless non",
+        "Stateless est réservé aux bases de données",
+        "Stateful n'est pas transactionnel",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Stateful conserve un état propre à chaque client, Stateless non",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que garantit un EJB @Singleton ?",
+      "options": [
+        "Une seule instance pour toute l'application",
+        "Une instance par requête",
+        "Une instance par utilisateur",
+        "Aucune instance"
+      ],
+      "answer": "Une seule instance pour toute l'application",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Bean Validation ?",
+      "options": [
+        "Une API de contraintes déclaratives comme @NotNull ou @Size",
+        "Un test unitaire",
+        "Un validateur HTML",
+        "Un outil de compilation"
+      ],
+      "answer": "Une API de contraintes déclaratives comme @NotNull ou @Size",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie le scope @RequestScoped en CDI ?",
+      "options": [
+        "Le bean vit le temps d'une requête HTTP",
+        "Le bean vit toute la durée de l'application",
+        "Le bean est créé à chaque injection",
+        "Le bean est partagé entre serveurs"
+      ],
+      "answer": "Le bean vit le temps d'une requête HTTP",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie le scope @ApplicationScoped ?",
+      "options": [
+        "Une seule instance partagée pendant toute la vie de l'application",
+        "Une instance par requête",
+        "Une instance par session",
+        "Une instance par thread"
+      ],
+      "answer": "Une seule instance partagée pendant toute la vie de l'application",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que JSF (Jakarta Faces) ?",
+      "options": [
+        "Un framework d'interfaces web à base de composants côté serveur",
+        "Un ORM",
+        "Un serveur d'applications",
+        "Une API REST"
+      ],
+      "answer": "Un framework d'interfaces web à base de composants côté serveur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert JNDI ?",
+      "options": [
+        "Rechercher des ressources nommées comme une source de données",
+        "Compiler des JSP",
+        "Gérer les sessions",
+        "Chiffrer les mots de passe"
+      ],
+      "answer": "Rechercher des ressources nommées comme une source de données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Jakarta Messaging (JMS) ?",
+      "options": [
+        "Une API d'échange de messages asynchrones entre composants",
+        "Un service d'emails",
+        "Un chat intégré",
+        "Un protocole HTTP"
+      ],
+      "answer": "Une API d'échange de messages asynchrones entre composants",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle annotation JAX-RS récupère un paramètre de l'URL comme /users/{id} ?",
+      "options": [
+        "@PathParam",
+        "@QueryParam",
+        "@FormParam",
+        "@HeaderParam"
+      ],
+      "answer": "@PathParam",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le problème N+1 avec JPA ?",
+      "options": [
+        "Une requête supplémentaire par entité pour charger une relation paresseuse",
+        "Une transaction imbriquée",
+        "Une erreur de sérialisation",
+        "Un dépassement de pool de connexions"
+      ],
+      "answer": "Une requête supplémentaire par entité pour charger une relation paresseuse",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment résoudre le N+1 en JPQL ?",
+      "options": [
+        "Avec un JOIN FETCH ou un entity graph",
+        "En passant toutes les relations en EAGER",
+        "En augmentant la taille du cache",
+        "En désactivant les transactions"
+      ],
+      "answer": "Avec un JOIN FETCH ou un entity graph",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que LazyInitializationException ?",
+      "options": [
+        "L'accès à une relation paresseuse après la fermeture du contexte de persistance",
+        "Une servlet non initialisée",
+        "Un bean CDI absent",
+        "Une erreur de compilation JSP"
+      ],
+      "answer": "L'accès à une relation paresseuse après la fermeture du contexte de persistance",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quels sont les états d'une entité JPA ?",
+      "options": [
+        "Nouvelle, gérée, détachée, supprimée",
+        "Créée, compilée, déployée",
+        "Ouverte, fermée",
+        "Active, passive"
+      ],
+      "answer": "Nouvelle, gérée, détachée, supprimée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait merge() sur une entité détachée ?",
+      "options": [
+        "Copier son état dans une instance gérée et renvoyer cette instance",
+        "Supprimer l'entité",
+        "Fusionner deux tables",
+        "Rattacher directement l'objet passé"
+      ],
+      "answer": "Copier son état dans une instance gérée et renvoyer cette instance",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le contexte de persistance ?",
+      "options": [
+        "L'ensemble des entités gérées, avec garantie d'une seule instance par identifiant",
+        "Le fichier persistence.xml",
+        "La base de données elle-même",
+        "Le cache HTTP"
+      ],
+      "answer": "L'ensemble des entités gérées, avec garantie d'une seule instance par identifiant",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le comportement par défaut de @Transactional face à une exception vérifiée (checked) ?",
+      "options": [
+        "Pas d'annulation automatique, sauf configuration rollbackOn",
+        "Annulation systématique",
+        "Redémarrage du serveur",
+        "La transaction est validée deux fois"
+      ],
+      "answer": "Pas d'annulation automatique, sauf configuration rollbackOn",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que signifie la propagation REQUIRES_NEW ?",
+      "options": [
+        "Suspendre la transaction en cours et en démarrer une nouvelle",
+        "Rejoindre la transaction existante",
+        "Interdire toute transaction",
+        "Exécuter sans transaction"
+      ],
+      "answer": "Suspendre la transaction en cours et en démarrer une nouvelle",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi un appel interne à une méthode @Transactional de la même classe peut-il ignorer l'annotation ?",
+      "options": [
+        "Il ne passe pas par le proxy du conteneur qui applique l'intercepteur",
+        "L'annotation n'est lue qu'au démarrage",
+        "Les méthodes privées sont toujours transactionnelles",
+        "Le compilateur la supprime"
+      ],
+      "answer": "Il ne passe pas par le proxy du conteneur qui applique l'intercepteur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert @Version sur une entité ?",
+      "options": [
+        "Mettre en place un verrouillage optimiste",
+        "Indiquer la version de Java",
+        "Versionner le schéma",
+        "Suivre la version de l'API"
+      ],
+      "answer": "Mettre en place un verrouillage optimiste",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un intercepteur CDI ?",
+      "options": [
+        "Un composant qui s'exécute autour des méthodes ciblées pour des besoins transverses",
+        "Un filtre réseau",
+        "Un pare-feu",
+        "Un listener JPA uniquement"
+      ],
+      "answer": "Un composant qui s'exécute autour des méthodes ciblées pour des besoins transverses",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que MicroProfile ?",
+      "options": [
+        "Un ensemble de spécifications pour les microservices Java (config, santé, métriques…)",
+        "Un profileur de performances",
+        "Un mini serveur web",
+        "Un IDE"
+      ],
+      "answer": "Un ensemble de spécifications pour les microservices Java (config, santé, métriques…)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apportent les threads virtuels de Java 21 à un serveur Jakarta EE ?",
+      "options": [
+        "Gérer un très grand nombre de requêtes bloquantes avec peu de threads système",
+        "Supprimer le besoin de JVM",
+        "Rendre le code toujours asynchrone",
+        "Remplacer les EJB"
+      ],
+      "answer": "Gérer un très grand nombre de requêtes bloquantes avec peu de threads système",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel changement de nom de paquets a introduit Jakarta EE 9 ?",
+      "options": [
+        "Le passage de javax.* à jakarta.*",
+        "Le passage de java.* à oracle.*",
+        "Le passage de jakarta.* à javax.*",
+        "Aucun changement"
+      ],
+      "answer": "Le passage de javax.* à jakarta.*",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet le cache de second niveau de JPA ?",
+      "options": [
+        "Partager des entités en cache entre contextes de persistance",
+        "Mettre en cache les réponses HTTP",
+        "Remplacer la base de données",
+        "Accélérer la compilation"
+      ],
+      "answer": "Partager des entités en cache entre contextes de persistance",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une requête native en JPA, et quel est son risque ?",
+      "options": [
+        "Une requête SQL directe ; construite par concaténation, elle expose à l'injection SQL",
+        "Une requête JPQL compilée ; aucun risque",
+        "Une requête en Java natif ; elle bloque la JVM",
+        "Une requête REST ; elle est lente"
+      ],
+      "answer": "Une requête SQL directe ; construite par concaténation, elle expose à l'injection SQL",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la stratégie d'héritage SINGLE_TABLE ?",
+      "options": [
+        "Toute la hiérarchie de classes est stockée dans une seule table avec une colonne discriminante",
+        "Une table par classe concrète",
+        "Une table par attribut",
+        "L'héritage est interdit"
+      ],
+      "answer": "Toute la hiérarchie de classes est stockée dans une seule table avec une colonne discriminante",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un message-driven bean (MDB) ?",
+      "options": [
+        "Un EJB qui consomme des messages de manière asynchrone",
+        "Un bean qui envoie des emails",
+        "Un bean de session HTTP",
+        "Un bean de validation"
+      ],
+      "answer": "Un EJB qui consomme des messages de manière asynchrone",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la spécification Jakarta Security ?",
+      "options": [
+        "Une API standard pour l'authentification et l'autorisation des applications",
+        "Un antivirus Java",
+        "Un pare-feu applicatif",
+        "Un outil de chiffrement des fichiers"
+      ],
+      "answer": "Une API standard pour l'authentification et l'autorisation des applications",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est l'utilité d'un pool de connexions (DataSource) ?",
+      "options": [
+        "Réutiliser des connexions à la base au lieu d'en ouvrir une par requête",
+        "Stocker les sessions",
+        "Répartir les requêtes HTTP",
+        "Chiffrer les connexions"
+      ],
+      "answer": "Réutiliser des connexions à la base au lieu d'en ouvrir une par requête",
+      "difficulty": "difficile"
+    }
+  ]
 }

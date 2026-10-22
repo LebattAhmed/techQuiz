@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce que TypeScript ?",
+      "options": [
+        "Un sur-ensemble de JavaScript qui ajoute un système de types statiques",
+        "Un nouveau navigateur",
+        "Un framework CSS",
+        "Une base de données"
+      ],
+      "answer": "Un sur-ensemble de JavaScript qui ajoute un système de types statiques",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle entreprise développe TypeScript ?",
+      "options": [
+        "Microsoft",
+        "Google",
+        "Meta",
+        "Mozilla"
+      ],
+      "answer": "Microsoft",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est l'extension des fichiers TypeScript ?",
+      "options": [
+        ".ts",
+        ".tsx uniquement",
+        ".typescript",
+        ".js"
+      ],
+      "answer": ".ts",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle extension utilise-t-on pour du TypeScript avec JSX ?",
+      "options": [
+        ".tsx",
+        ".jsx",
+        ".tsj",
+        ".ts"
+      ],
+      "answer": ".tsx",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil compile TypeScript en JavaScript ?",
+      "options": [
+        "tsc",
+        "node",
+        "npm",
+        "babel-ts-run"
+      ],
+      "answer": "tsc",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier configure un projet TypeScript ?",
+      "options": [
+        "tsconfig.json",
+        "package.json",
+        "typescript.config",
+        "ts.yaml"
+      ],
+      "answer": "tsconfig.json",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment annote-t-on le type d'une variable ?",
+      "options": [
+        "let age: number = 30",
+        "let number age = 30",
+        "let age = number(30)",
+        "let age<number> = 30"
+      ],
+      "answer": "let age: number = 30",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type représente une chaîne de caractères ?",
+      "options": [
+        "string",
+        "String[]",
+        "char",
+        "text"
+      ],
+      "answer": "string",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment déclare-t-on un tableau de nombres ?",
+      "options": [
+        "number[]",
+        "array(number)",
+        "[number...]",
+        "numbers"
+      ],
+      "answer": "number[]",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type accepte n'importe quelle valeur sans vérification ?",
+      "options": [
+        "any",
+        "never",
+        "void",
+        "object"
+      ],
+      "answer": "any",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type indique qu'une fonction ne renvoie rien ?",
+      "options": [
+        "void",
+        "null",
+        "never",
+        "undefined[]"
+      ],
+      "answer": "void",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Avec quel mot-clé décrit-on la forme d'un objet ?",
+      "options": [
+        "interface",
+        "struct",
+        "shape",
+        "model"
+      ],
+      "answer": "interface",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment rend-on une propriété optionnelle ?",
+      "options": [
+        "Avec un point d'interrogation : nom?: string",
+        "Avec le mot-clé optional",
+        "Avec un astérisque",
+        "Avec nullable"
+      ],
+      "answer": "Avec un point d'interrogation : nom?: string",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que représente le type union string | number ?",
+      "options": [
+        "Une valeur qui peut être une chaîne ou un nombre",
+        "Une valeur à la fois chaîne et nombre",
+        "Un tableau de chaînes et de nombres",
+        "Une erreur de syntaxe"
+      ],
+      "answer": "Une valeur qui peut être une chaîne ou un nombre",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Les types TypeScript existent-ils à l'exécution ?",
+      "options": [
+        "Non, ils sont effacés à la compilation",
+        "Oui, toujours",
+        "Seulement dans le navigateur",
+        "Seulement avec Node.js"
+      ],
+      "answer": "Non, ils sont effacés à la compilation",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé crée un alias de type ?",
+      "options": [
+        "type",
+        "alias",
+        "typedef",
+        "define"
+      ],
+      "answer": "type",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait readonly sur une propriété ?",
+      "options": [
+        "Il empêche sa réaffectation après l'initialisation",
+        "Il la rend privée",
+        "Il la supprime",
+        "Il la rend optionnelle"
+      ],
+      "answer": "Il empêche sa réaffectation après l'initialisation",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est l'intérêt principal de TypeScript ?",
+      "options": [
+        "Détecter des erreurs avant l'exécution et améliorer l'outillage",
+        "Rendre le code plus rapide à l'exécution",
+        "Remplacer HTML",
+        "Supprimer les tests"
+      ],
+      "answer": "Détecter des erreurs avant l'exécution et améliorer l'outillage",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle option de tsconfig active les vérifications strictes ?",
+      "options": [
+        "\"strict\": true",
+        "\"safe\": true",
+        "\"check\": \"all\"",
+        "\"types\": \"strict\""
+      ],
+      "answer": "\"strict\": true",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment déclarer un tuple de deux éléments, une chaîne puis un nombre ?",
+      "options": [
+        "[string, number]",
+        "(string, number)",
+        "tuple<string, number>",
+        "{string, number}"
+      ],
+      "answer": "[string, number]",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle différence entre unknown et any ?",
+      "options": [
+        "unknown oblige à vérifier le type avant usage, any désactive toute vérification",
+        "any est plus sûr",
+        "Ils sont identiques",
+        "unknown n'accepte que null"
+      ],
+      "answer": "unknown oblige à vérifier le type avant usage, any désactive toute vérification",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que représente le type never ?",
+      "options": [
+        "Une valeur qui ne peut jamais exister, comme le retour d'une fonction qui lève toujours une erreur",
+        "Une valeur nulle",
+        "Un type vide équivalent à void",
+        "Un type déprécié"
+      ],
+      "answer": "Une valeur qui ne peut jamais exister, comme le retour d'une fonction qui lève toujours une erreur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le rétrécissement de type (narrowing) ?",
+      "options": [
+        "L'affinage d'un type par des vérifications comme typeof ou instanceof",
+        "La réduction de la taille du bundle",
+        "La conversion d'un type en string",
+        "La suppression des types"
+      ],
+      "answer": "L'affinage d'un type par des vérifications comme typeof ou instanceof",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un générique ?",
+      "options": [
+        "Un paramètre de type qui rend une fonction ou un type réutilisable pour plusieurs types",
+        "Un type par défaut any",
+        "Une classe abstraite",
+        "Un type de base de données"
+      ],
+      "answer": "Un paramètre de type qui rend une fonction ou un type réutilisable pour plusieurs types",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait Partial<T> ?",
+      "options": [
+        "Rendre toutes les propriétés de T optionnelles",
+        "Supprimer la moitié des propriétés",
+        "Rendre T en lecture seule",
+        "Extraire les clés de T"
+      ],
+      "answer": "Rendre toutes les propriétés de T optionnelles",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait Pick<T, K> ?",
+      "options": [
+        "Créer un type avec seulement les propriétés K de T",
+        "Supprimer les propriétés K de T",
+        "Rendre K optionnelles",
+        "Choisir un type au hasard"
+      ],
+      "answer": "Créer un type avec seulement les propriétés K de T",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait Omit<T, K> ?",
+      "options": [
+        "Créer un type à partir de T sans les propriétés K",
+        "Garder uniquement K",
+        "Rendre K obligatoires",
+        "Supprimer T"
+      ],
+      "answer": "Créer un type à partir de T sans les propriétés K",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait Record<K, V> ?",
+      "options": [
+        "Décrire un objet dont les clés sont de type K et les valeurs de type V",
+        "Enregistrer des logs",
+        "Créer un tableau",
+        "Définir une base de données"
+      ],
+      "answer": "Décrire un objet dont les clés sont de type K et les valeurs de type V",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'opérateur keyof ?",
+      "options": [
+        "Produire l'union des noms de propriétés d'un type",
+        "Créer une clé de chiffrement",
+        "Vérifier qu'une clé existe à l'exécution",
+        "Supprimer les clés"
+      ],
+      "answer": "Produire l'union des noms de propriétés d'un type",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une union discriminée ?",
+      "options": [
+        "Une union d'objets partageant une propriété littérale qui permet de distinguer chaque cas",
+        "Une union interdite",
+        "Une union de types primitifs uniquement",
+        "Un enum"
+      ],
+      "answer": "Une union d'objets partageant une propriété littérale qui permet de distinguer chaque cas",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'opérateur ! (non-null assertion) ?",
+      "options": [
+        "Affirmer au compilateur qu'une valeur n'est ni null ni undefined",
+        "Inverser un booléen à la compilation",
+        "Lever une erreur si la valeur est null à l'exécution",
+        "Rendre une propriété obligatoire"
+      ],
+      "answer": "Affirmer au compilateur qu'une valeur n'est ni null ni undefined",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'opérateur « as » ?",
+      "options": [
+        "Une assertion de type, sans conversion à l'exécution",
+        "Une conversion réelle de la valeur",
+        "Un import de module",
+        "Une déclaration d'alias de variable"
+      ],
+      "answer": "Une assertion de type, sans conversion à l'exécution",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle différence principale entre interface et type ?",
+      "options": [
+        "Les interfaces peuvent être fusionnées par déclaration ; les alias de type supportent unions et types calculés",
+        "Les types ne décrivent pas d'objets",
+        "Les interfaces n'acceptent pas l'héritage",
+        "Ils sont totalement identiques"
+      ],
+      "answer": "Les interfaces peuvent être fusionnées par déclaration ; les alias de type supportent unions et types calculés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un type littéral ?",
+      "options": [
+        "Un type limité à une valeur précise, comme \"admin\" ou 42",
+        "Un type écrit en toutes lettres",
+        "Un type string",
+        "Un type any"
+      ],
+      "answer": "Un type limité à une valeur précise, comme \"admin\" ou 42",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que vérifie strictNullChecks ?",
+      "options": [
+        "Que null et undefined ne sont pas assignables aux autres types sans le déclarer",
+        "Que les objets ne sont jamais vides",
+        "Que les tableaux sont triés",
+        "Que les chaînes ne sont pas vides"
+      ],
+      "answer": "Que null et undefined ne sont pas assignables aux autres types sans le déclarer",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un fichier .d.ts ?",
+      "options": [
+        "Décrire les types d'un code JavaScript sans contenir d'implémentation",
+        "Stocker des données",
+        "Configurer le compilateur",
+        "Contenir les tests"
+      ],
+      "answer": "Décrire les types d'un code JavaScript sans contenir d'implémentation",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment TypeScript compare-t-il les types d'objets ?",
+      "options": [
+        "Par leur structure (typage structurel), pas par leur nom",
+        "Par leur nom uniquement",
+        "Par leur adresse mémoire",
+        "Il ne les compare pas"
+      ],
+      "answer": "Par leur structure (typage structurel), pas par leur nom",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'opérateur satisfies ?",
+      "options": [
+        "Vérifier qu'une valeur respecte un type tout en conservant son type inféré précis",
+        "Convertir une valeur",
+        "Rendre une valeur constante",
+        "Exécuter une validation à l'exécution"
+      ],
+      "answer": "Vérifier qu'une valeur respecte un type tout en conservant son type inféré précis",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait « as const » ?",
+      "options": [
+        "Inférer les types littéraux les plus précis et rendre la valeur en lecture seule",
+        "Convertir en constante à l'exécution",
+        "Créer un enum",
+        "Supprimer les types"
+      ],
+      "answer": "Inférer les types littéraux les plus précis et rendre la valeur en lecture seule",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait ReturnType<typeof f> ?",
+      "options": [
+        "Extraire le type de retour de la fonction f",
+        "Exécuter f",
+        "Renvoyer le nom de f",
+        "Supprimer le retour de f"
+      ],
+      "answer": "Extraire le type de retour de la fonction f",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un type conditionnel ?",
+      "options": [
+        "Un type de la forme T extends U ? X : Y",
+        "Un type choisi à l'exécution",
+        "Un type optionnel",
+        "Une union de booléens"
+      ],
+      "answer": "Un type de la forme T extends U ? X : Y",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait le mot-clé infer ?",
+      "options": [
+        "Capturer un type dans la branche d'un type conditionnel pour le réutiliser",
+        "Inférer le type d'une variable à l'exécution",
+        "Importer un type",
+        "Désactiver l'inférence"
+      ],
+      "answer": "Capturer un type dans la branche d'un type conditionnel pour le réutiliser",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un type conditionnel distributif ?",
+      "options": [
+        "Un type conditionnel appliqué séparément à chaque membre d'une union quand T est un paramètre nu",
+        "Un type réparti entre plusieurs fichiers",
+        "Un type utilisé en réseau",
+        "Un type générique sans contrainte"
+      ],
+      "answer": "Un type conditionnel appliqué séparément à chaque membre d'une union quand T est un paramètre nu",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un mapped type ?",
+      "options": [
+        "Un type qui transforme chaque propriété d'un autre type, comme { [K in keyof T]: … }",
+        "Un type Map de JavaScript",
+        "Un type de carte géographique",
+        "Un dictionnaire à l'exécution"
+      ],
+      "answer": "Un type qui transforme chaque propriété d'un autre type, comme { [K in keyof T]: … }",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les template literal types ?",
+      "options": [
+        "Des types construits à partir de chaînes, comme `on${Capitalize<E>}`",
+        "Des templates HTML typés",
+        "Des chaînes multilignes",
+        "Des types de fichiers"
+      ],
+      "answer": "Des types construits à partir de chaînes, comme `on${Capitalize<E>}`",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que signifie la variance d'un paramètre de fonction ?",
+      "options": [
+        "La façon dont la compatibilité des types se propage ; les paramètres sont contravariants avec strictFunctionTypes",
+        "La variation de vitesse d'une fonction",
+        "Le nombre de paramètres",
+        "L'écart-type d'un retour"
+      ],
+      "answer": "La façon dont la compatibilité des types se propage ; les paramètres sont contravariants avec strictFunctionTypes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « branded type » ?",
+      "options": [
+        "Un type nominal simulé en ajoutant une marque fictive pour distinguer des types structurellement identiques",
+        "Un type sponsorisé",
+        "Un type de bibliothèque payante",
+        "Un enum"
+      ],
+      "answer": "Un type nominal simulé en ajoutant une marque fictive pour distinguer des types structurellement identiques",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction de garde de type (type predicate) ?",
+      "options": [
+        "Une fonction dont le retour « x is T » informe le compilateur du type après l'appel",
+        "Une fonction qui lève une exception",
+        "Une fonction asynchrone",
+        "Un décorateur"
+      ],
+      "answer": "Une fonction dont le retour « x is T » informe le compilateur du type après l'appel",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction d'assertion (asserts x is T) ?",
+      "options": [
+        "Une fonction qui garantit le type de x pour la suite si elle ne lève pas d'erreur",
+        "Une fonction de test unitaire",
+        "Une fonction qui convertit x",
+        "Un générique"
+      ],
+      "answer": "Une fonction qui garantit le type de x pour la suite si elle ne lève pas d'erreur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert la vérification d'exhaustivité avec never ?",
+      "options": [
+        "Faire échouer la compilation si un cas d'une union n'est pas traité",
+        "Accélérer un switch",
+        "Ignorer les cas non traités",
+        "Lever une erreur à l'exécution uniquement"
+      ],
+      "answer": "Faire échouer la compilation si un cas d'une union n'est pas traité",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la fusion de déclarations (declaration merging) ?",
+      "options": [
+        "Le compilateur combine plusieurs déclarations portant le même nom, comme deux interfaces",
+        "La fusion de deux fichiers .ts",
+        "Un merge Git automatique",
+        "La combinaison de deux enums en chaînes"
+      ],
+      "answer": "Le compilateur combine plusieurs déclarations portant le même nom, comme deux interfaces",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait noUncheckedIndexedAccess ?",
+      "options": [
+        "Ajouter undefined au type des accès par index non vérifiés",
+        "Interdire les tableaux",
+        "Vérifier les index à l'exécution",
+        "Désactiver les objets indexés"
+      ],
+      "answer": "Ajouter undefined au type des accès par index non vérifiés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre les enums et les unions de littéraux ?",
+      "options": [
+        "Les enums génèrent du code à l'exécution, les unions de littéraux sont entièrement effacées",
+        "Les unions génèrent du code",
+        "Ils sont identiques",
+        "Les enums n'existent qu'en JavaScript"
+      ],
+      "answer": "Les enums génèrent du code à l'exécution, les unions de littéraux sont entièrement effacées",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'option « isolatedModules » ?",
+      "options": [
+        "Garantir que chaque fichier peut être transpilé seul, par des outils comme esbuild ou Babel",
+        "Interdire les imports",
+        "Isoler les tests",
+        "Compiler chaque module dans un worker"
+      ],
+      "answer": "Garantir que chaque fichier peut être transpilé seul, par des outils comme esbuild ou Babel",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait « import type » ?",
+      "options": [
+        "Importer uniquement des types, entièrement supprimés à la compilation",
+        "Importer un type à l'exécution",
+        "Importer un fichier JSON",
+        "Importer un module natif"
+      ],
+      "answer": "Importer uniquement des types, entièrement supprimés à la compilation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la validation à l'exécution (ex. avec Zod) reste-t-elle nécessaire ?",
+      "options": [
+        "Les types sont effacés : les données externes (API, formulaires) ne sont pas vérifiées par TypeScript",
+        "TypeScript est lent",
+        "Les types sont faux par défaut",
+        "Ce n'est jamais nécessaire"
+      ],
+      "answer": "Les types sont effacés : les données externes (API, formulaires) ne sont pas vérifiées par TypeScript",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le type Awaited<T> ?",
+      "options": [
+        "Le type obtenu en « déballant » récursivement les promesses de T",
+        "Un type qui attend une seconde",
+        "Le type d'une fonction async",
+        "Un alias de Promise<T>"
+      ],
+      "answer": "Le type obtenu en « déballant » récursivement les promesses de T",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait le modificateur « -readonly » dans un mapped type ?",
+      "options": [
+        "Retirer le caractère readonly des propriétés transformées",
+        "Ajouter readonly",
+        "Supprimer les propriétés",
+        "Rendre les propriétés optionnelles"
+      ],
+      "answer": "Retirer le caractère readonly des propriétés transformées",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que les « project references » dans tsconfig ?",
+      "options": [
+        "Découper un grand dépôt en projets compilés séparément et de façon incrémentale",
+        "Des liens vers la documentation",
+        "Des dépendances npm",
+        "Des fichiers de types globaux"
+      ],
+      "answer": "Découper un grand dépôt en projets compilés séparément et de façon incrémentale",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que vérifie exactOptionalPropertyTypes ?",
+      "options": [
+        "Qu'une propriété optionnelle ne reçoit pas explicitement undefined si ce n'est pas déclaré",
+        "Que toutes les propriétés sont obligatoires",
+        "Que les objets n'ont pas de propriétés en trop à l'exécution",
+        "Que les tableaux ont une taille fixe"
+      ],
+      "answer": "Qu'une propriété optionnelle ne reçoit pas explicitement undefined si ce n'est pas déclaré",
+      "difficulty": "difficile"
+    }
+  ]
+}

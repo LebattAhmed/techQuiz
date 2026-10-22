@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que le chiffrement ?",
+      "options": [
+        "Transformer des données pour qu'elles soient illisibles sans la clé",
+        "Compresser des données",
+        "Supprimer des données définitivement",
+        "Sauvegarder des données"
+      ],
+      "answer": "Transformer des données pour qu'elles soient illisibles sans la clé",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le chiffrement symétrique ?",
+      "options": [
+        "La même clé sert à chiffrer et à déchiffrer",
+        "Deux clés différentes sont utilisées",
+        "Aucune clé n'est utilisée",
+        "Le message est chiffré deux fois"
+      ],
+      "answer": "La même clé sert à chiffrer et à déchiffrer",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le chiffrement asymétrique ?",
+      "options": [
+        "Une clé publique chiffre, une clé privée déchiffre",
+        "Une seule clé partagée sert aux deux opérations",
+        "Le message est chiffré à moitié",
+        "Les clés changent à chaque caractère"
+      ],
+      "answer": "Une clé publique chiffre, une clé privée déchiffre",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Lequel est un algorithme de chiffrement symétrique ?",
+      "options": [
+        "AES",
+        "RSA",
+        "SHA-256",
+        "Diffie-Hellman"
+      ],
+      "answer": "AES",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Lequel est un algorithme asymétrique ?",
+      "options": [
+        "RSA",
+        "AES",
+        "DES",
+        "SHA-1"
+      ],
+      "answer": "RSA",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction de hachage ?",
+      "options": [
+        "Une fonction qui produit une empreinte de taille fixe à partir de données quelconques",
+        "Une fonction qui chiffre de façon réversible",
+        "Une fonction qui compresse sans perte",
+        "Une fonction qui génère des clés RSA"
+      ],
+      "answer": "Une fonction qui produit une empreinte de taille fixe à partir de données quelconques",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Peut-on retrouver le message d'origine à partir d'un hachage cryptographique ?",
+      "options": [
+        "Non, c'est conçu pour être à sens unique",
+        "Oui, avec la clé publique",
+        "Oui, en le décompressant",
+        "Oui, toujours facilement"
+      ],
+      "answer": "Non, c'est conçu pour être à sens unique",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Lequel est une fonction de hachage ?",
+      "options": [
+        "SHA-256",
+        "AES",
+        "RSA",
+        "ECDSA"
+      ],
+      "answer": "SHA-256",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi MD5 n'est-il plus considéré comme sûr ?",
+      "options": [
+        "On sait produire des collisions facilement",
+        "Il est trop lent",
+        "Il produit des empreintes trop longues",
+        "Il nécessite une clé"
+      ],
+      "answer": "On sait produire des collisions facilement",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une signature numérique ?",
+      "options": [
+        "Un mécanisme prouvant l'auteur d'un message et son intégrité",
+        "Une image de la signature manuscrite",
+        "Un mot de passe chiffré",
+        "Un certificat de compression"
+      ],
+      "answer": "Un mécanisme prouvant l'auteur d'un message et son intégrité",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Avec quelle clé signe-t-on un message ?",
+      "options": [
+        "La clé privée",
+        "La clé publique du destinataire",
+        "Une clé symétrique partagée",
+        "Aucune clé"
+      ],
+      "answer": "La clé privée",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un certificat numérique X.509 ?",
+      "options": [
+        "Un document qui associe une clé publique à une identité, signé par une autorité",
+        "Un mot de passe stocké dans le navigateur",
+        "Un diplôme de sécurité",
+        "Une clé privée exportée"
+      ],
+      "answer": "Un document qui associe une clé publique à une identité, signé par une autorité",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le cadenas dans la barre d'adresse du navigateur ?",
+      "options": [
+        "La connexion au site est chiffrée par HTTPS",
+        "Le site est forcément honnête",
+        "Le site est hébergé en France",
+        "Le site n'a pas de publicité"
+      ],
+      "answer": "La connexion au site est chiffrée par HTTPS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel était le chiffre de César ?",
+      "options": [
+        "Un décalage fixe des lettres de l'alphabet",
+        "Un chiffrement à clé publique",
+        "Une fonction de hachage",
+        "Un code binaire"
+      ],
+      "answer": "Un décalage fixe des lettres de l'alphabet",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par force brute ?",
+      "options": [
+        "Essayer toutes les clés ou mots de passe possibles",
+        "Casser physiquement un serveur",
+        "Intercepter un réseau Wi-Fi",
+        "Envoyer des emails piégés"
+      ],
+      "answer": "Essayer toutes les clés ou mots de passe possibles",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi utilise-t-on un sel (salt) pour hacher les mots de passe ?",
+      "options": [
+        "Pour que deux mots de passe identiques donnent des hachages différents",
+        "Pour accélérer le hachage",
+        "Pour pouvoir déchiffrer le mot de passe",
+        "Pour réduire la taille du hachage"
+      ],
+      "answer": "Pour que deux mots de passe identiques donnent des hachages différents",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle taille de clé utilise AES-256 ?",
+      "options": [
+        "256 bits",
+        "256 octets",
+        "2 048 bits",
+        "56 bits"
+      ],
+      "answer": "256 bits",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie PKI ?",
+      "options": [
+        "Infrastructure à clés publiques",
+        "Protocole de clé internet",
+        "Clé privée intégrée",
+        "Identifiant de clé personnelle"
+      ],
+      "answer": "Infrastructure à clés publiques",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que garantit l'intégrité d'un message ?",
+      "options": [
+        "Qu'il n'a pas été modifié",
+        "Qu'il est secret",
+        "Qu'il est arrivé rapidement",
+        "Qu'il est compressé"
+      ],
+      "answer": "Qu'il n'a pas été modifié",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une autorité de certification (AC) ?",
+      "options": [
+        "Une entité de confiance qui signe les certificats",
+        "Un organisme qui délivre des diplômes",
+        "Un antivirus",
+        "Un hébergeur web"
+      ],
+      "answer": "Une entité de confiance qui signe les certificats",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que permet l'échange de clés Diffie-Hellman ?",
+      "options": [
+        "Établir un secret partagé sur un canal public",
+        "Signer un document",
+        "Hacher un mot de passe",
+        "Compresser une clé"
+      ],
+      "answer": "Établir un secret partagé sur un canal public",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi le mode ECB est-il déconseillé ?",
+      "options": [
+        "Des blocs identiques produisent des blocs chiffrés identiques, ce qui laisse fuiter des motifs",
+        "Il est trop lent",
+        "Il nécessite une clé de 4 096 bits",
+        "Il ne fonctionne qu'avec RSA"
+      ],
+      "answer": "Des blocs identiques produisent des blocs chiffrés identiques, ce qui laisse fuiter des motifs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel mode de chiffrement par blocs fournit aussi l'authentification (AEAD) ?",
+      "options": [
+        "GCM",
+        "ECB",
+        "CBC",
+        "CFB"
+      ],
+      "answer": "GCM",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un vecteur d'initialisation (IV) ?",
+      "options": [
+        "Une valeur qui rend le chiffrement de messages identiques différent",
+        "Une clé secrète de secours",
+        "Le premier bloc du message en clair",
+        "Le nom de l'algorithme utilisé"
+      ],
+      "answer": "Une valeur qui rend le chiffrement de messages identiques différent",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un HMAC ?",
+      "options": [
+        "Un code d'authentification de message basé sur une fonction de hachage et une clé secrète",
+        "Un hachage sans clé",
+        "Un certificat auto-signé",
+        "Un algorithme asymétrique"
+      ],
+      "answer": "Un code d'authentification de message basé sur une fonction de hachage et une clé secrète",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel algorithme est recommandé pour hacher des mots de passe ?",
+      "options": [
+        "Argon2",
+        "MD5",
+        "SHA-1 sans sel",
+        "Base64"
+      ],
+      "answer": "Argon2",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi SHA-256 seul est-il un mauvais choix pour stocker des mots de passe ?",
+      "options": [
+        "Il est trop rapide, ce qui facilite les attaques par force brute",
+        "Il est réversible",
+        "Il produit des collisions triviales",
+        "Il nécessite une clé publique"
+      ],
+      "answer": "Il est trop rapide, ce qui facilite les attaques par force brute",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la confidentialité persistante (forward secrecy) ?",
+      "options": [
+        "La compromission d'une clé à long terme ne permet pas de déchiffrer les sessions passées",
+        "Les messages sont stockés indéfiniment",
+        "Les clés ne changent jamais",
+        "Le chiffrement est appliqué deux fois"
+      ],
+      "answer": "La compromission d'une clé à long terme ne permet pas de déchiffrer les sessions passées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une table arc-en-ciel (rainbow table) ?",
+      "options": [
+        "Une table précalculée de hachages pour retrouver des mots de passe",
+        "Un tableau de clés RSA",
+        "Une liste de certificats révoqués",
+        "Un format de clé publique"
+      ],
+      "answer": "Une table précalculée de hachages pour retrouver des mots de passe",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Base64 est-il un chiffrement ?",
+      "options": [
+        "Non, c'est un encodage réversible sans clé",
+        "Oui, symétrique",
+        "Oui, asymétrique",
+        "Oui, c'est un hachage"
+      ],
+      "answer": "Non, c'est un encodage réversible sans clé",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un certificat auto-signé ?",
+      "options": [
+        "Un certificat signé par sa propre clé, sans autorité de certification tierce",
+        "Un certificat signé par plusieurs AC",
+        "Un certificat expiré",
+        "Un certificat sans clé publique"
+      ],
+      "answer": "Un certificat signé par sa propre clé, sans autorité de certification tierce",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert une liste de révocation (CRL) ou OCSP ?",
+      "options": [
+        "Vérifier qu'un certificat n'a pas été révoqué",
+        "Générer de nouvelles clés",
+        "Chiffrer les emails",
+        "Compresser les certificats"
+      ],
+      "answer": "Vérifier qu'un certificat n'a pas été révoqué",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est l'utilité des courbes elliptiques (ECC) ?",
+      "options": [
+        "Obtenir une sécurité équivalente à RSA avec des clés beaucoup plus courtes",
+        "Remplacer les fonctions de hachage",
+        "Rendre le chiffrement symétrique plus rapide",
+        "Supprimer le besoin de clé privée"
+      ],
+      "answer": "Obtenir une sécurité équivalente à RSA avec des clés beaucoup plus courtes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la longueur de l'empreinte produite par SHA-256 ?",
+      "options": [
+        "256 bits",
+        "128 bits",
+        "512 bits",
+        "Elle dépend de la taille du message"
+      ],
+      "answer": "256 bits",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une collision pour une fonction de hachage ?",
+      "options": [
+        "Deux entrées différentes qui donnent la même empreinte",
+        "Deux clés qui chiffrent pareil",
+        "Un hachage vide",
+        "Une erreur de calcul du processeur"
+      ],
+      "answer": "Deux entrées différentes qui donnent la même empreinte",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi chiffre-t-on généralement les données avec une clé symétrique dans TLS ?",
+      "options": [
+        "Le chiffrement symétrique est bien plus rapide que l'asymétrique",
+        "L'asymétrique n'est pas sûr",
+        "Les navigateurs ne supportent pas RSA",
+        "Les clés symétriques sont publiques"
+      ],
+      "answer": "Le chiffrement symétrique est bien plus rapide que l'asymétrique",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le chiffrement de bout en bout ?",
+      "options": [
+        "Seuls l'émetteur et le destinataire peuvent lire les messages, pas le serveur intermédiaire",
+        "Le chiffrement du disque d'un serveur",
+        "Le chiffrement entre le navigateur et le CDN",
+        "Le chiffrement de la première et de la dernière ligne d'un message"
+      ],
+      "answer": "Seuls l'émetteur et le destinataire peuvent lire les messages, pas le serveur intermédiaire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « key stretching » ?",
+      "options": [
+        "Rendre volontairement coûteux le calcul dérivant une clé d'un mot de passe",
+        "Allonger une clé avec des zéros",
+        "Partager une clé entre plusieurs utilisateurs",
+        "Découper une clé en morceaux"
+      ],
+      "answer": "Rendre volontairement coûteux le calcul dérivant une clé d'un mot de passe",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un nonce ?",
+      "options": [
+        "Une valeur qui ne doit être utilisée qu'une seule fois avec une clé donnée",
+        "Une clé privée temporaire",
+        "Un hachage nul",
+        "Un certificat racine"
+      ],
+      "answer": "Une valeur qui ne doit être utilisée qu'une seule fois avec une clé donnée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est le rôle de PBKDF2 ?",
+      "options": [
+        "Dériver une clé à partir d'un mot de passe avec un sel et de nombreuses itérations",
+        "Chiffrer des fichiers en AES",
+        "Signer des certificats",
+        "Générer des nombres premiers"
+      ],
+      "answer": "Dériver une clé à partir d'un mot de passe avec un sel et de nombreuses itérations",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi réutiliser un nonce avec AES-GCM est-il catastrophique ?",
+      "options": [
+        "Cela révèle le XOR des messages en clair et permet de forger des étiquettes d'authentification",
+        "Cela ralentit fortement le chiffrement",
+        "Cela invalide le certificat TLS",
+        "Cela n'a aucune conséquence"
+      ],
+      "answer": "Cela révèle le XOR des messages en clair et permet de forger des étiquettes d'authentification",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par oracle de padding ?",
+      "options": [
+        "Exploiter les messages d'erreur de padding pour déchiffrer un texte chiffré en CBC",
+        "Deviner la longueur d'un mot de passe",
+        "Ajouter des données inutiles à un certificat",
+        "Saturer un serveur avec des messages longs"
+      ],
+      "answer": "Exploiter les messages d'erreur de padding pour déchiffrer un texte chiffré en CBC",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le paradoxe des anniversaires implique pour une empreinte de n bits ?",
+      "options": [
+        "Une collision est attendue après environ 2^(n/2) essais",
+        "Une collision nécessite 2^n essais",
+        "Les collisions sont impossibles",
+        "Les collisions arrivent après n essais"
+      ],
+      "answer": "Une collision est attendue après environ 2^(n/2) essais",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Sur quel problème mathématique repose la sécurité de RSA ?",
+      "options": [
+        "La difficulté de factoriser le produit de deux grands nombres premiers",
+        "Le logarithme discret sur les courbes elliptiques",
+        "La recherche de collisions de hachage",
+        "Le problème du voyageur de commerce"
+      ],
+      "answer": "La difficulté de factoriser le produit de deux grands nombres premiers",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel algorithme quantique menace RSA et les courbes elliptiques ?",
+      "options": [
+        "L'algorithme de Shor",
+        "L'algorithme de Grover",
+        "L'algorithme de Dijkstra",
+        "L'algorithme de Rijndael"
+      ],
+      "answer": "L'algorithme de Shor",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est l'effet de l'algorithme de Grover sur la sécurité d'AES ?",
+      "options": [
+        "Il réduit de moitié la sécurité effective en bits, d'où l'intérêt d'AES-256",
+        "Il casse AES instantanément",
+        "Il n'a aucun effet",
+        "Il rend AES-128 plus sûr"
+      ],
+      "answer": "Il réduit de moitié la sécurité effective en bits, d'où l'intérêt d'AES-256",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la cryptographie post-quantique ?",
+      "options": [
+        "Des algorithmes classiques conçus pour résister aux ordinateurs quantiques",
+        "Du chiffrement exécuté sur un ordinateur quantique",
+        "La distribution de clés par photons",
+        "Le chiffrement après la fin d'une session"
+      ],
+      "answer": "Des algorithmes classiques conçus pour résister aux ordinateurs quantiques",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel algorithme d'encapsulation de clé a été standardisé par le NIST (FIPS 203) ?",
+      "options": [
+        "ML-KEM (Kyber)",
+        "RSA-OAEP",
+        "DSA",
+        "RC4"
+      ],
+      "answer": "ML-KEM (Kyber)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par canal auxiliaire ?",
+      "options": [
+        "Exploiter des fuites physiques (temps, consommation, ondes) plutôt que l'algorithme",
+        "Attaquer un réseau secondaire",
+        "Utiliser une clé de secours",
+        "Intercepter un deuxième canal Wi-Fi"
+      ],
+      "answer": "Exploiter des fuites physiques (temps, consommation, ondes) plutôt que l'algorithme",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi compare-t-on les MAC en temps constant ?",
+      "options": [
+        "Pour éviter qu'un attaquant devine la valeur octet par octet via le temps de réponse",
+        "Pour accélérer la comparaison",
+        "Pour économiser de la mémoire",
+        "Parce que les MAC sont chiffrés"
+      ],
+      "answer": "Pour éviter qu'un attaquant devine la valeur octet par octet via le temps de réponse",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par extension de longueur ?",
+      "options": [
+        "Calculer H(secret ‖ message ‖ extension) sans connaître le secret, avec certaines fonctions Merkle-Damgård",
+        "Allonger une clé RSA pour la casser",
+        "Ajouter des caractères à un mot de passe",
+        "Prolonger la validité d'un certificat"
+      ],
+      "answer": "Calculer H(secret ‖ message ‖ extension) sans connaître le secret, avec certaines fonctions Merkle-Damgård",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle construction évite l'attaque par extension de longueur ?",
+      "options": [
+        "HMAC",
+        "H(secret ‖ message) avec SHA-256",
+        "MD5",
+        "CRC32"
+      ],
+      "answer": "HMAC",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « Certificate Transparency » ?",
+      "options": [
+        "Des journaux publics vérifiables où les AC enregistrent les certificats émis",
+        "Un certificat sans clé privée",
+        "Un affichage du certificat dans le navigateur",
+        "Une AC open source"
+      ],
+      "answer": "Des journaux publics vérifiables où les AC enregistrent les certificats émis",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « certificate pinning » ?",
+      "options": [
+        "L'application n'accepte qu'un certificat ou une clé publique précise pour un serveur",
+        "L'affichage du certificat en haut de page",
+        "Le stockage du certificat sur une clé USB",
+        "La signature d'un certificat par deux AC"
+      ],
+      "answer": "L'application n'accepte qu'un certificat ou une clé publique précise pour un serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un schéma de partage de secret de Shamir ?",
+      "options": [
+        "Diviser un secret en parts dont un seuil minimal permet de le reconstituer",
+        "Chiffrer un secret avec plusieurs clés successives",
+        "Publier un secret sur une blockchain",
+        "Stocker un secret dans un HSM"
+      ],
+      "answer": "Diviser un secret en parts dont un seuil minimal permet de le reconstituer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert un HSM ?",
+      "options": [
+        "Générer, stocker et utiliser des clés dans un matériel sécurisé dont elles ne sortent pas",
+        "Accélérer les requêtes HTTP",
+        "Stocker les mots de passe des utilisateurs en clair",
+        "Remplacer l'autorité de certification"
+      ],
+      "answer": "Générer, stocker et utiliser des clés dans un matériel sécurisé dont elles ne sortent pas",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une preuve à divulgation nulle de connaissance ?",
+      "options": [
+        "Prouver qu'on connaît une information sans la révéler",
+        "Un chiffrement sans clé",
+        "Une signature anonyme révocable",
+        "Un hachage de longueur nulle"
+      ],
+      "answer": "Prouver qu'on connaît une information sans la révéler",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le chiffrement homomorphe ?",
+      "options": [
+        "Permettre des calculs sur des données chiffrées sans les déchiffrer",
+        "Chiffrer deux fois avec la même clé",
+        "Chiffrer uniquement les nombres",
+        "Chiffrer et compresser en même temps"
+      ],
+      "answer": "Permettre des calculs sur des données chiffrées sans les déchiffrer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la génération de nombres aléatoires est-elle critique ?",
+      "options": [
+        "Des clés ou nonces prévisibles rendent le chiffrement cassable",
+        "Elle détermine la vitesse du chiffrement",
+        "Elle fixe la longueur des certificats",
+        "Elle sert uniquement aux jeux"
+      ],
+      "answer": "Des clés ou nonces prévisibles rendent le chiffrement cassable",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Dans TLS 1.3, quel type d'échange de clés est obligatoire ?",
+      "options": [
+        "Un échange (EC)DHE éphémère, qui assure la confidentialité persistante",
+        "Le transport de clé RSA statique",
+        "Un secret prépartagé obligatoire",
+        "Aucun échange de clés"
+      ],
+      "answer": "Un échange (EC)DHE éphémère, qui assure la confidentialité persistante",
+      "difficulty": "difficile"
+    }
+  ]
 }

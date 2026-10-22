@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que Next.js ?",
+      "options": [
+        "Un framework React pour créer des applications web full-stack",
+        "Un langage de programmation",
+        "Une base de données",
+        "Un système d'exploitation"
+      ],
+      "answer": "Un framework React pour créer des applications web full-stack",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle entreprise développe Next.js ?",
+      "options": [
+        "Vercel",
+        "Meta",
+        "Google",
+        "Netlify"
+      ],
+      "answer": "Vercel",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans l'App Router, quel fichier définit la page d'une route ?",
+      "options": [
+        "page.tsx",
+        "index.html",
+        "route.json",
+        "main.tsx"
+      ],
+      "answer": "page.tsx",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel dossier contient les routes avec l'App Router ?",
+      "options": [
+        "app/",
+        "routes/",
+        "src/views/",
+        "public/routes/"
+      ],
+      "answer": "app/",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier définit une mise en page partagée entre plusieurs pages ?",
+      "options": [
+        "layout.tsx",
+        "template.json",
+        "wrapper.tsx",
+        "master.html"
+      ],
+      "answer": "layout.tsx",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant Next.js permet de naviguer entre les pages sans rechargement complet ?",
+      "options": [
+        "Link",
+        "Anchor",
+        "Router",
+        "Navigate"
+      ],
+      "answer": "Link",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant optimise automatiquement les images ?",
+      "options": [
+        "Image (next/image)",
+        "Img (next/img)",
+        "Picture",
+        "OptimizedImage"
+      ],
+      "answer": "Image (next/image)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment crée-t-on une route dynamique pour /blog/mon-article ?",
+      "options": [
+        "Avec un dossier app/blog/[slug]",
+        "Avec un dossier app/blog/:slug",
+        "Avec un fichier app/blog/*.tsx",
+        "Avec un dossier app/blog/{slug}"
+      ],
+      "answer": "Avec un dossier app/blog/[slug]",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Où place-t-on les fichiers statiques comme les images ou le favicon ?",
+      "options": [
+        "Dans le dossier public/",
+        "Dans node_modules/",
+        "Dans le dossier .next/",
+        "Dans app/api/"
+      ],
+      "answer": "Dans le dossier public/",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande démarre le serveur de développement ?",
+      "options": [
+        "next dev",
+        "next start",
+        "next build",
+        "next export"
+      ],
+      "answer": "next dev",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande construit l'application pour la production ?",
+      "options": [
+        "next build",
+        "next dev",
+        "next serve",
+        "next compile"
+      ],
+      "answer": "next build",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier permet de configurer Next.js ?",
+      "options": [
+        "next.config.ts (ou .js/.mjs)",
+        "package.lock",
+        "tsconfig.next",
+        "next.yaml"
+      ],
+      "answer": "next.config.ts (ou .js/.mjs)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier affiche une page personnalisée quand une route n'existe pas ?",
+      "options": [
+        "not-found.tsx",
+        "404.json",
+        "missing.tsx",
+        "error404.html"
+      ],
+      "answer": "not-found.tsx",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier affiche un état de chargement pendant qu'une route se charge ?",
+      "options": [
+        "loading.tsx",
+        "spinner.tsx",
+        "wait.tsx",
+        "pending.html"
+      ],
+      "answer": "loading.tsx",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le rendu côté serveur (SSR) ?",
+      "options": [
+        "Générer le HTML sur le serveur à chaque requête",
+        "Générer le HTML dans le navigateur uniquement",
+        "Compiler le CSS sur le serveur",
+        "Stocker les pages dans une base"
+      ],
+      "answer": "Générer le HTML sur le serveur à chaque requête",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la génération statique (SSG) ?",
+      "options": [
+        "Générer les pages HTML au moment du build",
+        "Générer les pages à chaque clic",
+        "Un hébergement gratuit",
+        "Un format d'image"
+      ],
+      "answer": "Générer les pages HTML au moment du build",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Par défaut, dans l'App Router, les composants sont-ils des Server Components ?",
+      "options": [
+        "Oui",
+        "Non, ce sont des Client Components",
+        "Seulement dans le dossier pages/",
+        "Seulement en production"
+      ],
+      "answer": "Oui",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment définir le titre d'une page dans l'App Router ?",
+      "options": [
+        "En exportant un objet metadata ou une fonction generateMetadata",
+        "Avec document.title dans un Server Component",
+        "Dans le fichier package.json",
+        "Avec une balise <title> dans next.config"
+      ],
+      "answer": "En exportant un objet metadata ou une fonction generateMetadata",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier crée une route d'API dans l'App Router ?",
+      "options": [
+        "route.ts",
+        "api.tsx",
+        "handler.json",
+        "server.html"
+      ],
+      "answer": "route.ts",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel hook client permet de lire le chemin courant ?",
+      "options": [
+        "usePathname",
+        "useLocation",
+        "useRoute",
+        "useUrl"
+      ],
+      "answer": "usePathname",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quand faut-il ajouter \"use client\" en haut d'un fichier ?",
+      "options": [
+        "Quand le composant utilise de l'état, des effets, des événements ou des API du navigateur",
+        "Pour tous les composants sans exception",
+        "Pour les composants qui lisent une base de données",
+        "Pour les fichiers CSS"
+      ],
+      "answer": "Quand le composant utilise de l'état, des effets, des événements ou des API du navigateur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert generateStaticParams ?",
+      "options": [
+        "Lister les paramètres des routes dynamiques à générer au build",
+        "Générer des mots de passe",
+        "Créer des variables d'environnement",
+        "Définir les métadonnées SEO"
+      ],
+      "answer": "Lister les paramètres des routes dynamiques à générer au build",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les Server Actions ?",
+      "options": [
+        "Des fonctions exécutées sur le serveur et appelables depuis des formulaires ou des composants",
+        "Des tâches planifiées cron",
+        "Des middlewares Express",
+        "Des scripts de déploiement"
+      ],
+      "answer": "Des fonctions exécutées sur le serveur et appelables depuis des formulaires ou des composants",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle directive marque une fonction comme Server Action ?",
+      "options": [
+        "\"use server\"",
+        "\"use client\"",
+        "\"server only\"",
+        "\"use action\""
+      ],
+      "answer": "\"use server\"",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'ISR (Incremental Static Regeneration) ?",
+      "options": [
+        "Régénérer des pages statiques en arrière-plan après une durée donnée ou à la demande",
+        "Recompiler tout le site à chaque requête",
+        "Un format d'image incrémental",
+        "Une base de données intégrée"
+      ],
+      "answer": "Régénérer des pages statiques en arrière-plan après une durée donnée ou à la demande",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment demander une revalidation des données toutes les 60 secondes pour une route ?",
+      "options": [
+        "export const revalidate = 60",
+        "export const cache = \"60s\"",
+        "setInterval(revalidate, 60)",
+        "next.config: { refresh: 60 }"
+      ],
+      "answer": "export const revalidate = 60",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle fonction permet de revalider à la demande les données associées à un chemin ?",
+      "options": [
+        "revalidatePath",
+        "refreshPage",
+        "router.reload côté serveur",
+        "clearCache"
+      ],
+      "answer": "revalidatePath",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le fichier middleware.ts ?",
+      "options": [
+        "Il exécute du code avant le traitement des requêtes correspondantes (redirections, auth…)",
+        "Il définit les styles globaux",
+        "Il configure la base de données",
+        "Il remplace le layout racine"
+      ],
+      "answer": "Il exécute du code avant le traitement des requêtes correspondantes (redirections, auth…)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle fonction de next/navigation renvoie une 404 depuis un Server Component ?",
+      "options": [
+        "notFound()",
+        "throw404()",
+        "redirect(404)",
+        "abort()"
+      ],
+      "answer": "notFound()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est le rôle du fichier error.tsx ?",
+      "options": [
+        "Afficher une interface de secours quand une erreur survient dans le segment de route",
+        "Lister les erreurs de compilation",
+        "Gérer uniquement les 404",
+        "Configurer les logs serveur"
+      ],
+      "answer": "Afficher une interface de secours quand une erreur survient dans le segment de route",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un groupe de routes, comme (marketing) ?",
+      "options": [
+        "Un dossier entre parenthèses qui organise les routes sans apparaître dans l'URL",
+        "Une route protégée par mot de passe",
+        "Une route en commentaire",
+        "Une route réservée aux tests"
+      ],
+      "answer": "Un dossier entre parenthèses qui organise les routes sans apparaître dans l'URL",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre layout.tsx et template.tsx ?",
+      "options": [
+        "Le layout conserve son état entre navigations, le template est remonté à chaque navigation",
+        "Le template est rendu côté client uniquement",
+        "Le layout ne peut pas contenir de HTML",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Le layout conserve son état entre navigations, le template est remonté à chaque navigation",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment une variable d'environnement devient-elle accessible côté navigateur ?",
+      "options": [
+        "En la préfixant par NEXT_PUBLIC_",
+        "En la préfixant par CLIENT_",
+        "En la déclarant dans layout.tsx",
+        "Toutes les variables le sont par défaut"
+      ],
+      "answer": "En la préfixant par NEXT_PUBLIC_",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est l'intérêt du composant next/font ?",
+      "options": [
+        "Héberger et optimiser les polices sans requête externe et éviter les décalages de mise en page",
+        "Créer des polices personnalisées",
+        "Traduire le texte",
+        "Changer la taille du texte au clic"
+      ],
+      "answer": "Héberger et optimiser les polices sans requête externe et éviter les décalages de mise en page",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Dans Next.js 15, que sont devenus params et searchParams dans les pages ?",
+      "options": [
+        "Des promesses qu'il faut attendre avec await",
+        "Des objets mutables",
+        "Des hooks",
+        "Des variables d'environnement"
+      ],
+      "answer": "Des promesses qu'il faut attendre avec await",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le composant Link avec le préchargement (prefetch) ?",
+      "options": [
+        "Il précharge en arrière-plan le code des routes liées visibles à l'écran",
+        "Il télécharge toutes les images du site",
+        "Il ouvre les liens dans un nouvel onglet",
+        "Il vérifie que les liens existent au build"
+      ],
+      "answer": "Il précharge en arrière-plan le code des routes liées visibles à l'écran",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle fonction permet une redirection côté serveur dans l'App Router ?",
+      "options": [
+        "redirect() de next/navigation",
+        "window.location dans un Server Component",
+        "res.redirect()",
+        "Response.goto()"
+      ],
+      "answer": "redirect() de next/navigation",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet l'option dynamicParams = false ?",
+      "options": [
+        "Renvoyer une 404 pour les paramètres non générés par generateStaticParams",
+        "Interdire les routes dynamiques",
+        "Désactiver le cache",
+        "Forcer le rendu côté client"
+      ],
+      "answer": "Renvoyer une 404 pour les paramètres non générés par generateStaticParams",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le streaming avec Suspense dans l'App Router ?",
+      "options": [
+        "Envoyer progressivement le HTML au navigateur à mesure que les parties sont prêtes",
+        "Diffuser des vidéos",
+        "Envoyer des WebSockets",
+        "Compresser les images"
+      ],
+      "answer": "Envoyer progressivement le HTML au navigateur à mesure que les parties sont prêtes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel paquet empêche l'import accidentel d'un module serveur dans un composant client ?",
+      "options": [
+        "server-only",
+        "client-guard",
+        "no-browser",
+        "next/secure"
+      ],
+      "answer": "server-only",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelles sont les deux principales couches de cache côté serveur de l'App Router ?",
+      "options": [
+        "Le Data Cache (résultats de fetch) et le Full Route Cache (rendu des routes)",
+        "Le cache DNS et le cache CDN",
+        "Le cache du navigateur et le localStorage",
+        "Le cache Redis et le cache Memcached"
+      ],
+      "answer": "Le Data Cache (résultats de fetch) et le Full Route Cache (rendu des routes)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert le Router Cache côté client ?",
+      "options": [
+        "Garder en mémoire les payloads des routes visitées pour des navigations instantanées",
+        "Mettre en cache les images",
+        "Stocker les cookies",
+        "Mémoriser les mots de passe"
+      ],
+      "answer": "Garder en mémoire les payloads des routes visitées pour des navigations instantanées",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le payload RSC ?",
+      "options": [
+        "Une représentation compacte de l'arbre des Server Components envoyée au client",
+        "Un fichier de configuration",
+        "Un format d'image",
+        "Une requête GraphQL"
+      ],
+      "answer": "Une représentation compacte de l'arbre des Server Components envoyée au client",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les routes parallèles (@slot) ?",
+      "options": [
+        "Des emplacements qui rendent plusieurs pages simultanément dans un même layout",
+        "Des routes dupliquées pour la redondance",
+        "Des routes exécutées en multithread",
+        "Des routes pour plusieurs langues"
+      ],
+      "answer": "Des emplacements qui rendent plusieurs pages simultanément dans un même layout",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les routes interceptées, comme (.)photo ?",
+      "options": [
+        "Des routes qui affichent une autre route dans le contexte courant, par exemple en modale",
+        "Des routes bloquées par le middleware",
+        "Des routes réservées aux robots",
+        "Des routes de test"
+      ],
+      "answer": "Des routes qui affichent une autre route dans le contexte courant, par exemple en modale",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le Partial Prerendering (PPR) ?",
+      "options": [
+        "Servir une coquille statique de la page et diffuser ensuite les parties dynamiques",
+        "Précompiler seulement le CSS",
+        "Générer la moitié des pages au build",
+        "Prérendre uniquement la page d'accueil"
+      ],
+      "answer": "Servir une coquille statique de la page et diffuser ensuite les parties dynamiques",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Dans quel environnement s'exécute le middleware par défaut ?",
+      "options": [
+        "Le runtime Edge",
+        "Le navigateur",
+        "Un worker du service worker",
+        "Un conteneur Docker dédié"
+      ],
+      "answer": "Le runtime Edge",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle limite présente le runtime Edge ?",
+      "options": [
+        "Toutes les API Node.js ne sont pas disponibles",
+        "Il ne supporte pas JavaScript",
+        "Il ne peut pas lire les en-têtes",
+        "Il est réservé aux images"
+      ],
+      "answer": "Toutes les API Node.js ne sont pas disponibles",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que revalidateTag ?",
+      "options": [
+        "Invalider toutes les données de cache associées à une étiquette donnée",
+        "Mettre à jour une balise HTML",
+        "Renommer une route",
+        "Supprimer un tag Git"
+      ],
+      "answer": "Invalider toutes les données de cache associées à une étiquette donnée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la lecture de cookies() ou headers() rend-elle une route dynamique ?",
+      "options": [
+        "Ces valeurs dépendent de chaque requête et ne sont pas connues au build",
+        "Elles sont lentes à lire",
+        "Elles sont chiffrées",
+        "Elles sont interdites en production"
+      ],
+      "answer": "Ces valeurs dépendent de chaque requête et ne sont pas connues au build",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est l'intérêt de « import \"server-only\" » dans un module de données ?",
+      "options": [
+        "Provoquer une erreur de build si ce module est importé dans un composant client",
+        "Accélérer le module",
+        "Le rendre accessible uniquement aux administrateurs",
+        "Le charger à la demande"
+      ],
+      "answer": "Provoquer une erreur de build si ce module est importé dans un composant client",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi peut-on passer une Server Action en prop à un Client Component ?",
+      "options": [
+        "Elle est sérialisée sous forme de référence que le client peut invoquer",
+        "Le code de la fonction est copié dans le navigateur",
+        "Next.js la convertit en API REST publique documentée",
+        "C'est impossible"
+      ],
+      "answer": "Elle est sérialisée sous forme de référence que le client peut invoquer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle précaution de sécurité s'impose pour une Server Action ?",
+      "options": [
+        "Vérifier l'authentification et l'autorisation à l'intérieur, car elle est appelable comme un point d'API",
+        "Aucune, elle est privée par nature",
+        "La placer dans le dossier public",
+        "La nommer avec un préfixe secret"
+      ],
+      "answer": "Vérifier l'authentification et l'autorisation à l'intérieur, car elle est appelable comme un point d'API",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la sortie « standalone » de Next.js ?",
+      "options": [
+        "Un build autonome qui embarque seulement les fichiers nécessaires pour déployer le serveur",
+        "Une application sans JavaScript",
+        "Un export statique",
+        "Une application de bureau"
+      ],
+      "answer": "Un build autonome qui embarque seulement les fichiers nécessaires pour déployer le serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait output: \"export\" dans next.config ?",
+      "options": [
+        "Générer un site entièrement statique, sans serveur Node.js",
+        "Exporter les composants vers npm",
+        "Créer une archive zip",
+        "Activer le SSR partout"
+      ],
+      "answer": "Générer un site entièrement statique, sans serveur Node.js",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait l'API after() de Next.js ?",
+      "options": [
+        "Planifier du travail à exécuter après l'envoi de la réponse",
+        "Rediriger après un délai",
+        "Exécuter du code après le build",
+        "Ajouter un pied de page"
+      ],
+      "answer": "Planifier du travail à exécuter après l'envoi de la réponse",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle directive expérimentale permet de mettre en cache une fonction ou un composant ?",
+      "options": [
+        "\"use cache\"",
+        "\"use memo\"",
+        "\"use static\"",
+        "\"cache only\""
+      ],
+      "answer": "\"use cache\"",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'instrumentation (instrumentation.ts) ?",
+      "options": [
+        "Un point d'entrée pour initialiser la télémétrie au démarrage du serveur",
+        "Un outil de test unitaire",
+        "Un composant d'analyse côté client",
+        "Un plugin CSS"
+      ],
+      "answer": "Un point d'entrée pour initialiser la télémétrie au démarrage du serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi un composant client importé dans un Server Component ne peut-il pas recevoir une fonction ordinaire en prop ?",
+      "options": [
+        "Les props passées du serveur au client doivent être sérialisables",
+        "Les fonctions sont interdites en JSX",
+        "Le client ne supporte pas les callbacks",
+        "Les fonctions sont trop lourdes"
+      ],
+      "answer": "Les props passées du serveur au client doivent être sérialisables",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Turbopack ?",
+      "options": [
+        "Un bundler incrémental écrit en Rust, intégré à Next.js",
+        "Un CDN de Vercel",
+        "Un moteur de base de données",
+        "Un framework CSS"
+      ],
+      "answer": "Un bundler incrémental écrit en Rust, intégré à Next.js",
+      "difficulty": "difficile"
+    }
+  ]
 }

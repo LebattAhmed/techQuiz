@@ -1,0 +1,675 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'un design pattern ?",
+      "options": [
+        "Une solution réutilisable à un problème de conception récurrent",
+        "Un modèle graphique de site web",
+        "Une bibliothèque de code",
+        "Un langage de programmation"
+      ],
+      "answer": "Une solution réutilisable à un problème de conception récurrent",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que désigne le « Gang of Four » ?",
+      "options": [
+        "Les quatre auteurs du livre de référence sur les design patterns",
+        "Quatre langages orientés objet",
+        "Quatre principes SOLID",
+        "Un groupe de hackers"
+      ],
+      "answer": "Les quatre auteurs du livre de référence sur les design patterns",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelles sont les trois familles de patterns du GoF ?",
+      "options": [
+        "Création, structure et comportement",
+        "Front, back et base de données",
+        "Simple, moyen et complexe",
+        "Test, build et déploiement"
+      ],
+      "answer": "Création, structure et comportement",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern garantit qu'une classe n'a qu'une seule instance ?",
+      "options": [
+        "Singleton",
+        "Factory",
+        "Observer",
+        "Adapter"
+      ],
+      "answer": "Singleton",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern notifie automatiquement des abonnés quand un objet change ?",
+      "options": [
+        "Observer",
+        "Singleton",
+        "Builder",
+        "Proxy"
+      ],
+      "answer": "Observer",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern crée des objets sans exposer la classe concrète à instancier ?",
+      "options": [
+        "Factory Method",
+        "Observer",
+        "Decorator",
+        "Iterator"
+      ],
+      "answer": "Factory Method",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern fait collaborer deux interfaces incompatibles ?",
+      "options": [
+        "Adapter",
+        "Singleton",
+        "Strategy",
+        "Memento"
+      ],
+      "answer": "Adapter",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern ajoute dynamiquement des comportements à un objet en l'enveloppant ?",
+      "options": [
+        "Decorator",
+        "Factory",
+        "Singleton",
+        "Command"
+      ],
+      "answer": "Decorator",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern permet de choisir un algorithme interchangeable à l'exécution ?",
+      "options": [
+        "Strategy",
+        "Singleton",
+        "Adapter",
+        "Facade"
+      ],
+      "answer": "Strategy",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern fournit une interface simplifiée à un sous-système complexe ?",
+      "options": [
+        "Facade",
+        "Proxy",
+        "Builder",
+        "Observer"
+      ],
+      "answer": "Facade",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern construit un objet complexe étape par étape ?",
+      "options": [
+        "Builder",
+        "Adapter",
+        "Observer",
+        "State"
+      ],
+      "answer": "Builder",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern permet de parcourir une collection sans exposer sa structure interne ?",
+      "options": [
+        "Iterator",
+        "Composite",
+        "Bridge",
+        "Flyweight"
+      ],
+      "answer": "Iterator",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le S de SOLID ?",
+      "options": [
+        "Responsabilité unique",
+        "Sécurité",
+        "Simplicité",
+        "Synchronisation"
+      ],
+      "answer": "Responsabilité unique",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que dit le principe de responsabilité unique ?",
+      "options": [
+        "Une classe ne devrait avoir qu'une seule raison de changer",
+        "Une classe ne doit avoir qu'une méthode",
+        "Un projet ne doit avoir qu'une classe",
+        "Un développeur par classe"
+      ],
+      "answer": "Une classe ne devrait avoir qu'une seule raison de changer",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie DRY ?",
+      "options": [
+        "Don't Repeat Yourself : éviter la duplication de connaissances",
+        "Do Repeat Yourself",
+        "Debug Run Yield",
+        "Data Rendering Yearly"
+      ],
+      "answer": "Don't Repeat Yourself : éviter la duplication de connaissances",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie KISS ?",
+      "options": [
+        "Keep It Simple, Stupid : privilégier la simplicité",
+        "Keep It Secure and Safe",
+        "Kill Idle System Services",
+        "Know Input Structure Size"
+      ],
+      "answer": "Keep It Simple, Stupid : privilégier la simplicité",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie YAGNI ?",
+      "options": [
+        "You Aren't Gonna Need It : ne pas coder ce qui n'est pas nécessaire maintenant",
+        "Yet Another Generic Naming Interface",
+        "Your Application Gets New Ideas",
+        "You Always Give New Input"
+      ],
+      "answer": "You Aren't Gonna Need It : ne pas coder ce qui n'est pas nécessaire maintenant",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern encapsule une requête dans un objet, permettant annulation et historique ?",
+      "options": [
+        "Command",
+        "Singleton",
+        "Adapter",
+        "Prototype"
+      ],
+      "answer": "Command",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel pattern crée de nouveaux objets en clonant un modèle existant ?",
+      "options": [
+        "Prototype",
+        "Builder",
+        "Factory Method",
+        "Observer"
+      ],
+      "answer": "Prototype",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie MVC ?",
+      "options": [
+        "Modèle-Vue-Contrôleur",
+        "Méthode-Variable-Classe",
+        "Module-Version-Composant",
+        "Mémoire-Vitesse-Calcul"
+      ],
+      "answer": "Modèle-Vue-Contrôleur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que dit le principe ouvert/fermé (O de SOLID) ?",
+      "options": [
+        "Une entité doit être ouverte à l'extension mais fermée à la modification",
+        "Le code doit être open source",
+        "Les classes ne doivent jamais être modifiées ni étendues",
+        "Les méthodes doivent être publiques"
+      ],
+      "answer": "Une entité doit être ouverte à l'extension mais fermée à la modification",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que dit le principe de substitution de Liskov ?",
+      "options": [
+        "Un sous-type doit pouvoir remplacer son type parent sans casser le comportement attendu",
+        "On peut remplacer n'importe quelle classe par une autre",
+        "Les sous-classes doivent tout redéfinir",
+        "L'héritage est interdit"
+      ],
+      "answer": "Un sous-type doit pouvoir remplacer son type parent sans casser le comportement attendu",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que dit le principe de ségrégation des interfaces ?",
+      "options": [
+        "Les clients ne doivent pas dépendre de méthodes qu'ils n'utilisent pas",
+        "Chaque interface doit avoir une seule méthode",
+        "Les interfaces doivent être privées",
+        "Il faut éviter les interfaces"
+      ],
+      "answer": "Les clients ne doivent pas dépendre de méthodes qu'ils n'utilisent pas",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que dit le principe d'inversion des dépendances ?",
+      "options": [
+        "Les modules de haut niveau et de bas niveau doivent dépendre d'abstractions",
+        "Les dépendances doivent être inversées dans le package.json",
+        "Les classes de bas niveau dirigent le haut niveau",
+        "Il faut supprimer les dépendances"
+      ],
+      "answer": "Les modules de haut niveau et de bas niveau doivent dépendre d'abstractions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'injection de dépendances ?",
+      "options": [
+        "Fournir à un objet ses dépendances de l'extérieur au lieu qu'il les crée",
+        "Injecter du code malveillant",
+        "Installer des paquets",
+        "Copier une classe dans une autre"
+      ],
+      "answer": "Fournir à un objet ses dépendances de l'extérieur au lieu qu'il les crée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi préférer la composition à l'héritage ?",
+      "options": [
+        "Elle réduit le couplage et permet de combiner les comportements plus librement",
+        "L'héritage est interdit dans les langages modernes",
+        "La composition est toujours plus rapide",
+        "Pour éviter les interfaces"
+      ],
+      "answer": "Elle réduit le couplage et permet de combiner les comportements plus librement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern traite uniformément des objets individuels et des groupes d'objets en arbre ?",
+      "options": [
+        "Composite",
+        "Adapter",
+        "Singleton",
+        "Strategy"
+      ],
+      "answer": "Composite",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern fournit un substitut qui contrôle l'accès à un autre objet ?",
+      "options": [
+        "Proxy",
+        "Facade",
+        "Builder",
+        "Visitor"
+      ],
+      "answer": "Proxy",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern fait changer le comportement d'un objet selon son état interne ?",
+      "options": [
+        "State",
+        "Strategy",
+        "Observer",
+        "Bridge"
+      ],
+      "answer": "State",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle différence entre Strategy et State ?",
+      "options": [
+        "Strategy est choisi par le client ; State change de lui-même selon les transitions internes",
+        "State est un pattern de création",
+        "Ils sont identiques",
+        "Strategy gère l'état de l'objet"
+      ],
+      "answer": "Strategy est choisi par le client ; State change de lui-même selon les transitions internes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern définit le squelette d'un algorithme en laissant des étapes aux sous-classes ?",
+      "options": [
+        "Template Method",
+        "Strategy",
+        "Builder",
+        "Command"
+      ],
+      "answer": "Template Method",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern transmet une requête le long d'une chaîne de gestionnaires ?",
+      "options": [
+        "Chain of Responsibility",
+        "Mediator",
+        "Observer",
+        "Composite"
+      ],
+      "answer": "Chain of Responsibility",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern centralise la communication entre objets pour réduire leur couplage ?",
+      "options": [
+        "Mediator",
+        "Facade",
+        "Proxy",
+        "Iterator"
+      ],
+      "answer": "Mediator",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern sauvegarde et restaure l'état d'un objet sans violer l'encapsulation ?",
+      "options": [
+        "Memento",
+        "Prototype",
+        "Command",
+        "State"
+      ],
+      "answer": "Memento",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern crée des familles d'objets liés sans préciser leurs classes concrètes ?",
+      "options": [
+        "Abstract Factory",
+        "Factory Method",
+        "Builder",
+        "Singleton"
+      ],
+      "answer": "Abstract Factory",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi le Singleton est-il souvent critiqué ?",
+      "options": [
+        "Il introduit un état global et complique les tests",
+        "Il consomme trop de mémoire",
+        "Il est impossible à implémenter",
+        "Il est trop lent"
+      ],
+      "answer": "Il introduit un état global et complique les tests",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le pattern Repository ?",
+      "options": [
+        "Une abstraction qui isole la logique métier de l'accès aux données",
+        "Un dépôt Git",
+        "Un gestionnaire de paquets",
+        "Un cache réseau"
+      ],
+      "answer": "Une abstraction qui isole la logique métier de l'accès aux données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un anti-pattern ?",
+      "options": [
+        "Une solution courante qui semble utile mais crée plus de problèmes qu'elle n'en résout",
+        "Un pattern interdit par la loi",
+        "Un pattern opposé à un autre",
+        "Un pattern sans code"
+      ],
+      "answer": "Une solution courante qui semble utile mais crée plus de problèmes qu'elle n'en résout",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un « God object » ?",
+      "options": [
+        "Une classe qui en sait et en fait beaucoup trop",
+        "Une classe abstraite racine",
+        "Un singleton bien conçu",
+        "Un objet immuable"
+      ],
+      "answer": "Une classe qui en sait et en fait beaucoup trop",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la loi de Déméter ?",
+      "options": [
+        "Un objet ne devrait parler qu'à ses proches collaborateurs, pas aux objets de ses objets",
+        "Une loi sur les données personnelles",
+        "Une règle de nommage",
+        "Une règle de performance"
+      ],
+      "answer": "Un objet ne devrait parler qu'à ses proches collaborateurs, pas aux objets de ses objets",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel pattern ajoute de nouvelles opérations à une hiérarchie d'objets sans la modifier ?",
+      "options": [
+        "Visitor",
+        "Decorator",
+        "Adapter",
+        "Prototype"
+      ],
+      "answer": "Visitor",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le double dispatch, utilisé par le Visitor ?",
+      "options": [
+        "Choisir la méthode selon les types concrets de deux objets à l'exécution",
+        "Appeler deux fois la même méthode",
+        "Envoyer deux messages réseau",
+        "Exécuter deux threads"
+      ],
+      "answer": "Choisir la méthode selon les types concrets de deux objets à l'exécution",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel pattern partage efficacement de nombreux objets fins en séparant état intrinsèque et extrinsèque ?",
+      "options": [
+        "Flyweight",
+        "Prototype",
+        "Singleton",
+        "Composite"
+      ],
+      "answer": "Flyweight",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel pattern sépare une abstraction de son implémentation pour les faire varier indépendamment ?",
+      "options": [
+        "Bridge",
+        "Adapter",
+        "Facade",
+        "Proxy"
+      ],
+      "answer": "Bridge",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle différence entre Adapter et Facade ?",
+      "options": [
+        "Adapter rend une interface compatible avec une autre attendue ; Facade simplifie l'accès à un sous-système",
+        "Ils sont identiques",
+        "Facade convertit les interfaces",
+        "Adapter regroupe plusieurs classes"
+      ],
+      "answer": "Adapter rend une interface compatible avec une autre attendue ; Facade simplifie l'accès à un sous-système",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle différence entre Decorator et Proxy ?",
+      "options": [
+        "Decorator ajoute des responsabilités ; Proxy contrôle l'accès à l'objet réel",
+        "Proxy ajoute des fonctionnalités visuelles",
+        "Ils sont identiques",
+        "Decorator crée des objets"
+      ],
+      "answer": "Decorator ajoute des responsabilités ; Proxy contrôle l'accès à l'objet réel",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que CQRS ?",
+      "options": [
+        "Séparer les modèles de lecture et d'écriture d'un système",
+        "Un protocole de cache",
+        "Un langage de requêtes",
+        "Un pattern de création"
+      ],
+      "answer": "Séparer les modèles de lecture et d'écriture d'un système",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'Event Sourcing ?",
+      "options": [
+        "Stocker la suite des événements plutôt que l'état courant, qu'on reconstruit en les rejouant",
+        "Envoyer des événements par email",
+        "Journaliser les erreurs",
+        "Un pattern d'interface"
+      ],
+      "answer": "Stocker la suite des événements plutôt que l'état courant, qu'on reconstruit en les rejouant",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'architecture hexagonale (ports et adaptateurs) ?",
+      "options": [
+        "Isoler le cœur métier des technologies externes via des ports et des adaptateurs",
+        "Une architecture à six serveurs",
+        "Un réseau en hexagone",
+        "Une base de données à six tables"
+      ],
+      "answer": "Isoler le cœur métier des technologies externes via des ports et des adaptateurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « bounded context » en DDD ?",
+      "options": [
+        "Une frontière à l'intérieur de laquelle un modèle et son vocabulaire ont un sens précis",
+        "Une limite de mémoire",
+        "Un module privé",
+        "Un contexte d'exécution limité"
+      ],
+      "answer": "Une frontière à l'intérieur de laquelle un modèle et son vocabulaire ont un sens précis",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un agrégat en DDD ?",
+      "options": [
+        "Un groupe d'objets traité comme une unité de cohérence, accessible via sa racine",
+        "Une fonction d'agrégation SQL",
+        "Un tableau de statistiques",
+        "Un microservice"
+      ],
+      "answer": "Un groupe d'objets traité comme une unité de cohérence, accessible via sa racine",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Value Object ?",
+      "options": [
+        "Un objet immuable défini par ses valeurs plutôt que par une identité",
+        "Un objet avec un identifiant unique",
+        "Un objet de base de données",
+        "Un singleton"
+      ],
+      "answer": "Un objet immuable défini par ses valeurs plutôt que par une identité",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le pattern Saga ?",
+      "options": [
+        "Coordonner une transaction distribuée par une suite d'étapes locales avec compensations",
+        "Un long fichier de logs",
+        "Un pattern de création",
+        "Une architecture monolithique"
+      ],
+      "answer": "Coordonner une transaction distribuée par une suite d'étapes locales avec compensations",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le pattern Circuit Breaker ?",
+      "options": [
+        "Couper temporairement les appels vers un service défaillant pour éviter les pannes en cascade",
+        "Un disjoncteur électrique",
+        "Un pare-feu",
+        "Un équilibreur de charge"
+      ],
+      "answer": "Couper temporairement les appels vers un service défaillant pour éviter les pannes en cascade",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le pattern Outbox ?",
+      "options": [
+        "Enregistrer les messages à publier dans la même transaction que les données, puis les envoyer",
+        "Une boîte mail sortante",
+        "Un cache de réponses",
+        "Une file d'attente en mémoire"
+      ],
+      "answer": "Enregistrer les messages à publier dans la même transaction que les données, puis les envoyer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le couplage temporel ?",
+      "options": [
+        "Une dépendance à l'ordre ou au moment d'exécution des opérations",
+        "Deux classes écrites le même jour",
+        "Un couplage de bases de données",
+        "Un timer partagé"
+      ],
+      "answer": "Une dépendance à l'ordre ou au moment d'exécution des opérations",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel principe SOLID est violé si une sous-classe lève une exception dans une méthode héritée qu'elle ne sait pas gérer ?",
+      "options": [
+        "Le principe de substitution de Liskov",
+        "Le principe de responsabilité unique",
+        "Le principe ouvert/fermé",
+        "Aucun"
+      ],
+      "answer": "Le principe de substitution de Liskov",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le pattern Specification ?",
+      "options": [
+        "Encapsuler des règles métier combinables (et, ou, non) dans des objets",
+        "Rédiger un cahier des charges",
+        "Un pattern de test",
+        "Un format de documentation"
+      ],
+      "answer": "Encapsuler des règles métier combinables (et, ou, non) dans des objets",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le pattern Strangler Fig ?",
+      "options": [
+        "Remplacer progressivement un système existant en redirigeant ses fonctionnalités vers le nouveau",
+        "Supprimer d'un coup l'ancien système",
+        "Un pattern de création",
+        "Un algorithme de compression"
+      ],
+      "answer": "Remplacer progressivement un système existant en redirigeant ses fonctionnalités vers le nouveau",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre cohésion et couplage ?",
+      "options": [
+        "La cohésion mesure l'unité interne d'un module, le couplage sa dépendance aux autres ; on vise forte cohésion et faible couplage",
+        "Ce sont des synonymes",
+        "On vise faible cohésion et fort couplage",
+        "La cohésion concerne les bases de données"
+      ],
+      "answer": "La cohésion mesure l'unité interne d'un module, le couplage sa dépendance aux autres ; on vise forte cohésion et faible couplage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le pattern Null Object ?",
+      "options": [
+        "Fournir un objet au comportement neutre au lieu de null pour éviter les vérifications",
+        "Un objet qui vaut toujours null",
+        "Un objet supprimé",
+        "Une exception spéciale"
+      ],
+      "answer": "Fournir un objet au comportement neutre au lieu de null pour éviter les vérifications",
+      "difficulty": "difficile"
+    }
+  ]
+}

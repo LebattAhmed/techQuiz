@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que Kubernetes ?",
+      "options": [
+        "Un orchestrateur de conteneurs",
+        "Un registre d'images",
+        "Un langage de configuration",
+        "Un système d'exploitation"
+      ],
+      "answer": "Un orchestrateur de conteneurs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle entreprise a initialement créé Kubernetes ?",
+      "options": [
+        "Google",
+        "Docker Inc.",
+        "Microsoft",
+        "Red Hat"
+      ],
+      "answer": "Google",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie l'abréviation « K8s » ?",
+      "options": [
+        "Kubernetes, avec 8 lettres entre le K et le s",
+        "Kernel 8 Services",
+        "Kubernetes version 8",
+        "Key 8 Security"
+      ],
+      "answer": "Kubernetes, avec 8 lettres entre le K et le s",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la plus petite unité déployable dans Kubernetes ?",
+      "options": [
+        "Le Pod",
+        "Le conteneur seul",
+        "Le Node",
+        "Le Cluster"
+      ],
+      "answer": "Le Pod",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Node ?",
+      "options": [
+        "Une machine (physique ou virtuelle) qui exécute des pods",
+        "Un conteneur",
+        "Un fichier YAML",
+        "Un service réseau"
+      ],
+      "answer": "Une machine (physique ou virtuelle) qui exécute des pods",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil en ligne de commande pilote un cluster ?",
+      "options": [
+        "kubectl",
+        "kubeadm-run",
+        "docker",
+        "helmctl"
+      ],
+      "answer": "kubectl",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans quel format écrit-on généralement les manifestes ?",
+      "options": [
+        "YAML",
+        "XML",
+        "CSV",
+        "INI"
+      ],
+      "answer": "YAML",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande applique un manifeste ?",
+      "options": [
+        "kubectl apply -f fichier.yaml",
+        "kubectl run fichier.yaml",
+        "kubectl start fichier.yaml",
+        "kubectl load fichier.yaml"
+      ],
+      "answer": "kubectl apply -f fichier.yaml",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande liste les pods ?",
+      "options": [
+        "kubectl get pods",
+        "kubectl list pods",
+        "kubectl pods",
+        "kubectl show pods"
+      ],
+      "answer": "kubectl get pods",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel objet gère un ensemble de pods identiques et leurs mises à jour ?",
+      "options": [
+        "Deployment",
+        "ConfigMap",
+        "Secret",
+        "Namespace"
+      ],
+      "answer": "Deployment",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel objet expose des pods via une adresse réseau stable ?",
+      "options": [
+        "Service",
+        "Pod",
+        "Volume",
+        "Job"
+      ],
+      "answer": "Service",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Namespace ?",
+      "options": [
+        "Un espace logique pour isoler des ressources dans un cluster",
+        "Un nom de domaine",
+        "Une variable d'environnement",
+        "Un type de volume"
+      ],
+      "answer": "Un espace logique pour isoler des ressources dans un cluster",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel objet stocke de la configuration non sensible ?",
+      "options": [
+        "ConfigMap",
+        "Secret",
+        "Deployment",
+        "Ingress"
+      ],
+      "answer": "ConfigMap",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel objet stocke des données sensibles comme des mots de passe ?",
+      "options": [
+        "Secret",
+        "ConfigMap",
+        "Service",
+        "ReplicaSet"
+      ],
+      "answer": "Secret",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche les journaux d'un pod ?",
+      "options": [
+        "kubectl logs",
+        "kubectl journal",
+        "kubectl events-log",
+        "kubectl print"
+      ],
+      "answer": "kubectl logs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil permet de lancer un cluster local de test ?",
+      "options": [
+        "minikube",
+        "kubectl",
+        "etcd",
+        "Helm"
+      ],
+      "answer": "minikube",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que Helm ?",
+      "options": [
+        "Un gestionnaire de paquets (charts) pour Kubernetes",
+        "Un orchestrateur concurrent",
+        "Un registre d'images",
+        "Un outil de monitoring"
+      ],
+      "answer": "Un gestionnaire de paquets (charts) pour Kubernetes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel objet exécute une tâche jusqu'à sa complétion ?",
+      "options": [
+        "Job",
+        "Deployment",
+        "Service",
+        "DaemonSet"
+      ],
+      "answer": "Job",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel objet planifie des tâches récurrentes ?",
+      "options": [
+        "CronJob",
+        "Job",
+        "Timer",
+        "Scheduler"
+      ],
+      "answer": "CronJob",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment augmenter le nombre de réplicas d'un Deployment ?",
+      "options": [
+        "kubectl scale deployment nom --replicas=5",
+        "kubectl grow nom 5",
+        "kubectl add pods 5",
+        "kubectl replicas nom=5"
+      ],
+      "answer": "kubectl scale deployment nom --replicas=5",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant du control plane expose l'API Kubernetes ?",
+      "options": [
+        "kube-apiserver",
+        "kubelet",
+        "kube-proxy",
+        "etcd"
+      ],
+      "answer": "kube-apiserver",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel composant stocke l'état du cluster ?",
+      "options": [
+        "etcd",
+        "kube-scheduler",
+        "kubelet",
+        "CoreDNS"
+      ],
+      "answer": "etcd",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel composant choisit le nœud sur lequel placer un pod ?",
+      "options": [
+        "kube-scheduler",
+        "kube-apiserver",
+        "kubelet",
+        "kube-proxy"
+      ],
+      "answer": "kube-scheduler",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel agent s'exécute sur chaque nœud pour gérer les pods ?",
+      "options": [
+        "kubelet",
+        "etcd",
+        "kube-scheduler",
+        "Helm"
+      ],
+      "answer": "kubelet",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre les Services ClusterIP, NodePort et LoadBalancer ?",
+      "options": [
+        "ClusterIP est interne ; NodePort ouvre un port sur chaque nœud ; LoadBalancer provisionne un équilibreur externe",
+        "Ce sont trois noms du même type",
+        "NodePort est interne au cluster uniquement",
+        "LoadBalancer n'existe que sur minikube"
+      ],
+      "answer": "ClusterIP est interne ; NodePort ouvre un port sur chaque nœud ; LoadBalancer provisionne un équilibreur externe",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un Ingress ?",
+      "options": [
+        "Un objet qui route le trafic HTTP(S) externe vers des Services selon l'hôte ou le chemin",
+        "Un volume persistant",
+        "Un pod d'entrée",
+        "Un namespace public"
+      ],
+      "answer": "Un objet qui route le trafic HTTP(S) externe vers des Services selon l'hôte ou le chemin",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre liveness probe et readiness probe ?",
+      "options": [
+        "La liveness redémarre le conteneur s'il est bloqué ; la readiness le retire du trafic s'il n'est pas prêt",
+        "Elles sont identiques",
+        "La readiness redémarre le pod",
+        "La liveness ne concerne que les Jobs"
+      ],
+      "answer": "La liveness redémarre le conteneur s'il est bloqué ; la readiness le retire du trafic s'il n'est pas prêt",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un DaemonSet ?",
+      "options": [
+        "Un objet qui fait tourner un pod sur chaque nœud (ou une sélection)",
+        "Un pod en arrière-plan unique",
+        "Un démon Docker",
+        "Un CronJob"
+      ],
+      "answer": "Un objet qui fait tourner un pod sur chaque nœud (ou une sélection)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un StatefulSet ?",
+      "options": [
+        "Gérer des pods avec identité stable et stockage persistant, comme des bases de données",
+        "Gérer des pods sans état",
+        "Stocker des secrets",
+        "Planifier des tâches"
+      ],
+      "answer": "Gérer des pods avec identité stable et stockage persistant, comme des bases de données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un PersistentVolumeClaim ?",
+      "options": [
+        "Une demande de stockage persistant par un pod",
+        "Une sauvegarde automatique",
+        "Un volume temporaire",
+        "Une règle réseau"
+      ],
+      "answer": "Une demande de stockage persistant par un pod",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une StorageClass ?",
+      "options": [
+        "Une description d'un type de stockage permettant le provisionnement dynamique",
+        "Une classe Java",
+        "Un namespace de stockage",
+        "Une politique de sauvegarde"
+      ],
+      "answer": "Une description d'un type de stockage permettant le provisionnement dynamique",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les requests et limits de ressources ?",
+      "options": [
+        "Les requests réservent des ressources pour le placement ; les limits fixent un plafond",
+        "Ce sont des quotas de requêtes HTTP",
+        "Les limits réservent la mémoire",
+        "Ce sont des synonymes"
+      ],
+      "answer": "Les requests réservent des ressources pour le placement ; les limits fixent un plafond",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que se passe-t-il si un conteneur dépasse sa limite de mémoire ?",
+      "options": [
+        "Il est tué (OOMKilled) puis redémarré selon la politique",
+        "Il ralentit simplement",
+        "La limite est augmentée automatiquement",
+        "Le nœud redémarre"
+      ],
+      "answer": "Il est tué (OOMKilled) puis redémarré selon la politique",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un rolling update ?",
+      "options": [
+        "Remplacer progressivement les anciens pods par les nouveaux sans interruption",
+        "Supprimer tous les pods puis les recréer",
+        "Mettre à jour Kubernetes",
+        "Redémarrer le cluster"
+      ],
+      "answer": "Remplacer progressivement les anciens pods par les nouveaux sans interruption",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande revient à la version précédente d'un Deployment ?",
+      "options": [
+        "kubectl rollout undo deployment/nom",
+        "kubectl revert nom",
+        "kubectl rollback nom",
+        "kubectl undo pods"
+      ],
+      "answer": "kubectl rollout undo deployment/nom",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le Horizontal Pod Autoscaler ?",
+      "options": [
+        "Un mécanisme qui ajuste le nombre de pods selon des métriques comme le CPU",
+        "Un outil qui agrandit les nœuds",
+        "Un équilibreur réseau",
+        "Un outil de sauvegarde"
+      ],
+      "answer": "Un mécanisme qui ajuste le nombre de pods selon des métriques comme le CPU",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi servent les labels et selectors ?",
+      "options": [
+        "Étiqueter les objets et les sélectionner, par exemple pour qu'un Service trouve ses pods",
+        "Nommer les namespaces",
+        "Chiffrer les secrets",
+        "Définir les ports"
+      ],
+      "answer": "Étiqueter les objets et les sélectionner, par exemple pour qu'un Service trouve ses pods",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Les Secrets Kubernetes sont-ils chiffrés par défaut dans etcd ?",
+      "options": [
+        "Non, ils sont seulement encodés en Base64 sauf si le chiffrement au repos est configuré",
+        "Oui, toujours en AES-256",
+        "Oui, avec la clé de l'utilisateur",
+        "Ils ne sont pas stockés dans etcd"
+      ],
+      "answer": "Non, ils sont seulement encodés en Base64 sauf si le chiffrement au repos est configuré",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie l'état CrashLoopBackOff ?",
+      "options": [
+        "Le conteneur plante à répétition et Kubernetes espace les redémarrages",
+        "Le pod attend une image",
+        "Le nœud est plein",
+        "Le pod a terminé avec succès"
+      ],
+      "answer": "Le conteneur plante à répétition et Kubernetes espace les redémarrages",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie ImagePullBackOff ?",
+      "options": [
+        "Kubernetes n'arrive pas à télécharger l'image du conteneur",
+        "L'image est trop grosse",
+        "Le conteneur a planté",
+        "Le registre est en maintenance planifiée"
+      ],
+      "answer": "Kubernetes n'arrive pas à télécharger l'image du conteneur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le modèle de réconciliation de Kubernetes ?",
+      "options": [
+        "Des contrôleurs comparent en boucle l'état désiré et l'état réel et agissent pour les faire converger",
+        "Une exécution séquentielle de scripts",
+        "Un merge Git automatique",
+        "Une sauvegarde régulière"
+      ],
+      "answer": "Des contrôleurs comparent en boucle l'état désiré et l'état réel et agissent pour les faire converger",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Operator ?",
+      "options": [
+        "Un contrôleur personnalisé qui encode la logique d'exploitation d'une application via des CRD",
+        "Un administrateur humain",
+        "Un pod privilégié",
+        "Un plugin kubectl"
+      ],
+      "answer": "Un contrôleur personnalisé qui encode la logique d'exploitation d'une application via des CRD",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une CRD ?",
+      "options": [
+        "Une définition de ressource personnalisée qui étend l'API Kubernetes",
+        "Un certificat",
+        "Un type de volume",
+        "Un journal d'audit"
+      ],
+      "answer": "Une définition de ressource personnalisée qui étend l'API Kubernetes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une NetworkPolicy ?",
+      "options": [
+        "Une règle qui restreint les communications réseau entre pods",
+        "Une configuration du DNS",
+        "Un Ingress sécurisé",
+        "Un quota de bande passante"
+      ],
+      "answer": "Une règle qui restreint les communications réseau entre pods",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le comportement réseau par défaut entre pods sans NetworkPolicy ?",
+      "options": [
+        "Tous les pods peuvent communiquer entre eux",
+        "Aucune communication n'est possible",
+        "Seuls les pods d'un même nœud communiquent",
+        "Seul le trafic HTTP passe"
+      ],
+      "answer": "Tous les pods peuvent communiquer entre eux",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le RBAC dans Kubernetes ?",
+      "options": [
+        "Un contrôle d'accès basé sur des rôles liés à des utilisateurs ou ServiceAccounts",
+        "Un équilibreur de charge",
+        "Un format de manifeste",
+        "Un plugin réseau"
+      ],
+      "answer": "Un contrôle d'accès basé sur des rôles liés à des utilisateurs ou ServiceAccounts",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre Role et ClusterRole ?",
+      "options": [
+        "Un Role est limité à un namespace, un ClusterRole s'applique à tout le cluster",
+        "Un ClusterRole est réservé aux nœuds",
+        "Ils sont identiques",
+        "Un Role est global"
+      ],
+      "answer": "Un Role est limité à un namespace, un ClusterRole s'applique à tout le cluster",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un PodDisruptionBudget ?",
+      "options": [
+        "Une garantie d'un nombre minimal de pods disponibles pendant les interruptions volontaires",
+        "Un budget financier",
+        "Une limite de redémarrages",
+        "Un quota de CPU"
+      ],
+      "answer": "Une garantie d'un nombre minimal de pods disponibles pendant les interruptions volontaires",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permettent les taints et tolerations ?",
+      "options": [
+        "Empêcher des pods d'être placés sur certains nœuds, sauf s'ils tolèrent la marque",
+        "Étiqueter les images",
+        "Chiffrer les volumes",
+        "Limiter la mémoire"
+      ],
+      "answer": "Empêcher des pods d'être placés sur certains nœuds, sauf s'ils tolèrent la marque",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permettent les règles d'affinité et d'anti-affinité de pods ?",
+      "options": [
+        "Placer des pods ensemble ou au contraire les répartir sur des nœuds différents",
+        "Lier un pod à un utilisateur",
+        "Partager un volume",
+        "Fusionner deux Deployments"
+      ],
+      "answer": "Placer des pods ensemble ou au contraire les répartir sur des nœuds différents",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un CNI ?",
+      "options": [
+        "L'interface standard des plugins réseau qui connectent les pods",
+        "Un registre d'images",
+        "Un outil de logs",
+        "Un format de certificat"
+      ],
+      "answer": "L'interface standard des plugins réseau qui connectent les pods",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un CSI ?",
+      "options": [
+        "L'interface standard des pilotes de stockage",
+        "Un outil d'analyse de logs",
+        "Un plugin de sécurité",
+        "Un format d'image"
+      ],
+      "answer": "L'interface standard des pilotes de stockage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que contrôlent les Pod Security Standards (restricted, baseline, privileged) ?",
+      "options": [
+        "Le niveau de privilèges autorisés pour les pods d'un namespace",
+        "Les certificats TLS",
+        "Les quotas de stockage",
+        "La politique de mot de passe"
+      ],
+      "answer": "Le niveau de privilèges autorisés pour les pods d'un namespace",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un webhook d'admission ?",
+      "options": [
+        "Un service appelé par l'API server pour valider ou modifier les objets avant leur enregistrement",
+        "Un endpoint de monitoring",
+        "Un Ingress spécial",
+        "Une alerte Slack"
+      ],
+      "answer": "Un service appelé par l'API server pour valider ou modifier les objets avant leur enregistrement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le GitOps (Argo CD, Flux) ?",
+      "options": [
+        "Synchroniser automatiquement le cluster avec l'état déclaré dans un dépôt Git",
+        "Héberger Git dans Kubernetes",
+        "Versionner les images Docker",
+        "Utiliser Git comme base de données"
+      ],
+      "answer": "Synchroniser automatiquement le cluster avec l'état déclaré dans un dépôt Git",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait le Cluster Autoscaler ?",
+      "options": [
+        "Ajouter ou retirer des nœuds selon les pods en attente et la sous-utilisation",
+        "Augmenter les réplicas d'un Deployment",
+        "Agrandir les volumes",
+        "Mettre à jour Kubernetes"
+      ],
+      "answer": "Ajouter ou retirer des nœuds selon les pods en attente et la sous-utilisation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un sidecar ?",
+      "options": [
+        "Un conteneur auxiliaire dans le même pod, par exemple pour un proxy ou la collecte de logs",
+        "Un pod de secours",
+        "Un nœud de réserve",
+        "Un namespace partagé"
+      ],
+      "answer": "Un conteneur auxiliaire dans le même pod, par exemple pour un proxy ou la collecte de logs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le rôle de kube-proxy ?",
+      "options": [
+        "Mettre en œuvre les règles réseau des Services sur chaque nœud",
+        "Exposer l'API Kubernetes",
+        "Stocker l'état du cluster",
+        "Planifier les pods"
+      ],
+      "answer": "Mettre en œuvre les règles réseau des Services sur chaque nœud",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la classe de QoS « Guaranteed » ?",
+      "options": [
+        "Des pods dont requests et limits sont égales pour tous les conteneurs, les derniers à être évincés",
+        "Des pods sans limites",
+        "Des pods prioritaires sur le réseau",
+        "Des pods chiffrés"
+      ],
+      "answer": "Des pods dont requests et limits sont égales pour tous les conteneurs, les derniers à être évincés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la startup probe ?",
+      "options": [
+        "Une sonde qui retarde les autres vérifications tant qu'une application lente n'a pas démarré",
+        "Une sonde exécutée au démarrage du cluster",
+        "Une sonde réseau",
+        "Une sonde de sécurité"
+      ],
+      "answer": "Une sonde qui retarde les autres vérifications tant qu'une application lente n'a pas démarré",
+      "difficulty": "difficile"
+    }
+  ]
 }

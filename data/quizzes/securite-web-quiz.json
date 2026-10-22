@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Que signifie XSS ?",
+      "options": [
+        "Cross-Site Scripting",
+        "Extra Secure Server",
+        "XML Style Sheet",
+        "Cross-Server Sync"
+      ],
+      "answer": "Cross-Site Scripting",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une injection SQL, en termes généraux ?",
+      "options": [
+        "Une faille où une entrée utilisateur modifie la structure d'une requête SQL",
+        "L'ajout d'une table à une base",
+        "L'optimisation d'une requête SQL",
+        "La sauvegarde d'une base de données"
+      ],
+      "answer": "Une faille où une entrée utilisateur modifie la structure d'une requête SQL",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la meilleure protection contre l'injection SQL ?",
+      "options": [
+        "Les requêtes préparées (paramétrées)",
+        "Masquer les messages d'erreur",
+        "Utiliser HTTPS",
+        "Changer le nom des tables"
+      ],
+      "answer": "Les requêtes préparées (paramétrées)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie CSRF ?",
+      "options": [
+        "Cross-Site Request Forgery",
+        "Client-Side Rendering Framework",
+        "Cross-Server Response Filter",
+        "Certificate Signing Request Format"
+      ],
+      "answer": "Cross-Site Request Forgery",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'OWASP ?",
+      "options": [
+        "Une fondation qui publie des ressources sur la sécurité des applications web",
+        "Un antivirus",
+        "Un langage de programmation",
+        "Un hébergeur"
+      ],
+      "answer": "Une fondation qui publie des ressources sur la sécurité des applications web",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le « OWASP Top 10 » ?",
+      "options": [
+        "Une liste des risques de sécurité web les plus critiques",
+        "Les dix navigateurs les plus sûrs",
+        "Un classement de frameworks",
+        "Une liste de mots de passe interdits"
+      ],
+      "answer": "Une liste des risques de sécurité web les plus critiques",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi utiliser HTTPS plutôt que HTTP ?",
+      "options": [
+        "Le trafic est chiffré et l'identité du serveur est vérifiée",
+        "Les pages s'affichent en couleur",
+        "Le site devient impossible à pirater",
+        "HTTP n'est plus supporté par les navigateurs"
+      ],
+      "answer": "Le trafic est chiffré et l'identité du serveur est vérifiée",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi ne faut-il jamais stocker les mots de passe en clair ?",
+      "options": [
+        "En cas de fuite de la base, ils seraient directement lisibles",
+        "Cela prend trop de place",
+        "Les bases de données l'interdisent",
+        "Cela ralentit la connexion"
+      ],
+      "answer": "En cas de fuite de la base, ils seraient directement lisibles",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un cookie de session ?",
+      "options": [
+        "Un petit fichier qui permet au serveur de reconnaître un utilisateur connecté",
+        "Un virus du navigateur",
+        "Un fichier de cache d'images",
+        "Une publicité ciblée"
+      ],
+      "answer": "Un petit fichier qui permet au serveur de reconnaître un utilisateur connecté",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait l'attribut HttpOnly sur un cookie ?",
+      "options": [
+        "Il empêche le JavaScript de la page de lire le cookie",
+        "Il force l'usage de HTTP au lieu de HTTPS",
+        "Il supprime le cookie à la fermeture",
+        "Il chiffre le cookie"
+      ],
+      "answer": "Il empêche le JavaScript de la page de lire le cookie",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait l'attribut Secure sur un cookie ?",
+      "options": [
+        "Il n'envoie le cookie que sur des connexions HTTPS",
+        "Il chiffre le contenu du cookie",
+        "Il empêche toute modification",
+        "Il rend le cookie permanent"
+      ],
+      "answer": "Il n'envoie le cookie que sur des connexions HTTPS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi faut-il valider les données côté serveur même si elles sont validées côté client ?",
+      "options": [
+        "La validation côté client peut être contournée",
+        "Le navigateur ne valide jamais rien",
+        "Pour doubler la vitesse",
+        "C'est inutile"
+      ],
+      "answer": "La validation côté client peut être contournée",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'authentification ?",
+      "options": [
+        "Vérifier l'identité d'un utilisateur",
+        "Vérifier ce qu'un utilisateur a le droit de faire",
+        "Chiffrer une page web",
+        "Sauvegarder un compte"
+      ],
+      "answer": "Vérifier l'identité d'un utilisateur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'autorisation ?",
+      "options": [
+        "Déterminer ce qu'un utilisateur authentifié a le droit de faire",
+        "Vérifier le mot de passe",
+        "Créer un compte",
+        "Envoyer un email de bienvenue"
+      ],
+      "answer": "Déterminer ce qu'un utilisateur authentifié a le droit de faire",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par force brute sur un formulaire de connexion ?",
+      "options": [
+        "Essayer massivement des mots de passe jusqu'à trouver le bon",
+        "Saturer le serveur avec des images",
+        "Modifier le code HTML de la page",
+        "Voler le nom de domaine"
+      ],
+      "answer": "Essayer massivement des mots de passe jusqu'à trouver le bon",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle mesure limite la force brute sur une page de connexion ?",
+      "options": [
+        "Limiter le nombre de tentatives et ajouter un délai ou un CAPTCHA",
+        "Afficher le mot de passe attendu",
+        "Désactiver HTTPS",
+        "Autoriser des mots de passe courts"
+      ],
+      "answer": "Limiter le nombre de tentatives et ajouter un délai ou un CAPTCHA",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi les messages d'erreur détaillés sont-ils dangereux en production ?",
+      "options": [
+        "Ils révèlent des informations internes utiles à un attaquant",
+        "Ils ralentissent le site",
+        "Ils cassent le référencement",
+        "Ils consomment trop de bande passante"
+      ],
+      "answer": "Ils révèlent des informations internes utiles à un attaquant",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une dépendance vulnérable ?",
+      "options": [
+        "Une bibliothèque tierce contenant une faille connue",
+        "Un fichier CSS trop lourd",
+        "Un serveur trop ancien",
+        "Un mot de passe faible"
+      ],
+      "answer": "Une bibliothèque tierce contenant une faille connue",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le principe « ne jamais faire confiance aux entrées utilisateur » ?",
+      "options": [
+        "Toute donnée venant du client doit être validée et traitée avec prudence",
+        "Il faut bloquer tous les utilisateurs",
+        "Il faut supprimer les formulaires",
+        "Il faut demander une pièce d'identité"
+      ],
+      "answer": "Toute donnée venant du client doit être validée et traitée avec prudence",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait un gestionnaire de mots de passe ?",
+      "options": [
+        "Il génère et stocke des mots de passe uniques et robustes",
+        "Il partage les mots de passe sur Internet",
+        "Il supprime les comptes inutilisés",
+        "Il remplace HTTPS"
+      ],
+      "answer": "Il génère et stocke des mots de passe uniques et robustes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre XSS stocké et XSS réfléchi ?",
+      "options": [
+        "Stocké : le contenu malveillant est enregistré sur le serveur ; réfléchi : il est renvoyé immédiatement depuis la requête",
+        "Stocké vise les bases de données, réfléchi vise les images",
+        "Le XSS réfléchi est sans danger",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Stocké : le contenu malveillant est enregistré sur le serveur ; réfléchi : il est renvoyé immédiatement depuis la requête",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la principale défense contre le XSS ?",
+      "options": [
+        "Encoder les données selon le contexte d'affichage (HTML, attribut, JavaScript)",
+        "Utiliser uniquement des requêtes POST",
+        "Activer la compression gzip",
+        "Changer le port du serveur"
+      ],
+      "answer": "Encoder les données selon le contexte d'affichage (HTML, attribut, JavaScript)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'apporte une Content Security Policy (CSP) ?",
+      "options": [
+        "Elle restreint les sources de scripts et ressources que le navigateur peut charger",
+        "Elle chiffre les cookies",
+        "Elle bloque les injections SQL",
+        "Elle accélère le chargement des pages"
+      ],
+      "answer": "Elle restreint les sources de scripts et ressources que le navigateur peut charger",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment se protège-t-on classiquement contre le CSRF ?",
+      "options": [
+        "Avec un jeton anti-CSRF imprévisible et l'attribut SameSite des cookies",
+        "En utilisant uniquement des requêtes GET",
+        "En désactivant JavaScript",
+        "En changeant d'hébergeur"
+      ],
+      "answer": "Avec un jeton anti-CSRF imprévisible et l'attribut SameSite des cookies",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'attribut de cookie SameSite=Strict ?",
+      "options": [
+        "Le cookie n'est pas envoyé lors de requêtes provenant d'autres sites",
+        "Le cookie n'est valable que sur un seul onglet",
+        "Le cookie est chiffré par le navigateur",
+        "Le cookie expire après une minute"
+      ],
+      "answer": "Le cookie n'est pas envoyé lors de requêtes provenant d'autres sites",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la Same-Origin Policy ?",
+      "options": [
+        "Une règle du navigateur qui limite l'accès d'une page aux ressources d'une autre origine",
+        "Une règle qui oblige à héberger tout sur un même serveur",
+        "Un protocole de chiffrement",
+        "Une politique de mots de passe"
+      ],
+      "answer": "Une règle du navigateur qui limite l'accès d'une page aux ressources d'une autre origine",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que CORS ?",
+      "options": [
+        "Un mécanisme permettant à un serveur d'autoriser explicitement certaines origines à lire ses réponses",
+        "Un pare-feu applicatif",
+        "Un format de cookie",
+        "Un algorithme de hachage"
+      ],
+      "answer": "Un mécanisme permettant à un serveur d'autoriser explicitement certaines origines à lire ses réponses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi la configuration CORS « Access-Control-Allow-Origin: * » avec des identifiants est-elle refusée ?",
+      "options": [
+        "Elle permettrait à n'importe quel site de lire des réponses authentifiées",
+        "Elle ralentit les requêtes",
+        "Elle n'est pas valide en HTTP/2",
+        "Elle bloque tous les navigateurs mobiles"
+      ],
+      "answer": "Elle permettrait à n'importe quel site de lire des réponses authentifiées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une faille IDOR ?",
+      "options": [
+        "L'accès à l'objet d'un autre utilisateur en modifiant un identifiant, faute de contrôle d'accès",
+        "Une injection dans les en-têtes HTTP",
+        "Un défaut de chiffrement TLS",
+        "Une faille du DNS"
+      ],
+      "answer": "L'accès à l'objet d'un autre utilisateur en modifiant un identifiant, faute de contrôle d'accès",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la défense contre les failles IDOR ?",
+      "options": [
+        "Vérifier côté serveur, à chaque requête, que l'utilisateur a le droit d'accéder à l'objet",
+        "Utiliser des identifiants plus longs uniquement",
+        "Cacher les identifiants dans le HTML",
+        "Passer en HTTPS"
+      ],
+      "answer": "Vérifier côté serveur, à chaque requête, que l'utilisateur a le droit d'accéder à l'objet",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le clickjacking ?",
+      "options": [
+        "Piéger un utilisateur pour qu'il clique sur un élément d'une page cachée dans un cadre",
+        "Voler la souris d'un utilisateur",
+        "Multiplier les publicités",
+        "Saturer un serveur de clics"
+      ],
+      "answer": "Piéger un utilisateur pour qu'il clique sur un élément d'une page cachée dans un cadre",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel en-tête protège contre le clickjacking ?",
+      "options": [
+        "La directive CSP frame-ancestors (ou X-Frame-Options)",
+        "Content-Type",
+        "Cache-Control",
+        "Accept-Language"
+      ],
+      "answer": "La directive CSP frame-ancestors (ou X-Frame-Options)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'en-tête Strict-Transport-Security (HSTS) ?",
+      "options": [
+        "Il impose au navigateur de n'utiliser que HTTPS pour le domaine",
+        "Il chiffre la base de données",
+        "Il bloque les robots",
+        "Il désactive les cookies"
+      ],
+      "answer": "Il impose au navigateur de n'utiliser que HTTPS pour le domaine",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une faille SSRF ?",
+      "options": [
+        "Amener le serveur à effectuer des requêtes vers des destinations choisies par l'attaquant",
+        "Une faille du navigateur côté client",
+        "Un vol de cookies par JavaScript",
+        "Une erreur de configuration DNS"
+      ],
+      "answer": "Amener le serveur à effectuer des requêtes vers des destinations choisies par l'attaquant",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la fixation de session ?",
+      "options": [
+        "Forcer une victime à utiliser un identifiant de session connu de l'attaquant",
+        "Bloquer une session ouverte",
+        "Allonger la durée d'une session",
+        "Enregistrer les sessions dans un fichier"
+      ],
+      "answer": "Forcer une victime à utiliser un identifiant de session connu de l'attaquant",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle mesure empêche la fixation de session ?",
+      "options": [
+        "Régénérer l'identifiant de session après la connexion",
+        "Utiliser des sessions plus longues",
+        "Stocker la session dans l'URL",
+        "Désactiver les cookies"
+      ],
+      "answer": "Régénérer l'identifiant de session après la connexion",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un JWT ?",
+      "options": [
+        "Un jeton signé contenant des informations (claims) sur l'utilisateur",
+        "Un type de cookie chiffré par défaut",
+        "Un pare-feu JavaScript",
+        "Un framework web"
+      ],
+      "answer": "Un jeton signé contenant des informations (claims) sur l'utilisateur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi ne faut-il pas mettre de données sensibles dans un JWT signé ?",
+      "options": [
+        "Sa charge utile est seulement encodée, lisible par quiconque possède le jeton",
+        "Il devient trop lent",
+        "Il expire immédiatement",
+        "Il ne peut contenir que des nombres"
+      ],
+      "answer": "Sa charge utile est seulement encodée, lisible par quiconque possède le jeton",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « mass assignment » ?",
+      "options": [
+        "Une faille où l'application accepte des champs non prévus envoyés par le client, comme un rôle",
+        "L'envoi d'emails en masse",
+        "L'import massif de données",
+        "La création automatique de comptes de test"
+      ],
+      "answer": "Une faille où l'application accepte des champs non prévus envoyés par le client, comme un rôle",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « path traversal » ?",
+      "options": [
+        "Accéder à des fichiers hors du répertoire prévu en manipulant un chemin",
+        "Changer le chemin d'une route web",
+        "Rediriger vers une autre page",
+        "Compresser les fichiers statiques"
+      ],
+      "answer": "Accéder à des fichiers hors du répertoire prévu en manipulant un chemin",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le XSS basé sur le DOM ?",
+      "options": [
+        "Une faille où le script de la page insère des données non sûres dans le DOM côté client",
+        "Une faille du serveur de base de données",
+        "Un XSS qui ne touche que les en-têtes",
+        "Un XSS uniquement possible en HTTP/1.0"
+      ],
+      "answer": "Une faille où le script de la page insère des données non sûres dans le DOM côté client",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que signifie le mécanisme « Trusted Types » du navigateur ?",
+      "options": [
+        "Il oblige à passer par des fonctions contrôlées avant d'écrire dans les API DOM dangereuses",
+        "Il valide les types TypeScript",
+        "Il signe les fichiers JavaScript",
+        "Il bloque les cookies tiers"
+      ],
+      "answer": "Il oblige à passer par des fonctions contrôlées avant d'écrire dans les API DOM dangereuses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi une CSP avec 'unsafe-inline' perd-elle l'essentiel de son intérêt contre le XSS ?",
+      "options": [
+        "Elle autorise l'exécution de scripts inline, ceux qu'une injection produit typiquement",
+        "Elle bloque tous les scripts du site",
+        "Elle désactive HTTPS",
+        "Elle n'est pas comprise par les navigateurs"
+      ],
+      "answer": "Elle autorise l'exécution de scripts inline, ceux qu'une injection produit typiquement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel mécanisme permet d'autoriser précisément certains scripts inline dans une CSP stricte ?",
+      "options": [
+        "Les nonces ou les hachages de scripts",
+        "Les cookies SameSite",
+        "L'en-tête HSTS",
+        "Les requêtes préparées"
+      ],
+      "answer": "Les nonces ou les hachages de scripts",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le HTTP request smuggling ?",
+      "options": [
+        "Exploiter un désaccord entre serveurs frontal et dorsal sur la délimitation des requêtes",
+        "Cacher une requête dans une image",
+        "Chiffrer des requêtes HTTP",
+        "Rejouer une requête légitime plus tard"
+      ],
+      "answer": "Exploiter un désaccord entre serveurs frontal et dorsal sur la délimitation des requêtes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi l'algorithme « none » a-t-il posé problème dans certaines bibliothèques JWT ?",
+      "options": [
+        "Des bibliothèques acceptaient des jetons non signés comme valides",
+        "Il chiffrait trop fortement les jetons",
+        "Il rendait les jetons trop longs",
+        "Il empêchait la déconnexion"
+      ],
+      "answer": "Des bibliothèques acceptaient des jetons non signés comme valides",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la confusion d'algorithme dans les JWT (RS256 vs HS256) ?",
+      "options": [
+        "Faire vérifier un jeton HMAC avec la clé publique RSA utilisée comme secret",
+        "Utiliser deux algorithmes de hachage à la fois",
+        "Convertir un JWT en cookie",
+        "Signer deux fois le même jeton"
+      ],
+      "answer": "Faire vérifier un jeton HMAC avec la clé publique RSA utilisée comme secret",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la bonne pratique pour vérifier un JWT ?",
+      "options": [
+        "Imposer côté serveur l'algorithme attendu et vérifier signature, expiration et audience",
+        "Faire confiance à l'algorithme indiqué dans l'en-tête",
+        "Vérifier seulement la date d'expiration",
+        "Décoder le jeton sans vérifier la signature"
+      ],
+      "answer": "Imposer côté serveur l'algorithme attendu et vérifier signature, expiration et audience",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une désérialisation non sécurisée ?",
+      "options": [
+        "Reconstruire des objets à partir de données non fiables, ce qui peut déclencher l'exécution de code",
+        "Convertir un JSON en texte",
+        "Compresser une réponse API",
+        "Lire un fichier CSV"
+      ],
+      "answer": "Reconstruire des objets à partir de données non fiables, ce qui peut déclencher l'exécution de code",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la faille XXE ?",
+      "options": [
+        "L'exploitation des entités externes d'un analyseur XML mal configuré",
+        "Une faille propre aux fichiers Excel",
+        "Une injection dans les cookies",
+        "Une attaque sur le DNS"
+      ],
+      "answer": "L'exploitation des entités externes d'un analyseur XML mal configuré",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la protection principale contre XXE ?",
+      "options": [
+        "Désactiver les entités externes et les DTD dans l'analyseur XML",
+        "Passer en HTTPS",
+        "Compresser les fichiers XML",
+        "Utiliser des cookies HttpOnly"
+      ],
+      "answer": "Désactiver les entités externes et les DTD dans l'analyseur XML",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la pollution de prototype en JavaScript ?",
+      "options": [
+        "Modifier Object.prototype via des données non contrôlées, ce qui affecte tous les objets",
+        "Charger trop de bibliothèques",
+        "Dupliquer une classe",
+        "Une fuite mémoire du navigateur"
+      ],
+      "answer": "Modifier Object.prototype via des données non contrôlées, ce qui affecte tous les objets",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par empoisonnement de cache web ?",
+      "options": [
+        "Faire stocker par un cache une réponse altérée qui sera servie à d'autres utilisateurs",
+        "Remplir le disque du serveur",
+        "Supprimer le cache du navigateur",
+        "Modifier les DNS d'un site"
+      ],
+      "answer": "Faire stocker par un cache une réponse altérée qui sera servie à d'autres utilisateurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le SSTI (Server-Side Template Injection) ?",
+      "options": [
+        "Une injection dans un moteur de templates côté serveur pouvant mener à l'exécution de code",
+        "Une injection dans une feuille de style",
+        "Une faille propre aux images SVG",
+        "Une erreur de syntaxe HTML"
+      ],
+      "answer": "Une injection dans un moteur de templates côté serveur pouvant mener à l'exécution de code",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte la Subresource Integrity (SRI) ?",
+      "options": [
+        "Le navigateur vérifie le hachage d'un script tiers avant de l'exécuter",
+        "Elle compresse les ressources externes",
+        "Elle chiffre les feuilles de style",
+        "Elle accélère les CDN"
+      ],
+      "answer": "Le navigateur vérifie le hachage d'un script tiers avant de l'exécuter",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une « race condition » exploitable dans une application web ?",
+      "options": [
+        "Envoyer des requêtes simultanées pour contourner une vérification, par exemple utiliser deux fois un bon de réduction",
+        "Un serveur trop lent",
+        "Une animation CSS défaillante",
+        "Une erreur 404 aléatoire"
+      ],
+      "answer": "Envoyer des requêtes simultanées pour contourner une vérification, par exemple utiliser deux fois un bon de réduction",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'en-tête Cross-Origin-Opener-Policy (COOP) ?",
+      "options": [
+        "Il isole la fenêtre d'une page des fenêtres d'autres origines qu'elle ouvre ou qui l'ouvrent",
+        "Il autorise les requêtes CORS",
+        "Il force HTTPS",
+        "Il définit la langue de la page"
+      ],
+      "answer": "Il isole la fenêtre d'une page des fenêtres d'autres origines qu'elle ouvre ou qui l'ouvrent",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi un open redirect est-il dangereux ?",
+      "options": [
+        "Il permet de rendre crédibles des liens de phishing et de détourner des flux OAuth",
+        "Il supprime les cookies",
+        "Il ralentit le site",
+        "Il expose le code source"
+      ],
+      "answer": "Il permet de rendre crédibles des liens de phishing et de détourner des flux OAuth",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Dans OAuth 2.0, à quoi sert PKCE ?",
+      "options": [
+        "Empêcher l'interception du code d'autorisation, notamment pour les applications publiques",
+        "Chiffrer le jeton d'accès",
+        "Remplacer le mot de passe de l'utilisateur",
+        "Signer les requêtes API"
+      ],
+      "answer": "Empêcher l'interception du code d'autorisation, notamment pour les applications publiques",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le DOM clobbering ?",
+      "options": [
+        "Injecter du HTML dont les attributs id ou name écrasent des variables globales utilisées par le script",
+        "Supprimer le DOM d'une page",
+        "Surcharger le navigateur de nœuds",
+        "Un bug des navigateurs anciens uniquement"
+      ],
+      "answer": "Injecter du HTML dont les attributs id ou name écrasent des variables globales utilisées par le script",
+      "difficulty": "difficile"
+    }
+  ]
 }

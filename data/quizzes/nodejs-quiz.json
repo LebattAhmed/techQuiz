@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que Node.js ?",
+      "options": [
+        "Un environnement d'exécution JavaScript côté serveur",
+        "Un framework CSS",
+        "Un navigateur web",
+        "Une base de données"
+      ],
+      "answer": "Un environnement d'exécution JavaScript côté serveur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Sur quel moteur JavaScript repose Node.js ?",
+      "options": [
+        "V8",
+        "SpiderMonkey",
+        "JavaScriptCore",
+        "Chakra"
+      ],
+      "answer": "V8",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le gestionnaire de paquets fourni avec Node.js ?",
+      "options": [
+        "npm",
+        "pip",
+        "composer",
+        "cargo"
+      ],
+      "answer": "npm",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier décrit un projet Node.js et ses dépendances ?",
+      "options": [
+        "package.json",
+        "requirements.txt",
+        "pom.xml",
+        "Gemfile"
+      ],
+      "answer": "package.json",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande installe les dépendances d'un projet ?",
+      "options": [
+        "npm install",
+        "npm run",
+        "node install",
+        "npm build"
+      ],
+      "answer": "npm install",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel module natif permet de lire et écrire des fichiers ?",
+      "options": [
+        "fs",
+        "http",
+        "path",
+        "os"
+      ],
+      "answer": "fs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel module natif permet de créer un serveur web simple ?",
+      "options": [
+        "http",
+        "fs",
+        "url",
+        "crypto"
+      ],
+      "answer": "http",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel framework web minimaliste est le plus utilisé avec Node.js ?",
+      "options": [
+        "Express",
+        "Django",
+        "Laravel",
+        "Spring"
+      ],
+      "answer": "Express",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que contient le dossier node_modules ?",
+      "options": [
+        "Les dépendances installées",
+        "Le code source de Node.js",
+        "Les fichiers de logs",
+        "Les tests unitaires"
+      ],
+      "answer": "Les dépendances installées",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Faut-il versionner node_modules dans Git ?",
+      "options": [
+        "Non, on versionne package.json et le fichier de verrouillage",
+        "Oui, toujours",
+        "Seulement en production",
+        "Seulement sous Windows"
+      ],
+      "answer": "Non, on versionne package.json et le fichier de verrouillage",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel objet global donne accès aux arguments et variables d'environnement ?",
+      "options": [
+        "process",
+        "window",
+        "document",
+        "global.env"
+      ],
+      "answer": "process",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment lire la variable d'environnement PORT ?",
+      "options": [
+        "process.env.PORT",
+        "env.get(\"PORT\")",
+        "window.PORT",
+        "Node.PORT"
+      ],
+      "answer": "process.env.PORT",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande exécute un fichier app.js ?",
+      "options": [
+        "node app.js",
+        "npm app.js",
+        "run app.js",
+        "js app.js"
+      ],
+      "answer": "node app.js",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Node.js est-il monothread pour l'exécution du code JavaScript ?",
+      "options": [
+        "Oui, le code JavaScript s'exécute sur un seul thread principal",
+        "Non, chaque fonction a son thread",
+        "Non, il utilise un thread par variable",
+        "Cela dépend du navigateur"
+      ],
+      "answer": "Oui, le code JavaScript s'exécute sur un seul thread principal",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le modèle « non bloquant » de Node.js ?",
+      "options": [
+        "Les opérations d'E/S ne bloquent pas le thread pendant leur attente",
+        "Le serveur ne peut jamais planter",
+        "Les fichiers ne sont jamais verrouillés",
+        "Le code ne peut pas contenir de boucles"
+      ],
+      "answer": "Les opérations d'E/S ne bloquent pas le thread pendant leur attente",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment ajoute-t-on une dépendance de développement ?",
+      "options": [
+        "npm install --save-dev paquet",
+        "npm install --prod paquet",
+        "npm dev paquet",
+        "npm add-dev paquet"
+      ],
+      "answer": "npm install --save-dev paquet",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle section de package.json définit les commandes comme « npm run dev » ?",
+      "options": [
+        "scripts",
+        "commands",
+        "tasks",
+        "run"
+      ],
+      "answer": "scripts",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé utilise-t-on pour importer un module en ES Modules ?",
+      "options": [
+        "import",
+        "require",
+        "include",
+        "using"
+      ],
+      "answer": "import",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction importe un module en CommonJS ?",
+      "options": [
+        "require()",
+        "import() uniquement",
+        "load()",
+        "include()"
+      ],
+      "answer": "require()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "À quoi sert npx ?",
+      "options": [
+        "Exécuter un paquet npm sans l'installer globalement",
+        "Publier un paquet",
+        "Supprimer node_modules",
+        "Mettre à jour Node.js"
+      ],
+      "answer": "Exécuter un paquet npm sans l'installer globalement",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'event loop de Node.js ?",
+      "options": [
+        "Le mécanisme qui traite les callbacks en attente lorsque la pile d'appels est vide",
+        "Une boucle for optimisée",
+        "Un thread par requête",
+        "Un module d'événements DOM"
+      ],
+      "answer": "Le mécanisme qui traite les callbacks en attente lorsque la pile d'appels est vide",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle bibliothèque C gère l'event loop et les E/S asynchrones de Node.js ?",
+      "options": [
+        "libuv",
+        "glibc",
+        "OpenSSL",
+        "zlib"
+      ],
+      "answer": "libuv",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le fichier package-lock.json ?",
+      "options": [
+        "Il fige les versions exactes de toutes les dépendances installées",
+        "Il empêche toute installation",
+        "Il chiffre les dépendances",
+        "Il liste les scripts"
+      ],
+      "answer": "Il fige les versions exactes de toutes les dépendances installées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie « ^1.2.3 » dans package.json ?",
+      "options": [
+        "Accepter les versions compatibles jusqu'à la prochaine version majeure (<2.0.0)",
+        "Exactement la version 1.2.3",
+        "Toute version supérieure, y compris 3.0.0",
+        "Seulement les correctifs 1.2.x"
+      ],
+      "answer": "Accepter les versions compatibles jusqu'à la prochaine version majeure (<2.0.0)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande installe exactement les versions du fichier de verrouillage, idéale en CI ?",
+      "options": [
+        "npm ci",
+        "npm install --latest",
+        "npm update",
+        "npm audit fix"
+      ],
+      "answer": "npm ci",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un middleware dans Express ?",
+      "options": [
+        "Une fonction qui reçoit la requête, la réponse et next, et peut traiter ou transmettre la requête",
+        "Une base de données intermédiaire",
+        "Un serveur proxy externe",
+        "Un fichier HTML partagé"
+      ],
+      "answer": "Une fonction qui reçoit la requête, la réponse et next, et peut traiter ou transmettre la requête",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que se passe-t-il si un middleware Express n'appelle ni next() ni n'envoie de réponse ?",
+      "options": [
+        "La requête reste en attente",
+        "Express passe automatiquement au suivant",
+        "Le serveur redémarre",
+        "Une erreur 404 est renvoyée"
+      ],
+      "answer": "La requête reste en attente",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les streams en Node.js ?",
+      "options": [
+        "Des flux de données traités par morceaux, sans tout charger en mémoire",
+        "Des vidéos en direct",
+        "Des tableaux immuables",
+        "Des threads légers"
+      ],
+      "answer": "Des flux de données traités par morceaux, sans tout charger en mémoire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'EventEmitter ?",
+      "options": [
+        "Une classe pour émettre des événements nommés et y abonner des écouteurs",
+        "Un serveur WebSocket",
+        "Un outil de logs",
+        "Un gestionnaire de paquets"
+      ],
+      "answer": "Une classe pour émettre des événements nommés et y abonner des écouteurs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi un calcul CPU très long est-il problématique dans Node.js ?",
+      "options": [
+        "Il bloque l'event loop et toutes les autres requêtes",
+        "Il consomme trop de disque",
+        "Il ferme les connexions réseau",
+        "Il est interdit par V8"
+      ],
+      "answer": "Il bloque l'event loop et toutes les autres requêtes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel module permet d'exécuter du JavaScript en parallèle sur d'autres threads ?",
+      "options": [
+        "worker_threads",
+        "cluster_js",
+        "parallel",
+        "async_hooks"
+      ],
+      "answer": "worker_threads",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert le module cluster ?",
+      "options": [
+        "Lancer plusieurs processus qui partagent le même port pour exploiter plusieurs cœurs",
+        "Créer une base de données répartie",
+        "Compresser les réponses",
+        "Gérer les sessions"
+      ],
+      "answer": "Lancer plusieurs processus qui partagent le même port pour exploiter plusieurs cœurs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est l'ordre d'exécution entre process.nextTick et une promesse résolue ?",
+      "options": [
+        "Les callbacks process.nextTick passent avant les microtâches des promesses",
+        "Les promesses passent toujours avant nextTick",
+        "Ils s'exécutent en parallèle",
+        "L'ordre est aléatoire"
+      ],
+      "answer": "Les callbacks process.nextTick passent avant les microtâches des promesses",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment gérer une erreur dans une fonction async avec await ?",
+      "options": [
+        "Avec un bloc try/catch",
+        "Avec un callback (err, data)",
+        "Avec process.exit",
+        "Les erreurs y sont impossibles"
+      ],
+      "answer": "Avec un bloc try/catch",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait util.promisify ?",
+      "options": [
+        "Il transforme une fonction à callback (err, data) en fonction qui retourne une promesse",
+        "Il exécute une promesse de façon synchrone",
+        "Il annule une promesse",
+        "Il convertit du JSON"
+      ],
+      "answer": "Il transforme une fonction à callback (err, data) en fonction qui retourne une promesse",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un fichier .env avec un outil comme dotenv ?",
+      "options": [
+        "Charger des variables d'environnement de configuration sans les coder en dur",
+        "Stocker les dépendances",
+        "Définir les routes",
+        "Compiler TypeScript"
+      ],
+      "answer": "Charger des variables d'environnement de configuration sans les coder en dur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre dependencies et devDependencies ?",
+      "options": [
+        "Les devDependencies ne servent qu'au développement et aux tests",
+        "Les devDependencies sont plus rapides",
+        "Les dependencies ne sont pas installées en production",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Les devDependencies ne servent qu'au développement et aux tests",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que renvoie path.join(\"a\", \"..\", \"b\") ?",
+      "options": [
+        "b",
+        "a/../b",
+        "a/b",
+        "../b"
+      ],
+      "answer": "b",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la commande npm audit ?",
+      "options": [
+        "Elle recherche des vulnérabilités connues dans les dépendances",
+        "Elle compte les lignes de code",
+        "Elle teste les performances",
+        "Elle publie le paquet"
+      ],
+      "answer": "Elle recherche des vulnérabilités connues dans les dépendances",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'objet Buffer ?",
+      "options": [
+        "Une représentation de données binaires brutes",
+        "Un cache HTTP",
+        "Une file d'attente de messages",
+        "Un tableau de chaînes"
+      ],
+      "answer": "Une représentation de données binaires brutes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Dans quel ordre l'event loop parcourt-elle ses principales phases ?",
+      "options": [
+        "timers, pending callbacks, poll, check, close callbacks",
+        "poll, timers, close, check",
+        "check, poll, timers, close",
+        "Il n'y a pas de phases"
+      ],
+      "answer": "timers, pending callbacks, poll, check, close callbacks",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Dans un callback d'E/S, lequel s'exécute en premier entre setImmediate et setTimeout(fn, 0) ?",
+      "options": [
+        "setImmediate",
+        "setTimeout",
+        "L'ordre est toujours aléatoire",
+        "Aucun des deux ne s'exécute"
+      ],
+      "answer": "setImmediate",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la contre-pression (backpressure) dans les streams ?",
+      "options": [
+        "Le mécanisme qui ralentit la source quand la destination ne suit pas",
+        "Une erreur de compression",
+        "Un débordement de pile",
+        "Une attaque réseau"
+      ],
+      "answer": "Le mécanisme qui ralentit la source quand la destination ne suit pas",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi préférer stream.pipeline à .pipe() ?",
+      "options": [
+        "Il propage les erreurs et nettoie correctement tous les flux",
+        "Il est synchrone",
+        "Il compresse automatiquement",
+        ".pipe() est supprimé de Node.js"
+      ],
+      "answer": "Il propage les erreurs et nettoie correctement tous les flux",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que se passe-t-il par défaut en cas de rejet de promesse non géré dans Node.js récent ?",
+      "options": [
+        "Le processus se termine avec une erreur",
+        "Le rejet est ignoré silencieusement",
+        "La promesse est relancée automatiquement",
+        "Un avertissement est affiché sans autre effet"
+      ],
+      "answer": "Le processus se termine avec une erreur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que AsyncLocalStorage ?",
+      "options": [
+        "Un stockage de contexte propagé à travers les opérations asynchrones d'une même requête",
+        "Un localStorage côté serveur persistant",
+        "Une base de données intégrée",
+        "Un cache disque"
+      ],
+      "answer": "Un stockage de contexte propagé à travers les opérations asynchrones d'une même requête",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment le pool de threads de libuv est-il utilisé ?",
+      "options": [
+        "Pour certaines opérations comme le système de fichiers, DNS lookup, crypto et zlib",
+        "Pour exécuter tout le code JavaScript",
+        "Pour chaque connexion HTTP",
+        "Il n'est jamais utilisé"
+      ],
+      "answer": "Pour certaines opérations comme le système de fichiers, DNS lookup, crypto et zlib",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la taille par défaut du pool de threads de libuv ?",
+      "options": [
+        "4 threads",
+        "1 thread",
+        "Le nombre de cœurs × 10",
+        "128 threads"
+      ],
+      "answer": "4 threads",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une fuite mémoire typique en Node.js ?",
+      "options": [
+        "Des références conservées, par exemple dans un cache global ou des écouteurs jamais retirés",
+        "Un fichier trop gros sur le disque",
+        "Une connexion HTTPS lente",
+        "Un module non installé"
+      ],
+      "answer": "Des références conservées, par exemple dans un cache global ou des écouteurs jamais retirés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel outil permet d'inspecter le tas (heap) d'une application Node.js ?",
+      "options": [
+        "Les heap snapshots via --inspect et les DevTools",
+        "npm audit",
+        "nodemon",
+        "eslint"
+      ],
+      "answer": "Les heap snapshots via --inspect et les DevTools",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « ReDoS » ?",
+      "options": [
+        "Un déni de service causé par une expression régulière au temps d'exécution exponentiel",
+        "Une attaque sur Redis",
+        "Une redirection DNS",
+        "Un dépassement de la pile d'appels réseau"
+      ],
+      "answer": "Un déni de service causé par une expression régulière au temps d'exécution exponentiel",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre ESM et CommonJS au chargement ?",
+      "options": [
+        "ESM est analysé statiquement et chargé de façon asynchrone, CommonJS charge de façon synchrone à l'exécution",
+        "CommonJS est plus récent",
+        "ESM ne fonctionne que dans le navigateur",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "ESM est analysé statiquement et chargé de façon asynchrone, CommonJS charge de façon synchrone à l'exécution",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet le champ « exports » de package.json ?",
+      "options": [
+        "Définir précisément les points d'entrée publics d'un paquet",
+        "Lister les variables exportées par chaque fichier",
+        "Publier le paquet automatiquement",
+        "Définir les scripts npm"
+      ],
+      "answer": "Définir précisément les points d'entrée publics d'un paquet",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte le « Permission Model » de Node.js (--permission) ?",
+      "options": [
+        "Restreindre l'accès du processus au système de fichiers, aux processus enfants ou aux workers",
+        "Gérer les rôles des utilisateurs d'une application",
+        "Chiffrer les variables d'environnement",
+        "Signer les paquets npm"
+      ],
+      "answer": "Restreindre l'accès du processus au système de fichiers, aux processus enfants ou aux workers",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par « typosquatting » sur npm ?",
+      "options": [
+        "Publier un paquet malveillant au nom proche d'un paquet populaire",
+        "Remplir un formulaire avec des fautes",
+        "Saturer le registre npm",
+        "Supprimer un paquet existant"
+      ],
+      "answer": "Publier un paquet malveillant au nom proche d'un paquet populaire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi les scripts « postinstall » des dépendances sont-ils un risque ?",
+      "options": [
+        "Ils exécutent du code arbitraire au moment de l'installation",
+        "Ils ralentissent npm",
+        "Ils suppriment package-lock.json",
+        "Ils modifient la version de Node.js"
+      ],
+      "answer": "Ils exécutent du code arbitraire au moment de l'installation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment arrêter proprement un serveur Node.js sur SIGTERM ?",
+      "options": [
+        "Écouter le signal, cesser d'accepter de nouvelles connexions et terminer celles en cours",
+        "Appeler process.exit(0) immédiatement",
+        "Ignorer le signal",
+        "Supprimer node_modules"
+      ],
+      "answer": "Écouter le signal, cesser d'accepter de nouvelles connexions et terminer celles en cours",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le test runner intégré à Node.js ?",
+      "options": [
+        "Le module node:test pour écrire et exécuter des tests sans dépendance",
+        "Un service cloud de tests",
+        "Une extension de npm audit",
+        "Un alias de Jest"
+      ],
+      "answer": "Le module node:test pour écrire et exécuter des tests sans dépendance",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte l'exécution native de TypeScript dans les versions récentes de Node.js ?",
+      "options": [
+        "Exécuter des fichiers .ts en retirant les annotations de type, sans vérification de types",
+        "Une vérification complète des types à l'exécution",
+        "La compilation en binaire natif",
+        "La conversion automatique en Java"
+      ],
+      "answer": "Exécuter des fichiers .ts en retirant les annotations de type, sans vérification de types",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « zombie » listener signalé par MaxListenersExceededWarning ?",
+      "options": [
+        "Un signe que trop d'écouteurs sont ajoutés au même événement, souvent une fuite",
+        "Un processus enfant terminé",
+        "Un serveur qui ne répond plus",
+        "Un paquet abandonné"
+      ],
+      "answer": "Un signe que trop d'écouteurs sont ajoutés au même événement, souvent une fuite",
+      "difficulty": "difficile"
+    }
+  ]
 }

@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que MySQL ?",
+      "options": [
+        "Un système de gestion de bases de données relationnelles",
+        "Un langage de programmation web",
+        "Un serveur web",
+        "Un tableur"
+      ],
+      "answer": "Un système de gestion de bases de données relationnelles",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le port par défaut de MySQL ?",
+      "options": [
+        "3306",
+        "5432",
+        "1433",
+        "27017"
+      ],
+      "answer": "3306",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande SQL récupère des données ?",
+      "options": [
+        "SELECT",
+        "GET",
+        "FETCH ROWS",
+        "READ"
+      ],
+      "answer": "SELECT",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande ajoute une ligne dans une table ?",
+      "options": [
+        "INSERT INTO",
+        "ADD ROW",
+        "UPDATE",
+        "PUSH"
+      ],
+      "answer": "INSERT INTO",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande modifie des lignes existantes ?",
+      "options": [
+        "UPDATE",
+        "ALTER ROW",
+        "MODIFY",
+        "CHANGE"
+      ],
+      "answer": "UPDATE",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande supprime des lignes ?",
+      "options": [
+        "DELETE",
+        "DROP ROW",
+        "REMOVE",
+        "ERASE"
+      ],
+      "answer": "DELETE",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle clause filtre les lignes d'une requête ?",
+      "options": [
+        "WHERE",
+        "HAVING seule",
+        "FILTER BY",
+        "WHEN"
+      ],
+      "answer": "WHERE",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle clause trie les résultats ?",
+      "options": [
+        "ORDER BY",
+        "SORT BY",
+        "GROUP BY",
+        "ARRANGE"
+      ],
+      "answer": "ORDER BY",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle clause limite le nombre de lignes renvoyées en MySQL ?",
+      "options": [
+        "LIMIT",
+        "TOP",
+        "FIRST",
+        "MAX ROWS"
+      ],
+      "answer": "LIMIT",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une clé primaire ?",
+      "options": [
+        "Une colonne (ou un groupe) qui identifie de façon unique chaque ligne",
+        "La première colonne d'une table",
+        "Un mot de passe de la base",
+        "Un index de recherche plein texte"
+      ],
+      "answer": "Une colonne (ou un groupe) qui identifie de façon unique chaque ligne",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une clé étrangère ?",
+      "options": [
+        "Une colonne qui référence la clé primaire d'une autre table",
+        "Une clé de chiffrement externe",
+        "Une colonne en langue étrangère",
+        "Une clé primaire dupliquée"
+      ],
+      "answer": "Une colonne qui référence la clé primaire d'une autre table",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel moteur de stockage est le moteur par défaut de MySQL ?",
+      "options": [
+        "InnoDB",
+        "MyISAM",
+        "MEMORY",
+        "CSV"
+      ],
+      "answer": "InnoDB",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche les bases de données ?",
+      "options": [
+        "SHOW DATABASES;",
+        "LIST DATABASES;",
+        "SELECT DATABASES;",
+        "DISPLAY DB;"
+      ],
+      "answer": "SHOW DATABASES;",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande sélectionne la base de travail ?",
+      "options": [
+        "USE nom_base;",
+        "OPEN nom_base;",
+        "SELECT nom_base;",
+        "CONNECT nom_base;"
+      ],
+      "answer": "USE nom_base;",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type stocke un texte de longueur variable limitée ?",
+      "options": [
+        "VARCHAR",
+        "INT",
+        "DATE",
+        "BOOLEAN"
+      ],
+      "answer": "VARCHAR",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait AUTO_INCREMENT ?",
+      "options": [
+        "Il attribue automatiquement une valeur croissante à chaque nouvelle ligne",
+        "Il augmente la taille de la table",
+        "Il sauvegarde la base",
+        "Il trie les lignes"
+      ],
+      "answer": "Il attribue automatiquement une valeur croissante à chaque nouvelle ligne",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction compte le nombre de lignes ?",
+      "options": [
+        "COUNT()",
+        "SUM()",
+        "NUMBER()",
+        "TOTAL()"
+      ],
+      "answer": "COUNT()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que représente NULL ?",
+      "options": [
+        "L'absence de valeur",
+        "Le nombre zéro",
+        "Une chaîne vide",
+        "La valeur FALSE"
+      ],
+      "answer": "L'absence de valeur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment teste-t-on si une colonne est nulle ?",
+      "options": [
+        "colonne IS NULL",
+        "colonne = NULL",
+        "colonne == NULL",
+        "ISNULL colonne = TRUE"
+      ],
+      "answer": "colonne IS NULL",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil graphique officiel permet d'administrer MySQL ?",
+      "options": [
+        "MySQL Workbench",
+        "pgAdmin",
+        "SQL Server Management Studio",
+        "Compass"
+      ],
+      "answer": "MySQL Workbench",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre WHERE et HAVING ?",
+      "options": [
+        "WHERE filtre les lignes avant le regroupement, HAVING filtre les groupes après",
+        "HAVING est plus rapide",
+        "WHERE ne fonctionne qu'avec des nombres",
+        "Ce sont des synonymes"
+      ],
+      "answer": "WHERE filtre les lignes avant le regroupement, HAVING filtre les groupes après",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que renvoie un INNER JOIN ?",
+      "options": [
+        "Seulement les lignes qui ont une correspondance dans les deux tables",
+        "Toutes les lignes des deux tables",
+        "Les lignes de la table de gauche uniquement",
+        "Le produit cartésien sans condition"
+      ],
+      "answer": "Seulement les lignes qui ont une correspondance dans les deux tables",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que renvoie un LEFT JOIN ?",
+      "options": [
+        "Toutes les lignes de la table de gauche, avec NULL si pas de correspondance à droite",
+        "Seulement les correspondances",
+        "Toutes les lignes de droite",
+        "Les lignes sans correspondance uniquement"
+      ],
+      "answer": "Toutes les lignes de la table de gauche, avec NULL si pas de correspondance à droite",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre DELETE et TRUNCATE ?",
+      "options": [
+        "TRUNCATE vide toute la table rapidement et réinitialise l'auto-incrément ; DELETE peut filtrer ligne par ligne",
+        "DELETE supprime la structure de la table",
+        "TRUNCATE accepte une clause WHERE",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "TRUNCATE vide toute la table rapidement et réinitialise l'auto-incrément ; DELETE peut filtrer ligne par ligne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre DROP TABLE et TRUNCATE ?",
+      "options": [
+        "DROP supprime la table et sa structure, TRUNCATE ne supprime que les données",
+        "TRUNCATE supprime la structure",
+        "Ce sont des synonymes",
+        "DROP ne supprime que les index"
+      ],
+      "answer": "DROP supprime la table et sa structure, TRUNCATE ne supprime que les données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un index ?",
+      "options": [
+        "Accélérer la recherche de lignes, au prix d'un coût en écriture et en espace",
+        "Chiffrer une colonne",
+        "Trier physiquement toute la base",
+        "Empêcher les doublons dans tous les cas"
+      ],
+      "answer": "Accélérer la recherche de lignes, au prix d'un coût en écriture et en espace",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande montre le plan d'exécution d'une requête ?",
+      "options": [
+        "EXPLAIN",
+        "DESCRIBE PLAN",
+        "SHOW QUERY",
+        "ANALYZE ONLY"
+      ],
+      "answer": "EXPLAIN",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie ACID ?",
+      "options": [
+        "Atomicité, Cohérence, Isolation, Durabilité",
+        "Accès, Contrôle, Index, Données",
+        "Analyse, Calcul, Insertion, Destruction",
+        "Authentification, Chiffrement, Intégrité, Disponibilité"
+      ],
+      "answer": "Atomicité, Cohérence, Isolation, Durabilité",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel moteur supporte les transactions et les clés étrangères ?",
+      "options": [
+        "InnoDB",
+        "MyISAM",
+        "ARCHIVE",
+        "BLACKHOLE"
+      ],
+      "answer": "InnoDB",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel jeu de caractères faut-il utiliser pour un vrai support Unicode, emojis compris ?",
+      "options": [
+        "utf8mb4",
+        "utf8mb3",
+        "latin1",
+        "ascii"
+      ],
+      "answer": "utf8mb4",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait GROUP BY ?",
+      "options": [
+        "Regrouper les lignes ayant les mêmes valeurs pour appliquer des agrégats",
+        "Trier les résultats",
+        "Supprimer les doublons d'une table",
+        "Créer des groupes d'utilisateurs"
+      ],
+      "answer": "Regrouper les lignes ayant les mêmes valeurs pour appliquer des agrégats",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'instruction INSERT ... ON DUPLICATE KEY UPDATE ?",
+      "options": [
+        "Insérer une ligne ou la mettre à jour si une clé unique existe déjà",
+        "Insérer deux fois la ligne",
+        "Supprimer les doublons",
+        "Créer une clé unique"
+      ],
+      "answer": "Insérer une ligne ou la mettre à jour si une clé unique existe déjà",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une vue (VIEW) ?",
+      "options": [
+        "Une requête enregistrée utilisable comme une table virtuelle",
+        "Une copie physique d'une table",
+        "Un index",
+        "Une interface graphique"
+      ],
+      "answer": "Une requête enregistrée utilisable comme une table virtuelle",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une procédure stockée ?",
+      "options": [
+        "Un ensemble d'instructions SQL enregistré dans la base et appelable",
+        "Une sauvegarde automatique",
+        "Une table temporaire",
+        "Un utilisateur"
+      ],
+      "answer": "Un ensemble d'instructions SQL enregistré dans la base et appelable",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait un trigger ?",
+      "options": [
+        "Exécuter automatiquement du code lors d'un INSERT, UPDATE ou DELETE",
+        "Planifier une sauvegarde",
+        "Créer un index",
+        "Envoyer un email"
+      ],
+      "answer": "Exécuter automatiquement du code lors d'un INSERT, UPDATE ou DELETE",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel niveau d'isolation est celui par défaut d'InnoDB ?",
+      "options": [
+        "REPEATABLE READ",
+        "READ UNCOMMITTED",
+        "READ COMMITTED",
+        "SERIALIZABLE"
+      ],
+      "answer": "REPEATABLE READ",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que garantit une contrainte UNIQUE ?",
+      "options": [
+        "Qu'aucune valeur n'apparaît deux fois dans la colonne (hors NULL)",
+        "Que la colonne n'est jamais NULL",
+        "Que la colonne est triée",
+        "Que la colonne est chiffrée"
+      ],
+      "answer": "Qu'aucune valeur n'apparaît deux fois dans la colonne (hors NULL)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la normalisation ?",
+      "options": [
+        "Organiser les tables pour réduire la redondance et les anomalies de mise à jour",
+        "Uniformiser les noms de colonnes",
+        "Convertir tout en majuscules",
+        "Compresser la base"
+      ],
+      "answer": "Organiser les tables pour réduire la redondance et les anomalies de mise à jour",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande sauvegarde une base en fichier SQL ?",
+      "options": [
+        "mysqldump",
+        "mysqlsave",
+        "mysql backup",
+        "dumpsql"
+      ],
+      "answer": "mysqldump",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'instruction GRANT ?",
+      "options": [
+        "Accorder des privilèges à un utilisateur",
+        "Créer une table",
+        "Supprimer un utilisateur",
+        "Afficher les droits"
+      ],
+      "answer": "Accorder des privilèges à un utilisateur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la particularité de l'index clusterisé d'InnoDB ?",
+      "options": [
+        "Les lignes sont stockées physiquement dans l'ordre de la clé primaire",
+        "Il est stocké sur un autre serveur",
+        "Il n'existe que pour MyISAM",
+        "Il est recréé à chaque requête"
+      ],
+      "answer": "Les lignes sont stockées physiquement dans l'ordre de la clé primaire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi une clé primaire UUID aléatoire peut-elle nuire aux performances d'InnoDB ?",
+      "options": [
+        "Les insertions dispersées fragmentent l'index clusterisé",
+        "Les UUID ne peuvent pas être indexés",
+        "Les UUID sont trop courts",
+        "InnoDB interdit les UUID"
+      ],
+      "answer": "Les insertions dispersées fragmentent l'index clusterisé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la règle du préfixe le plus à gauche d'un index composite ?",
+      "options": [
+        "L'index (a, b, c) est utilisable pour a, a+b, a+b+c mais pas pour b seul",
+        "L'index n'est utilisable que pour c",
+        "L'ordre des colonnes n'a aucune importance",
+        "Il faut toujours filtrer sur les trois colonnes"
+      ],
+      "answer": "L'index (a, b, c) est utilisable pour a, a+b, a+b+c mais pas pour b seul",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un index couvrant ?",
+      "options": [
+        "Un index qui contient toutes les colonnes nécessaires à la requête, évitant de lire la table",
+        "Un index sur toutes les colonnes de la table",
+        "Un index plein texte",
+        "Un index partagé entre bases"
+      ],
+      "answer": "Un index qui contient toutes les colonnes nécessaires à la requête, évitant de lire la table",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi WHERE YEAR(date_creation) = 2024 peut-il empêcher l'usage d'un index ?",
+      "options": [
+        "Appliquer une fonction à la colonne empêche d'exploiter l'index sur la valeur brute",
+        "YEAR() n'existe pas",
+        "Les dates ne s'indexent pas",
+        "Cela provoque une erreur"
+      ],
+      "answer": "Appliquer une fonction à la colonne empêche d'exploiter l'index sur la valeur brute",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le MVCC ?",
+      "options": [
+        "Le contrôle de concurrence multiversion, qui permet des lectures cohérentes sans bloquer les écritures",
+        "Un outil de migration",
+        "Un moteur de stockage",
+        "Un format de sauvegarde"
+      ],
+      "answer": "Le contrôle de concurrence multiversion, qui permet des lectures cohérentes sans bloquer les écritures",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « gap lock » dans InnoDB ?",
+      "options": [
+        "Un verrou sur l'intervalle entre deux valeurs d'index, pour éviter les lectures fantômes",
+        "Un verrou sur une table vide",
+        "Un trou dans la sauvegarde",
+        "Un verrou au niveau du serveur"
+      ],
+      "answer": "Un verrou sur l'intervalle entre deux valeurs d'index, pour éviter les lectures fantômes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un deadlock ?",
+      "options": [
+        "Deux transactions qui attendent chacune un verrou détenu par l'autre",
+        "Une table supprimée",
+        "Une requête trop longue",
+        "Un serveur arrêté"
+      ],
+      "answer": "Deux transactions qui attendent chacune un verrou détenu par l'autre",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment InnoDB réagit-il à un deadlock ?",
+      "options": [
+        "Il le détecte et annule l'une des transactions",
+        "Il attend indéfiniment",
+        "Il redémarre le serveur",
+        "Il supprime les tables concernées"
+      ],
+      "answer": "Il le détecte et annule l'une des transactions",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le rôle du binary log (binlog) ?",
+      "options": [
+        "Enregistrer les modifications pour la réplication et la restauration à un instant donné",
+        "Stocker les erreurs de connexion",
+        "Stocker les requêtes SELECT",
+        "Compresser les tables"
+      ],
+      "answer": "Enregistrer les modifications pour la réplication et la restauration à un instant donné",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre réplication asynchrone et semi-synchrone ?",
+      "options": [
+        "En semi-synchrone, le primaire attend qu'au moins un réplica accuse réception avant de valider",
+        "L'asynchrone est plus sûre",
+        "La semi-synchrone n'utilise pas de binlog",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "En semi-synchrone, le primaire attend qu'au moins un réplica accuse réception avant de valider",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le buffer pool d'InnoDB ?",
+      "options": [
+        "La zone mémoire qui met en cache les pages de données et d'index",
+        "Une file d'attente de requêtes",
+        "Un fichier de sauvegarde",
+        "Un pool de connexions"
+      ],
+      "answer": "La zone mémoire qui met en cache les pages de données et d'index",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « redo log » ?",
+      "options": [
+        "Un journal qui permet de rejouer les modifications validées après un crash",
+        "Un journal des requêtes lentes",
+        "Un journal des connexions",
+        "Un historique Git"
+      ],
+      "answer": "Un journal qui permet de rejouer les modifications validées après un crash",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les CTE récursives (WITH RECURSIVE) ?",
+      "options": [
+        "Des requêtes qui parcourent des données hiérarchiques en se référençant elles-mêmes",
+        "Des procédures stockées infinies",
+        "Des vues matérialisées",
+        "Des triggers imbriqués"
+      ],
+      "answer": "Des requêtes qui parcourent des données hiérarchiques en se référençant elles-mêmes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permettent les fonctions de fenêtrage comme ROW_NUMBER() OVER (...) ?",
+      "options": [
+        "Calculer des valeurs sur un ensemble de lignes liées sans les regrouper",
+        "Ouvrir une fenêtre graphique",
+        "Créer des partitions physiques",
+        "Limiter le nombre de résultats"
+      ],
+      "answer": "Calculer des valeurs sur un ensemble de lignes liées sans les regrouper",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la pagination avec un grand OFFSET est-elle lente ?",
+      "options": [
+        "Le moteur doit lire puis ignorer toutes les lignes précédentes",
+        "OFFSET désactive les index",
+        "OFFSET trie la table entière à chaque fois",
+        "OFFSET est limité à 100"
+      ],
+      "answer": "Le moteur doit lire puis ignorer toutes les lignes précédentes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le partitionnement de table ?",
+      "options": [
+        "Diviser une table en partitions selon une clé pour faciliter la gestion et certaines requêtes",
+        "Copier une table sur deux serveurs",
+        "Séparer les colonnes en deux tables",
+        "Chiffrer une table"
+      ],
+      "answer": "Diviser une table en partitions selon une clé pour faciliter la gestion et certaines requêtes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le rôle du slow query log ?",
+      "options": [
+        "Enregistrer les requêtes dépassant un seuil de durée pour les optimiser",
+        "Ralentir les requêtes suspectes",
+        "Journaliser les connexions lentes",
+        "Sauvegarder la base lentement"
+      ],
+      "answer": "Enregistrer les requêtes dépassant un seuil de durée pour les optimiser",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que MySQL Group Replication ?",
+      "options": [
+        "Une réplication multi-nœuds avec consensus pour la haute disponibilité",
+        "Une sauvegarde par groupe d'utilisateurs",
+        "Un outil de partitionnement",
+        "Un format d'export"
+      ],
+      "answer": "Une réplication multi-nœuds avec consensus pour la haute disponibilité",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi SELECT ... FOR UPDATE est-il utile ?",
+      "options": [
+        "Il verrouille les lignes lues jusqu'à la fin de la transaction pour éviter des modifications concurrentes",
+        "Il met à jour toutes les lignes",
+        "Il accélère la lecture",
+        "Il crée une copie de la table"
+      ],
+      "answer": "Il verrouille les lignes lues jusqu'à la fin de la transaction pour éviter des modifications concurrentes",
+      "difficulty": "difficile"
+    }
+  ]
 }

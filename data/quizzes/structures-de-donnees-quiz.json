@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'un tableau ?",
+      "options": [
+        "Une suite d'éléments stockés de façon contiguë et accessibles par indice",
+        "Une liste de liens entre pages web",
+        "Un arbre binaire",
+        "Une file de priorité"
+      ],
+      "answer": "Une suite d'éléments stockés de façon contiguë et accessibles par indice",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la complexité d'accès à un élément d'un tableau par son indice ?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel principe suit une pile (stack) ?",
+      "options": [
+        "LIFO : dernier entré, premier sorti",
+        "FIFO : premier entré, premier sorti",
+        "Accès aléatoire",
+        "Tri automatique"
+      ],
+      "answer": "LIFO : dernier entré, premier sorti",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel principe suit une file (queue) ?",
+      "options": [
+        "FIFO : premier entré, premier sorti",
+        "LIFO : dernier entré, premier sorti",
+        "Le plus petit sort en premier",
+        "Aléatoire"
+      ],
+      "answer": "FIFO : premier entré, premier sorti",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment s'appelle l'opération d'ajout sur une pile ?",
+      "options": [
+        "push",
+        "enqueue",
+        "insert-first",
+        "append-left"
+      ],
+      "answer": "push",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment s'appelle l'opération de retrait sur une pile ?",
+      "options": [
+        "pop",
+        "dequeue",
+        "shift",
+        "remove-last"
+      ],
+      "answer": "pop",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une liste chaînée ?",
+      "options": [
+        "Une suite de nœuds où chacun pointe vers le suivant",
+        "Un tableau trié",
+        "Une table de hachage",
+        "Un arbre équilibré"
+      ],
+      "answer": "Une suite de nœuds où chacun pointe vers le suivant",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un arbre ?",
+      "options": [
+        "Une structure hiérarchique de nœuds avec une racine et des enfants",
+        "Une liste circulaire",
+        "Un tableau à deux dimensions",
+        "Un graphe sans sommets"
+      ],
+      "answer": "Une structure hiérarchique de nœuds avec une racine et des enfants",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien d'enfants au maximum a un nœud d'arbre binaire ?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "Illimité"
+      ],
+      "answer": "2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment appelle-t-on un nœud sans enfant ?",
+      "options": [
+        "Une feuille",
+        "Une racine",
+        "Une branche",
+        "Un parent"
+      ],
+      "answer": "Une feuille",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un graphe ?",
+      "options": [
+        "Un ensemble de sommets reliés par des arêtes",
+        "Un diagramme en barres uniquement",
+        "Un tableau trié",
+        "Une pile de nœuds"
+      ],
+      "answer": "Un ensemble de sommets reliés par des arêtes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une table de hachage ?",
+      "options": [
+        "Une structure qui associe des clés à des valeurs via une fonction de hachage",
+        "Un tableau trié de nombres",
+        "Une liste chaînée de chaînes",
+        "Un arbre de recherche"
+      ],
+      "answer": "Une structure qui associe des clés à des valeurs via une fonction de hachage",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure utilise le navigateur pour le bouton « Précédent » ?",
+      "options": [
+        "Une pile",
+        "Une file",
+        "Un tas",
+        "Un graphe biparti"
+      ],
+      "answer": "Une pile",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure représente naturellement une file d'attente d'impression ?",
+      "options": [
+        "Une file",
+        "Une pile",
+        "Un arbre binaire",
+        "Une table de hachage"
+      ],
+      "answer": "Une file",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la racine d'un arbre ?",
+      "options": [
+        "Le nœud au sommet, sans parent",
+        "Le nœud le plus profond",
+        "Une feuille quelconque",
+        "Le dernier nœud ajouté"
+      ],
+      "answer": "Le nœud au sommet, sans parent",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un graphe orienté ?",
+      "options": [
+        "Un graphe dont les arêtes ont un sens",
+        "Un graphe sans cycle",
+        "Un graphe avec des poids",
+        "Un graphe complet"
+      ],
+      "answer": "Un graphe dont les arêtes ont un sens",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure permet de stocker des éléments uniques sans ordre particulier ?",
+      "options": [
+        "Un ensemble (set)",
+        "Une pile",
+        "Une file",
+        "Un tableau trié"
+      ],
+      "answer": "Un ensemble (set)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une matrice ?",
+      "options": [
+        "Un tableau à deux dimensions",
+        "Une liste chaînée double",
+        "Un arbre",
+        "Une file de priorité"
+      ],
+      "answer": "Un tableau à deux dimensions",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la complexité d'insertion en tête d'une liste chaînée ?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une liste doublement chaînée ?",
+      "options": [
+        "Une liste où chaque nœud pointe vers le suivant et le précédent",
+        "Une liste stockée deux fois",
+        "Une liste triée",
+        "Une liste circulaire uniquement"
+      ],
+      "answer": "Une liste où chaque nœud pointe vers le suivant et le précédent",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la propriété d'un arbre binaire de recherche ?",
+      "options": [
+        "Les valeurs à gauche sont inférieures au nœud, celles à droite supérieures",
+        "Tous les nœuds ont deux enfants",
+        "Les feuilles sont triées",
+        "La racine est la plus petite valeur"
+      ],
+      "answer": "Les valeurs à gauche sont inférieures au nœud, celles à droite supérieures",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la complexité de recherche dans un arbre binaire de recherche dégénéré ?",
+      "options": [
+        "O(n)",
+        "O(1)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un tas (heap) min ?",
+      "options": [
+        "Un arbre binaire presque complet où chaque parent est inférieur ou égal à ses enfants",
+        "Une pile triée",
+        "Un arbre de recherche",
+        "Une zone mémoire"
+      ],
+      "answer": "Un arbre binaire presque complet où chaque parent est inférieur ou égal à ses enfants",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle structure implémente efficacement une file de priorité ?",
+      "options": [
+        "Un tas",
+        "Une pile",
+        "Une liste chaînée non triée",
+        "Une matrice"
+      ],
+      "answer": "Un tas",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la complexité moyenne de recherche dans une table de hachage ?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n log n)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une collision dans une table de hachage ?",
+      "options": [
+        "Deux clés différentes qui donnent le même emplacement",
+        "Deux valeurs identiques",
+        "Une table pleine",
+        "Une clé supprimée"
+      ],
+      "answer": "Deux clés différentes qui donnent le même emplacement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelles sont deux méthodes de gestion des collisions ?",
+      "options": [
+        "Le chaînage et l'adressage ouvert",
+        "Le tri et la fusion",
+        "La pile et la file",
+        "La compression et le chiffrement"
+      ],
+      "answer": "Le chaînage et l'adressage ouvert",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le facteur de charge d'une table de hachage ?",
+      "options": [
+        "Le rapport entre le nombre d'éléments et le nombre d'emplacements",
+        "Le temps moyen d'insertion",
+        "La taille d'une clé",
+        "Le nombre de collisions par seconde"
+      ],
+      "answer": "Le rapport entre le nombre d'éléments et le nombre d'emplacements",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel parcours d'un arbre binaire de recherche donne les valeurs triées ?",
+      "options": [
+        "Le parcours infixe (gauche, nœud, droite)",
+        "Le parcours préfixe",
+        "Le parcours postfixe",
+        "Le parcours en largeur"
+      ],
+      "answer": "Le parcours infixe (gauche, nœud, droite)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une liste d'adjacence ?",
+      "options": [
+        "Une représentation d'un graphe où chaque sommet liste ses voisins",
+        "Une liste triée de nombres",
+        "Une matrice de distances",
+        "Un arbre couvrant"
+      ],
+      "answer": "Une représentation d'un graphe où chaque sommet liste ses voisins",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quand une matrice d'adjacence est-elle préférable à une liste d'adjacence ?",
+      "options": [
+        "Pour des graphes denses, ou quand on teste souvent l'existence d'une arête",
+        "Pour des graphes très clairsemés",
+        "Jamais",
+        "Uniquement pour les arbres"
+      ],
+      "answer": "Pour des graphes denses, ou quand on teste souvent l'existence d'une arête",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la complexité amortie de l'ajout en fin de tableau dynamique ?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(1)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi l'ajout en fin de tableau dynamique est-il parfois coûteux ?",
+      "options": [
+        "Quand la capacité est atteinte, le tableau est réalloué et copié",
+        "Il faut trier le tableau",
+        "Il faut parcourir une liste chaînée",
+        "Le tableau est compressé"
+      ],
+      "answer": "Quand la capacité est atteinte, le tableau est réalloué et copié",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un graphe acyclique orienté (DAG) ?",
+      "options": [
+        "Un graphe orienté sans cycle",
+        "Un graphe non orienté complet",
+        "Un arbre binaire",
+        "Un graphe pondéré"
+      ],
+      "answer": "Un graphe orienté sans cycle",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un deque ?",
+      "options": [
+        "Une file où l'on peut ajouter et retirer aux deux extrémités",
+        "Une pile triée",
+        "Un tableau à deux dimensions",
+        "Un arbre à deux racines"
+      ],
+      "answer": "Une file où l'on peut ajouter et retirer aux deux extrémités",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la hauteur d'un arbre binaire complet de n nœuds ?",
+      "options": [
+        "Environ log₂(n)",
+        "n",
+        "n/2",
+        "√n"
+      ],
+      "answer": "Environ log₂(n)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un trie (arbre préfixe) ?",
+      "options": [
+        "Un arbre où chaque chemin depuis la racine représente un préfixe de mot",
+        "Un arbre trié par valeurs numériques",
+        "Un tas de chaînes",
+        "Un graphe de mots"
+      ],
+      "answer": "Un arbre où chaque chemin depuis la racine représente un préfixe de mot",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un trie ?",
+      "options": [
+        "L'autocomplétion et la recherche par préfixe",
+        "Le tri de nombres",
+        "Le calcul de plus courts chemins",
+        "La compression d'images"
+      ],
+      "answer": "L'autocomplétion et la recherche par préfixe",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un tableau circulaire (buffer circulaire) ?",
+      "options": [
+        "Un tableau de taille fixe dont les indices reviennent au début, utile pour les files",
+        "Un tableau trié en cercle",
+        "Une liste chaînée infinie",
+        "Une matrice carrée"
+      ],
+      "answer": "Un tableau de taille fixe dont les indices reviennent au début, utile pour les files",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est l'avantage principal d'une liste chaînée sur un tableau ?",
+      "options": [
+        "Insertion et suppression en O(1) à une position connue, sans décalage",
+        "Accès par indice en O(1)",
+        "Meilleure localité mémoire",
+        "Moins de mémoire par élément"
+      ],
+      "answer": "Insertion et suppression en O(1) à une position connue, sans décalage",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un arbre AVL ?",
+      "options": [
+        "Un arbre binaire de recherche auto-équilibré où les hauteurs des sous-arbres diffèrent d'au plus 1",
+        "Un arbre de priorité",
+        "Un arbre à trois enfants",
+        "Un trie compressé"
+      ],
+      "answer": "Un arbre binaire de recherche auto-équilibré où les hauteurs des sous-arbres diffèrent d'au plus 1",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle propriété garantit un arbre rouge-noir ?",
+      "options": [
+        "La hauteur reste en O(log n) grâce à des règles de coloration",
+        "Les nœuds rouges sont des feuilles",
+        "L'arbre est toujours complet",
+        "Toutes les feuilles sont à la même profondeur exacte"
+      ],
+      "answer": "La hauteur reste en O(log n) grâce à des règles de coloration",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi les bases de données utilisent-elles des B-arbres ?",
+      "options": [
+        "Leur grand facteur de branchement limite le nombre d'accès disque",
+        "Ils sont binaires",
+        "Ils ne nécessitent pas d'équilibrage",
+        "Ils stockent les données en désordre"
+      ],
+      "answer": "Leur grand facteur de branchement limite le nombre d'accès disque",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Union-Find (ensembles disjoints) ?",
+      "options": [
+        "Une structure qui gère des partitions et répond vite à « même ensemble ? »",
+        "Une table de hachage double",
+        "Un algorithme de tri",
+        "Un arbre de recherche"
+      ],
+      "answer": "Une structure qui gère des partitions et répond vite à « même ensemble ? »",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelles optimisations rendent Union-Find quasi constant ?",
+      "options": [
+        "La compression de chemin et l'union par rang",
+        "Le tri préalable des éléments",
+        "L'utilisation d'une pile",
+        "Le hachage des racines"
+      ],
+      "answer": "La compression de chemin et l'union par rang",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un filtre de Bloom ?",
+      "options": [
+        "Une structure probabiliste qui peut donner des faux positifs mais jamais de faux négatifs",
+        "Un tri par comptage",
+        "Un arbre équilibré",
+        "Une table de hachage exacte"
+      ],
+      "answer": "Une structure probabiliste qui peut donner des faux positifs mais jamais de faux négatifs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un segment tree ?",
+      "options": [
+        "Un arbre qui répond à des requêtes sur des intervalles (somme, minimum) en O(log n)",
+        "Un arbre de mots",
+        "Une liste segmentée",
+        "Un graphe de segments"
+      ],
+      "answer": "Un arbre qui répond à des requêtes sur des intervalles (somme, minimum) en O(log n)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un arbre de Fenwick (Binary Indexed Tree) ?",
+      "options": [
+        "Une structure compacte pour les sommes préfixes avec mises à jour en O(log n)",
+        "Un arbre binaire de recherche équilibré",
+        "Un tas de Fibonacci",
+        "Un trie binaire"
+      ],
+      "answer": "Une structure compacte pour les sommes préfixes avec mises à jour en O(log n)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une skip list ?",
+      "options": [
+        "Une liste chaînée à plusieurs niveaux offrant une recherche en O(log n) en moyenne",
+        "Une liste où l'on saute des éléments supprimés",
+        "Une file circulaire",
+        "Un tableau trié"
+      ],
+      "answer": "Une liste chaînée à plusieurs niveaux offrant une recherche en O(log n) en moyenne",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle structure permet un cache LRU en O(1) ?",
+      "options": [
+        "Une table de hachage combinée à une liste doublement chaînée",
+        "Un tas min",
+        "Une pile seule",
+        "Un arbre AVL"
+      ],
+      "answer": "Une table de hachage combinée à une liste doublement chaînée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la complexité de construction d'un tas à partir de n éléments (heapify) ?",
+      "options": [
+        "O(n)",
+        "O(n log n)",
+        "O(log n)",
+        "O(n²)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une structure de données persistante ?",
+      "options": [
+        "Une structure qui conserve ses versions précédentes après modification",
+        "Une structure stockée sur disque",
+        "Une structure qui ne peut pas être modifiée du tout",
+        "Une structure en cache"
+      ],
+      "answer": "Une structure qui conserve ses versions précédentes après modification",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le partage structurel ?",
+      "options": [
+        "Les nouvelles versions réutilisent les parties inchangées des anciennes",
+        "Le partage d'une structure entre threads",
+        "La compression des données",
+        "La copie complète à chaque modification"
+      ],
+      "answer": "Les nouvelles versions réutilisent les parties inchangées des anciennes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le hachage cohérent (consistent hashing) ?",
+      "options": [
+        "Une répartition des clés qui limite les déplacements quand on ajoute ou retire un nœud",
+        "Un hachage sans collision",
+        "Un hachage cryptographique",
+        "Un tri par hachage"
+      ],
+      "answer": "Une répartition des clés qui limite les déplacements quand on ajoute ou retire un nœud",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un tas de Fibonacci ?",
+      "options": [
+        "Un tas offrant une diminution de clé en O(1) amorti, utile à Dijkstra",
+        "Un tas basé sur la suite de Fibonacci pour stocker des nombres",
+        "Un tableau trié",
+        "Un arbre binaire de recherche"
+      ],
+      "answer": "Un tas offrant une diminution de clé en O(1) amorti, utile à Dijkstra",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un suffix array ?",
+      "options": [
+        "Le tableau trié des positions de tous les suffixes d'une chaîne",
+        "Un tableau de mots-clés",
+        "Une liste de terminaisons de fichiers",
+        "Un tableau de hachages"
+      ],
+      "answer": "Le tableau trié des positions de tous les suffixes d'une chaîne",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi un tableau a-t-il souvent de meilleures performances réelles qu'une liste chaînée ?",
+      "options": [
+        "Sa mémoire contiguë exploite mieux le cache du processeur",
+        "Il utilise moins d'instructions",
+        "Il ne nécessite pas de mémoire",
+        "Il est toujours trié"
+      ],
+      "answer": "Sa mémoire contiguë exploite mieux le cache du processeur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un HyperLogLog ?",
+      "options": [
+        "Une structure probabiliste qui estime le nombre d'éléments distincts avec peu de mémoire",
+        "Un journal de logs compressé",
+        "Un arbre de recherche",
+        "Une file de messages"
+      ],
+      "answer": "Une structure probabiliste qui estime le nombre d'éléments distincts avec peu de mémoire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un arbre couvrant minimal ?",
+      "options": [
+        "Un sous-ensemble d'arêtes reliant tous les sommets avec un poids total minimal",
+        "Le plus petit arbre binaire possible",
+        "Le chemin le plus court entre deux sommets",
+        "Un arbre sans feuilles"
+      ],
+      "answer": "Un sous-ensemble d'arêtes reliant tous les sommets avec un poids total minimal",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un graphe biparti ?",
+      "options": [
+        "Un graphe dont les sommets se partagent en deux groupes, sans arête à l'intérieur d'un groupe",
+        "Un graphe à deux sommets",
+        "Un graphe en deux composantes",
+        "Un graphe orienté dans les deux sens"
+      ],
+      "answer": "Un graphe dont les sommets se partagent en deux groupes, sans arête à l'intérieur d'un groupe",
+      "difficulty": "difficile"
+    }
+  ]
+}

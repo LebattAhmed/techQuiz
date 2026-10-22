@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quel éditeur a créé PL/SQL ?",
+      "options": [
+        "Oracle",
+        "Microsoft",
+        "IBM",
+        "PostgreSQL Global Group"
+      ],
+      "answer": "Oracle",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie PL/SQL ?",
+      "options": [
+        "Procedural Language extensions to SQL",
+        "Programming Logic SQL",
+        "Public Library SQL",
+        "Parallel Language SQL"
+      ],
+      "answer": "Procedural Language extensions to SQL",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelles sont les trois sections d'un bloc PL/SQL ?",
+      "options": [
+        "DECLARE, BEGIN et EXCEPTION, avant END",
+        "START, RUN et STOP",
+        "INIT, BODY et FINAL",
+        "OPEN, FETCH et CLOSE"
+      ],
+      "answer": "DECLARE, BEGIN et EXCEPTION, avant END",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle section d'un bloc est obligatoire ?",
+      "options": [
+        "BEGIN ... END",
+        "DECLARE",
+        "EXCEPTION",
+        "Toutes les trois"
+      ],
+      "answer": "BEGIN ... END",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel opérateur affecte une valeur à une variable ?",
+      "options": [
+        ":=",
+        "=",
+        "<-",
+        "=="
+      ],
+      "answer": ":=",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle procédure affiche du texte à l'écran pour le débogage ?",
+      "options": [
+        "DBMS_OUTPUT.PUT_LINE",
+        "PRINT",
+        "ECHO",
+        "SYSTEM.OUT"
+      ],
+      "answer": "DBMS_OUTPUT.PUT_LINE",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type stocke une chaîne de longueur variable en Oracle ?",
+      "options": [
+        "VARCHAR2",
+        "STRING",
+        "TEXT",
+        "NVARCHAR(MAX)"
+      ],
+      "answer": "VARCHAR2",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type numérique est le plus courant en Oracle ?",
+      "options": [
+        "NUMBER",
+        "DECIMAL64",
+        "INTEGER32",
+        "FLOAT8"
+      ],
+      "answer": "NUMBER",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait %TYPE dans une déclaration ?",
+      "options": [
+        "Donner à une variable le type d'une colonne ou d'une autre variable",
+        "Afficher le type d'une variable",
+        "Convertir un type",
+        "Créer un nouveau type"
+      ],
+      "answer": "Donner à une variable le type d'une colonne ou d'une autre variable",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait %ROWTYPE ?",
+      "options": [
+        "Déclarer un enregistrement ayant la structure d'une ligne de table",
+        "Compter les lignes",
+        "Trier les lignes",
+        "Supprimer une ligne"
+      ],
+      "answer": "Déclarer un enregistrement ayant la structure d'une ligne de table",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle instruction permet un branchement conditionnel ?",
+      "options": [
+        "IF ... THEN ... ELSIF ... ELSE ... END IF",
+        "SWITCH ... CASE",
+        "WHEN ... DO",
+        "IF ... ELSE IF ... FI"
+      ],
+      "answer": "IF ... THEN ... ELSIF ... ELSE ... END IF",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle boucle parcourt un intervalle d'entiers ?",
+      "options": [
+        "FOR i IN 1..10 LOOP",
+        "FOR (i=1; i<=10; i++)",
+        "REPEAT 10 TIMES",
+        "LOOP i FROM 1 TO 10"
+      ],
+      "answer": "FOR i IN 1..10 LOOP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande valide une transaction ?",
+      "options": [
+        "COMMIT",
+        "SAVE",
+        "VALIDATE",
+        "END TRANSACTION"
+      ],
+      "answer": "COMMIT",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande annule une transaction ?",
+      "options": [
+        "ROLLBACK",
+        "UNDO",
+        "CANCEL",
+        "REVERT"
+      ],
+      "answer": "ROLLBACK",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle exception est levée quand un SELECT INTO ne renvoie aucune ligne ?",
+      "options": [
+        "NO_DATA_FOUND",
+        "TOO_MANY_ROWS",
+        "ZERO_DIVIDE",
+        "VALUE_ERROR"
+      ],
+      "answer": "NO_DATA_FOUND",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle exception est levée quand un SELECT INTO renvoie plusieurs lignes ?",
+      "options": [
+        "TOO_MANY_ROWS",
+        "NO_DATA_FOUND",
+        "DUP_VAL_ON_INDEX",
+        "INVALID_CURSOR"
+      ],
+      "answer": "TOO_MANY_ROWS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle table factice est utilisée pour évaluer une expression ?",
+      "options": [
+        "DUAL",
+        "DUMMY",
+        "SYS",
+        "ONE"
+      ],
+      "answer": "DUAL",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction remplace une valeur NULL ?",
+      "options": [
+        "NVL",
+        "ISNULL",
+        "IFNULL",
+        "NULLTO"
+      ],
+      "answer": "NVL",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une procédure stockée ?",
+      "options": [
+        "Un bloc nommé, stocké dans la base, qui effectue une action",
+        "Une table temporaire",
+        "Un index",
+        "Une vue matérialisée"
+      ],
+      "answer": "Un bloc nommé, stocké dans la base, qui effectue une action",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre une fonction et une procédure ?",
+      "options": [
+        "Une fonction retourne obligatoirement une valeur avec RETURN",
+        "Une procédure retourne toujours une valeur",
+        "Une fonction ne peut pas avoir de paramètres",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Une fonction retourne obligatoirement une valeur avec RETURN",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un curseur ?",
+      "options": [
+        "Une structure qui permet de parcourir ligne par ligne le résultat d'une requête",
+        "Le pointeur de la souris",
+        "Un index",
+        "Une variable globale"
+      ],
+      "answer": "Une structure qui permet de parcourir ligne par ligne le résultat d'une requête",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre un curseur implicite et explicite ?",
+      "options": [
+        "L'implicite est créé automatiquement pour chaque instruction SQL ; l'explicite est déclaré et géré par le développeur",
+        "L'explicite est plus rapide dans tous les cas",
+        "L'implicite ne fonctionne qu'avec SELECT",
+        "Ils sont identiques"
+      ],
+      "answer": "L'implicite est créé automatiquement pour chaque instruction SQL ; l'explicite est déclaré et géré par le développeur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que renvoie SQL%ROWCOUNT ?",
+      "options": [
+        "Le nombre de lignes affectées par la dernière instruction SQL",
+        "Le nombre de lignes de la table",
+        "Le nombre de curseurs ouverts",
+        "Le nombre de colonnes"
+      ],
+      "answer": "Le nombre de lignes affectées par la dernière instruction SQL",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quels sont les modes de paramètres d'une procédure ?",
+      "options": [
+        "IN, OUT et IN OUT",
+        "INPUT, OUTPUT et BOTH",
+        "READ, WRITE et EXEC",
+        "VAL, REF et PTR"
+      ],
+      "answer": "IN, OUT et IN OUT",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un package ?",
+      "options": [
+        "Un regroupement de procédures, fonctions, types et variables, avec une spécification et un corps",
+        "Une archive de sauvegarde",
+        "Un fichier ZIP",
+        "Un schéma"
+      ],
+      "answer": "Un regroupement de procédures, fonctions, types et variables, avec une spécification et un corps",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est l'intérêt de séparer spécification et corps d'un package ?",
+      "options": [
+        "Exposer une interface publique et cacher l'implémentation",
+        "Accélérer les requêtes",
+        "Chiffrer le code",
+        "Autoriser plusieurs langages"
+      ],
+      "answer": "Exposer une interface publique et cacher l'implémentation",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment lever une exception personnalisée avec un message ?",
+      "options": [
+        "RAISE_APPLICATION_ERROR(-20001, 'message')",
+        "THROW 'message'",
+        "ERROR('message')",
+        "EXCEPTION.RAISE('message')"
+      ],
+      "answer": "RAISE_APPLICATION_ERROR(-20001, 'message')",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Dans quelle plage doivent se situer les codes de RAISE_APPLICATION_ERROR ?",
+      "options": [
+        "De -20000 à -20999",
+        "De 0 à 999",
+        "De -1 à -100",
+        "N'importe quel nombre"
+      ],
+      "answer": "De -20000 à -20999",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un trigger « BEFORE INSERT FOR EACH ROW » ?",
+      "options": [
+        "Un déclencheur exécuté avant chaque ligne insérée",
+        "Un déclencheur exécuté une fois après l'instruction",
+        "Une contrainte de clé",
+        "Une vue"
+      ],
+      "answer": "Un déclencheur exécuté avant chaque ligne insérée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que représentent :NEW et :OLD dans un trigger de ligne ?",
+      "options": [
+        "Les valeurs de la ligne après et avant la modification",
+        "Les nouvelles et anciennes tables",
+        "Les sessions utilisateur",
+        "Les versions du package"
+      ],
+      "answer": "Les valeurs de la ligne après et avant la modification",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le gestionnaire WHEN OTHERS ?",
+      "options": [
+        "Il intercepte toutes les exceptions non traitées par les gestionnaires précédents",
+        "Il ignore les erreurs de syntaxe",
+        "Il gère seulement NO_DATA_FOUND",
+        "Il relance automatiquement le bloc"
+      ],
+      "answer": "Il intercepte toutes les exceptions non traitées par les gestionnaires précédents",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi un WHEN OTHERS THEN NULL est-il une mauvaise pratique ?",
+      "options": [
+        "Il masque silencieusement toutes les erreurs",
+        "Il ralentit le code",
+        "Il provoque une erreur de compilation",
+        "Il annule la transaction"
+      ],
+      "answer": "Il masque silencieusement toutes les erreurs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une boucle FOR sur curseur (FOR r IN (SELECT ...) LOOP) ?",
+      "options": [
+        "Une boucle qui ouvre, parcourt et ferme le curseur automatiquement",
+        "Une boucle infinie",
+        "Une boucle sur des fichiers",
+        "Une boucle parallèle"
+      ],
+      "answer": "Une boucle qui ouvre, parcourt et ferme le curseur automatiquement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait SAVEPOINT ?",
+      "options": [
+        "Créer un point intermédiaire vers lequel on peut annuler partiellement",
+        "Enregistrer le code source",
+        "Faire une sauvegarde de la base",
+        "Valider la transaction"
+      ],
+      "answer": "Créer un point intermédiaire vers lequel on peut annuler partiellement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une séquence ?",
+      "options": [
+        "Un objet qui génère des nombres uniques successifs",
+        "Une liste de requêtes",
+        "Un type de boucle",
+        "Une table ordonnée"
+      ],
+      "answer": "Un objet qui génère des nombres uniques successifs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet l'instruction EXECUTE IMMEDIATE ?",
+      "options": [
+        "Exécuter du SQL dynamique construit à l'exécution",
+        "Exécuter plus vite une procédure",
+        "Ignorer les verrous",
+        "Valider immédiatement"
+      ],
+      "answer": "Exécuter du SQL dynamique construit à l'exécution",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la fonction DECODE ?",
+      "options": [
+        "Comparer une expression à des valeurs et renvoyer le résultat correspondant",
+        "Décoder du Base64",
+        "Déchiffrer une colonne",
+        "Convertir en majuscules"
+      ],
+      "answer": "Comparer une expression à des valeurs et renvoyer le résultat correspondant",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une collection de type « nested table » ?",
+      "options": [
+        "Une collection non bornée qui peut être stockée dans une colonne",
+        "Une table imbriquée dans un index",
+        "Une vue",
+        "Un curseur"
+      ],
+      "answer": "Une collection non bornée qui peut être stockée dans une colonne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un tableau associatif (INDEX BY) ?",
+      "options": [
+        "Une collection clé-valeur en mémoire, indexée par entier ou chaîne",
+        "Un index B-tree",
+        "Une table de jointure",
+        "Un package"
+      ],
+      "answer": "Une collection clé-valeur en mémoire, indexée par entier ou chaîne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'instruction CASE en PL/SQL ?",
+      "options": [
+        "Choisir une branche parmi plusieurs selon une valeur ou des conditions",
+        "Changer la casse d'une chaîne",
+        "Créer une table",
+        "Ouvrir un curseur"
+      ],
+      "answer": "Choisir une branche parmi plusieurs selon une valeur ou des conditions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi BULK COLLECT améliore-t-il les performances ?",
+      "options": [
+        "Il récupère de nombreuses lignes en une fois et réduit les changements de contexte SQL/PL-SQL",
+        "Il compresse les données",
+        "Il désactive les index",
+        "Il exécute les requêtes en parallèle sur plusieurs serveurs"
+      ],
+      "answer": "Il récupère de nombreuses lignes en une fois et réduit les changements de contexte SQL/PL-SQL",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert FORALL ?",
+      "options": [
+        "Envoyer en lot des instructions DML pour tous les éléments d'une collection",
+        "Boucler sur tous les utilisateurs",
+        "Exécuter toutes les procédures d'un package",
+        "Valider toutes les transactions"
+      ],
+      "answer": "Envoyer en lot des instructions DML pour tous les éléments d'une collection",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi utiliser LIMIT avec BULK COLLECT ?",
+      "options": [
+        "Pour traiter les lignes par lots et éviter de saturer la mémoire",
+        "Pour limiter les droits",
+        "Pour accélérer la compilation",
+        "C'est obligatoire"
+      ],
+      "answer": "Pour traiter les lignes par lots et éviter de saturer la mémoire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet SAVE EXCEPTIONS avec FORALL ?",
+      "options": [
+        "Poursuivre le lot malgré des erreurs et les consulter ensuite via SQL%BULK_EXCEPTIONS",
+        "Sauvegarder la base en cas d'erreur",
+        "Ignorer définitivement les erreurs",
+        "Annuler tout le lot"
+      ],
+      "answer": "Poursuivre le lot malgré des erreurs et les consulter ensuite via SQL%BULK_EXCEPTIONS",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une transaction autonome (PRAGMA AUTONOMOUS_TRANSACTION) ?",
+      "options": [
+        "Une transaction indépendante qui peut être validée sans affecter la transaction appelante",
+        "Une transaction sans verrou",
+        "Une transaction automatique de l'optimiseur",
+        "Une transaction en lecture seule"
+      ],
+      "answer": "Une transaction indépendante qui peut être validée sans affecter la transaction appelante",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel usage typique justifie une transaction autonome ?",
+      "options": [
+        "Journaliser une erreur même si la transaction principale est annulée",
+        "Accélérer les SELECT",
+        "Contourner les contraintes",
+        "Remplacer les triggers"
+      ],
+      "answer": "Journaliser une erreur même si la transaction principale est annulée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'erreur de « table mutante » (ORA-04091) ?",
+      "options": [
+        "Un trigger de ligne qui interroge ou modifie la table en cours de modification",
+        "Une table renommée pendant une requête",
+        "Une table sans clé primaire",
+        "Une table corrompue"
+      ],
+      "answer": "Un trigger de ligne qui interroge ou modifie la table en cours de modification",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment contourner proprement le problème de table mutante ?",
+      "options": [
+        "Avec un compound trigger qui collecte les lignes puis agit après l'instruction",
+        "En supprimant le trigger",
+        "En désactivant les contraintes",
+        "Avec WHEN OTHERS THEN NULL"
+      ],
+      "answer": "Avec un compound trigger qui collecte les lignes puis agit après l'instruction",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi utiliser des variables de liaison (bind variables) dans le SQL dynamique ?",
+      "options": [
+        "Elles protègent de l'injection SQL et permettent de réutiliser les plans d'exécution",
+        "Elles accélèrent la compilation du package",
+        "Elles chiffrent les valeurs",
+        "Elles sont obligatoires pour les SELECT"
+      ],
+      "answer": "Elles protègent de l'injection SQL et permettent de réutiliser les plans d'exécution",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction « PIPELINED » ?",
+      "options": [
+        "Une fonction table qui renvoie les lignes au fur et à mesure de leur production",
+        "Une fonction exécutée en parallèle obligatoirement",
+        "Une fonction déterministe",
+        "Une fonction réservée aux triggers"
+      ],
+      "answer": "Une fonction table qui renvoie les lignes au fur et à mesure de leur production",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que signifie DETERMINISTIC pour une fonction ?",
+      "options": [
+        "Elle renvoie toujours le même résultat pour les mêmes entrées, ce qui permet certaines optimisations",
+        "Elle ne lève jamais d'exception",
+        "Elle s'exécute en temps constant",
+        "Elle ne lit pas la base"
+      ],
+      "answer": "Elle renvoie toujours le même résultat pour les mêmes entrées, ce qui permet certaines optimisations",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte le RESULT_CACHE sur une fonction ?",
+      "options": [
+        "Mettre en cache ses résultats en mémoire partagée pour des appels répétés",
+        "Sauvegarder les résultats sur disque",
+        "Compiler la fonction en natif",
+        "Désactiver les exceptions"
+      ],
+      "answer": "Mettre en cache ses résultats en mémoire partagée pour des appels répétés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre les droits AUTHID DEFINER et CURRENT_USER ?",
+      "options": [
+        "DEFINER s'exécute avec les droits du propriétaire, CURRENT_USER avec ceux de l'appelant",
+        "CURRENT_USER est réservé aux administrateurs",
+        "Ils sont identiques",
+        "DEFINER désactive la sécurité"
+      ],
+      "answer": "DEFINER s'exécute avec les droits du propriétaire, CURRENT_USER avec ceux de l'appelant",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un REF CURSOR ?",
+      "options": [
+        "Une variable de curseur qui peut être ouverte sur différentes requêtes et passée entre programmes",
+        "Une référence vers une table",
+        "Un curseur en lecture seule",
+        "Un index de référence"
+      ],
+      "answer": "Une variable de curseur qui peut être ouverte sur différentes requêtes et passée entre programmes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait SYS_REFCURSOR ?",
+      "options": [
+        "C'est un type REF CURSOR prédéfini et faiblement typé",
+        "Un curseur système réservé à SYS",
+        "Un curseur pour les tables DUAL",
+        "Un type de séquence"
+      ],
+      "answer": "C'est un type REF CURSOR prédéfini et faiblement typé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet le package DBMS_SCHEDULER ?",
+      "options": [
+        "Planifier et exécuter des tâches dans la base",
+        "Planifier des réunions",
+        "Gérer les sauvegardes RMAN",
+        "Chiffrer les données"
+      ],
+      "answer": "Planifier et exécuter des tâches dans la base",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « compilation native » de PL/SQL ?",
+      "options": [
+        "Compiler le code en code machine pour accélérer les traitements de calcul",
+        "Compiler en Java",
+        "Compiler en SQL standard",
+        "Interpréter ligne par ligne"
+      ],
+      "answer": "Compiler le code en code machine pour accélérer les traitements de calcul",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet PRAGMA EXCEPTION_INIT ?",
+      "options": [
+        "Associer un nom d'exception à un code d'erreur Oracle",
+        "Initialiser toutes les exceptions à NULL",
+        "Désactiver les exceptions",
+        "Créer une exception globale"
+      ],
+      "answer": "Associer un nom d'exception à un code d'erreur Oracle",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi éviter le « row-by-row processing » (« slow by slow ») ?",
+      "options": [
+        "Traiter ligne par ligne en boucle est bien plus lent qu'une seule instruction SQL ensembliste",
+        "C'est interdit par Oracle",
+        "Cela provoque une erreur de syntaxe",
+        "Cela désactive les index"
+      ],
+      "answer": "Traiter ligne par ligne en boucle est bien plus lent qu'une seule instruction SQL ensembliste",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la vue USER_ERRORS ?",
+      "options": [
+        "Une vue listant les erreurs de compilation des objets de l'utilisateur",
+        "Une table des erreurs des utilisateurs finaux",
+        "Un journal des connexions échouées",
+        "Une vue des exceptions levées à l'exécution"
+      ],
+      "answer": "Une vue listant les erreurs de compilation des objets de l'utilisateur",
+      "difficulty": "difficile"
+    }
+  ]
 }

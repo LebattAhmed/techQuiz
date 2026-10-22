@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Que signifie DNS ?",
+      "options": [
+        "Domain Name System",
+        "Data Network Service",
+        "Digital Name Server",
+        "Domain Network Security"
+      ],
+      "answer": "Domain Name System",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le rôle principal du DNS ?",
+      "options": [
+        "Traduire un nom de domaine en adresse IP",
+        "Chiffrer le trafic web",
+        "Attribuer des adresses IP aux machines",
+        "Accélérer le téléchargement des fichiers"
+      ],
+      "answer": "Traduire un nom de domaine en adresse IP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel port utilise le DNS par défaut ?",
+      "options": [
+        "53",
+        "80",
+        "22",
+        "443"
+      ],
+      "answer": "53",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel enregistrement DNS associe un nom à une adresse IPv4 ?",
+      "options": [
+        "A",
+        "AAAA",
+        "MX",
+        "CNAME"
+      ],
+      "answer": "A",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel enregistrement DNS associe un nom à une adresse IPv6 ?",
+      "options": [
+        "AAAA",
+        "A",
+        "PTR",
+        "TXT"
+      ],
+      "answer": "AAAA",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel enregistrement DNS indique les serveurs de messagerie d'un domaine ?",
+      "options": [
+        "MX",
+        "NS",
+        "A",
+        "SRV"
+      ],
+      "answer": "MX",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel enregistrement DNS crée un alias vers un autre nom de domaine ?",
+      "options": [
+        "CNAME",
+        "MX",
+        "AAAA",
+        "SOA"
+      ],
+      "answer": "CNAME",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans « www.exemple.com », que représente « .com » ?",
+      "options": [
+        "Le domaine de premier niveau (TLD)",
+        "Le sous-domaine",
+        "Le nom d'hôte",
+        "Le protocole"
+      ],
+      "answer": "Le domaine de premier niveau (TLD)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande Windows permet d'interroger un serveur DNS ?",
+      "options": [
+        "nslookup",
+        "ipconfig",
+        "tracert",
+        "netstat"
+      ],
+      "answer": "nslookup",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier local peut remplacer une résolution DNS sur une machine ?",
+      "options": [
+        "Le fichier hosts",
+        "Le fichier resolv.conf.bak",
+        "Le fichier passwd",
+        "Le fichier fstab"
+      ],
+      "answer": "Le fichier hosts",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel enregistrement DNS désigne les serveurs faisant autorité pour une zone ?",
+      "options": [
+        "NS",
+        "MX",
+        "CNAME",
+        "TXT"
+      ],
+      "answer": "NS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un résolveur DNS ?",
+      "options": [
+        "Un serveur qui effectue les recherches DNS pour le compte des clients",
+        "Un logiciel qui enregistre des noms de domaine",
+        "Un pare-feu dédié au DNS",
+        "Un câble reliant deux serveurs DNS"
+      ],
+      "answer": "Un serveur qui effectue les recherches DNS pour le compte des clients",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien existe-t-il de « lettres » de serveurs racine DNS (de A à …) ?",
+      "options": [
+        "13 (A à M)",
+        "4 (A à D)",
+        "26 (A à Z)",
+        "8 (A à H)"
+      ],
+      "answer": "13 (A à M)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle adresse est celle du résolveur DNS public de Cloudflare ?",
+      "options": [
+        "1.1.1.1",
+        "8.8.8.8",
+        "9.9.9.9",
+        "192.168.1.1"
+      ],
+      "answer": "1.1.1.1",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que contient la partie la plus à gauche d'un nom comme « mail.exemple.fr » ?",
+      "options": [
+        "Le sous-domaine (ou nom d'hôte)",
+        "Le TLD",
+        "Le nom du registrar",
+        "Le port"
+      ],
+      "answer": "Le sous-domaine (ou nom d'hôte)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qui gère l'attribution des TLD au niveau mondial ?",
+      "options": [
+        "L'ICANN (via l'IANA)",
+        "Le W3C",
+        "L'IETF",
+        "L'ISO"
+      ],
+      "answer": "L'ICANN (via l'IANA)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel enregistrement DNS permet de stocker du texte libre, par exemple pour SPF ?",
+      "options": [
+        "TXT",
+        "MX",
+        "PTR",
+        "NS"
+      ],
+      "answer": "TXT",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie TTL dans un enregistrement DNS ?",
+      "options": [
+        "La durée pendant laquelle la réponse peut être mise en cache",
+        "Le nombre de serveurs DNS traversés",
+        "Le type de l'enregistrement",
+        "La taille maximale de la réponse"
+      ],
+      "answer": "La durée pendant laquelle la réponse peut être mise en cache",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment appelle-t-on l'entreprise auprès de laquelle on achète un nom de domaine ?",
+      "options": [
+        "Un registrar (bureau d'enregistrement)",
+        "Un résolveur",
+        "Un hébergeur DNS racine",
+        "Un FAI"
+      ],
+      "answer": "Un registrar (bureau d'enregistrement)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande Linux est couramment utilisée pour faire des requêtes DNS détaillées ?",
+      "options": [
+        "dig",
+        "ping",
+        "ls",
+        "chmod"
+      ],
+      "answer": "dig",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre une requête récursive et une requête itérative ?",
+      "options": [
+        "En récursif, le serveur fait toute la résolution ; en itératif, il renvoie une référence vers un autre serveur",
+        "La requête récursive utilise TCP, l'itérative UDP",
+        "La requête itérative est chiffrée, la récursive non",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "En récursif, le serveur fait toute la résolution ; en itératif, il renvoie une référence vers un autre serveur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel enregistrement DNS sert à la résolution inverse (IP vers nom) ?",
+      "options": [
+        "PTR",
+        "A",
+        "CNAME",
+        "SRV"
+      ],
+      "answer": "PTR",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Dans quelle zone se trouvent les enregistrements de résolution inverse IPv4 ?",
+      "options": [
+        "in-addr.arpa",
+        "ip6.arpa",
+        "reverse.dns",
+        "root.arpa"
+      ],
+      "answer": "in-addr.arpa",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel enregistrement contient le numéro de série et les paramètres d'une zone ?",
+      "options": [
+        "SOA",
+        "NS",
+        "TXT",
+        "CAA"
+      ],
+      "answer": "SOA",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quand le DNS utilise-t-il TCP plutôt qu'UDP ?",
+      "options": [
+        "Pour les réponses volumineuses et les transferts de zone",
+        "Pour toutes les requêtes de type A",
+        "Uniquement pour les requêtes vers les serveurs racine",
+        "Jamais, le DNS n'utilise que UDP"
+      ],
+      "answer": "Pour les réponses volumineuses et les transferts de zone",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un transfert de zone (AXFR) ?",
+      "options": [
+        "La copie complète d'une zone d'un serveur primaire vers un secondaire",
+        "Le changement de registrar d'un domaine",
+        "La migration d'un site vers un autre hébergeur",
+        "La suppression d'une zone expirée"
+      ],
+      "answer": "La copie complète d'une zone d'un serveur primaire vers un secondaire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi ne peut-on pas mettre un CNAME à l'apex d'un domaine (exemple.com) ?",
+      "options": [
+        "Un CNAME ne peut pas coexister avec d'autres enregistrements comme SOA et NS",
+        "Les CNAME sont limités aux sous-domaines payants",
+        "Les navigateurs ignorent les CNAME",
+        "L'apex n'accepte que des enregistrements MX"
+      ],
+      "answer": "Un CNAME ne peut pas coexister avec d'autres enregistrements comme SOA et NS",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert l'enregistrement SRV ?",
+      "options": [
+        "Indiquer l'hôte et le port d'un service précis",
+        "Signer cryptographiquement la zone",
+        "Définir le serveur web par défaut",
+        "Stocker la clé publique du domaine"
+      ],
+      "answer": "Indiquer l'hôte et le port d'un service précis",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le cache négatif en DNS ?",
+      "options": [
+        "La mise en cache des réponses « ce nom n'existe pas » (NXDOMAIN)",
+        "Un cache qui supprime les anciennes entrées",
+        "Un cache réservé aux adresses IPv6",
+        "Un cache désactivé par défaut"
+      ],
+      "answer": "La mise en cache des réponses « ce nom n'existe pas » (NXDOMAIN)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie le code de réponse NXDOMAIN ?",
+      "options": [
+        "Le nom de domaine demandé n'existe pas",
+        "Le serveur est surchargé",
+        "La requête a été refusée",
+        "Le domaine a expiré chez le registrar"
+      ],
+      "answer": "Le nom de domaine demandé n'existe pas",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet l'enregistrement CAA ?",
+      "options": [
+        "Indiquer quelles autorités de certification peuvent émettre des certificats pour le domaine",
+        "Rediriger le domaine vers un CDN",
+        "Définir la politique antispam",
+        "Bloquer les requêtes DNS non chiffrées"
+      ],
+      "answer": "Indiquer quelles autorités de certification peuvent émettre des certificats pour le domaine",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert l'enregistrement DMARC (publié en TXT sur _dmarc) ?",
+      "options": [
+        "Définir la politique appliquée aux emails qui échouent SPF/DKIM",
+        "Chiffrer les emails sortants",
+        "Indiquer le serveur IMAP",
+        "Limiter la taille des pièces jointes"
+      ],
+      "answer": "Définir la politique appliquée aux emails qui échouent SPF/DKIM",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que vérifie SPF ?",
+      "options": [
+        "Quels serveurs ont le droit d'envoyer des emails pour un domaine",
+        "La signature cryptographique du contenu d'un email",
+        "Le chiffrement TLS entre serveurs",
+        "L'existence de la boîte du destinataire"
+      ],
+      "answer": "Quels serveurs ont le droit d'envoyer des emails pour un domaine",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un serveur DNS faisant autorité ?",
+      "options": [
+        "Un serveur qui détient les enregistrements officiels d'une zone",
+        "Un résolveur public très rapide",
+        "Un serveur racine",
+        "Un serveur qui met uniquement en cache"
+      ],
+      "answer": "Un serveur qui détient les enregistrements officiels d'une zone",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que se passe-t-il quand on baisse le TTL avant une migration ?",
+      "options": [
+        "Les résolveurs gardent l'ancienne réponse moins longtemps, la bascule est plus rapide",
+        "Le domaine devient inaccessible",
+        "Les requêtes passent en TCP",
+        "Le registrar bloque les modifications"
+      ],
+      "answer": "Les résolveurs gardent l'ancienne réponse moins longtemps, la bascule est plus rapide",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie FQDN ?",
+      "options": [
+        "Un nom de domaine complètement qualifié, jusqu'à la racine",
+        "Un domaine réservé aux entreprises",
+        "Un format de requête DNS chiffrée",
+        "Un domaine sans sous-domaine"
+      ],
+      "answer": "Un nom de domaine complètement qualifié, jusqu'à la racine",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel outil dig affiche le chemin complet de résolution depuis la racine ?",
+      "options": [
+        "dig +trace",
+        "dig +short",
+        "dig -x",
+        "dig +tcp"
+      ],
+      "answer": "dig +trace",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un « glue record » ?",
+      "options": [
+        "L'adresse IP d'un serveur NS situé dans la zone qu'il dessert, fournie par la zone parente",
+        "Un enregistrement qui fusionne deux zones",
+        "Un CNAME vers un CDN",
+        "Une signature DNSSEC"
+      ],
+      "answer": "L'adresse IP d'un serveur NS situé dans la zone qu'il dessert, fournie par la zone parente",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel type d'enregistrement utilise DKIM pour publier sa clé publique ?",
+      "options": [
+        "TXT",
+        "MX",
+        "PTR",
+        "SRV"
+      ],
+      "answer": "TXT",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le split-horizon DNS ?",
+      "options": [
+        "Répondre différemment selon que le client est interne ou externe",
+        "Répartir une zone sur deux registrars",
+        "Séparer IPv4 et IPv6 dans deux zones",
+        "Couper le DNS en cas d'attaque"
+      ],
+      "answer": "Répondre différemment selon que le client est interne ou externe",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est l'objectif principal de DNSSEC ?",
+      "options": [
+        "Garantir l'authenticité et l'intégrité des réponses DNS",
+        "Chiffrer les requêtes DNS",
+        "Accélérer la résolution",
+        "Cacher les noms de domaine consultés"
+      ],
+      "answer": "Garantir l'authenticité et l'intégrité des réponses DNS",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel enregistrement DNSSEC contient la signature d'un ensemble d'enregistrements ?",
+      "options": [
+        "RRSIG",
+        "DNSKEY",
+        "DS",
+        "NSEC"
+      ],
+      "answer": "RRSIG",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel enregistrement, publié dans la zone parente, relie la chaîne de confiance DNSSEC à la zone enfant ?",
+      "options": [
+        "DS",
+        "RRSIG",
+        "NSEC3",
+        "SOA"
+      ],
+      "answer": "DS",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi servent NSEC et NSEC3 ?",
+      "options": [
+        "Prouver de manière authentifiée qu'un nom n'existe pas",
+        "Chiffrer les réponses DNS",
+        "Synchroniser les serveurs secondaires",
+        "Limiter le débit des requêtes"
+      ],
+      "answer": "Prouver de manière authentifiée qu'un nom n'existe pas",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel avantage NSEC3 apporte-t-il par rapport à NSEC ?",
+      "options": [
+        "Il rend plus difficile l'énumération de la zone grâce au hachage des noms",
+        "Il remplace les signatures RRSIG",
+        "Il supprime le besoin de clé KSK",
+        "Il permet d'utiliser TCP"
+      ],
+      "answer": "Il rend plus difficile l'énumération de la zone grâce au hachage des noms",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre KSK et ZSK en DNSSEC ?",
+      "options": [
+        "La KSK signe les clés DNSKEY, la ZSK signe les enregistrements de la zone",
+        "La KSK chiffre les requêtes, la ZSK les réponses",
+        "La ZSK est publiée chez le registrar, la KSK non",
+        "Ce sont deux noms de la même clé"
+      ],
+      "answer": "La KSK signe les clés DNSKEY, la ZSK signe les enregistrements de la zone",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'empoisonnement de cache DNS ?",
+      "options": [
+        "L'injection de fausses réponses dans le cache d'un résolveur",
+        "La saturation d'un serveur par des requêtes",
+        "La suppression d'une zone par un attaquant",
+        "L'expiration d'un domaine non renouvelé"
+      ],
+      "answer": "L'injection de fausses réponses dans le cache d'un résolveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle mesure rend l'attaque de Kaminsky beaucoup plus difficile ?",
+      "options": [
+        "La randomisation du port source et de l'identifiant de requête",
+        "L'augmentation du TTL",
+        "Le passage à IPv6",
+        "L'usage exclusif de CNAME"
+      ],
+      "answer": "La randomisation du port source et de l'identifiant de requête",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par amplification DNS ?",
+      "options": [
+        "Envoyer de petites requêtes avec une IP usurpée pour que de grosses réponses inondent la victime",
+        "Deviner les sous-domaines d'une cible",
+        "Modifier les enregistrements chez le registrar",
+        "Faire expirer le domaine de la victime"
+      ],
+      "answer": "Envoyer de petites requêtes avec une IP usurpée pour que de grosses réponses inondent la victime",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel protocole chiffre le DNS directement sur TLS, sur le port 853 ?",
+      "options": [
+        "DNS over TLS (DoT)",
+        "DNS over HTTPS (DoH)",
+        "DNSSEC",
+        "DNSCrypt sur le port 53"
+      ],
+      "answer": "DNS over TLS (DoT)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'extension EDNS(0) ?",
+      "options": [
+        "Une extension permettant notamment des réponses UDP plus grandes que 512 octets",
+        "Un chiffrement des requêtes",
+        "Un nouveau type d'enregistrement d'adresse",
+        "Le DNS pour les réseaux 5G"
+      ],
+      "answer": "Une extension permettant notamment des réponses UDP plus grandes que 512 octets",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert l'option EDNS Client Subnet (ECS) ?",
+      "options": [
+        "Transmettre une partie de l'IP du client pour obtenir une réponse géographiquement adaptée",
+        "Chiffrer l'adresse du client",
+        "Limiter le nombre de requêtes par client",
+        "Empêcher le cache des réponses"
+      ],
+      "answer": "Transmettre une partie de l'IP du client pour obtenir une réponse géographiquement adaptée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la QNAME minimisation ?",
+      "options": [
+        "N'envoyer à chaque serveur que la partie du nom nécessaire à son niveau",
+        "Raccourcir les noms de domaine trop longs",
+        "Compresser les réponses DNS",
+        "Supprimer les sous-domaines inutilisés"
+      ],
+      "answer": "N'envoyer à chaque serveur que la partie du nom nécessaire à son niveau",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le DNS tunneling ?",
+      "options": [
+        "Faire transiter des données arbitraires à l'intérieur de requêtes et réponses DNS",
+        "Chiffrer le DNS dans un VPN",
+        "Rediriger un domaine vers un autre",
+        "Répliquer une zone vers un secondaire"
+      ],
+      "answer": "Faire transiter des données arbitraires à l'intérieur de requêtes et réponses DNS",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est l'utilité d'un transfert de zone incrémental (IXFR) ?",
+      "options": [
+        "Ne transmettre que les modifications depuis une version donnée de la zone",
+        "Transférer la zone en plusieurs fichiers",
+        "Chiffrer le transfert de zone",
+        "Transférer uniquement les enregistrements MX"
+      ],
+      "answer": "Ne transmettre que les modifications depuis une version donnée de la zone",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment protège-t-on un transfert de zone entre serveurs ?",
+      "options": [
+        "En le limitant aux secondaires autorisés et en l'authentifiant avec TSIG",
+        "En augmentant le TTL de la zone",
+        "En passant les enregistrements en CNAME",
+        "En désactivant DNSSEC"
+      ],
+      "answer": "En le limitant aux secondaires autorisés et en l'authentifiant avec TSIG",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « dangling CNAME » et pourquoi est-ce dangereux ?",
+      "options": [
+        "Un CNAME pointant vers une ressource supprimée, que quelqu'un peut reprendre (subdomain takeover)",
+        "Un CNAME trop long qui fait planter les résolveurs",
+        "Un CNAME en boucle qui sature le serveur",
+        "Un CNAME sans TTL"
+      ],
+      "answer": "Un CNAME pointant vers une ressource supprimée, que quelqu'un peut reprendre (subdomain takeover)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « DNS rebinding » ?",
+      "options": [
+        "Faire résoudre un domaine vers une IP interne après coup pour contourner la same-origin policy",
+        "Renouveler automatiquement un domaine",
+        "Changer de serveurs NS chez le registrar",
+        "Réindexer une zone DNSSEC"
+      ],
+      "answer": "Faire résoudre un domaine vers une IP interne après coup pour contourner la same-origin policy",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi le « CNAME flattening » (ou ALIAS/ANAME) existe-t-il ?",
+      "options": [
+        "Pour obtenir un comportement d'alias à l'apex en renvoyant directement des enregistrements A/AAAA",
+        "Pour réduire la taille des zones DNSSEC",
+        "Pour chiffrer les CNAME",
+        "Pour remplacer les enregistrements MX"
+      ],
+      "answer": "Pour obtenir un comportement d'alias à l'apex en renvoyant directement des enregistrements A/AAAA",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le rôle du « trust anchor » de la racine en DNSSEC ?",
+      "options": [
+        "C'est la clé de départ que le résolveur validant considère comme fiable",
+        "C'est le premier serveur racine interrogé",
+        "C'est le certificat TLS du résolveur",
+        "C'est la liste des TLD autorisés"
+      ],
+      "answer": "C'est la clé de départ que le résolveur validant considère comme fiable",
+      "difficulty": "difficile"
+    }
+  ]
 }

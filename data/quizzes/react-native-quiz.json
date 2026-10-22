@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce que React Native ?",
+      "options": [
+        "Un framework pour créer des applications mobiles natives avec React",
+        "Une version de React pour le navigateur uniquement",
+        "Un langage de programmation",
+        "Un émulateur Android"
+      ],
+      "answer": "Un framework pour créer des applications mobiles natives avec React",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel langage utilise-t-on principalement avec React Native ?",
+      "options": [
+        "JavaScript ou TypeScript",
+        "Swift",
+        "Kotlin",
+        "Dart"
+      ],
+      "answer": "JavaScript ou TypeScript",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant remplace <div> en React Native ?",
+      "options": [
+        "View",
+        "Div",
+        "Box",
+        "Container"
+      ],
+      "answer": "View",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant affiche du texte ?",
+      "options": [
+        "Text",
+        "Label",
+        "P",
+        "Span"
+      ],
+      "answer": "Text",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant affiche une image ?",
+      "options": [
+        "Image",
+        "Img",
+        "Picture",
+        "Photo"
+      ],
+      "answer": "Image",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil facilite le démarrage et le déploiement d'apps React Native ?",
+      "options": [
+        "Expo",
+        "Vite",
+        "Webpack",
+        "Gulp"
+      ],
+      "answer": "Expo",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment applique-t-on des styles en React Native ?",
+      "options": [
+        "Avec des objets JavaScript, souvent via StyleSheet.create",
+        "Avec des fichiers .css classiques",
+        "Avec des balises <style>",
+        "Avec du SCSS uniquement"
+      ],
+      "answer": "Avec des objets JavaScript, souvent via StyleSheet.create",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel système de mise en page utilise React Native par défaut ?",
+      "options": [
+        "Flexbox",
+        "CSS Grid",
+        "Les tableaux HTML",
+        "Les positions absolues uniquement"
+      ],
+      "answer": "Flexbox",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la direction par défaut de flexDirection en React Native ?",
+      "options": [
+        "column",
+        "row",
+        "row-reverse",
+        "grid"
+      ],
+      "answer": "column",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant rend un élément cliquable avec un retour visuel moderne ?",
+      "options": [
+        "Pressable",
+        "Clickable",
+        "Link",
+        "Anchor"
+      ],
+      "answer": "Pressable",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant affiche efficacement une longue liste ?",
+      "options": [
+        "FlatList",
+        "ScrollView avec map de milliers d'éléments",
+        "ListView HTML",
+        "Table"
+      ],
+      "answer": "FlatList",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant sert à la saisie de texte ?",
+      "options": [
+        "TextInput",
+        "Input",
+        "TextField",
+        "EditText"
+      ],
+      "answer": "TextInput",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle application permet de tester un projet Expo sur un vrai téléphone ?",
+      "options": [
+        "Expo Go",
+        "TestFlight uniquement",
+        "Android Studio uniquement",
+        "Chrome"
+      ],
+      "answer": "Expo Go",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle entreprise a créé React Native ?",
+      "options": [
+        "Meta (Facebook)",
+        "Google",
+        "Microsoft",
+        "Apple"
+      ],
+      "answer": "Meta (Facebook)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle bibliothèque est très utilisée pour la navigation entre écrans ?",
+      "options": [
+        "React Navigation",
+        "React Router DOM",
+        "Vue Router",
+        "Angular Router"
+      ],
+      "answer": "React Navigation",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Les unités de taille dans les styles sont…",
+      "options": [
+        "Des pixels indépendants de la densité, sans unité écrite",
+        "Des em uniquement",
+        "Des pourcentages uniquement",
+        "Des centimètres"
+      ],
+      "answer": "Des pixels indépendants de la densité, sans unité écrite",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant évite que le clavier masque les champs de saisie ?",
+      "options": [
+        "KeyboardAvoidingView",
+        "SafeAreaView",
+        "Modal",
+        "StatusBar"
+      ],
+      "answer": "KeyboardAvoidingView",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant tient compte des encoches et zones système ?",
+      "options": [
+        "SafeAreaView",
+        "KeyboardAvoidingView",
+        "View",
+        "ScrollView"
+      ],
+      "answer": "SafeAreaView",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonctionnalité recharge l'app instantanément en conservant l'état pendant le développement ?",
+      "options": [
+        "Fast Refresh",
+        "Hot Deploy",
+        "Live Build",
+        "Instant Compile"
+      ],
+      "answer": "Fast Refresh",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Peut-on partager une partie du code entre iOS et Android ?",
+      "options": [
+        "Oui, l'essentiel du code est commun",
+        "Non, il faut tout réécrire",
+        "Seulement les images",
+        "Seulement les tests"
+      ],
+      "answer": "Oui, l'essentiel du code est commun",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle prop de FlatList identifie chaque élément ?",
+      "options": [
+        "keyExtractor",
+        "idProp",
+        "uniqueKey",
+        "itemId"
+      ],
+      "answer": "keyExtractor",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi préférer FlatList à ScrollView pour une longue liste ?",
+      "options": [
+        "FlatList ne rend que les éléments visibles (virtualisation)",
+        "ScrollView ne défile pas",
+        "FlatList est plus jolie",
+        "ScrollView est obsolète"
+      ],
+      "answer": "FlatList ne rend que les éléments visibles (virtualisation)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment écrire du code spécifique à une plateforme ?",
+      "options": [
+        "Avec Platform.OS ou des fichiers .ios.js / .android.js",
+        "Avec des balises <ios>",
+        "C'est impossible",
+        "Avec des media queries CSS"
+      ],
+      "answer": "Avec Platform.OS ou des fichiers .ios.js / .android.js",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle API stocke de petites données clé-valeur de façon persistante (non chiffrée) ?",
+      "options": [
+        "AsyncStorage",
+        "localStorage du navigateur",
+        "SessionStorage",
+        "IndexedDB natif"
+      ],
+      "answer": "AsyncStorage",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi ne pas stocker un jeton sensible dans AsyncStorage ?",
+      "options": [
+        "Il n'est pas chiffré ; il faut utiliser le Keychain ou Keystore (ex. SecureStore)",
+        "Il est trop lent",
+        "Il supprime les données au redémarrage",
+        "Il est limité à 1 caractère"
+      ],
+      "answer": "Il n'est pas chiffré ; il faut utiliser le Keychain ou Keystore (ex. SecureStore)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Metro ?",
+      "options": [
+        "Le bundler JavaScript de React Native",
+        "Un composant de navigation",
+        "Un émulateur",
+        "Un service cloud"
+      ],
+      "answer": "Le bundler JavaScript de React Native",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un module natif ?",
+      "options": [
+        "Du code Swift/Kotlin exposé à JavaScript pour accéder à des fonctions de la plateforme",
+        "Un composant React pur",
+        "Un fichier JSON",
+        "Une bibliothèque CSS"
+      ],
+      "answer": "Du code Swift/Kotlin exposé à JavaScript pour accéder à des fonctions de la plateforme",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre Expo « managed » et un projet « bare » ?",
+      "options": [
+        "En bare, on a un accès complet aux projets natifs ios/ et android/",
+        "Bare n'utilise pas JavaScript",
+        "Managed ne permet pas de publier",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "En bare, on a un accès complet aux projets natifs ios/ et android/",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet EAS Build ?",
+      "options": [
+        "Compiler les applications iOS et Android dans le cloud",
+        "Héberger un site web",
+        "Écrire des tests",
+        "Gérer une base de données"
+      ],
+      "answer": "Compiler les applications iOS et Android dans le cloud",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une mise à jour OTA (over-the-air) ?",
+      "options": [
+        "Envoyer une nouvelle version du JavaScript sans repasser par le store",
+        "Mettre à jour le système d'exploitation",
+        "Télécharger une nouvelle application",
+        "Mettre à jour le firmware"
+      ],
+      "answer": "Envoyer une nouvelle version du JavaScript sans repasser par le store",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle limite s'applique aux mises à jour OTA ?",
+      "options": [
+        "On ne peut pas modifier le code natif, seulement le JavaScript et les ressources",
+        "Elles sont limitées à 1 Ko",
+        "Elles ne fonctionnent qu'en Wi-Fi",
+        "Elles sont interdites par Apple dans tous les cas"
+      ],
+      "answer": "On ne peut pas modifier le code natif, seulement le JavaScript et les ressources",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment optimiser un élément de FlatList qui se re-rend souvent ?",
+      "options": [
+        "Le mémoïser avec React.memo et stabiliser les props",
+        "Le transformer en ScrollView",
+        "Ajouter des console.log",
+        "Augmenter la taille de la police"
+      ],
+      "answer": "Le mémoïser avec React.memo et stabiliser les props",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la prop getItemLayout de FlatList ?",
+      "options": [
+        "Fournir la taille des éléments à l'avance pour éviter les mesures et accélérer le défilement",
+        "Changer la couleur des éléments",
+        "Trier la liste",
+        "Paginer les données réseau"
+      ],
+      "answer": "Fournir la taille des éléments à l'avance pour éviter les mesures et accélérer le défilement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Hermes ?",
+      "options": [
+        "Un moteur JavaScript optimisé pour React Native",
+        "Une bibliothèque de navigation",
+        "Un service de notifications",
+        "Un outil de design"
+      ],
+      "answer": "Un moteur JavaScript optimisé pour React Native",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment gérer les dimensions de l'écran ?",
+      "options": [
+        "Avec useWindowDimensions ou l'API Dimensions",
+        "Avec window.innerWidth uniquement",
+        "Avec des media queries CSS",
+        "C'est impossible"
+      ],
+      "answer": "Avec useWindowDimensions ou l'API Dimensions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert Animated ou Reanimated ?",
+      "options": [
+        "Créer des animations fluides",
+        "Gérer l'état global",
+        "Faire des requêtes réseau",
+        "Stocker des fichiers"
+      ],
+      "answer": "Créer des animations fluides",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment effectue-t-on une requête HTTP ?",
+      "options": [
+        "Avec fetch ou une bibliothèque comme axios",
+        "Avec XMLHttpRequest uniquement",
+        "C'est impossible sans module natif",
+        "Avec un composant <Http>"
+      ],
+      "answer": "Avec fetch ou une bibliothèque comme axios",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les deep links ?",
+      "options": [
+        "Des liens qui ouvrent un écran précis de l'application",
+        "Des liens cassés",
+        "Des liens vers le store",
+        "Des liens chiffrés"
+      ],
+      "answer": "Des liens qui ouvrent un écran précis de l'application",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment déboguer une application React Native ?",
+      "options": [
+        "Avec React Native DevTools / le débogueur intégré et les logs",
+        "Uniquement avec printf",
+        "Avec Xcode seulement",
+        "C'est impossible"
+      ],
+      "answer": "Avec React Native DevTools / le débogueur intégré et les logs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait StyleSheet.create par rapport à un objet littéral ?",
+      "options": [
+        "Il valide les styles et permet des optimisations, avec une meilleure lisibilité",
+        "Il convertit en CSS",
+        "Il rend les styles globaux",
+        "Il est obligatoire pour que les styles fonctionnent"
+      ],
+      "answer": "Il valide les styles et permet des optimisations, avec une meilleure lisibilité",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la « nouvelle architecture » de React Native ?",
+      "options": [
+        "Fabric, TurboModules et JSI, qui remplacent le bridge asynchrone",
+        "Un nouveau langage",
+        "Un passage à Dart",
+        "Une version web uniquement"
+      ],
+      "answer": "Fabric, TurboModules et JSI, qui remplacent le bridge asynchrone",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que JSI ?",
+      "options": [
+        "Une interface C++ permettant à JavaScript d'appeler directement du code natif",
+        "Un format de fichier JSON",
+        "Un débogueur",
+        "Un gestionnaire de paquets"
+      ],
+      "answer": "Une interface C++ permettant à JavaScript d'appeler directement du code natif",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel était le principal défaut de l'ancien bridge ?",
+      "options": [
+        "Les échanges JS/natif étaient asynchrones et sérialisés en JSON, ce qui coûtait en performances",
+        "Il n'existait que sur iOS",
+        "Il ne supportait pas les images",
+        "Il était écrit en Python"
+      ],
+      "answer": "Les échanges JS/natif étaient asynchrones et sérialisés en JSON, ce qui coûtait en performances",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Fabric ?",
+      "options": [
+        "Le nouveau moteur de rendu, avec rendu synchrone et support des fonctionnalités concurrentes de React",
+        "Un outil de build",
+        "Une bibliothèque de styles",
+        "Un framework de tests"
+      ],
+      "answer": "Le nouveau moteur de rendu, avec rendu synchrone et support des fonctionnalités concurrentes de React",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les TurboModules ?",
+      "options": [
+        "Des modules natifs chargés à la demande et typés via Codegen",
+        "Des modules JavaScript plus rapides",
+        "Des modules CSS",
+        "Des plugins Expo payants"
+      ],
+      "answer": "Des modules natifs chargés à la demande et typés via Codegen",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert Codegen ?",
+      "options": [
+        "Générer le code d'interface natif à partir de spécifications typées",
+        "Générer des tests",
+        "Générer des icônes",
+        "Générer la documentation"
+      ],
+      "answer": "Générer le code d'interface natif à partir de spécifications typées",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi Reanimated exécute-t-il les animations sur le thread UI ?",
+      "options": [
+        "Pour qu'elles restent fluides même si le thread JavaScript est occupé",
+        "Parce que JavaScript est interdit",
+        "Pour économiser la batterie uniquement",
+        "Parce que le GPU l'exige"
+      ],
+      "answer": "Pour qu'elles restent fluides même si le thread JavaScript est occupé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « worklet » dans Reanimated ?",
+      "options": [
+        "Une fonction JavaScript qui peut s'exécuter sur le thread UI",
+        "Un worker web",
+        "Un module natif",
+        "Un service en arrière-plan"
+      ],
+      "answer": "Une fonction JavaScript qui peut s'exécuter sur le thread UI",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet le bytecode précompilé d'Hermes ?",
+      "options": [
+        "Réduire le temps de démarrage en évitant de parser le JavaScript au lancement",
+        "Chiffrer le code",
+        "Supprimer le besoin de bundler",
+        "Exécuter du Kotlin"
+      ],
+      "answer": "Réduire le temps de démarrage en évitant de parser le JavaScript au lancement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel risque présente un bundle JavaScript embarqué dans l'app ?",
+      "options": [
+        "Il peut être extrait et lu : aucun secret ne doit y figurer",
+        "Il est automatiquement chiffré par le store",
+        "Il ralentit le réseau",
+        "Il ne peut pas être mis à jour"
+      ],
+      "answer": "Il peut être extrait et lu : aucun secret ne doit y figurer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'Expo Router ?",
+      "options": [
+        "Un routage basé sur les fichiers pour React Native",
+        "Un routeur Wi-Fi",
+        "Un outil de proxy",
+        "Un CDN"
+      ],
+      "answer": "Un routage basé sur les fichiers pour React Native",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment éviter un re-render coûteux de toute une liste quand un seul élément change ?",
+      "options": [
+        "Stabiliser les callbacks (useCallback), mémoïser les items et utiliser extraData à bon escient",
+        "Utiliser une ScrollView",
+        "Recharger l'application",
+        "Augmenter windowSize au maximum"
+      ],
+      "answer": "Stabiliser les callbacks (useCallback), mémoïser les items et utiliser extraData à bon escient",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que contrôle la prop windowSize de FlatList ?",
+      "options": [
+        "Le nombre d'écrans d'éléments rendus autour de la zone visible",
+        "La taille de la fenêtre de l'application",
+        "La largeur des éléments",
+        "Le nombre de colonnes"
+      ],
+      "answer": "Le nombre d'écrans d'éléments rendus autour de la zone visible",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « config plugin » Expo ?",
+      "options": [
+        "Un script qui modifie les projets natifs lors du prebuild",
+        "Un fichier de styles",
+        "Un module JavaScript pur",
+        "Un composant d'interface"
+      ],
+      "answer": "Un script qui modifie les projets natifs lors du prebuild",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait « expo prebuild » ?",
+      "options": [
+        "Générer les dossiers natifs ios/ et android/ à partir de la configuration",
+        "Publier sur le store",
+        "Lancer les tests",
+        "Supprimer node_modules"
+      ],
+      "answer": "Générer les dossiers natifs ios/ et android/ à partir de la configuration",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que FlashList ?",
+      "options": [
+        "Une alternative à FlatList qui recycle les vues pour de meilleures performances",
+        "Une liste de flashcards",
+        "Un composant de notifications",
+        "Un outil de profilage"
+      ],
+      "answer": "Une alternative à FlatList qui recycle les vues pour de meilleures performances",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi le recyclage de vues peut-il causer des bugs d'état local dans les items ?",
+      "options": [
+        "Une même instance de composant est réutilisée pour un autre élément",
+        "Les vues sont supprimées",
+        "Le thread UI est bloqué",
+        "Les clés sont ignorées"
+      ],
+      "answer": "Une même instance de composant est réutilisée pour un autre élément",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment mesurer les performances de rendu en React Native ?",
+      "options": [
+        "Avec le Profiler de React DevTools et les outils natifs (Systrace, Instruments)",
+        "Avec un chronomètre manuel",
+        "Avec npm audit",
+        "Avec ESLint"
+      ],
+      "answer": "Avec le Profiler de React DevTools et les outils natifs (Systrace, Instruments)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « bridgeless mode » ?",
+      "options": [
+        "Un mode de la nouvelle architecture où l'ancien bridge n'est plus initialisé",
+        "Un mode sans réseau",
+        "Un mode sans interface",
+        "Un mode avion"
+      ],
+      "answer": "Un mode de la nouvelle architecture où l'ancien bridge n'est plus initialisé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que faut-il vérifier côté store pour les mises à jour OTA ?",
+      "options": [
+        "Qu'elles ne changent pas la nature ou l'objectif principal de l'application",
+        "Qu'elles font moins de 10 lignes",
+        "Qu'elles sont envoyées la nuit",
+        "Qu'elles sont validées par l'utilisateur"
+      ],
+      "answer": "Qu'elles ne changent pas la nature ou l'objectif principal de l'application",
+      "difficulty": "difficile"
+    }
+  ]
+}

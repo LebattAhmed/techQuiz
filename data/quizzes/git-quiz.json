@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce que Git ?",
+      "options": [
+        "Un système de gestion de versions distribué",
+        "Un hébergeur de sites web",
+        "Un langage de programmation",
+        "Un éditeur de code"
+      ],
+      "answer": "Un système de gestion de versions distribué",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qui a créé Git ?",
+      "options": [
+        "Linus Torvalds",
+        "Bill Gates",
+        "Guido van Rossum",
+        "Tim Berners-Lee"
+      ],
+      "answer": "Linus Torvalds",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande initialise un nouveau dépôt ?",
+      "options": [
+        "git init",
+        "git start",
+        "git new",
+        "git create"
+      ],
+      "answer": "git init",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande copie un dépôt distant en local ?",
+      "options": [
+        "git clone",
+        "git copy",
+        "git pull",
+        "git fetch"
+      ],
+      "answer": "git clone",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande ajoute des fichiers à l'index (staging) ?",
+      "options": [
+        "git add",
+        "git commit",
+        "git push",
+        "git stage-all"
+      ],
+      "answer": "git add",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande enregistre les changements indexés dans l'historique ?",
+      "options": [
+        "git commit",
+        "git add",
+        "git save",
+        "git push"
+      ],
+      "answer": "git commit",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande envoie les commits vers le dépôt distant ?",
+      "options": [
+        "git push",
+        "git pull",
+        "git send",
+        "git upload"
+      ],
+      "answer": "git push",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande récupère et intègre les changements distants ?",
+      "options": [
+        "git pull",
+        "git push",
+        "git clone",
+        "git commit"
+      ],
+      "answer": "git pull",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche l'état des fichiers modifiés ?",
+      "options": [
+        "git status",
+        "git log",
+        "git diff --stat-only",
+        "git show"
+      ],
+      "answer": "git status",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande affiche l'historique des commits ?",
+      "options": [
+        "git log",
+        "git status",
+        "git history",
+        "git list"
+      ],
+      "answer": "git log",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée une nouvelle branche et s'y place ?",
+      "options": [
+        "git switch -c nom",
+        "git branch -d nom",
+        "git merge nom",
+        "git push nom"
+      ],
+      "answer": "git switch -c nom",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande fusionne une branche dans la branche courante ?",
+      "options": [
+        "git merge",
+        "git join",
+        "git combine",
+        "git add"
+      ],
+      "answer": "git merge",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier liste les fichiers que Git doit ignorer ?",
+      "options": [
+        ".gitignore",
+        ".gitkeep",
+        ".gitconfig",
+        "ignore.txt"
+      ],
+      "answer": ".gitignore",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande montre les différences non indexées ?",
+      "options": [
+        "git diff",
+        "git status",
+        "git log",
+        "git blame"
+      ],
+      "answer": "git diff",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment s'appelle le dépôt distant par défaut après un clone ?",
+      "options": [
+        "origin",
+        "master",
+        "remote",
+        "upstream"
+      ],
+      "answer": "origin",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un conflit de fusion ?",
+      "options": [
+        "Deux modifications incompatibles des mêmes lignes que Git ne peut pas réconcilier seul",
+        "Un dépôt corrompu",
+        "Une branche supprimée",
+        "Un mot de passe erroné"
+      ],
+      "answer": "Deux modifications incompatibles des mêmes lignes que Git ne peut pas réconcilier seul",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une pull request (ou merge request) ?",
+      "options": [
+        "Une demande de revue et d'intégration de changements dans une branche",
+        "Une commande git pull",
+        "Une sauvegarde du dépôt",
+        "Une branche protégée"
+      ],
+      "answer": "Une demande de revue et d'intégration de changements dans une branche",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande liste les branches locales ?",
+      "options": [
+        "git branch",
+        "git list",
+        "git show-branches",
+        "git status -b"
+      ],
+      "answer": "git branch",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que contient un commit ?",
+      "options": [
+        "Un instantané du projet, un message, un auteur et un lien vers son parent",
+        "Uniquement les fichiers modifiés en texte brut",
+        "Le mot de passe du dépôt",
+        "Une copie de node_modules"
+      ],
+      "answer": "Un instantané du projet, un message, un auteur et un lien vers son parent",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande configure le nom d'auteur globalement ?",
+      "options": [
+        "git config --global user.name \"Nom\"",
+        "git user \"Nom\"",
+        "git set name \"Nom\"",
+        "git author \"Nom\""
+      ],
+      "answer": "git config --global user.name \"Nom\"",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre git fetch et git pull ?",
+      "options": [
+        "fetch télécharge sans intégrer, pull télécharge puis intègre",
+        "pull ne télécharge rien",
+        "fetch fusionne automatiquement",
+        "Ce sont des synonymes"
+      ],
+      "answer": "fetch télécharge sans intégrer, pull télécharge puis intègre",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git stash ?",
+      "options": [
+        "Mettre de côté temporairement des modifications non commitées",
+        "Supprimer définitivement des fichiers",
+        "Créer une branche distante",
+        "Compresser le dépôt"
+      ],
+      "answer": "Mettre de côté temporairement des modifications non commitées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git rebase ?",
+      "options": [
+        "Rejouer des commits sur une autre base pour obtenir un historique linéaire",
+        "Supprimer une branche",
+        "Revenir au premier commit",
+        "Fusionner en créant un commit de fusion"
+      ],
+      "answer": "Rejouer des commits sur une autre base pour obtenir un historique linéaire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi ne faut-il pas rebaser des commits déjà partagés ?",
+      "options": [
+        "Cela réécrit l'historique et pose problème à ceux qui ont basé leur travail dessus",
+        "Cela supprime le dépôt distant",
+        "Cela est interdit par Git",
+        "Cela efface les fichiers locaux"
+      ],
+      "answer": "Cela réécrit l'historique et pose problème à ceux qui ont basé leur travail dessus",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git revert ?",
+      "options": [
+        "Créer un nouveau commit qui annule les effets d'un commit précédent",
+        "Supprimer un commit de l'historique",
+        "Revenir à la branche principale",
+        "Annuler un git add"
+      ],
+      "answer": "Créer un nouveau commit qui annule les effets d'un commit précédent",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre git reset --soft et --hard ?",
+      "options": [
+        "--soft garde les changements indexés, --hard les supprime du répertoire de travail",
+        "--hard est sans danger",
+        "--soft supprime les fichiers",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "--soft garde les changements indexés, --hard les supprime du répertoire de travail",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git cherry-pick ?",
+      "options": [
+        "Appliquer un commit précis sur la branche courante",
+        "Choisir un fichier à ignorer",
+        "Supprimer un commit",
+        "Sélectionner une branche distante"
+      ],
+      "answer": "Appliquer un commit précis sur la branche courante",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que HEAD ?",
+      "options": [
+        "Une référence vers le commit actuellement extrait",
+        "Le premier commit du dépôt",
+        "La branche distante",
+        "Le fichier de configuration"
+      ],
+      "answer": "Une référence vers le commit actuellement extrait",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un « detached HEAD » ?",
+      "options": [
+        "HEAD pointe directement sur un commit au lieu d'une branche",
+        "Un dépôt sans branche principale",
+        "Une branche supprimée",
+        "Une erreur de réseau"
+      ],
+      "answer": "HEAD pointe directement sur un commit au lieu d'une branche",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une fusion « fast-forward » ?",
+      "options": [
+        "La branche est simplement avancée sans commit de fusion car l'historique est linéaire",
+        "Une fusion très rapide grâce au cache",
+        "Une fusion qui ignore les conflits",
+        "Une fusion forcée"
+      ],
+      "answer": "La branche est simplement avancée sans commit de fusion car l'historique est linéaire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git commit --amend ?",
+      "options": [
+        "Modifier le dernier commit (message ou contenu)",
+        "Créer un commit vide",
+        "Annuler tous les commits",
+        "Pousser le commit"
+      ],
+      "answer": "Modifier le dernier commit (message ou contenu)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git blame ?",
+      "options": [
+        "Indiquer pour chaque ligne le dernier commit et l'auteur qui l'a modifiée",
+        "Signaler un bug",
+        "Supprimer un auteur",
+        "Afficher les conflits"
+      ],
+      "answer": "Indiquer pour chaque ligne le dernier commit et l'auteur qui l'a modifiée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un tag ?",
+      "options": [
+        "Marquer un commit précis, souvent une version publiée",
+        "Créer une branche temporaire",
+        "Ignorer un fichier",
+        "Commenter une ligne"
+      ],
+      "answer": "Marquer un commit précis, souvent une version publiée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git reflog ?",
+      "options": [
+        "Afficher l'historique des déplacements de HEAD, utile pour retrouver des commits perdus",
+        "Réécrire l'historique",
+        "Supprimer les logs",
+        "Afficher les fichiers ignorés"
+      ],
+      "answer": "Afficher l'historique des déplacements de HEAD, utile pour retrouver des commits perdus",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « squash » de commits ?",
+      "options": [
+        "Combiner plusieurs commits en un seul",
+        "Supprimer une branche",
+        "Compresser le dépôt",
+        "Annuler un merge"
+      ],
+      "answer": "Combiner plusieurs commits en un seul",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git push --force-with-lease par rapport à --force ?",
+      "options": [
+        "Il refuse d'écraser le distant si celui-ci a changé depuis votre dernier fetch",
+        "Il pousse plus vite",
+        "Il supprime la branche distante",
+        "Il ne fait rien de différent"
+      ],
+      "answer": "Il refuse d'écraser le distant si celui-ci a changé depuis votre dernier fetch",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Git Flow ?",
+      "options": [
+        "Un modèle de branches avec develop, feature, release et hotfix",
+        "Un outil de CI",
+        "Une interface graphique",
+        "Un hébergeur"
+      ],
+      "answer": "Un modèle de branches avec develop, feature, release et hotfix",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le trunk-based development ?",
+      "options": [
+        "Intégrer fréquemment de petites branches courtes dans la branche principale",
+        "Travailler sans branche principale",
+        "Garder des branches longues pendant des mois",
+        "Développer sans Git"
+      ],
+      "answer": "Intégrer fréquemment de petites branches courtes dans la branche principale",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait git restore fichier ?",
+      "options": [
+        "Annuler les modifications non indexées d'un fichier",
+        "Restaurer un dépôt supprimé",
+        "Restaurer un commit distant",
+        "Récupérer un stash"
+      ],
+      "answer": "Annuler les modifications non indexées d'un fichier",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les « Conventional Commits » ?",
+      "options": [
+        "Une convention de messages comme feat:, fix:, chore:",
+        "Des commits signés obligatoirement",
+        "Des commits automatiques",
+        "Une norme ISO"
+      ],
+      "answer": "Une convention de messages comme feat:, fix:, chore:",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment Git stocke-t-il les données en interne ?",
+      "options": [
+        "Sous forme d'objets (blob, tree, commit, tag) adressés par leur hachage",
+        "Sous forme de diffs uniquement",
+        "Dans une base SQL",
+        "Dans des fichiers ZIP par commit"
+      ],
+      "answer": "Sous forme d'objets (blob, tree, commit, tag) adressés par leur hachage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un objet « tree » ?",
+      "options": [
+        "La représentation d'un répertoire, pointant vers des blobs et d'autres trees",
+        "Une branche",
+        "Un graphe de commits",
+        "Un fichier de configuration"
+      ],
+      "answer": "La représentation d'un répertoire, pointant vers des blobs et d'autres trees",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait git bisect ?",
+      "options": [
+        "Rechercher par dichotomie le commit qui a introduit un bug",
+        "Diviser un dépôt en deux",
+        "Fusionner deux branches",
+        "Supprimer la moitié de l'historique"
+      ],
+      "answer": "Rechercher par dichotomie le commit qui a introduit un bug",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet git rebase -i ?",
+      "options": [
+        "Réordonner, fusionner, modifier ou supprimer des commits",
+        "Rebaser automatiquement sans conflit",
+        "Rebaser un dépôt distant",
+        "Annuler un rebase"
+      ],
+      "answer": "Réordonner, fusionner, modifier ou supprimer des commits",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « packfile » ?",
+      "options": [
+        "Un fichier qui regroupe et compresse des objets avec des deltas",
+        "Un paquet npm",
+        "Une archive de release",
+        "Un fichier de stash"
+      ],
+      "answer": "Un fichier qui regroupe et compresse des objets avec des deltas",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la stratégie de fusion « ours » ?",
+      "options": [
+        "Une fusion qui garde entièrement l'arbre de la branche courante en ignorant l'autre",
+        "Une fusion qui garde toujours l'autre branche",
+        "Une fusion sans historique",
+        "Une fusion réservée aux tags"
+      ],
+      "answer": "Une fusion qui garde entièrement l'arbre de la branche courante en ignorant l'autre",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que git worktree ?",
+      "options": [
+        "Avoir plusieurs répertoires de travail liés au même dépôt, sur des branches différentes",
+        "Afficher l'arbre des fichiers",
+        "Cloner un sous-dossier",
+        "Gérer les sous-modules"
+      ],
+      "answer": "Avoir plusieurs répertoires de travail liés au même dépôt, sur des branches différentes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un sous-module Git ?",
+      "options": [
+        "Un dépôt imbriqué dans un autre, référencé à un commit précis",
+        "Une branche secondaire",
+        "Un dossier ignoré",
+        "Un fichier compressé"
+      ],
+      "answer": "Un dépôt imbriqué dans un autre, référencé à un commit précis",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi signer ses commits (GPG ou SSH) ?",
+      "options": [
+        "Prouver que le commit vient bien de l'auteur déclaré",
+        "Chiffrer le contenu du dépôt",
+        "Accélérer le push",
+        "Empêcher les conflits"
+      ],
+      "answer": "Prouver que le commit vient bien de l'auteur déclaré",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que « rerere » ?",
+      "options": [
+        "Une fonction qui mémorise la résolution de conflits pour la réappliquer automatiquement",
+        "Un outil de revue de code",
+        "Un alias de reflog",
+        "Une stratégie de push"
+      ],
+      "answer": "Une fonction qui mémorise la résolution de conflits pour la réappliquer automatiquement",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « shallow clone » (--depth 1) ?",
+      "options": [
+        "Un clone qui ne récupère qu'une partie récente de l'historique",
+        "Un clone sans fichiers",
+        "Un clone en lecture seule",
+        "Un clone chiffré"
+      ],
+      "answer": "Un clone qui ne récupère qu'une partie récente de l'historique",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « sparse checkout » ?",
+      "options": [
+        "N'extraire qu'une partie des fichiers du dépôt dans le répertoire de travail",
+        "Un clone partiel de l'historique",
+        "Un merge partiel",
+        "Un commit partiel"
+      ],
+      "answer": "N'extraire qu'une partie des fichiers du dépôt dans le répertoire de travail",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment retirer définitivement un secret commité de tout l'historique ?",
+      "options": [
+        "Réécrire l'historique (git filter-repo) puis révoquer le secret, car il a pu être copié",
+        "git rm suffit",
+        "git revert suffit",
+        "Supprimer le fichier .gitignore"
+      ],
+      "answer": "Réécrire l'historique (git filter-repo) puis révoquer le secret, car il a pu être copié",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les hooks Git ?",
+      "options": [
+        "Des scripts exécutés automatiquement à certains moments, comme avant un commit",
+        "Des branches spéciales",
+        "Des tags annotés",
+        "Des alias de commandes"
+      ],
+      "answer": "Des scripts exécutés automatiquement à certains moments, comme avant un commit",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre un tag léger et un tag annoté ?",
+      "options": [
+        "Le tag annoté est un objet avec auteur, date et message ; le léger n'est qu'un pointeur",
+        "Le tag léger est signé",
+        "Ils sont identiques",
+        "Le tag annoté ne peut pas être poussé"
+      ],
+      "answer": "Le tag annoté est un objet avec auteur, date et message ; le léger n'est qu'un pointeur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi Git migre-t-il de SHA-1 vers SHA-256 ?",
+      "options": [
+        "Des collisions SHA-1 ont été démontrées",
+        "SHA-1 est trop lent",
+        "SHA-256 produit des empreintes plus courtes",
+        "Pour supporter Windows"
+      ],
+      "answer": "Des collisions SHA-1 ont été démontrées",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait git merge --no-ff ?",
+      "options": [
+        "Forcer la création d'un commit de fusion même si un fast-forward était possible",
+        "Interdire la fusion",
+        "Fusionner sans conflit",
+        "Fusionner sans commit"
+      ],
+      "answer": "Forcer la création d'un commit de fusion même si un fast-forward était possible",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'option « autosquash » avec les commits fixup! ?",
+      "options": [
+        "Placer et fusionner automatiquement les commits de correction lors d'un rebase interactif",
+        "Supprimer les commits vides",
+        "Squasher tous les commits d'une branche",
+        "Corriger les fautes de frappe"
+      ],
+      "answer": "Placer et fusionner automatiquement les commits de correction lors d'un rebase interactif",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Git LFS ?",
+      "options": [
+        "Une extension qui stocke les gros fichiers hors du dépôt et ne garde que des pointeurs",
+        "Un système de fichiers Linux",
+        "Un mode de clonage rapide",
+        "Un format de compression"
+      ],
+      "answer": "Une extension qui stocke les gros fichiers hors du dépôt et ne garde que des pointeurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait git gc ?",
+      "options": [
+        "Nettoyer et optimiser le dépôt en compactant les objets",
+        "Supprimer les branches distantes",
+        "Corriger les conflits",
+        "Générer un changelog"
+      ],
+      "answer": "Nettoyer et optimiser le dépôt en compactant les objets",
+      "difficulty": "difficile"
+    }
+  ]
+}

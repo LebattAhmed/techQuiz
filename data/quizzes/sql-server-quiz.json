@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quel éditeur développe SQL Server ?",
+      "options": [
+        "Microsoft",
+        "Oracle",
+        "IBM",
+        "Google"
+      ],
+      "answer": "Microsoft",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment s'appelle le dialecte SQL de SQL Server ?",
+      "options": [
+        "T-SQL (Transact-SQL)",
+        "PL/SQL",
+        "PL/pgSQL",
+        "SQL/PSM"
+      ],
+      "answer": "T-SQL (Transact-SQL)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le port par défaut de SQL Server ?",
+      "options": [
+        "1433",
+        "3306",
+        "5432",
+        "1521"
+      ],
+      "answer": "1433",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil graphique officiel permet d'administrer SQL Server ?",
+      "options": [
+        "SQL Server Management Studio (SSMS)",
+        "pgAdmin",
+        "MySQL Workbench",
+        "DBeaver Pro uniquement"
+      ],
+      "answer": "SQL Server Management Studio (SSMS)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle clause limite le nombre de lignes renvoyées en T-SQL ?",
+      "options": [
+        "TOP",
+        "LIMIT",
+        "FIRST",
+        "ROWNUM"
+      ],
+      "answer": "TOP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le schéma par défaut ?",
+      "options": [
+        "dbo",
+        "public",
+        "main",
+        "sys"
+      ],
+      "answer": "dbo",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle propriété crée une colonne auto-incrémentée ?",
+      "options": [
+        "IDENTITY(1,1)",
+        "AUTO_INCREMENT",
+        "SERIAL",
+        "SEQUENCE ONLY"
+      ],
+      "answer": "IDENTITY(1,1)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type stocke du texte Unicode de longueur variable ?",
+      "options": [
+        "NVARCHAR",
+        "VARCHAR(MAX) seul",
+        "TEXTU",
+        "CHAR"
+      ],
+      "answer": "NVARCHAR",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction renvoie la date et l'heure courantes ?",
+      "options": [
+        "GETDATE()",
+        "NOW()",
+        "SYSDATE",
+        "CURRENT()"
+      ],
+      "answer": "GETDATE()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle édition gratuite est destinée aux petites applications ?",
+      "options": [
+        "SQL Server Express",
+        "SQL Server Enterprise",
+        "SQL Server Ultimate",
+        "SQL Server Cloud"
+      ],
+      "answer": "SQL Server Express",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle instruction regroupe des requêtes dans un lot ?",
+      "options": [
+        "GO",
+        "BATCH",
+        "RUN",
+        "END"
+      ],
+      "answer": "GO",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est l'équivalent cloud managé de SQL Server sur Azure ?",
+      "options": [
+        "Azure SQL Database",
+        "Cosmos DB",
+        "Azure Blob Storage",
+        "Azure Functions"
+      ],
+      "answer": "Azure SQL Database",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel préfixe désigne une table temporaire locale ?",
+      "options": [
+        "#",
+        "@",
+        "$",
+        "&"
+      ],
+      "answer": "#",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel préfixe désigne une variable en T-SQL ?",
+      "options": [
+        "@",
+        "#",
+        "$",
+        ":"
+      ],
+      "answer": "@",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle instruction déclare une variable ?",
+      "options": [
+        "DECLARE @x INT",
+        "VAR @x INT",
+        "LET @x INT",
+        "DIM @x AS INT"
+      ],
+      "answer": "DECLARE @x INT",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonction remplace une valeur NULL par une valeur par défaut ?",
+      "options": [
+        "ISNULL() ou COALESCE()",
+        "NVL() uniquement",
+        "IFNULL() uniquement",
+        "NULLIF() pour remplacer"
+      ],
+      "answer": "ISNULL() ou COALESCE()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment écrit-on un commentaire sur une ligne en T-SQL ?",
+      "options": [
+        "-- commentaire",
+        "# commentaire",
+        "// commentaire",
+        "' commentaire"
+      ],
+      "answer": "-- commentaire",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel type stocke une valeur vrai/faux ?",
+      "options": [
+        "BIT",
+        "BOOLEAN",
+        "BOOL",
+        "FLAG"
+      ],
+      "answer": "BIT",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mode d'authentification utilise les comptes Windows ?",
+      "options": [
+        "L'authentification Windows",
+        "L'authentification SQL",
+        "L'authentification OAuth",
+        "L'authentification anonyme"
+      ],
+      "answer": "L'authentification Windows",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier contient les données d'une base SQL Server ?",
+      "options": [
+        "Le fichier .mdf",
+        "Le fichier .ldf",
+        "Le fichier .bak",
+        "Le fichier .sql"
+      ],
+      "answer": "Le fichier .mdf",
+      "difficulty": "facile"
+    },
+    {
+      "question": "À quoi sert le fichier .ldf ?",
+      "options": [
+        "Il contient le journal des transactions",
+        "Il contient les index",
+        "Il contient les sauvegardes",
+        "Il contient les procédures stockées"
+      ],
+      "answer": "Il contient le journal des transactions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre un index clusterisé et non clusterisé ?",
+      "options": [
+        "Le clusterisé définit l'ordre physique des données ; un non clusterisé est une structure séparée pointant vers les lignes",
+        "Le non clusterisé est toujours plus rapide",
+        "On peut avoir plusieurs index clusterisés par table",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Le clusterisé définit l'ordre physique des données ; un non clusterisé est une structure séparée pointant vers les lignes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Combien d'index clusterisés une table peut-elle avoir ?",
+      "options": [
+        "Un seul",
+        "Deux",
+        "Autant que de colonnes",
+        "Aucun"
+      ],
+      "answer": "Un seul",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment gérer les erreurs en T-SQL ?",
+      "options": [
+        "Avec BEGIN TRY ... END TRY BEGIN CATCH ... END CATCH",
+        "Avec ON ERROR RESUME",
+        "Avec EXCEPTION WHEN",
+        "Avec try/except"
+      ],
+      "answer": "Avec BEGIN TRY ... END TRY BEGIN CATCH ... END CATCH",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait l'instruction MERGE ?",
+      "options": [
+        "Insérer, mettre à jour ou supprimer selon la correspondance avec une source",
+        "Fusionner deux bases",
+        "Concaténer des chaînes",
+        "Fusionner deux index"
+      ],
+      "answer": "Insérer, mettre à jour ou supprimer selon la correspondance avec une source",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la clause OUTPUT ?",
+      "options": [
+        "Renvoyer les lignes affectées par un INSERT, UPDATE ou DELETE",
+        "Écrire dans un fichier",
+        "Afficher un message",
+        "Exporter en CSV"
+      ],
+      "answer": "Renvoyer les lignes affectées par un INSERT, UPDATE ou DELETE",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle syntaxe pagine les résultats en T-SQL moderne ?",
+      "options": [
+        "ORDER BY ... OFFSET n ROWS FETCH NEXT m ROWS ONLY",
+        "LIMIT m OFFSET n",
+        "TOP m SKIP n",
+        "ROWNUM BETWEEN n AND m"
+      ],
+      "answer": "ORDER BY ... OFFSET n ROWS FETCH NEXT m ROWS ONLY",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre une table temporaire #t et une variable de table @t ?",
+      "options": [
+        "La table temporaire a des statistiques et supporte plus d'index ; la variable de table a une portée de lot plus limitée",
+        "La variable de table est stockée sur disque de façon permanente",
+        "Elles sont identiques",
+        "#t est visible par toutes les sessions"
+      ],
+      "answer": "La table temporaire a des statistiques et supporte plus d'index ; la variable de table a une portée de lot plus limitée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que préfixe ## devant le nom d'une table ?",
+      "options": [
+        "Une table temporaire globale, visible par toutes les sessions",
+        "Une table système",
+        "Une table chiffrée",
+        "Une table en mémoire"
+      ],
+      "answer": "Une table temporaire globale, visible par toutes les sessions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quels sont les modèles de récupération d'une base ?",
+      "options": [
+        "Simple, Complet et Journalisé en bloc",
+        "Rapide, Lent et Moyen",
+        "Local, Distant et Hybride",
+        "Chaud, Froid et Tiède"
+      ],
+      "answer": "Simple, Complet et Journalisé en bloc",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet le modèle de récupération complet ?",
+      "options": [
+        "La restauration à un instant précis grâce aux sauvegardes du journal",
+        "Des sauvegardes plus petites",
+        "La suppression du journal",
+        "L'absence de sauvegarde"
+      ],
+      "answer": "La restauration à un instant précis grâce aux sauvegardes du journal",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le SQL Server Agent ?",
+      "options": [
+        "Un service qui planifie et exécute des tâches comme les sauvegardes",
+        "Un antivirus",
+        "Un pilote ODBC",
+        "Un outil de modélisation"
+      ],
+      "answer": "Un service qui planifie et exécute des tâches comme les sauvegardes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait SET NOCOUNT ON dans une procédure ?",
+      "options": [
+        "Supprimer les messages « n lignes affectées », ce qui réduit le trafic",
+        "Désactiver les compteurs IDENTITY",
+        "Interdire les COUNT()",
+        "Masquer les erreurs"
+      ],
+      "answer": "Supprimer les messages « n lignes affectées », ce qui réduit le trafic",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction table (TVF) ?",
+      "options": [
+        "Une fonction qui renvoie une table utilisable dans un FROM",
+        "Une fonction qui crée une table",
+        "Une fonction de fenêtrage",
+        "Une vue indexée"
+      ],
+      "answer": "Une fonction qui renvoie une table utilisable dans un FROM",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le niveau d'isolation READ UNCOMMITTED (ou NOLOCK) ?",
+      "options": [
+        "Permettre de lire des données non validées, au risque de lectures sales",
+        "Garantir des lectures parfaitement cohérentes",
+        "Bloquer toutes les écritures",
+        "Chiffrer les lectures"
+      ],
+      "answer": "Permettre de lire des données non validées, au risque de lectures sales",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que montre le plan d'exécution ?",
+      "options": [
+        "Les opérations choisies par l'optimiseur pour exécuter la requête",
+        "L'historique des requêtes",
+        "La liste des utilisateurs",
+        "La taille des fichiers"
+      ],
+      "answer": "Les opérations choisies par l'optimiseur pour exécuter la requête",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une procédure stockée ?",
+      "options": [
+        "Un ensemble d'instructions T-SQL précompilé et stocké dans la base",
+        "Une sauvegarde automatique",
+        "Une table temporaire",
+        "Une vue"
+      ],
+      "answer": "Un ensemble d'instructions T-SQL précompilé et stocké dans la base",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande effectue une sauvegarde complète ?",
+      "options": [
+        "BACKUP DATABASE",
+        "SAVE DATABASE",
+        "EXPORT DATABASE",
+        "DUMP DATABASE"
+      ],
+      "answer": "BACKUP DATABASE",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert une contrainte CHECK ?",
+      "options": [
+        "Imposer une condition sur les valeurs d'une colonne",
+        "Vérifier la syntaxe SQL",
+        "Contrôler les accès",
+        "Valider une sauvegarde"
+      ],
+      "answer": "Imposer une condition sur les valeurs d'une colonne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la fonction STRING_AGG ?",
+      "options": [
+        "Concaténer les valeurs d'un groupe avec un séparateur",
+        "Découper une chaîne",
+        "Compter des caractères",
+        "Convertir en majuscules"
+      ],
+      "answer": "Concaténer les valeurs d'un groupe avec un séparateur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « parameter sniffing » ?",
+      "options": [
+        "Le plan compilé pour les premières valeurs de paramètres est réutilisé, même s'il convient mal à d'autres valeurs",
+        "L'espionnage des paramètres de connexion",
+        "Une faille d'injection SQL",
+        "Le cache des résultats de requêtes"
+      ],
+      "answer": "Le plan compilé pour les premières valeurs de paramètres est réutilisé, même s'il convient mal à d'autres valeurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle option peut atténuer le parameter sniffing pour une requête ?",
+      "options": [
+        "OPTION (RECOMPILE) ou OPTIMIZE FOR",
+        "SET NOCOUNT ON",
+        "WITH NOLOCK",
+        "DBCC SHRINKFILE"
+      ],
+      "answer": "OPTION (RECOMPILE) ou OPTIMIZE FOR",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le Query Store ?",
+      "options": [
+        "Une fonctionnalité qui conserve l'historique des requêtes, plans et statistiques d'exécution",
+        "Un magasin d'applications",
+        "Un cache de résultats",
+        "Une sauvegarde de requêtes"
+      ],
+      "answer": "Une fonctionnalité qui conserve l'historique des requêtes, plans et statistiques d'exécution",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un index columnstore ?",
+      "options": [
+        "Un index qui stocke les données par colonne, efficace pour l'analytique",
+        "Un index sur une seule colonne",
+        "Un index en mémoire uniquement",
+        "Un index plein texte"
+      ],
+      "answer": "Un index qui stocke les données par colonne, efficace pour l'analytique",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que RCSI (Read Committed Snapshot Isolation) ?",
+      "options": [
+        "Les lectures voient la dernière version validée via le versionnement, sans bloquer les écritures",
+        "Un mode de sauvegarde par instantané",
+        "Une réplication",
+        "Une isolation sans transactions"
+      ],
+      "answer": "Les lectures voient la dernière version validée via le versionnement, sans bloquer les écritures",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle base système stocke les versions de lignes pour le snapshot isolation ?",
+      "options": [
+        "tempdb",
+        "master",
+        "model",
+        "msdb"
+      ],
+      "answer": "tempdb",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « key lookup » dans un plan ?",
+      "options": [
+        "La recherche des colonnes manquantes dans l'index clusterisé après un seek sur un index non clusterisé",
+        "Une recherche de clé de chiffrement",
+        "Une jointure entre deux clés primaires",
+        "Une vérification de contrainte"
+      ],
+      "answer": "La recherche des colonnes manquantes dans l'index clusterisé après un seek sur un index non clusterisé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment éviter un key lookup coûteux ?",
+      "options": [
+        "Ajouter les colonnes nécessaires à l'index avec INCLUDE",
+        "Supprimer l'index clusterisé",
+        "Utiliser NOLOCK",
+        "Augmenter la mémoire"
+      ],
+      "answer": "Ajouter les colonnes nécessaires à l'index avec INCLUDE",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « sargabilité » d'un prédicat ?",
+      "options": [
+        "Sa capacité à exploiter un index par une recherche (seek)",
+        "Sa vitesse de compilation",
+        "Sa sécurité contre l'injection",
+        "Sa compatibilité ANSI"
+      ],
+      "answer": "Sa capacité à exploiter un index par une recherche (seek)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les Always On Availability Groups ?",
+      "options": [
+        "Une solution de haute disponibilité répliquant des bases vers des réplicas secondaires",
+        "Une sauvegarde continue sur bande",
+        "Un cluster de calcul",
+        "Un groupe d'utilisateurs administrateurs"
+      ],
+      "answer": "Une solution de haute disponibilité répliquant des bases vers des réplicas secondaires",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une table temporelle (system-versioned) ?",
+      "options": [
+        "Une table qui conserve automatiquement l'historique des versions de ses lignes",
+        "Une table supprimée après un délai",
+        "Une table temporaire globale",
+        "Une table en mémoire"
+      ],
+      "answer": "Une table qui conserve automatiquement l'historique des versions de ses lignes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'OLTP en mémoire (In-Memory OLTP) ?",
+      "options": [
+        "Des tables optimisées en mémoire avec un accès sans verrous",
+        "Un cache de pages classique",
+        "Un mode de sauvegarde",
+        "Un service d'analyse"
+      ],
+      "answer": "Des tables optimisées en mémoire avec un accès sans verrous",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la contention dans tempdb peut-elle survenir ?",
+      "options": [
+        "De nombreuses sessions créent des objets temporaires et sollicitent les mêmes pages d'allocation",
+        "tempdb est en lecture seule",
+        "tempdb est toujours petite",
+        "Les sauvegardes y sont stockées"
+      ],
+      "answer": "De nombreuses sessions créent des objets temporaires et sollicitent les mêmes pages d'allocation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet la fonction Always Encrypted ?",
+      "options": [
+        "Chiffrer des colonnes côté client afin que le serveur ne voie jamais les données en clair",
+        "Chiffrer le disque du serveur",
+        "Chiffrer les sauvegardes uniquement",
+        "Chiffrer le réseau uniquement"
+      ],
+      "answer": "Chiffrer des colonnes côté client afin que le serveur ne voie jamais les données en clair",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre TDE et Always Encrypted ?",
+      "options": [
+        "TDE chiffre les fichiers au repos ; Always Encrypted protège des colonnes même vis-à-vis du serveur",
+        "TDE chiffre côté client",
+        "Ils sont identiques",
+        "Always Encrypted ne chiffre que les sauvegardes"
+      ],
+      "answer": "TDE chiffre les fichiers au repos ; Always Encrypted protège des colonnes même vis-à-vis du serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « lock escalation » ?",
+      "options": [
+        "Le passage de nombreux verrous de lignes ou pages à un verrou de table",
+        "L'augmentation des droits d'un utilisateur",
+        "Un deadlock en chaîne",
+        "La promotion d'un réplica"
+      ],
+      "answer": "Le passage de nombreux verrous de lignes ou pages à un verrou de table",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait sp_executesql par rapport à EXEC(@sql) ?",
+      "options": [
+        "Il exécute du SQL dynamique paramétré, ce qui protège de l'injection et favorise la réutilisation des plans",
+        "Il exécute plus vite le même texte",
+        "Il chiffre la requête",
+        "Il compile en C#"
+      ],
+      "answer": "Il exécute du SQL dynamique paramétré, ce qui protège de l'injection et favorise la réutilisation des plans",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les « wait statistics » ?",
+      "options": [
+        "Les mesures de ce sur quoi les requêtes attendent, utiles au diagnostic de performance",
+        "Les temps de connexion des utilisateurs",
+        "Les délais de sauvegarde",
+        "Les temps de compilation"
+      ],
+      "answer": "Les mesures de ce sur quoi les requêtes attendent, utiles au diagnostic de performance",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une vue indexée ?",
+      "options": [
+        "Une vue dont le résultat est matérialisé par un index clusterisé unique",
+        "Une vue sur une table indexée",
+        "Une vue temporaire",
+        "Une vue en lecture seule"
+      ],
+      "answer": "Une vue dont le résultat est matérialisé par un index clusterisé unique",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait l'opérateur APPLY (CROSS APPLY) ?",
+      "options": [
+        "Évaluer une expression table pour chaque ligne de la table de gauche",
+        "Appliquer un patch",
+        "Joindre deux bases distantes",
+        "Appliquer un index"
+      ],
+      "answer": "Évaluer une expression table pour chaque ligne de la table de gauche",
+      "difficulty": "difficile"
+    }
+  ]
 }

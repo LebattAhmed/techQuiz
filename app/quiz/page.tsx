@@ -1,21 +1,6 @@
-import type { Metadata } from "next";
-import ChoiceGrid from "@/components/choice-grid";
-import { categories } from "@/lib/quizzes";
+import { redirect } from "next/navigation";
 
-export const metadata: Metadata = { title: "Catégories | Tech Quiz" };
-
+// La liste des catégories est sur la page d'accueil.
 export default function CategoriesPage() {
-  return (
-    <ChoiceGrid
-      title="Choisissez une catégorie"
-      subtitle="Sélectionnez le domaine que vous souhaitez explorer"
-      backHref="/"
-      choices={categories.map((c) => ({
-        href: `/quiz/${c.slug}`,
-        name: c.name,
-        description: c.description,
-        icon: c.icon,
-      }))}
-    />
-  );
+  redirect("/#categories");
 }

@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Que signifie API ?",
+      "options": [
+        "Application Programming Interface",
+        "Advanced Program Integration",
+        "Automatic Protocol Interface",
+        "Application Process Internet"
+      ],
+      "answer": "Application Programming Interface",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie REST ?",
+      "options": [
+        "Representational State Transfer",
+        "Remote Execution Service Tool",
+        "Rapid Exchange of Server Tables",
+        "Reliable Event Streaming Transport"
+      ],
+      "answer": "Representational State Transfer",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode HTTP sert à lire une ressource ?",
+      "options": [
+        "GET",
+        "POST",
+        "DELETE",
+        "PATCH"
+      ],
+      "answer": "GET",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode HTTP sert généralement à créer une ressource ?",
+      "options": [
+        "POST",
+        "GET",
+        "HEAD",
+        "OPTIONS"
+      ],
+      "answer": "POST",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode HTTP sert à supprimer une ressource ?",
+      "options": [
+        "DELETE",
+        "REMOVE",
+        "GET",
+        "PUT"
+      ],
+      "answer": "DELETE",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel format de données est le plus utilisé par les API REST ?",
+      "options": [
+        "JSON",
+        "CSV",
+        "DOCX",
+        "YAML exclusivement"
+      ],
+      "answer": "JSON",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le code HTTP 200 ?",
+      "options": [
+        "OK, la requête a réussi",
+        "Ressource introuvable",
+        "Erreur du serveur",
+        "Accès refusé"
+      ],
+      "answer": "OK, la requête a réussi",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le code HTTP 404 ?",
+      "options": [
+        "La ressource est introuvable",
+        "La requête a réussi",
+        "Le serveur est en panne",
+        "L'utilisateur n'est pas authentifié"
+      ],
+      "answer": "La ressource est introuvable",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le code HTTP 500 ?",
+      "options": [
+        "Une erreur interne du serveur",
+        "Une redirection",
+        "Une ressource créée",
+        "Une requête mal formée par le client"
+      ],
+      "answer": "Une erreur interne du serveur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel code HTTP indique qu'une ressource a été créée ?",
+      "options": [
+        "201 Created",
+        "200 OK",
+        "204 No Content",
+        "302 Found"
+      ],
+      "answer": "201 Created",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un endpoint ?",
+      "options": [
+        "Une URL précise exposée par l'API pour une ressource ou une action",
+        "La fin d'un fichier JSON",
+        "Le dernier serveur d'un réseau",
+        "Une base de données"
+      ],
+      "answer": "Une URL précise exposée par l'API pour une ressource ou une action",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la bonne URL REST pour la liste des utilisateurs ?",
+      "options": [
+        "/users",
+        "/getAllUsers",
+        "/users/list.php?action=get",
+        "/fetchUsersNow"
+      ],
+      "answer": "/users",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle URL représente l'utilisateur d'identifiant 42 ?",
+      "options": [
+        "/users/42",
+        "/users?delete=42",
+        "/getUser42",
+        "/42/users/get"
+      ],
+      "answer": "/users/42",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie « sans état » (stateless) pour une API REST ?",
+      "options": [
+        "Chaque requête contient toutes les informations nécessaires, le serveur ne garde pas de session",
+        "L'API ne stocke aucune donnée",
+        "L'API n'a pas de base de données",
+        "L'API ne renvoie pas de codes HTTP"
+      ],
+      "answer": "Chaque requête contient toutes les informations nécessaires, le serveur ne garde pas de session",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel en-tête HTTP indique le format du corps de la requête ?",
+      "options": [
+        "Content-Type",
+        "Accept-Language",
+        "User-Agent",
+        "Host"
+      ],
+      "answer": "Content-Type",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une clé d'API ?",
+      "options": [
+        "Un identifiant secret qui permet à un client d'accéder à l'API",
+        "Le nom de domaine de l'API",
+        "Le port du serveur",
+        "Un mot réservé du JSON"
+      ],
+      "answer": "Un identifiant secret qui permet à un client d'accéder à l'API",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil est souvent utilisé pour tester une API manuellement ?",
+      "options": [
+        "Postman",
+        "Photoshop",
+        "Excel",
+        "Figma"
+      ],
+      "answer": "Postman",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le code HTTP 401 ?",
+      "options": [
+        "Non authentifié",
+        "Interdit malgré l'authentification",
+        "Ressource déplacée",
+        "Trop de requêtes"
+      ],
+      "answer": "Non authentifié",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi utiliser HTTPS pour une API ?",
+      "options": [
+        "Pour chiffrer les données et les identifiants échangés",
+        "Pour rendre les réponses plus courtes",
+        "Pour éviter d'écrire de la documentation",
+        "Parce que JSON l'exige"
+      ],
+      "answer": "Pour chiffrer les données et les identifiants échangés",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la documentation d'une API ?",
+      "options": [
+        "La description des endpoints, paramètres et réponses attendues",
+        "Le code source du serveur",
+        "La liste des utilisateurs",
+        "Les logs d'erreurs"
+      ],
+      "answer": "La description des endpoints, paramètres et réponses attendues",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre PUT et PATCH ?",
+      "options": [
+        "PUT remplace la ressource entière, PATCH la modifie partiellement",
+        "PATCH crée, PUT supprime",
+        "PUT est réservé aux fichiers",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "PUT remplace la ressource entière, PATCH la modifie partiellement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une méthode idempotente ?",
+      "options": [
+        "Une méthode dont plusieurs appels identiques ont le même effet qu'un seul",
+        "Une méthode qui ne renvoie rien",
+        "Une méthode réservée aux administrateurs",
+        "Une méthode toujours rapide"
+      ],
+      "answer": "Une méthode dont plusieurs appels identiques ont le même effet qu'un seul",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Laquelle de ces méthodes n'est pas idempotente ?",
+      "options": [
+        "POST",
+        "GET",
+        "PUT",
+        "DELETE"
+      ],
+      "answer": "POST",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre 401 et 403 ?",
+      "options": [
+        "401 : non authentifié ; 403 : authentifié mais non autorisé",
+        "401 : interdit ; 403 : introuvable",
+        "Ce sont des synonymes",
+        "403 indique une erreur serveur"
+      ],
+      "answer": "401 : non authentifié ; 403 : authentifié mais non autorisé",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel code renvoyer après une suppression réussie sans corps de réponse ?",
+      "options": [
+        "204 No Content",
+        "404 Not Found",
+        "201 Created",
+        "500 Internal Server Error"
+      ],
+      "answer": "204 No Content",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel code indique que le client envoie trop de requêtes ?",
+      "options": [
+        "429 Too Many Requests",
+        "409 Conflict",
+        "418 I'm a teapot",
+        "503 Service Unavailable"
+      ],
+      "answer": "429 Too Many Requests",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel code indique un conflit, par exemple un email déjà utilisé ?",
+      "options": [
+        "409 Conflict",
+        "200 OK",
+        "301 Moved Permanently",
+        "405 Method Not Allowed"
+      ],
+      "answer": "409 Conflict",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel code utiliser pour des données valides syntaxiquement mais qui échouent aux règles métier ?",
+      "options": [
+        "422 Unprocessable Content",
+        "200 OK",
+        "302 Found",
+        "503 Service Unavailable"
+      ],
+      "answer": "422 Unprocessable Content",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment implémenter la pagination d'une liste ?",
+      "options": [
+        "Avec des paramètres comme ?page=2&limit=20 ou un curseur",
+        "En renvoyant toujours toutes les données",
+        "En créant un endpoint par page",
+        "Avec des en-têtes de cookies"
+      ],
+      "answer": "Avec des paramètres comme ?page=2&limit=20 ou un curseur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelles sont les stratégies courantes de versionnement d'API ?",
+      "options": [
+        "Dans l'URL (/v1/…) ou dans un en-tête",
+        "Dans le nom de domaine uniquement",
+        "Dans le corps de chaque réponse uniquement",
+        "On ne versionne jamais une API"
+      ],
+      "answer": "Dans l'URL (/v1/…) ou dans un en-tête",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'OpenAPI (anciennement Swagger) ?",
+      "options": [
+        "Une spécification pour décrire une API REST de manière standardisée",
+        "Un serveur web",
+        "Un langage de programmation",
+        "Un protocole d'authentification"
+      ],
+      "answer": "Une spécification pour décrire une API REST de manière standardisée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le rate limiting ?",
+      "options": [
+        "Limiter le nombre de requêtes autorisées par client sur une période",
+        "Compresser les réponses",
+        "Réduire la taille des URL",
+        "Trier les résultats"
+      ],
+      "answer": "Limiter le nombre de requêtes autorisées par client sur une période",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'OAuth 2.0 ?",
+      "options": [
+        "Un cadre d'autorisation déléguée permettant d'accéder à une API au nom d'un utilisateur",
+        "Un algorithme de chiffrement",
+        "Un format de données",
+        "Un serveur web"
+      ],
+      "answer": "Un cadre d'autorisation déléguée permettant d'accéder à une API au nom d'un utilisateur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment envoie-t-on habituellement un jeton d'accès à une API ?",
+      "options": [
+        "Dans l'en-tête Authorization: Bearer <jeton>",
+        "Dans l'URL en clair",
+        "Dans le nom de domaine",
+        "Dans un commentaire HTML"
+      ],
+      "answer": "Dans l'en-tête Authorization: Bearer <jeton>",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que HATEOAS ?",
+      "options": [
+        "Inclure dans les réponses des liens vers les actions et ressources associées",
+        "Un protocole de cache",
+        "Un format d'image",
+        "Une méthode HTTP"
+      ],
+      "answer": "Inclure dans les réponses des liens vers les actions et ressources associées",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel en-tête le client utilise-t-il pour indiquer le format de réponse souhaité ?",
+      "options": [
+        "Accept",
+        "Content-Length",
+        "Server",
+        "Expires"
+      ],
+      "answer": "Accept",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet l'en-tête ETag ?",
+      "options": [
+        "Identifier une version de ressource pour le cache et les requêtes conditionnelles",
+        "Chiffrer la réponse",
+        "Indiquer le temps de réponse",
+        "Authentifier le client"
+      ],
+      "answer": "Identifier une version de ressource pour le cache et les requêtes conditionnelles",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la convention pour nommer les ressources ?",
+      "options": [
+        "Des noms au pluriel plutôt que des verbes (/orders et non /createOrder)",
+        "Des verbes en majuscules",
+        "Des numéros uniquement",
+        "Le nom du développeur"
+      ],
+      "answer": "Des noms au pluriel plutôt que des verbes (/orders et non /createOrder)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi filtrer et trier via des paramètres de requête (?status=paid&sort=-date) ?",
+      "options": [
+        "Pour garder des URL de ressources stables tout en permettant des vues différentes",
+        "Parce que les en-têtes sont interdits",
+        "Pour rendre l'API plus lente",
+        "Parce que JSON ne supporte pas le tri"
+      ],
+      "answer": "Pour garder des URL de ressources stables tout en permettant des vues différentes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que CORS pour une API ?",
+      "options": [
+        "Le mécanisme qui autorise un navigateur à appeler l'API depuis une autre origine",
+        "Un format de réponse",
+        "Une méthode d'authentification",
+        "Un protocole de base de données"
+      ],
+      "answer": "Le mécanisme qui autorise un navigateur à appeler l'API depuis une autre origine",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment rendre une requête POST de paiement sûre face aux nouvelles tentatives ?",
+      "options": [
+        "Avec une clé d'idempotence envoyée par le client et mémorisée par le serveur",
+        "En utilisant GET à la place",
+        "En augmentant le délai d'attente",
+        "En désactivant les nouvelles tentatives côté serveur"
+      ],
+      "answer": "Avec une clé d'idempotence envoyée par le client et mémorisée par le serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel avantage a la pagination par curseur sur la pagination par offset ?",
+      "options": [
+        "Elle reste stable et performante quand des éléments sont insérés ou que la table est grande",
+        "Elle permet d'aller directement à la page 500",
+        "Elle ne nécessite pas d'index",
+        "Elle renvoie toujours toutes les données"
+      ],
+      "answer": "Elle reste stable et performante quand des éléments sont insérés ou que la table est grande",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet l'en-tête If-Match avec un ETag lors d'une mise à jour ?",
+      "options": [
+        "Un contrôle de concurrence optimiste : la mise à jour échoue si la ressource a changé",
+        "Le chiffrement de la mise à jour",
+        "La compression de la requête",
+        "L'authentification du client"
+      ],
+      "answer": "Un contrôle de concurrence optimiste : la mise à jour échoue si la ressource a changé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel code renvoie le serveur quand la condition If-Match échoue ?",
+      "options": [
+        "412 Precondition Failed",
+        "304 Not Modified",
+        "400 Bad Request",
+        "202 Accepted"
+      ],
+      "answer": "412 Precondition Failed",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quand renvoyer 202 Accepted ?",
+      "options": [
+        "Quand la requête est acceptée mais traitée de façon asynchrone plus tard",
+        "Quand la ressource est créée immédiatement",
+        "Quand la requête est refusée",
+        "Quand la ressource n'a pas changé"
+      ],
+      "answer": "Quand la requête est acceptée mais traitée de façon asynchrone plus tard",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le format « Problem Details » (RFC 9457) ?",
+      "options": [
+        "Un format JSON standard pour décrire les erreurs d'une API",
+        "Une norme de pagination",
+        "Un schéma d'authentification",
+        "Un format de logs serveur"
+      ],
+      "answer": "Un format JSON standard pour décrire les erreurs d'une API",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la faille « BOLA » du Top 10 API de l'OWASP ?",
+      "options": [
+        "L'absence de contrôle d'autorisation au niveau de chaque objet manipulé",
+        "Un débordement de buffer dans le parseur JSON",
+        "Une faille de compression",
+        "Une erreur de versionnement"
+      ],
+      "answer": "L'absence de contrôle d'autorisation au niveau de chaque objet manipulé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'« excessive data exposure » dans une API ?",
+      "options": [
+        "Renvoyer plus de champs que nécessaire en comptant sur le client pour les filtrer",
+        "Une API trop lente",
+        "Un trop grand nombre d'endpoints",
+        "Des réponses compressées"
+      ],
+      "answer": "Renvoyer plus de champs que nécessaire en comptant sur le client pour les filtrer",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle différence principale entre REST et GraphQL ?",
+      "options": [
+        "GraphQL expose un point d'entrée où le client décrit précisément les données voulues",
+        "GraphQL n'utilise pas HTTP",
+        "REST est plus récent",
+        "GraphQL est réservé aux bases SQL"
+      ],
+      "answer": "GraphQL expose un point d'entrée où le client décrit précisément les données voulues",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « HTTP caching » avec Cache-Control: max-age ?",
+      "options": [
+        "Autoriser les caches à réutiliser la réponse pendant une durée donnée",
+        "Limiter la taille des requêtes",
+        "Chiffrer le cache",
+        "Supprimer les cookies"
+      ],
+      "answer": "Autoriser les caches à réutiliser la réponse pendant une durée donnée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel flux OAuth 2.0 convient à une communication entre deux services sans utilisateur ?",
+      "options": [
+        "Client Credentials",
+        "Authorization Code avec PKCE",
+        "Implicit",
+        "Device Code"
+      ],
+      "answer": "Client Credentials",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi le flux OAuth « Implicit » est-il déconseillé ?",
+      "options": [
+        "Il expose le jeton d'accès dans l'URL du navigateur",
+        "Il est trop lent",
+        "Il nécessite un certificat client",
+        "Il ne fonctionne qu'en HTTP/1.0"
+      ],
+      "answer": "Il expose le jeton d'accès dans l'URL du navigateur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'OpenID Connect par rapport à OAuth 2.0 ?",
+      "options": [
+        "Une couche d'identité qui ajoute l'authentification (ID token) à OAuth 2.0",
+        "Un remplaçant de HTTP",
+        "Un format de pagination",
+        "Une version obsolète d'OAuth"
+      ],
+      "answer": "Une couche d'identité qui ajoute l'authentification (ID token) à OAuth 2.0",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un webhook ?",
+      "options": [
+        "Un appel HTTP envoyé par un service vers une URL fournie quand un événement se produit",
+        "Un outil de capture de requêtes",
+        "Un type de cookie",
+        "Une API en lecture seule"
+      ],
+      "answer": "Un appel HTTP envoyé par un service vers une URL fournie quand un événement se produit",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment sécuriser la réception d'un webhook ?",
+      "options": [
+        "Vérifier une signature HMAC de la charge utile et un horodatage",
+        "Accepter toutes les requêtes",
+        "N'accepter que les requêtes GET",
+        "Utiliser une URL secrète courte uniquement"
+      ],
+      "answer": "Vérifier une signature HMAC de la charge utile et un horodatage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le rôle de l'en-tête Retry-After ?",
+      "options": [
+        "Indiquer au client quand réessayer, par exemple après une 429 ou une 503",
+        "Définir la durée du cache",
+        "Indiquer la version de l'API",
+        "Rediriger vers un autre serveur"
+      ],
+      "answer": "Indiquer au client quand réessayer, par exemple après une 429 ou une 503",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « contract testing » d'une API ?",
+      "options": [
+        "Vérifier que fournisseur et consommateur respectent un contrat d'échange commun",
+        "Tester les conditions générales d'utilisation",
+        "Tester les performances sous charge",
+        "Vérifier les licences"
+      ],
+      "answer": "Vérifier que fournisseur et consommateur respectent un contrat d'échange commun",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi limiter la profondeur et la complexité des requêtes GraphQL ?",
+      "options": [
+        "Pour éviter des requêtes très coûteuses qui épuisent le serveur",
+        "Parce que JSON a une profondeur maximale",
+        "Pour accélérer HTTPS",
+        "Pour respecter REST"
+      ],
+      "answer": "Pour éviter des requêtes très coûteuses qui épuisent le serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que garantit une méthode HTTP « sûre » (safe) ?",
+      "options": [
+        "Elle ne modifie pas l'état du serveur",
+        "Elle est chiffrée",
+        "Elle ne peut pas échouer",
+        "Elle est authentifiée"
+      ],
+      "answer": "Elle ne modifie pas l'état du serveur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la négociation de contenu ?",
+      "options": [
+        "Choisir la représentation de la réponse selon les en-têtes envoyés par le client",
+        "Négocier le prix d'une API",
+        "Choisir le port du serveur",
+        "Choisir l'algorithme de chiffrement TLS"
+      ],
+      "answer": "Choisir la représentation de la réponse selon les en-têtes envoyés par le client",
+      "difficulty": "difficile"
+    }
+  ]
 }

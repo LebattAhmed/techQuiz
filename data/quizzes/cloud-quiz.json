@@ -1,3 +1,653 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Qu'est-ce que le cloud computing ?",
+      "options": [
+        "L'accès à des ressources informatiques à la demande via Internet",
+        "Un logiciel de météo",
+        "Un type de disque dur externe",
+        "Un réseau Wi-Fi public"
+      ],
+      "answer": "L'accès à des ressources informatiques à la demande via Internet",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie IaaS ?",
+      "options": [
+        "Infrastructure as a Service",
+        "Internet as a Service",
+        "Integration as a System",
+        "Information and Access Service"
+      ],
+      "answer": "Infrastructure as a Service",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie SaaS ?",
+      "options": [
+        "Software as a Service",
+        "Storage as a Service",
+        "Security as a System",
+        "Server and Application Service"
+      ],
+      "answer": "Software as a Service",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Gmail ou Microsoft 365 sont des exemples de quel modèle ?",
+      "options": [
+        "SaaS",
+        "IaaS",
+        "PaaS",
+        "On-premise"
+      ],
+      "answer": "SaaS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fournisseur propose le service EC2 ?",
+      "options": [
+        "Amazon Web Services",
+        "Microsoft Azure",
+        "Google Cloud",
+        "OVHcloud"
+      ],
+      "answer": "Amazon Web Services",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel service AWS sert au stockage d'objets ?",
+      "options": [
+        "S3",
+        "EC2",
+        "RDS",
+        "Lambda"
+      ],
+      "answer": "S3",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un cloud public ?",
+      "options": [
+        "Une infrastructure partagée, proposée par un fournisseur à de nombreux clients",
+        "Un cloud gratuit",
+        "Un cloud hébergé chez soi",
+        "Un cloud sans sécurité"
+      ],
+      "answer": "Une infrastructure partagée, proposée par un fournisseur à de nombreux clients",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un cloud hybride ?",
+      "options": [
+        "La combinaison d'une infrastructure privée et d'un cloud public",
+        "Un cloud qui fonctionne sur batterie",
+        "Un cloud réservé à deux entreprises",
+        "Un cloud sans Internet"
+      ],
+      "answer": "La combinaison d'une infrastructure privée et d'un cloud public",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le principal modèle de facturation du cloud ?",
+      "options": [
+        "Le paiement à l'usage",
+        "Un achat unique à vie",
+        "La gratuité totale",
+        "Un abonnement fixe obligatoire de 10 ans"
+      ],
+      "answer": "Le paiement à l'usage",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'élasticité dans le cloud ?",
+      "options": [
+        "La capacité d'ajuster automatiquement les ressources à la charge",
+        "La résistance des serveurs aux chocs",
+        "La compression des données",
+        "La vitesse du réseau"
+      ],
+      "answer": "La capacité d'ajuster automatiquement les ressources à la charge",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le nom du cloud de Microsoft ?",
+      "options": [
+        "Azure",
+        "Bluemix",
+        "Heroku",
+        "Firebase"
+      ],
+      "answer": "Azure",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une région cloud ?",
+      "options": [
+        "Une zone géographique regroupant des centres de données du fournisseur",
+        "Un compte utilisateur",
+        "Un type de machine virtuelle",
+        "Une offre tarifaire"
+      ],
+      "answer": "Une zone géographique regroupant des centres de données du fournisseur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une machine virtuelle ?",
+      "options": [
+        "Un ordinateur émulé par logiciel sur un serveur physique",
+        "Un ordinateur sans processeur",
+        "Un robot",
+        "Un ordinateur portable léger"
+      ],
+      "answer": "Un ordinateur émulé par logiciel sur un serveur physique",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le « serverless » ?",
+      "options": [
+        "Exécuter du code sans gérer de serveurs, le fournisseur s'occupe de l'infrastructure",
+        "Un site sans aucun serveur nulle part",
+        "Un réseau sans routeur",
+        "Une application hors ligne"
+      ],
+      "answer": "Exécuter du code sans gérer de serveurs, le fournisseur s'occupe de l'infrastructure",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel service AWS permet d'exécuter des fonctions serverless ?",
+      "options": [
+        "AWS Lambda",
+        "Amazon S3",
+        "Amazon EC2",
+        "AWS IAM"
+      ],
+      "answer": "AWS Lambda",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie PaaS ?",
+      "options": [
+        "Platform as a Service",
+        "Program as a Service",
+        "Private as a Service",
+        "Processing and Storage"
+      ],
+      "answer": "Platform as a Service",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un CDN ?",
+      "options": [
+        "Un réseau de serveurs qui distribue le contenu au plus près des utilisateurs",
+        "Un logiciel de comptabilité",
+        "Un type de base de données",
+        "Un protocole de messagerie"
+      ],
+      "answer": "Un réseau de serveurs qui distribue le contenu au plus près des utilisateurs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que gère IAM dans le cloud ?",
+      "options": [
+        "Les identités et les droits d'accès",
+        "Les adresses IP",
+        "Les factures",
+        "Les sauvegardes"
+      ],
+      "answer": "Les identités et les droits d'accès",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le cloud de Google ?",
+      "options": [
+        "Google Cloud Platform (GCP)",
+        "Google Drive Enterprise",
+        "Google Server Cloud",
+        "Google Compute Office"
+      ],
+      "answer": "Google Cloud Platform (GCP)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que la haute disponibilité ?",
+      "options": [
+        "La capacité d'un service à rester accessible malgré des pannes",
+        "Un serveur très puissant",
+        "Une connexion Internet rapide",
+        "Un stockage illimité"
+      ],
+      "answer": "La capacité d'un service à rester accessible malgré des pannes",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une zone de disponibilité (AZ) ?",
+      "options": [
+        "Un ou plusieurs centres de données isolés au sein d'une région",
+        "Un pays où le service est disponible",
+        "Un fuseau horaire de facturation",
+        "Un niveau de support client"
+      ],
+      "answer": "Un ou plusieurs centres de données isolés au sein d'une région",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que décrit le modèle de responsabilité partagée ?",
+      "options": [
+        "La répartition des responsabilités de sécurité entre le fournisseur et le client",
+        "Le partage des factures entre clients",
+        "Le partage des serveurs entre fournisseurs",
+        "La copropriété des données"
+      ],
+      "answer": "La répartition des responsabilités de sécurité entre le fournisseur et le client",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "En IaaS, qui est responsable de la mise à jour du système d'exploitation de la VM ?",
+      "options": [
+        "Le client",
+        "Le fournisseur cloud",
+        "Personne",
+        "Le fabricant du processeur"
+      ],
+      "answer": "Le client",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre scalabilité verticale et horizontale ?",
+      "options": [
+        "Verticale : machine plus puissante ; horizontale : plus de machines",
+        "Verticale : plus de machines ; horizontale : machine plus puissante",
+        "Ce sont des synonymes",
+        "Verticale concerne le réseau, horizontale le stockage"
+      ],
+      "answer": "Verticale : machine plus puissante ; horizontale : plus de machines",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un VPC ?",
+      "options": [
+        "Un réseau privé virtuel isolé dans le cloud public",
+        "Un VPN gratuit",
+        "Un type de conteneur",
+        "Un processeur virtuel"
+      ],
+      "answer": "Un réseau privé virtuel isolé dans le cloud public",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet un load balancer ?",
+      "options": [
+        "Répartir le trafic entre plusieurs instances",
+        "Chiffrer les disques",
+        "Gérer les factures",
+        "Compresser les images"
+      ],
+      "answer": "Répartir le trafic entre plusieurs instances",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'Infrastructure as Code (IaC) ?",
+      "options": [
+        "Décrire et provisionner l'infrastructure via des fichiers de configuration versionnés",
+        "Programmer directement le matériel en assembleur",
+        "Coder une application dans le cloud",
+        "Un langage de programmation de serveurs"
+      ],
+      "answer": "Décrire et provisionner l'infrastructure via des fichiers de configuration versionnés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel outil IaC multi-cloud est édité par HashiCorp ?",
+      "options": [
+        "Terraform",
+        "Ansible Tower",
+        "Jenkins",
+        "Prometheus"
+      ],
+      "answer": "Terraform",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les instances « spot » (ou préemptibles) ?",
+      "options": [
+        "Des capacités inutilisées vendues à prix réduit mais pouvant être reprises à tout moment",
+        "Des instances dédiées garanties",
+        "Des instances gratuites pour les étudiants",
+        "Des serveurs physiques réservés"
+      ],
+      "answer": "Des capacités inutilisées vendues à prix réduit mais pouvant être reprises à tout moment",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « cold start » en serverless ?",
+      "options": [
+        "Le délai supplémentaire quand une fonction doit démarrer un nouvel environnement d'exécution",
+        "Le démarrage d'un serveur en hiver",
+        "Une fonction qui ne s'exécute jamais",
+        "Un plan de reprise après sinistre"
+      ],
+      "answer": "Le délai supplémentaire quand une fonction doit démarrer un nouvel environnement d'exécution",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que mesurent RPO et RTO ?",
+      "options": [
+        "RPO : perte de données acceptable ; RTO : durée d'interruption acceptable",
+        "RPO : débit réseau ; RTO : latence",
+        "RPO : coût mensuel ; RTO : coût annuel",
+        "Ce sont deux noms de régions AWS"
+      ],
+      "answer": "RPO : perte de données acceptable ; RTO : durée d'interruption acceptable",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « vendor lock-in » ?",
+      "options": [
+        "La dépendance forte à un fournisseur qui rend la migration difficile",
+        "Le chiffrement des données par le fournisseur",
+        "Un contrat d'un an minimum",
+        "La sécurité physique des centres de données"
+      ],
+      "answer": "La dépendance forte à un fournisseur qui rend la migration difficile",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel service managé AWS propose des bases relationnelles ?",
+      "options": [
+        "Amazon RDS",
+        "Amazon S3",
+        "Amazon SQS",
+        "AWS Lambda"
+      ],
+      "answer": "Amazon RDS",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert une file de messages comme Amazon SQS ?",
+      "options": [
+        "Découpler des composants en échangeant des messages de façon asynchrone",
+        "Envoyer des SMS aux clients",
+        "Stocker des fichiers vidéo",
+        "Gérer les DNS"
+      ],
+      "answer": "Découpler des composants en échangeant des messages de façon asynchrone",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une classe de stockage « archive » (ex. S3 Glacier) ?",
+      "options": [
+        "Un stockage peu cher pour des données rarement consultées, avec un délai de récupération",
+        "Un stockage ultra-rapide en mémoire",
+        "Un stockage gratuit",
+        "Un stockage réservé aux bases de données"
+      ],
+      "answer": "Un stockage peu cher pour des données rarement consultées, avec un délai de récupération",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'auto-scaling ?",
+      "options": [
+        "L'ajout ou la suppression automatique d'instances selon des métriques",
+        "La mise à jour automatique des logiciels",
+        "La réduction de la taille des images",
+        "La sauvegarde automatique quotidienne"
+      ],
+      "answer": "L'ajout ou la suppression automatique d'instances selon des métriques",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que signifie « multi-tenant » ?",
+      "options": [
+        "Plusieurs clients partagent la même infrastructure tout en étant isolés",
+        "Plusieurs administrateurs pour un serveur",
+        "Une application traduite en plusieurs langues",
+        "Plusieurs copies d'une base de données"
+      ],
+      "answer": "Plusieurs clients partagent la même infrastructure tout en étant isolés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la principale différence entre un conteneur et une machine virtuelle ?",
+      "options": [
+        "Un conteneur partage le noyau de l'hôte, une VM embarque son propre système d'exploitation",
+        "Une VM est toujours plus légère",
+        "Un conteneur nécessite un hyperviseur de type 1",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Un conteneur partage le noyau de l'hôte, une VM embarque son propre système d'exploitation",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les « egress fees » ?",
+      "options": [
+        "Les frais facturés pour les données sortant du cloud",
+        "Les frais d'inscription",
+        "Les frais de support",
+        "Les frais de création de compte"
+      ],
+      "answer": "Les frais facturés pour les données sortant du cloud",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une architecture multi-région active-active ?",
+      "options": [
+        "Plusieurs régions servent le trafic simultanément, avec réplication des données",
+        "Une seule région active et une région éteinte",
+        "Deux comptes dans la même région",
+        "Une architecture sans base de données"
+      ],
+      "answer": "Plusieurs régions servent le trafic simultanément, avec réplication des données",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le principal défi d'une base de données répartie sur plusieurs régions ?",
+      "options": [
+        "Concilier cohérence, latence et disponibilité (théorème CAP)",
+        "Le coût des adresses IP",
+        "L'absence de chiffrement possible",
+        "La limitation à 10 tables"
+      ],
+      "answer": "Concilier cohérence, latence et disponibilité (théorème CAP)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une politique IAM basée sur les ressources ?",
+      "options": [
+        "Une politique attachée à la ressource elle-même qui précise qui peut y accéder",
+        "Une politique liée au matériel physique",
+        "Une politique de facturation",
+        "Une politique de mot de passe"
+      ],
+      "answer": "Une politique attachée à la ressource elle-même qui précise qui peut y accéder",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi privilégier des rôles temporaires plutôt que des clés d'accès longues durées ?",
+      "options": [
+        "Les identifiants temporaires limitent l'impact d'une fuite",
+        "Les rôles sont gratuits et les clés payantes",
+        "Les clés ne fonctionnent qu'en console",
+        "Les rôles accélèrent le réseau"
+      ],
+      "answer": "Les identifiants temporaires limitent l'impact d'une fuite",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « metadata service » (IMDS) et pourquoi est-il ciblé par les attaques SSRF ?",
+      "options": [
+        "Un point d'accès interne qui fournit des identifiants temporaires à l'instance",
+        "Un service de facturation exposé publiquement",
+        "Un DNS interne non chiffré",
+        "Une sauvegarde automatique des disques"
+      ],
+      "answer": "Un point d'accès interne qui fournit des identifiants temporaires à l'instance",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte IMDSv2 sur AWS ?",
+      "options": [
+        "Un jeton de session obtenu par requête PUT, qui complique l'exploitation par SSRF",
+        "Le chiffrement des disques",
+        "Un IMDS accessible depuis Internet",
+        "La suppression des rôles IAM"
+      ],
+      "answer": "Un jeton de session obtenu par requête PUT, qui complique l'exploitation par SSRF",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une stratégie de déploiement « pilot light » pour la reprise après sinistre ?",
+      "options": [
+        "Garder une version minimale de l'infrastructure prête à être agrandie en cas de sinistre",
+        "Tout dupliquer à pleine capacité en permanence",
+        "Ne rien prévoir et restaurer depuis des sauvegardes",
+        "Éteindre le site la nuit"
+      ],
+      "answer": "Garder une version minimale de l'infrastructure prête à être agrandie en cas de sinistre",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le FinOps ?",
+      "options": [
+        "Une pratique visant à piloter et optimiser les coûts cloud entre équipes techniques et financières",
+        "Un service de paiement en ligne",
+        "Un outil de monitoring réseau",
+        "Un langage de requêtes"
+      ],
+      "answer": "Une pratique visant à piloter et optimiser les coûts cloud entre équipes techniques et financières",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que garantit le chiffrement « customer-managed keys » (CMK) ?",
+      "options": [
+        "Le client contrôle les clés, leur rotation et leur révocation",
+        "Le fournisseur ne chiffre jamais les données",
+        "Les clés sont publiques",
+        "Les données sont stockées hors du cloud"
+      ],
+      "answer": "Le client contrôle les clés, leur rotation et leur révocation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « confused deputy problem » dans le cloud ?",
+      "options": [
+        "Un service de confiance est amené à agir pour le compte d'un tiers non autorisé",
+        "Un administrateur qui supprime un compte par erreur",
+        "Un conflit de noms de domaines",
+        "Un équilibreur de charge mal configuré"
+      ],
+      "answer": "Un service de confiance est amené à agir pour le compte d'un tiers non autorisé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment AWS limite-t-il le confused deputy pour les rôles assumés par des tiers ?",
+      "options": [
+        "Avec un identifiant externe (External ID) dans la politique de confiance",
+        "Avec un mot de passe partagé",
+        "En bloquant tous les tiers",
+        "En chiffrant le rôle"
+      ],
+      "answer": "Avec un identifiant externe (External ID) dans la politique de confiance",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « service mesh » ?",
+      "options": [
+        "Une couche d'infrastructure qui gère la communication entre microservices (mTLS, routage, observabilité)",
+        "Un câblage physique entre serveurs",
+        "Un CDN pour API",
+        "Un orchestrateur de VM"
+      ],
+      "answer": "Une couche d'infrastructure qui gère la communication entre microservices (mTLS, routage, observabilité)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'« immutable infrastructure » ?",
+      "options": [
+        "On remplace les serveurs par de nouveaux plutôt que de les modifier en place",
+        "Des serveurs qui ne s'éteignent jamais",
+        "Des disques en lecture seule pour les utilisateurs",
+        "Une infrastructure sans mise à jour"
+      ],
+      "answer": "On remplace les serveurs par de nouveaux plutôt que de les modifier en place",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « dérive de configuration » (drift) en IaC ?",
+      "options": [
+        "L'écart entre l'état réel des ressources et ce que décrit le code",
+        "Le décalage des horloges des serveurs",
+        "Le déplacement des données entre régions",
+        "L'augmentation progressive des coûts"
+      ],
+      "answer": "L'écart entre l'état réel des ressources et ce que décrit le code",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « gravité des données » (data gravity) ?",
+      "options": [
+        "La tendance des applications et services à se rapprocher de là où se trouvent de gros volumes de données",
+        "Le poids physique des disques",
+        "La compression des données froides",
+        "La suppression automatique des données anciennes"
+      ],
+      "answer": "La tendance des applications et services à se rapprocher de là où se trouvent de gros volumes de données",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est l'intérêt d'un CSPM ?",
+      "options": [
+        "Détecter en continu les mauvaises configurations de sécurité du cloud",
+        "Accélérer les machines virtuelles",
+        "Réduire la latence réseau",
+        "Gérer les adresses email"
+      ],
+      "answer": "Détecter en continu les mauvaises configurations de sécurité du cloud",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « noisy neighbor » ?",
+      "options": [
+        "Un client qui consomme beaucoup de ressources partagées et dégrade les performances des autres",
+        "Un centre de données bruyant",
+        "Un serveur mal ventilé",
+        "Un attaquant qui scanne le réseau"
+      ],
+      "answer": "Un client qui consomme beaucoup de ressources partagées et dégrade les performances des autres",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une architecture cellulaire (cell-based) ?",
+      "options": [
+        "Découper un service en cellules indépendantes pour limiter le rayon d'impact d'une panne",
+        "Héberger le service sur des téléphones mobiles",
+        "Utiliser des batteries pour les serveurs",
+        "Découper la facturation par client"
+      ],
+      "answer": "Découper un service en cellules indépendantes pour limiter le rayon d'impact d'une panne",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi les fonctions serverless conviennent-elles mal aux traitements très longs ?",
+      "options": [
+        "Elles ont une durée d'exécution maximale limitée",
+        "Elles ne peuvent pas lire de fichiers",
+        "Elles n'ont pas accès au réseau",
+        "Elles ne supportent aucun langage compilé"
+      ],
+      "answer": "Elles ont une durée d'exécution maximale limitée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que signifie la souveraineté des données dans le cloud ?",
+      "options": [
+        "Les données sont soumises aux lois du pays où elles sont stockées ou du fournisseur",
+        "Les données appartiennent au fournisseur",
+        "Les données sont publiques",
+        "Les données ne peuvent pas être chiffrées"
+      ],
+      "answer": "Les données sont soumises aux lois du pays où elles sont stockées ou du fournisseur",
+      "difficulty": "difficile"
+    }
+  ]
 }

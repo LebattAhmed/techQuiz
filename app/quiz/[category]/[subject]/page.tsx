@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Quiz from "@/components/quiz";
-import { categories, getQuestions, getSubject } from "@/lib/quizzes";
+import { categories, getCategory, getQuestions, getSubject } from "@/lib/quizzes";
 
 type Props = { params: Promise<{ category: string; subject: string }> };
 
@@ -20,10 +20,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function SubjectPage({ params }: Props) {
-  const { category, subject: subjectSlug } = await params;
-  const subject = getSubject(category, subjectSlug);
+  const { category: categorySlug, subject: subjectSlug } = await params;
+  const category = getCategory(categorySlug);
+  const subject = getSubject(categorySlug, subjectSlug);
   const questions = subject ? await getQuestions(subject.slug) : [];
-  if (!subject || questions.length === 0) notFound();
+  if (!category || !subject || questions.length === 0) notFound();
 
-  return <Quiz title={subject.name} questions={questions} backHref={`/quiz/${category}`} />;
+  return (
+    <Quiz
+      subject={{ slug: subject.slug, name: subject.name, short: subject.short }}
+      category={{ slug: category.slug, name: category.name, accent: category.accent }}
+      questions={questions}
+    />
+  );
 }

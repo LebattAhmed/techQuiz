@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quel langage Apple recommande-t-il pour développer sur iOS ?",
+      "options": [
+        "Swift",
+        "Kotlin",
+        "Java",
+        "C#"
+      ],
+      "answer": "Swift",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est l'IDE officiel d'Apple ?",
+      "options": [
+        "Xcode",
+        "Android Studio",
+        "Visual Studio Code",
+        "IntelliJ IDEA"
+      ],
+      "answer": "Xcode",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le framework d'interface déclaratif d'Apple ?",
+      "options": [
+        "SwiftUI",
+        "Jetpack Compose",
+        "React Native",
+        "Flutter"
+      ],
+      "answer": "SwiftUI",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel framework d'interface impératif historique d'iOS précède SwiftUI ?",
+      "options": [
+        "UIKit",
+        "AppKit uniquement",
+        "WinForms",
+        "GTK"
+      ],
+      "answer": "UIKit",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé déclare une constante en Swift ?",
+      "options": [
+        "let",
+        "var",
+        "const",
+        "final"
+      ],
+      "answer": "let",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel mot-clé déclare une variable modifiable en Swift ?",
+      "options": [
+        "var",
+        "let",
+        "mut",
+        "dim"
+      ],
+      "answer": "var",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que représente le type String? en Swift ?",
+      "options": [
+        "Une chaîne optionnelle, qui peut valoir nil",
+        "Une chaîne obligatoire",
+        "Une chaîne vide",
+        "Un caractère"
+      ],
+      "answer": "Une chaîne optionnelle, qui peut valoir nil",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le magasin d'applications d'Apple ?",
+      "options": [
+        "App Store",
+        "Play Store",
+        "Microsoft Store",
+        "Galaxy Store"
+      ],
+      "answer": "App Store",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil permet de tester une application iOS sur Mac sans iPhone ?",
+      "options": [
+        "Le Simulator",
+        "L'émulateur Android",
+        "Docker",
+        "Rosetta"
+      ],
+      "answer": "Le Simulator",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel service distribue des versions bêta d'une application ?",
+      "options": [
+        "TestFlight",
+        "Firebase Hosting",
+        "GitHub Pages",
+        "App Center Play"
+      ],
+      "answer": "TestFlight",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier contient la configuration et les permissions déclarées d'une app iOS ?",
+      "options": [
+        "Info.plist",
+        "AndroidManifest.xml",
+        "package.json",
+        "config.yaml"
+      ],
+      "answer": "Info.plist",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure SwiftUI empile des vues verticalement ?",
+      "options": [
+        "VStack",
+        "HStack",
+        "ZStack",
+        "List"
+      ],
+      "answer": "VStack",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure SwiftUI empile des vues horizontalement ?",
+      "options": [
+        "HStack",
+        "VStack",
+        "ZStack",
+        "Grid seule"
+      ],
+      "answer": "HStack",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel gestionnaire de paquets est intégré à Xcode ?",
+      "options": [
+        "Swift Package Manager",
+        "npm",
+        "Gradle",
+        "pip"
+      ],
+      "answer": "Swift Package Manager",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Comment déballer un optionnel en toute sécurité ?",
+      "options": [
+        "Avec if let ou guard let",
+        "Avec un point d'exclamation systématique",
+        "Avec un cast en Int",
+        "C'est impossible"
+      ],
+      "answer": "Avec if let ou guard let",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que se passe-t-il si on force le déballage (!) d'un optionnel qui vaut nil ?",
+      "options": [
+        "L'application plante",
+        "La valeur devient 0",
+        "La valeur devient une chaîne vide",
+        "Rien ne se passe"
+      ],
+      "answer": "L'application plante",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le format du fichier de publication d'une app iOS ?",
+      "options": [
+        "IPA",
+        "APK",
+        "EXE",
+        "DMG"
+      ],
+      "answer": "IPA",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel programme faut-il rejoindre pour publier sur l'App Store ?",
+      "options": [
+        "Apple Developer Program",
+        "Google Play Console",
+        "GitHub Sponsors",
+        "Microsoft Partner"
+      ],
+      "answer": "Apple Developer Program",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel système d'exploitation faut-il pour utiliser Xcode ?",
+      "options": [
+        "macOS",
+        "Windows",
+        "Linux",
+        "Android"
+      ],
+      "answer": "macOS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel opérateur fournit une valeur par défaut à un optionnel ?",
+      "options": [
+        "??",
+        "?:",
+        "||",
+        "!!"
+      ],
+      "answer": "??",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre une struct et une class en Swift ?",
+      "options": [
+        "Une struct est un type valeur (copiée), une class un type référence (partagée)",
+        "Une class ne peut pas avoir de méthodes",
+        "Une struct supporte l'héritage",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Une struct est un type valeur (copiée), une class un type référence (partagée)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait @State en SwiftUI ?",
+      "options": [
+        "Il déclare un état local dont le changement met à jour la vue",
+        "Il crée une base de données",
+        "Il déclare une constante globale",
+        "Il gère la navigation"
+      ],
+      "answer": "Il déclare un état local dont le changement met à jour la vue",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet @Binding ?",
+      "options": [
+        "Partager une référence modifiable vers un état possédé par une autre vue",
+        "Lier une vue à une base SQL",
+        "Créer une animation",
+        "Importer un module"
+      ],
+      "answer": "Partager une référence modifiable vers un état possédé par une autre vue",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un protocol en Swift ?",
+      "options": [
+        "Un ensemble d'exigences que les types peuvent adopter",
+        "Un protocole réseau",
+        "Une classe abstraite obligatoire",
+        "Un fichier de configuration"
+      ],
+      "answer": "Un ensemble d'exigences que les types peuvent adopter",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une closure en Swift ?",
+      "options": [
+        "Un bloc de code autonome qui peut capturer des valeurs de son contexte",
+        "Une fermeture de l'application",
+        "Une classe finale",
+        "Un type d'erreur"
+      ],
+      "answer": "Un bloc de code autonome qui peut capturer des valeurs de son contexte",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'ARC ?",
+      "options": [
+        "Le comptage automatique de références qui gère la mémoire",
+        "Un ramasse-miettes traçant",
+        "Un outil de compilation",
+        "Un framework d'animations"
+      ],
+      "answer": "Le comptage automatique de références qui gère la mémoire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un cycle de références fortes ?",
+      "options": [
+        "Deux objets qui se référencent mutuellement et ne sont jamais libérés",
+        "Une boucle infinie",
+        "Une récursion trop profonde",
+        "Une erreur de compilation"
+      ],
+      "answer": "Deux objets qui se référencent mutuellement et ne sont jamais libérés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment casser un cycle de références dans une closure ?",
+      "options": [
+        "Avec une liste de capture [weak self] ou [unowned self]",
+        "En utilisant var au lieu de let",
+        "En rendant la classe finale",
+        "En supprimant la closure"
+      ],
+      "answer": "Avec une liste de capture [weak self] ou [unowned self]",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le mot-clé guard ?",
+      "options": [
+        "Il vérifie une condition et oblige à sortir de la portée si elle est fausse",
+        "Il protège un fichier",
+        "Il déclare une variable globale",
+        "Il crée un thread"
+      ],
+      "answer": "Il vérifie une condition et oblige à sortir de la portée si elle est fausse",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une extension en Swift ?",
+      "options": [
+        "Un ajout de fonctionnalités à un type existant",
+        "Un plugin Xcode",
+        "Une bibliothèque externe",
+        "Une sous-classe"
+      ],
+      "answer": "Un ajout de fonctionnalités à un type existant",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le delegate pattern dans UIKit ?",
+      "options": [
+        "Un objet délègue certaines décisions ou événements à un autre via un protocole",
+        "Une méthode de déploiement",
+        "Un système de permissions",
+        "Une animation"
+      ],
+      "answer": "Un objet délègue certaines décisions ou événements à un autre via un protocole",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Sur quel thread faut-il mettre à jour l'interface ?",
+      "options": [
+        "Le thread principal (main)",
+        "N'importe quel thread",
+        "Un thread d'arrière-plan dédié",
+        "Le thread réseau"
+      ],
+      "answer": "Le thread principal (main)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait async/await en Swift ?",
+      "options": [
+        "Écrire du code asynchrone de façon séquentielle et lisible",
+        "Rendre le code plus rapide par magie",
+        "Bloquer le thread principal",
+        "Remplacer les optionnels"
+      ],
+      "answer": "Écrire du code asynchrone de façon séquentielle et lisible",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait @MainActor ?",
+      "options": [
+        "Il garantit qu'un code s'exécute sur le thread principal",
+        "Il désigne l'acteur principal d'un film",
+        "Il crée une vue principale",
+        "Il lance l'application"
+      ],
+      "answer": "Il garantit qu'un code s'exécute sur le thread principal",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Core Data ?",
+      "options": [
+        "Un framework de persistance et de gestion d'un graphe d'objets",
+        "Un serveur SQL distant",
+        "Un format d'image",
+        "Un outil de tests"
+      ],
+      "answer": "Un framework de persistance et de gestion d'un graphe d'objets",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que SwiftData ?",
+      "options": [
+        "Un framework de persistance moderne basé sur des macros comme @Model",
+        "Un langage de requêtes",
+        "Un service cloud payant",
+        "Un pilote réseau"
+      ],
+      "answer": "Un framework de persistance moderne basé sur des macros comme @Model",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que gère le cycle de vie d'un UIViewController via viewDidLoad ?",
+      "options": [
+        "Une configuration effectuée une fois, après le chargement de la vue",
+        "L'affichage à chaque apparition",
+        "La destruction de la vue",
+        "La rotation de l'écran"
+      ],
+      "answer": "Une configuration effectuée une fois, après le chargement de la vue",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre @StateObject et @ObservedObject ?",
+      "options": [
+        "@StateObject crée et possède l'objet, @ObservedObject l'observe sans le posséder",
+        "@ObservedObject crée l'objet",
+        "Ils sont identiques",
+        "@StateObject est réservé à UIKit"
+      ],
+      "answer": "@StateObject crée et possède l'objet, @ObservedObject l'observe sans le posséder",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait la macro @Observable (Swift 5.9+) ?",
+      "options": [
+        "Rendre une classe observable pour SwiftUI sans @Published",
+        "Afficher l'objet dans la console",
+        "Sérialiser l'objet en JSON",
+        "Créer une vue"
+      ],
+      "answer": "Rendre une classe observable pour SwiftUI sans @Published",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Codable ?",
+      "options": [
+        "Un protocole pour encoder et décoder des types, par exemple en JSON",
+        "Un outil de génération de code",
+        "Un éditeur de texte",
+        "Un chiffrement"
+      ],
+      "answer": "Un protocole pour encoder et décoder des types, par exemple en JSON",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un actor en Swift ?",
+      "options": [
+        "Un type référence qui protège son état mutable contre les accès concurrents",
+        "Un thread système",
+        "Une vue SwiftUI",
+        "Un processus séparé"
+      ],
+      "answer": "Un type référence qui protège son état mutable contre les accès concurrents",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Sendable ?",
+      "options": [
+        "Un protocole indiquant qu'un type peut traverser les frontières de concurrence sans risque",
+        "Un type qui peut être envoyé par email",
+        "Un protocole réseau",
+        "Un type réservé aux closures"
+      ],
+      "answer": "Un protocole indiquant qu'un type peut traverser les frontières de concurrence sans risque",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que vérifie le mode de concurrence stricte de Swift 6 ?",
+      "options": [
+        "L'absence de data races détectables à la compilation",
+        "La vitesse des threads",
+        "La taille des binaires",
+        "La couverture des tests"
+      ],
+      "answer": "L'absence de data races détectables à la compilation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la réentrance des actors ?",
+      "options": [
+        "Pendant un await, d'autres tâches peuvent s'exécuter sur l'actor et modifier son état",
+        "Un actor ne peut jamais être appelé deux fois",
+        "Une erreur de compilation",
+        "Un appel récursif interdit"
+      ],
+      "answer": "Pendant un await, d'autres tâches peuvent s'exécuter sur l'actor et modifier son état",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la différence entre weak et unowned ?",
+      "options": [
+        "weak devient nil quand l'objet est libéré ; unowned suppose qu'il existe toujours et plante sinon",
+        "unowned devient nil",
+        "Ils sont identiques",
+        "weak empêche la libération"
+      ],
+      "answer": "weak devient nil quand l'objet est libéré ; unowned suppose qu'il existe toujours et plante sinon",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le copy-on-write des collections Swift ?",
+      "options": [
+        "La copie réelle n'a lieu qu'au moment d'une modification d'une instance partagée",
+        "Chaque assignation copie immédiatement",
+        "Les tableaux ne sont jamais copiés",
+        "Une écriture sur disque"
+      ],
+      "answer": "La copie réelle n'a lieu qu'au moment d'une modification d'une instance partagée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet le mot-clé some (types opaques) ?",
+      "options": [
+        "Retourner un type concret caché derrière un protocole, connu du compilateur",
+        "Retourner n'importe quel type à l'exécution",
+        "Rendre une valeur optionnelle",
+        "Créer un générique"
+      ],
+      "answer": "Retourner un type concret caché derrière un protocole, connu du compilateur",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle différence entre some View et any View ?",
+      "options": [
+        "some est un type concret unique connu du compilateur ; any est une boîte existentielle dynamique",
+        "any est plus performant",
+        "Ils sont identiques",
+        "some n'existe pas"
+      ],
+      "answer": "some est un type concret unique connu du compilateur ; any est une boîte existentielle dynamique",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'identité structurelle d'une vue en SwiftUI ?",
+      "options": [
+        "SwiftUI identifie une vue par sa position dans la hiérarchie, ce qui influence la conservation de l'état",
+        "Le nom du fichier de la vue",
+        "Une clé définie dans Info.plist",
+        "L'adresse mémoire de la vue"
+      ],
+      "answer": "SwiftUI identifie une vue par sa position dans la hiérarchie, ce qui influence la conservation de l'état",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi des branches if/else qui renvoient des vues différentes peuvent-elles réinitialiser l'état ?",
+      "options": [
+        "Chaque branche a une identité structurelle différente",
+        "SwiftUI ne supporte pas if",
+        "L'état est global",
+        "C'est un bug du simulateur"
+      ],
+      "answer": "Chaque branche a une identité structurelle différente",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un result builder (comme ViewBuilder) ?",
+      "options": [
+        "Une fonctionnalité qui transforme une suite d'instructions en une valeur composée",
+        "Un outil de build Xcode",
+        "Un générateur de tests",
+        "Un compilateur JIT"
+      ],
+      "answer": "Une fonctionnalité qui transforme une suite d'instructions en une valeur composée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les macros Swift ?",
+      "options": [
+        "Du code qui génère du code au moment de la compilation",
+        "Des raccourcis clavier Xcode",
+        "Des scripts shell",
+        "Des préprocesseurs C"
+      ],
+      "answer": "Du code qui génère du code au moment de la compilation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le background task scheduling (BGTaskScheduler) ?",
+      "options": [
+        "Demander au système d'exécuter un travail en arrière-plan à un moment opportun",
+        "Lancer un thread infini",
+        "Garder l'app ouverte en permanence",
+        "Planifier une notification"
+      ],
+      "answer": "Demander au système d'exécuter un travail en arrière-plan à un moment opportun",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que App Transport Security ?",
+      "options": [
+        "Une politique qui exige par défaut des connexions HTTPS sécurisées",
+        "Un VPN Apple",
+        "Un chiffrement du stockage",
+        "Un protocole Bluetooth"
+      ],
+      "answer": "Une politique qui exige par défaut des connexions HTTPS sécurisées",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'Instruments ?",
+      "options": [
+        "Un outil de profilage pour analyser performances, mémoire et énergie",
+        "Une bibliothèque audio",
+        "Un framework de tests UI",
+        "Un éditeur d'icônes"
+      ],
+      "answer": "Un outil de profilage pour analyser performances, mémoire et énergie",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un dSYM ?",
+      "options": [
+        "Un fichier de symboles de débogage pour symboliser les rapports de crash",
+        "Une image disque",
+        "Un certificat de signature",
+        "Un profil d'approvisionnement"
+      ],
+      "answer": "Un fichier de symboles de débogage pour symboliser les rapports de crash",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que contient un provisioning profile ?",
+      "options": [
+        "L'association entre identifiant d'app, certificats, appareils et entitlements",
+        "Le code source de l'app",
+        "Les captures d'écran du store",
+        "Les mots de passe des utilisateurs"
+      ],
+      "answer": "L'association entre identifiant d'app, certificats, appareils et entitlements",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la Task cancellation en Swift ?",
+      "options": [
+        "Un mécanisme coopératif : la tâche doit vérifier l'annulation et s'arrêter elle-même",
+        "Un arrêt forcé immédiat du thread",
+        "Une suppression de l'app",
+        "Une erreur fatale"
+      ],
+      "answer": "Un mécanisme coopératif : la tâche doit vérifier l'annulation et s'arrêter elle-même",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet un TaskGroup ?",
+      "options": [
+        "Lancer dynamiquement plusieurs tâches enfants et collecter leurs résultats",
+        "Grouper des vues",
+        "Regrouper des fichiers dans Xcode",
+        "Gérer des utilisateurs"
+      ],
+      "answer": "Lancer dynamiquement plusieurs tâches enfants et collecter leurs résultats",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « method dispatch » statique en Swift ?",
+      "options": [
+        "L'appel de méthode est résolu à la compilation, par exemple pour les structs et les méthodes final",
+        "L'appel passe toujours par l'Objective-C runtime",
+        "L'envoi de méthodes par le réseau",
+        "Une méthode sans paramètre"
+      ],
+      "answer": "L'appel de méthode est résolu à la compilation, par exemple pour les structs et les méthodes final",
+      "difficulty": "difficile"
+    }
+  ]
 }

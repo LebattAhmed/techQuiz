@@ -1,52 +1,85 @@
-"use client";
-
-import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { ArrowDown, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Logo from "@/components/logo";
+import Reveal from "@/components/reveal";
+import { CardGrid, CategoryCard } from "@/components/cards";
+import { categories, getQuestionCounts } from "@/lib/quizzes";
 
-export default function Home() {
+export default async function Home() {
+  const counts = await getQuestionCounts();
+  const totalQuestions = Object.values(counts).reduce((a, b) => a + b, 0);
+  const totalSubjects = Object.values(counts).filter((n) => n > 0).length;
+
+  const stats = [
+    { value: totalQuestions.toLocaleString("fr-FR"), label: "questions" },
+    { value: totalSubjects, label: "sujets" },
+    { value: categories.length, label: "catégories" },
+  ];
+
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-50 p-4">
-      <div className="w-full max-w-2xl flex flex-col items-center space-y-6 text-center">
-        {/* Logo et description */}
-        <motion.div
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="flex flex-col items-center space-y-4"
-        >
-          <Image src="/logo.png" width={180} height={180} alt="Tech Quiz" priority />
-          <p className="text-lg md:text-xl text-gray-700 max-w-xl">
-            Évaluez vos connaissances en informatique : programmation, réseau,
-            cybersécurité, et bien plus encore.
+    <main className="mx-auto max-w-6xl px-4 pb-24 sm:px-6">
+      <section className="flex flex-col items-center pt-12 pb-20 text-center sm:pt-16">
+        <Reveal>
+          <Logo className="mb-8 size-32 rounded-3xl shadow-xl shadow-primary/20 sm:size-40" />
+        </Reveal>
+        <Reveal delay={0.04}>
+          <span className="inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary/10 px-3 py-1 text-sm font-medium text-primary">
+            <Sparkles className="size-4" aria-hidden />
+            Entraînez-vous gratuitement, sans inscription
+          </span>
+        </Reveal>
+        <Reveal delay={0.08}>
+          <h1 className="mt-6 max-w-3xl text-4xl font-bold tracking-tight text-balance sm:text-6xl">
+            Testez vos connaissances{" "}
+            <span className="bg-gradient-to-r from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
+              en informatique
+            </span>
+          </h1>
+        </Reveal>
+        <Reveal delay={0.16}>
+          <p className="mt-5 max-w-xl text-lg text-pretty text-muted-foreground">
+            Programmation, réseau, cybersécurité, bases de données, DevOps, IA… Des quiz de
+            15 questions, trois niveaux de difficulté et la correction immédiate.
           </p>
-        </motion.div>
-
-        {/* Bouton commencer */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.3, duration: 0.5 }}
-        >
-          <Button
-            asChild
-            className="px-8 py-4 text-base md:text-lg bg-indigo-600 hover:bg-indigo-700 shadow-md"
-          >
-            <Link href="/quiz">Commencer</Link>
+        </Reveal>
+        <Reveal delay={0.24} className="mt-8">
+          <Button asChild size="lg" className="h-12 rounded-xl px-7 text-base shadow-lg shadow-primary/25">
+            <Link href="#categories">
+              Commencer <ArrowDown className="size-4" />
+            </Link>
           </Button>
-        </motion.div>
+        </Reveal>
+        <Reveal delay={0.32}>
+          <dl className="mt-12 grid grid-cols-3 gap-6 sm:gap-12">
+            {stats.map((s) => (
+              <div key={s.label} className="flex flex-col-reverse items-center">
+                <dt className="text-sm text-muted-foreground">{s.label}</dt>
+                <dd className="text-3xl font-bold tracking-tight tabular-nums">{s.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </Reveal>
+      </section>
 
-        {/* Footer info */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.6, duration: 0.5 }}
-          className="text-gray-500 text-sm"
-        >
-          Langages, réseau, sécurité, bases de données • 15 questions par quiz
-        </motion.p>
-      </div>
+      <section id="categories" className="scroll-mt-24">
+        <h2 className="text-2xl font-bold tracking-tight">Catégories</h2>
+        <p className="mt-1 mb-6 text-muted-foreground">Choisissez un domaine, puis un sujet.</p>
+        <CardGrid>
+          {categories.map((c) => (
+            <CategoryCard
+              key={c.slug}
+              href={`/quiz/${c.slug}`}
+              name={c.name}
+              description={c.description}
+              icon={c.icon}
+              accent={c.accent}
+              subjects={c.subjects.length}
+              questions={c.subjects.reduce((n, s) => n + counts[s.slug], 0)}
+            />
+          ))}
+        </CardGrid>
+      </section>
     </main>
   );
 }

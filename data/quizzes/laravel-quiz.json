@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Laravel est un framework pour quel langage ?",
+      "options": [
+        "PHP",
+        "Python",
+        "Ruby",
+        "Java"
+      ],
+      "answer": "PHP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil en ligne de commande est fourni avec Laravel ?",
+      "options": [
+        "Artisan",
+        "Composer",
+        "Gradle",
+        "Rake"
+      ],
+      "answer": "Artisan",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel gestionnaire de dépendances sert à installer Laravel ?",
+      "options": [
+        "Composer",
+        "npm",
+        "pip",
+        "Maven"
+      ],
+      "answer": "Composer",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le nom de l'ORM de Laravel ?",
+      "options": [
+        "Eloquent",
+        "Doctrine",
+        "Hibernate",
+        "Sequelize"
+      ],
+      "answer": "Eloquent",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le moteur de templates de Laravel ?",
+      "options": [
+        "Blade",
+        "Twig",
+        "Jinja",
+        "Thymeleaf"
+      ],
+      "answer": "Blade",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans quel fichier définit-on les routes web ?",
+      "options": [
+        "routes/web.php",
+        "app/routes.php",
+        "config/routes.json",
+        "public/index.php"
+      ],
+      "answer": "routes/web.php",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande lance le serveur de développement ?",
+      "options": [
+        "php artisan serve",
+        "php artisan start",
+        "composer serve",
+        "laravel run"
+      ],
+      "answer": "php artisan serve",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier contient les variables d'environnement d'un projet Laravel ?",
+      "options": [
+        ".env",
+        "config.ini",
+        "settings.php",
+        "env.json"
+      ],
+      "answer": ".env",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel motif d'architecture Laravel suit-il principalement ?",
+      "options": [
+        "MVC",
+        "MVVM",
+        "Flux",
+        "CQRS uniquement"
+      ],
+      "answer": "MVC",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande crée un contrôleur ?",
+      "options": [
+        "php artisan make:controller",
+        "php artisan new:controller",
+        "composer make controller",
+        "php artisan controller:add"
+      ],
+      "answer": "php artisan make:controller",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que sont les migrations ?",
+      "options": [
+        "Des fichiers qui décrivent l'évolution du schéma de la base de données",
+        "Des sauvegardes de la base",
+        "Des déplacements de serveurs",
+        "Des traductions de l'interface"
+      ],
+      "answer": "Des fichiers qui décrivent l'évolution du schéma de la base de données",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande exécute les migrations ?",
+      "options": [
+        "php artisan migrate",
+        "php artisan db:run",
+        "composer migrate",
+        "php artisan schema"
+      ],
+      "answer": "php artisan migrate",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans Blade, quelle syntaxe affiche une variable en l'échappant ?",
+      "options": [
+        "{{ $nom }}",
+        "<?= $nom ?> sans échappement",
+        "{!! $nom !!}",
+        "[[ $nom ]]"
+      ],
+      "answer": "{{ $nom }}",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle directive Blade permet d'hériter d'un layout ?",
+      "options": [
+        "@extends",
+        "@include",
+        "@layout",
+        "@parent"
+      ],
+      "answer": "@extends",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Où se trouvent les vues Blade ?",
+      "options": [
+        "resources/views",
+        "app/views",
+        "public/views",
+        "storage/views"
+      ],
+      "answer": "resources/views",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que sont les seeders ?",
+      "options": [
+        "Des classes qui remplissent la base avec des données initiales ou de test",
+        "Des tâches planifiées",
+        "Des middlewares",
+        "Des tests unitaires"
+      ],
+      "answer": "Des classes qui remplissent la base avec des données initiales ou de test",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle directive Blade protège un formulaire contre le CSRF ?",
+      "options": [
+        "@csrf",
+        "@secure",
+        "@token",
+        "@protect"
+      ],
+      "answer": "@csrf",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier définit les routes d'API ?",
+      "options": [
+        "routes/api.php",
+        "api/routes.json",
+        "app/api.php",
+        "config/api.php"
+      ],
+      "answer": "routes/api.php",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode Eloquent récupère tous les enregistrements d'un modèle ?",
+      "options": [
+        "User::all()",
+        "User::getEverything()",
+        "User::list()",
+        "User::fetchAll()"
+      ],
+      "answer": "User::all()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel paquet officiel fournit une authentification prête à l'emploi simple (starter kit) ?",
+      "options": [
+        "Laravel Breeze",
+        "Laravel Mix",
+        "Laravel Echo",
+        "Laravel Envoy"
+      ],
+      "answer": "Laravel Breeze",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un middleware dans Laravel ?",
+      "options": [
+        "Un filtre exécuté autour des requêtes HTTP, par exemple pour l'authentification",
+        "Un modèle Eloquent",
+        "Une vue Blade partielle",
+        "Un fichier de migration"
+      ],
+      "answer": "Un filtre exécuté autour des requêtes HTTP, par exemple pour l'authentification",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre $fillable et $guarded ?",
+      "options": [
+        "$fillable liste les attributs assignables en masse, $guarded ceux qui sont protégés",
+        "$guarded chiffre les attributs",
+        "$fillable rend les attributs obligatoires",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "$fillable liste les attributs assignables en masse, $guarded ceux qui sont protégés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le problème N+1 avec Eloquent ?",
+      "options": [
+        "Une requête par élément pour charger une relation, au lieu d'une requête groupée",
+        "Une erreur de pagination",
+        "Une migration en double",
+        "Un dépassement de mémoire de Blade"
+      ],
+      "answer": "Une requête par élément pour charger une relation, au lieu d'une requête groupée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment résoudre le problème N+1 avec Eloquent ?",
+      "options": [
+        "Avec le chargement anticipé, par exemple Post::with('author')",
+        "En augmentant la mémoire PHP",
+        "En désactivant les relations",
+        "En utilisant des seeders"
+      ],
+      "answer": "Avec le chargement anticipé, par exemple Post::with('author')",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les Form Requests ?",
+      "options": [
+        "Des classes dédiées à la validation et l'autorisation d'une requête",
+        "Des formulaires HTML générés",
+        "Des requêtes SQL brutes",
+        "Des tests de formulaires"
+      ],
+      "answer": "Des classes dédiées à la validation et l'autorisation d'une requête",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le service container de Laravel ?",
+      "options": [
+        "Un mécanisme qui gère l'injection de dépendances et la résolution des classes",
+        "Un conteneur Docker fourni",
+        "Un cache de vues",
+        "Un gestionnaire de fichiers"
+      ],
+      "answer": "Un mécanisme qui gère l'injection de dépendances et la résolution des classes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les Service Providers ?",
+      "options": [
+        "Les classes où l'on enregistre et initialise les services de l'application",
+        "Les hébergeurs compatibles",
+        "Les fournisseurs de paiement",
+        "Les API externes"
+      ],
+      "answer": "Les classes où l'on enregistre et initialise les services de l'application",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait le route model binding ?",
+      "options": [
+        "Injecter automatiquement le modèle correspondant à un paramètre de route",
+        "Lier deux routes entre elles",
+        "Créer une table pour chaque route",
+        "Mettre en cache les routes"
+      ],
+      "answer": "Injecter automatiquement le modèle correspondant à un paramètre de route",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi servent les files d'attente (queues) ?",
+      "options": [
+        "Exécuter des tâches longues en arrière-plan, comme l'envoi d'emails",
+        "Trier les résultats de requêtes",
+        "Gérer les sessions",
+        "Compiler les vues"
+      ],
+      "answer": "Exécuter des tâches longues en arrière-plan, comme l'envoi d'emails",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande lance un worker de file d'attente ?",
+      "options": [
+        "php artisan queue:work",
+        "php artisan jobs:start",
+        "php artisan worker",
+        "composer queue"
+      ],
+      "answer": "php artisan queue:work",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les Policies ?",
+      "options": [
+        "Des classes qui regroupent la logique d'autorisation d'un modèle",
+        "Des règles de mot de passe",
+        "Des politiques de cache",
+        "Des fichiers de licence"
+      ],
+      "answer": "Des classes qui regroupent la logique d'autorisation d'un modèle",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les accessors et mutators ?",
+      "options": [
+        "Des méthodes qui transforment un attribut à la lecture ou à l'écriture",
+        "Des droits d'accès",
+        "Des routes protégées",
+        "Des migrations réversibles"
+      ],
+      "answer": "Des méthodes qui transforment un attribut à la lecture ou à l'écriture",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que permet le soft delete ?",
+      "options": [
+        "Marquer un enregistrement comme supprimé via deleted_at sans l'effacer réellement",
+        "Supprimer plus lentement",
+        "Vider le cache",
+        "Supprimer uniquement les fichiers"
+      ],
+      "answer": "Marquer un enregistrement comme supprimé via deleted_at sans l'effacer réellement",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi servent les Events et Listeners ?",
+      "options": [
+        "Découpler des actions en réagissant à des événements de l'application",
+        "Gérer les clics dans le navigateur",
+        "Planifier des sauvegardes",
+        "Écrire des logs SQL"
+      ],
+      "answer": "Découpler des actions en réagissant à des événements de l'application",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Laravel Sanctum ?",
+      "options": [
+        "Un système d'authentification léger par jetons d'API et pour les SPA",
+        "Un outil de tests",
+        "Un moteur de recherche",
+        "Un serveur WebSocket"
+      ],
+      "answer": "Un système d'authentification léger par jetons d'API et pour les SPA",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle commande met en cache la configuration pour la production ?",
+      "options": [
+        "php artisan config:cache",
+        "php artisan cache:all",
+        "php artisan optimize:clear",
+        "php artisan config:publish"
+      ],
+      "answer": "php artisan config:cache",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les API Resources ?",
+      "options": [
+        "Des classes qui transforment les modèles en réponses JSON",
+        "Des contrôleurs générés automatiquement",
+        "Des routes publiques",
+        "Des fichiers statiques"
+      ],
+      "answer": "Des classes qui transforment les modèles en réponses JSON",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment définit-on une relation un-à-plusieurs dans un modèle ?",
+      "options": [
+        "Avec la méthode hasMany()",
+        "Avec belongsToMany()",
+        "Avec hasOneThrough()",
+        "Avec morphTo()"
+      ],
+      "answer": "Avec la méthode hasMany()",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une Facade ?",
+      "options": [
+        "Une interface statique vers un service du container",
+        "Une page d'accueil",
+        "Un modèle sans table",
+        "Un middleware global"
+      ],
+      "answer": "Une interface statique vers un service du container",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Comment planifie-t-on des tâches récurrentes ?",
+      "options": [
+        "Avec le scheduler de Laravel, déclenché par une entrée cron unique",
+        "Avec une route spéciale",
+        "Avec un seeder",
+        "Avec Blade"
+      ],
+      "answer": "Avec le scheduler de Laravel, déclenché par une entrée cron unique",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre bind et singleton dans le container ?",
+      "options": [
+        "bind crée une nouvelle instance à chaque résolution, singleton la partage",
+        "singleton est réservé aux modèles",
+        "bind met en cache le service",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "bind crée une nouvelle instance à chaque résolution, singleton la partage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que sont les scopes globaux d'Eloquent ?",
+      "options": [
+        "Des contraintes ajoutées automatiquement à toutes les requêtes d'un modèle",
+        "Des variables globales PHP",
+        "Des routes accessibles partout",
+        "Des permissions administrateur"
+      ],
+      "answer": "Des contraintes ajoutées automatiquement à toutes les requêtes d'un modèle",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une relation polymorphe ?",
+      "options": [
+        "Un modèle qui peut appartenir à plusieurs types de modèles via une seule relation",
+        "Une relation entre deux bases de données",
+        "Une relation qui change de nom",
+        "Une relation sans clé étrangère"
+      ],
+      "answer": "Un modèle qui peut appartenir à plusieurs types de modèles via une seule relation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel risque présente {!! $contenu !!} dans Blade ?",
+      "options": [
+        "Le contenu est affiché sans échappement, ce qui peut introduire du XSS",
+        "Il ralentit le rendu",
+        "Il génère une erreur de syntaxe",
+        "Il n'affiche rien"
+      ],
+      "answer": "Le contenu est affiché sans échappement, ce qui peut introduire du XSS",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment éviter qu'un job de file s'exécute deux fois en même temps pour la même ressource ?",
+      "options": [
+        "Avec un job unique (ShouldBeUnique) ou un verrou atomique",
+        "En augmentant le nombre de workers",
+        "En supprimant la file",
+        "En utilisant sync comme pilote"
+      ],
+      "answer": "Avec un job unique (ShouldBeUnique) ou un verrou atomique",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait DB::transaction() ?",
+      "options": [
+        "Exécuter un bloc dans une transaction, validée à la fin ou annulée en cas d'exception",
+        "Copier la base de données",
+        "Mettre une requête en cache",
+        "Migrer la base"
+      ],
+      "answer": "Exécuter un bloc dans une transaction, validée à la fin ou annulée en cas d'exception",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Laravel Octane ?",
+      "options": [
+        "Un serveur haute performance qui garde l'application en mémoire entre les requêtes",
+        "Un outil de tests de charge",
+        "Un CDN",
+        "Un ORM alternatif"
+      ],
+      "answer": "Un serveur haute performance qui garde l'application en mémoire entre les requêtes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel piège faut-il éviter avec Octane ?",
+      "options": [
+        "Conserver un état dans des propriétés statiques ou singletons, partagé entre requêtes",
+        "Utiliser Eloquent",
+        "Utiliser Blade",
+        "Utiliser des routes nommées"
+      ],
+      "answer": "Conserver un état dans des propriétés statiques ou singletons, partagé entre requêtes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « chunking » d'Eloquent ?",
+      "options": [
+        "Traiter un grand nombre d'enregistrements par lots pour limiter la mémoire",
+        "Découper une vue en composants",
+        "Fragmenter les migrations",
+        "Paginer automatiquement l'API"
+      ],
+      "answer": "Traiter un grand nombre d'enregistrements par lots pour limiter la mémoire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle différence entre chunk() et lazy() ?",
+      "options": [
+        "lazy() renvoie une LazyCollection itérable qui charge les lots à la demande",
+        "chunk() ne fonctionne qu'avec MySQL",
+        "lazy() charge tout en mémoire",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "lazy() renvoie une LazyCollection itérable qui charge les lots à la demande",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment Laravel protège-t-il les cookies par défaut ?",
+      "options": [
+        "Ils sont chiffrés et signés avec la clé APP_KEY",
+        "Ils sont stockés en base de données",
+        "Ils sont en clair",
+        "Ils sont compressés"
+      ],
+      "answer": "Ils sont chiffrés et signés avec la clé APP_KEY",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi la fuite de APP_KEY est-elle grave ?",
+      "options": [
+        "Elle permet de déchiffrer ou forger des données chiffrées comme les cookies",
+        "Elle supprime la base",
+        "Elle désactive les routes",
+        "Elle n'a aucune conséquence"
+      ],
+      "answer": "Elle permet de déchiffrer ou forger des données chiffrées comme les cookies",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Laravel Horizon ?",
+      "options": [
+        "Un tableau de bord et une configuration pour les files d'attente Redis",
+        "Un outil de déploiement",
+        "Un moteur de templates",
+        "Un serveur de mails"
+      ],
+      "answer": "Un tableau de bord et une configuration pour les files d'attente Redis",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert la méthode withCount() ?",
+      "options": [
+        "Ajouter le nombre d'éléments d'une relation sans charger ceux-ci",
+        "Compter les requêtes SQL exécutées",
+        "Paginer les résultats",
+        "Compter les routes"
+      ],
+      "answer": "Ajouter le nombre d'éléments d'une relation sans charger ceux-ci",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « contextual binding » ?",
+      "options": [
+        "Injecter une implémentation différente selon la classe qui en dépend",
+        "Lier une route à un contexte de langue",
+        "Associer un modèle à une vue",
+        "Lier une session à un utilisateur"
+      ],
+      "answer": "Injecter une implémentation différente selon la classe qui en dépend",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permettent les casts personnalisés d'Eloquent ?",
+      "options": [
+        "Définir comment un attribut est converti entre la base et un objet PHP",
+        "Changer le type de la base de données",
+        "Forcer le typage des routes",
+        "Convertir Blade en HTML"
+      ],
+      "answer": "Définir comment un attribut est converti entre la base et un objet PHP",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est l'intérêt de « php artisan route:cache » ?",
+      "options": [
+        "Accélérer l'enregistrement des routes en production",
+        "Mémoriser les réponses HTTP",
+        "Supprimer les routes inutilisées",
+        "Générer la documentation"
+      ],
+      "answer": "Accélérer l'enregistrement des routes en production",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment tester un envoi d'email sans l'envoyer réellement ?",
+      "options": [
+        "Avec Mail::fake() puis des assertions",
+        "En coupant Internet",
+        "En supprimant le mailer",
+        "Avec un seeder"
+      ],
+      "answer": "Avec Mail::fake() puis des assertions",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait la méthode preventLazyLoading() en développement ?",
+      "options": [
+        "Elle lève une exception quand une relation est chargée paresseusement, pour repérer les N+1",
+        "Elle désactive les relations",
+        "Elle accélère les requêtes",
+        "Elle met tout en cache"
+      ],
+      "answer": "Elle lève une exception quand une relation est chargée paresseusement, pour repérer les N+1",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un pipeline dans Laravel ?",
+      "options": [
+        "Faire passer un objet à travers une série d'étapes, comme le font les middlewares",
+        "Un outil CI",
+        "Une file Redis",
+        "Une connexion à la base"
+      ],
+      "answer": "Faire passer un objet à travers une série d'étapes, comme le font les middlewares",
+      "difficulty": "difficile"
+    }
+  ]
 }

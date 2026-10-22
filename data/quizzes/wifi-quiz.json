@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quelle norme IEEE définit le Wi-Fi ?",
+      "options": [
+        "802.11",
+        "802.3",
+        "802.15",
+        "802.1Q"
+      ],
+      "answer": "802.11",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie SSID ?",
+      "options": [
+        "Le nom d'un réseau Wi-Fi",
+        "Le mot de passe du réseau",
+        "L'adresse IP du routeur",
+        "Le canal utilisé"
+      ],
+      "answer": "Le nom d'un réseau Wi-Fi",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelles sont les deux bandes de fréquences historiques du Wi-Fi ?",
+      "options": [
+        "2,4 GHz et 5 GHz",
+        "900 MHz et 1,8 GHz",
+        "3G et 4G",
+        "10 GHz et 20 GHz"
+      ],
+      "answer": "2,4 GHz et 5 GHz",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole de sécurité Wi-Fi est obsolète et facilement cassable ?",
+      "options": [
+        "WEP",
+        "WPA3",
+        "WPA2-Enterprise",
+        "802.1X"
+      ],
+      "answer": "WEP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le protocole de sécurité Wi-Fi le plus récent ?",
+      "options": [
+        "WPA3",
+        "WEP",
+        "WPA",
+        "WPS"
+      ],
+      "answer": "WPA3",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est l'avantage de la bande 2,4 GHz par rapport à 5 GHz ?",
+      "options": [
+        "Une meilleure portée et traversée des murs",
+        "Un débit maximal plus élevé",
+        "Plus de canaux sans chevauchement",
+        "Moins d'interférences"
+      ],
+      "answer": "Une meilleure portée et traversée des murs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel appareil diffuse le signal Wi-Fi ?",
+      "options": [
+        "Un point d'accès",
+        "Un switch non administrable",
+        "Un disque NAS",
+        "Un câble RJ45"
+      ],
+      "answer": "Un point d'accès",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel nom commercial correspond à la norme 802.11ax ?",
+      "options": [
+        "Wi-Fi 6",
+        "Wi-Fi 4",
+        "Wi-Fi 5",
+        "Wi-Fi 3"
+      ],
+      "answer": "Wi-Fi 6",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel nom commercial correspond à la norme 802.11ac ?",
+      "options": [
+        "Wi-Fi 5",
+        "Wi-Fi 6",
+        "Wi-Fi 4",
+        "Wi-Fi 7"
+      ],
+      "answer": "Wi-Fi 5",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi un réseau Wi-Fi public ouvert est-il risqué ?",
+      "options": [
+        "Le trafic peut être intercepté par d'autres utilisateurs",
+        "Il est toujours plus lent",
+        "Il ne permet pas d'aller sur Internet",
+        "Il endommage la batterie"
+      ],
+      "answer": "Le trafic peut être intercepté par d'autres utilisateurs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle fonctionnalité facilite la connexion par bouton ou code PIN mais est connue pour ses failles ?",
+      "options": [
+        "WPS",
+        "WPA3",
+        "SSID",
+        "DHCP"
+      ],
+      "answer": "WPS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un réseau maillé (mesh) Wi-Fi ?",
+      "options": [
+        "Plusieurs points d'accès qui coopèrent pour couvrir une grande surface",
+        "Un réseau sans mot de passe",
+        "Un réseau réservé aux objets connectés",
+        "Un câble Ethernet tressé"
+      ],
+      "answer": "Plusieurs points d'accès qui coopèrent pour couvrir une grande surface",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle unité mesure la puissance du signal Wi-Fi reçu ?",
+      "options": [
+        "dBm",
+        "Mbps",
+        "GHz",
+        "ms"
+      ],
+      "answer": "dBm",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Un signal à -40 dBm est-il meilleur qu'un signal à -80 dBm ?",
+      "options": [
+        "Oui, il est beaucoup plus fort",
+        "Non, il est beaucoup plus faible",
+        "Ils sont équivalents",
+        "Cela dépend de la couleur du routeur"
+      ],
+      "answer": "Oui, il est beaucoup plus fort",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi masquer le SSID n'est-il pas une vraie mesure de sécurité ?",
+      "options": [
+        "Le nom du réseau reste visible dans les trames échangées par les clients",
+        "Cela désactive le chiffrement",
+        "Cela coupe la connexion des clients",
+        "Le SSID n'est jamais visible"
+      ],
+      "answer": "Le nom du réseau reste visible dans les trames échangées par les clients",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le filtrage MAC ?",
+      "options": [
+        "N'autoriser que les appareils dont l'adresse MAC est dans une liste",
+        "Bloquer les ordinateurs Apple",
+        "Chiffrer les adresses MAC",
+        "Limiter le débit par appareil"
+      ],
+      "answer": "N'autoriser que les appareils dont l'adresse MAC est dans une liste",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi le filtrage MAC seul est-il insuffisant ?",
+      "options": [
+        "Une adresse MAC peut facilement être usurpée",
+        "Il bloque tous les smartphones",
+        "Il ralentit fortement le réseau",
+        "Il désactive le WPA2"
+      ],
+      "answer": "Une adresse MAC peut facilement être usurpée",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle nouvelle bande de fréquences apporte le Wi-Fi 6E ?",
+      "options": [
+        "6 GHz",
+        "900 MHz",
+        "60 GHz",
+        "3,5 GHz"
+      ],
+      "answer": "6 GHz",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un réseau Wi-Fi « invité » ?",
+      "options": [
+        "Un réseau séparé qui isole les visiteurs du réseau principal",
+        "Un réseau sans Internet",
+        "Un réseau plus rapide pour les invités",
+        "Un réseau réservé aux imprimantes"
+      ],
+      "answer": "Un réseau séparé qui isole les visiteurs du réseau principal",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une interférence co-canal ?",
+      "options": [
+        "Plusieurs réseaux voisins utilisant le même canal et se partageant le temps d'antenne",
+        "Un câble mal branché",
+        "Un conflit d'adresse IP",
+        "Un mot de passe trop court"
+      ],
+      "answer": "Plusieurs réseaux voisins utilisant le même canal et se partageant le temps d'antenne",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien de canaux sans chevauchement sont classiquement utilisés en 2,4 GHz, comme le trio 1, 6 et 11 ?",
+      "options": [
+        "3",
+        "1",
+        "14",
+        "24"
+      ],
+      "answer": "3",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel algorithme de chiffrement utilise WPA2 ?",
+      "options": [
+        "AES-CCMP",
+        "RC4",
+        "DES",
+        "MD5"
+      ],
+      "answer": "AES-CCMP",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel chiffrement, basé sur RC4, utilisait WPA à l'origine ?",
+      "options": [
+        "TKIP",
+        "AES-GCMP",
+        "3DES",
+        "ChaCha20"
+      ],
+      "answer": "TKIP",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « 4-way handshake » de WPA2 ?",
+      "options": [
+        "L'échange qui dérive les clés de session à partir de la clé maîtresse",
+        "La recherche des quatre meilleurs canaux",
+        "L'authentification par quatre mots de passe",
+        "La connexion à quatre points d'accès"
+      ],
+      "answer": "L'échange qui dérive les clés de session à partir de la clé maîtresse",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre WPA2-Personal et WPA2-Enterprise ?",
+      "options": [
+        "Personal utilise une clé partagée, Enterprise authentifie chaque utilisateur via 802.1X/RADIUS",
+        "Enterprise n'est pas chiffré",
+        "Personal est réservé à la bande 5 GHz",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "Personal utilise une clé partagée, Enterprise authentifie chaque utilisateur via 802.1X/RADIUS",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel serveur est généralement utilisé pour l'authentification WPA2-Enterprise ?",
+      "options": [
+        "Un serveur RADIUS",
+        "Un serveur DNS",
+        "Un serveur SMTP",
+        "Un serveur FTP"
+      ],
+      "answer": "Un serveur RADIUS",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un « evil twin » ?",
+      "options": [
+        "Un faux point d'accès imitant le SSID d'un réseau légitime",
+        "Un routeur en double pour la redondance",
+        "Un câble défectueux",
+        "Un réseau Wi-Fi caché"
+      ],
+      "answer": "Un faux point d'accès imitant le SSID d'un réseau légitime",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'attaque par désauthentification ?",
+      "options": [
+        "Envoyer de fausses trames de désauthentification pour déconnecter des clients",
+        "Supprimer le mot de passe du routeur",
+        "Changer le SSID d'un réseau",
+        "Couper le courant du point d'accès"
+      ],
+      "answer": "Envoyer de fausses trames de désauthentification pour déconnecter des clients",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle fonctionnalité, obligatoire en WPA3, protège les trames de gestion ?",
+      "options": [
+        "PMF (802.11w)",
+        "WPS",
+        "TKIP",
+        "WEP"
+      ],
+      "answer": "PMF (802.11w)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel mécanisme de WPA3-Personal remplace la PSK et résiste aux attaques par dictionnaire hors ligne ?",
+      "options": [
+        "SAE (Simultaneous Authentication of Equals)",
+        "TKIP",
+        "WPS",
+        "LEAP"
+      ],
+      "answer": "SAE (Simultaneous Authentication of Equals)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le MU-MIMO ?",
+      "options": [
+        "La transmission simultanée vers plusieurs clients grâce à plusieurs antennes",
+        "Un mode de chiffrement",
+        "Un type de câble",
+        "Un protocole de roaming"
+      ],
+      "answer": "La transmission simultanée vers plusieurs clients grâce à plusieurs antennes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'apporte l'OFDMA introduit avec le Wi-Fi 6 ?",
+      "options": [
+        "Le partage d'un canal en sous-porteuses entre plusieurs clients en même temps",
+        "Le chiffrement par défaut",
+        "Une portée de 10 km",
+        "La suppression des interférences"
+      ],
+      "answer": "Le partage d'un canal en sous-porteuses entre plusieurs clients en même temps",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « band steering » ?",
+      "options": [
+        "Orienter les clients compatibles vers la bande 5 GHz",
+        "Changer automatiquement le mot de passe",
+        "Bloquer la bande 2,4 GHz",
+        "Réduire la puissance d'émission"
+      ],
+      "answer": "Orienter les clients compatibles vers la bande 5 GHz",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le roaming Wi-Fi ?",
+      "options": [
+        "Le passage d'un client d'un point d'accès à un autre sans perdre la connexion",
+        "L'utilisation du Wi-Fi à l'étranger",
+        "Le changement de canal du point d'accès",
+        "La connexion à un réseau ouvert"
+      ],
+      "answer": "Le passage d'un client d'un point d'accès à un autre sans perdre la connexion",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle norme accélère le roaming en pré-authentifiant le client (Fast BSS Transition) ?",
+      "options": [
+        "802.11r",
+        "802.11b",
+        "802.11g",
+        "802.11n"
+      ],
+      "answer": "802.11r",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un contrôleur Wi-Fi (WLC) ?",
+      "options": [
+        "Un équipement qui gère de façon centralisée de nombreux points d'accès",
+        "Un analyseur de spectre portable",
+        "Un répéteur de signal",
+        "Un modem fibre"
+      ],
+      "answer": "Un équipement qui gère de façon centralisée de nombreux points d'accès",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi la largeur de canal de 160 MHz n'est-elle pas toujours un bon choix ?",
+      "options": [
+        "Elle augmente le risque d'interférences et réduit le nombre de canaux disponibles",
+        "Elle n'est pas chiffrée",
+        "Elle ne fonctionne qu'en 2,4 GHz",
+        "Elle double la portée"
+      ],
+      "answer": "Elle augmente le risque d'interférences et réduit le nombre de canaux disponibles",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le DFS sur la bande 5 GHz ?",
+      "options": [
+        "Un mécanisme qui oblige à changer de canal si un radar est détecté",
+        "Un système de fichiers distribué",
+        "Un mode d'économie d'énergie",
+        "Un chiffrement dynamique"
+      ],
+      "answer": "Un mécanisme qui oblige à changer de canal si un radar est détecté",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle attaque permet de casser une clé WPA2-PSK faible ?",
+      "options": [
+        "Capturer le handshake puis tester un dictionnaire de mots de passe hors ligne",
+        "Envoyer des pings au routeur",
+        "Changer d'adresse MAC",
+        "Masquer son SSID"
+      ],
+      "answer": "Capturer le handshake puis tester un dictionnaire de mots de passe hors ligne",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'isolation des clients (client isolation) ?",
+      "options": [
+        "Empêcher les appareils connectés au même réseau Wi-Fi de communiquer entre eux",
+        "Limiter le nombre de clients",
+        "Chiffrer chaque client avec WEP",
+        "Couper les clients inactifs"
+      ],
+      "answer": "Empêcher les appareils connectés au même réseau Wi-Fi de communiquer entre eux",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle vulnérabilité de 2017 permettait de réinstaller une clé déjà utilisée dans le handshake WPA2 ?",
+      "options": [
+        "KRACK",
+        "Heartbleed",
+        "POODLE",
+        "Dragonblood"
+      ],
+      "answer": "KRACK",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi fait référence « Dragonblood » ?",
+      "options": [
+        "Des failles découvertes dans le handshake SAE de WPA3",
+        "Une attaque sur WEP",
+        "Un malware visant les routeurs",
+        "Un défaut matériel des antennes"
+      ],
+      "answer": "Des failles découvertes dans le handshake SAE de WPA3",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'attaque PMKID ?",
+      "options": [
+        "Récupérer un hachage à partir de la première trame EAPOL d'un point d'accès sans attendre un client",
+        "Usurper le contrôleur Wi-Fi",
+        "Brouiller la bande 5 GHz",
+        "Désactiver PMF"
+      ],
+      "answer": "Récupérer un hachage à partir de la première trame EAPOL d'un point d'accès sans attendre un client",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte OWE (Enhanced Open) aux réseaux Wi-Fi ouverts ?",
+      "options": [
+        "Un chiffrement individuel sans mot de passe via un échange Diffie-Hellman",
+        "Une authentification par carte SIM",
+        "Un portail captif obligatoire",
+        "Le filtrage MAC automatique"
+      ],
+      "answer": "Un chiffrement individuel sans mot de passe via un échange Diffie-Hellman",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle méthode EAP utilise des certificats côté client et côté serveur ?",
+      "options": [
+        "EAP-TLS",
+        "PEAP-MSCHAPv2",
+        "EAP-MD5",
+        "LEAP"
+      ],
+      "answer": "EAP-TLS",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi PEAP-MSCHAPv2 est-il vulnérable si le client ne valide pas le certificat du serveur ?",
+      "options": [
+        "Un faux point d'accès peut capturer l'échange MSCHAPv2 et casser le mot de passe",
+        "Le chiffrement est désactivé",
+        "Le mot de passe est envoyé en clair dans le SSID",
+        "Le serveur RADIUS est contourné"
+      ],
+      "answer": "Un faux point d'accès peut capturer l'échange MSCHAPv2 et casser le mot de passe",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « BSS coloring » du Wi-Fi 6 ?",
+      "options": [
+        "Un marquage des trames permettant d'ignorer plus facilement les réseaux voisins sur le même canal",
+        "Une couleur affichée dans l'interface du routeur",
+        "Un chiffrement par réseau",
+        "Un mode de faible consommation"
+      ],
+      "answer": "Un marquage des trames permettant d'ignorer plus facilement les réseaux voisins sur le même canal",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le Target Wake Time (TWT) ?",
+      "options": [
+        "La planification des réveils des appareils pour économiser leur batterie",
+        "Un minuteur d'extinction du routeur",
+        "Le délai de roaming",
+        "La durée de validité de la clé"
+      ],
+      "answer": "La planification des réveils des appareils pour économiser leur batterie",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle nouveauté majeure apporte le Wi-Fi 7 (802.11be) ?",
+      "options": [
+        "Le Multi-Link Operation (MLO) sur plusieurs bandes simultanément",
+        "Le retour au chiffrement WEP",
+        "La suppression de la bande 5 GHz",
+        "Une portée de plusieurs kilomètres"
+      ],
+      "answer": "Le Multi-Link Operation (MLO) sur plusieurs bandes simultanément",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle modulation maximale introduit le Wi-Fi 7 ?",
+      "options": [
+        "4096-QAM",
+        "64-QAM",
+        "256-QAM",
+        "BPSK"
+      ],
+      "answer": "4096-QAM",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Comment est dérivée la PMK en WPA2-Personal ?",
+      "options": [
+        "Par PBKDF2 à partir de la phrase de passe et du SSID",
+        "Par MD5 de l'adresse MAC",
+        "Par un tirage aléatoire du routeur",
+        "À partir du numéro de série du point d'accès"
+      ],
+      "answer": "Par PBKDF2 à partir de la phrase de passe et du SSID",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi le SSID intervient-il dans la dérivation de la clé WPA2 ?",
+      "options": [
+        "Il sert de sel, ce qui rend les tables précalculées spécifiques à chaque nom de réseau",
+        "Il sert de mot de passe secondaire",
+        "Il détermine le canal",
+        "Il chiffre les trames de gestion"
+      ],
+      "answer": "Il sert de sel, ce qui rend les tables précalculées spécifiques à chaque nom de réseau",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « KARMA attack » ?",
+      "options": [
+        "Un point d'accès malveillant qui répond à toutes les recherches de réseaux connus des clients",
+        "Un brouillage de fréquence",
+        "Une attaque sur le firmware des clients",
+        "Un vol de la base RADIUS"
+      ],
+      "answer": "Un point d'accès malveillant qui répond à toutes les recherches de réseaux connus des clients",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel en-tête radio les outils de capture utilisent-ils pour obtenir la puissance et le canal des trames ?",
+      "options": [
+        "Radiotap",
+        "VLAN tag",
+        "TCP options",
+        "IPsec ESP"
+      ],
+      "answer": "Radiotap",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le mode monitor d'une carte Wi-Fi ?",
+      "options": [
+        "Un mode qui capture toutes les trames radio sans être associé à un réseau",
+        "Un mode d'économie d'énergie",
+        "Un mode point d'accès",
+        "Un mode qui affiche la qualité du signal à l'écran"
+      ],
+      "answer": "Un mode qui capture toutes les trames radio sans être associé à un réseau",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle norme définit l'aide au roaming par la liste des voisins (Neighbor Reports) ?",
+      "options": [
+        "802.11k",
+        "802.11a",
+        "802.11i",
+        "802.11e"
+      ],
+      "answer": "802.11k",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle norme a introduit la sécurité RSN, à la base de WPA2 ?",
+      "options": [
+        "802.11i",
+        "802.11n",
+        "802.11ac",
+        "802.11r"
+      ],
+      "answer": "802.11i",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est l'intérêt de la norme 802.11v ?",
+      "options": [
+        "Permettre au réseau de suggérer à un client de changer de point d'accès (BSS Transition)",
+        "Chiffrer les trames de gestion",
+        "Ajouter la bande 6 GHz",
+        "Augmenter la modulation"
+      ],
+      "answer": "Permettre au réseau de suggérer à un client de changer de point d'accès (BSS Transition)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un portail captif et quelle est sa limite de sécurité ?",
+      "options": [
+        "Une page d'accueil avant l'accès à Internet, qui n'assure pas le chiffrement du trafic Wi-Fi",
+        "Un pare-feu matériel inviolable",
+        "Un chiffrement WPA3 simplifié",
+        "Une authentification EAP-TLS"
+      ],
+      "answer": "Une page d'accueil avant l'accès à Internet, qui n'assure pas le chiffrement du trafic Wi-Fi",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la « hidden node problem » ?",
+      "options": [
+        "Deux clients qui ne s'entendent pas mais atteignent le même point d'accès et provoquent des collisions",
+        "Un point d'accès au SSID masqué",
+        "Un client qui ne reçoit pas d'adresse IP",
+        "Une antenne cachée dans un mur"
+      ],
+      "answer": "Deux clients qui ne s'entendent pas mais atteignent le même point d'accès et provoquent des collisions",
+      "difficulty": "difficile"
+    }
+  ]
 }

@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quel langage Google recommande-t-il pour développer sur Android ?",
+      "options": [
+        "Kotlin",
+        "Swift",
+        "C#",
+        "Ruby"
+      ],
+      "answer": "Kotlin",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est l'IDE officiel pour Android ?",
+      "options": [
+        "Android Studio",
+        "Xcode",
+        "Visual Studio",
+        "Eclipse Che"
+      ],
+      "answer": "Android Studio",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel fichier déclare les composants et permissions d'une application ?",
+      "options": [
+        "AndroidManifest.xml",
+        "build.gradle",
+        "strings.xml",
+        "MainActivity.kt"
+      ],
+      "answer": "AndroidManifest.xml",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une Activity ?",
+      "options": [
+        "Un écran avec lequel l'utilisateur interagit",
+        "Un service en arrière-plan",
+        "Une base de données",
+        "Un fichier de ressources"
+      ],
+      "answer": "Un écran avec lequel l'utilisateur interagit",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil de build utilise Android ?",
+      "options": [
+        "Gradle",
+        "Maven uniquement",
+        "npm",
+        "CMake uniquement"
+      ],
+      "answer": "Gradle",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le format de publication recommandé sur le Play Store ?",
+      "options": [
+        "Android App Bundle (AAB)",
+        "EXE",
+        "IPA",
+        "JAR"
+      ],
+      "answer": "Android App Bundle (AAB)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le toolkit d'interface déclaratif moderne d'Android ?",
+      "options": [
+        "Jetpack Compose",
+        "SwiftUI",
+        "Flutter",
+        "JavaFX"
+      ],
+      "answer": "Jetpack Compose",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Où place-t-on les textes traduisibles d'une application ?",
+      "options": [
+        "Dans res/values/strings.xml",
+        "Dans le code Kotlin directement",
+        "Dans AndroidManifest.xml",
+        "Dans build.gradle"
+      ],
+      "answer": "Dans res/values/strings.xml",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait un Intent ?",
+      "options": [
+        "Il décrit une action à réaliser, comme démarrer une activité",
+        "Il stocke des données",
+        "Il dessine une vue",
+        "Il compile l'application"
+      ],
+      "answer": "Il décrit une action à réaliser, comme démarrer une activité",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle méthode est appelée à la création d'une Activity ?",
+      "options": [
+        "onCreate()",
+        "onStart() uniquement",
+        "main()",
+        "init()"
+      ],
+      "answer": "onCreate()",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'émulateur Android ?",
+      "options": [
+        "Un appareil virtuel pour tester les applications sur ordinateur",
+        "Un téléphone physique de test",
+        "Un outil de publication",
+        "Un antivirus"
+      ],
+      "answer": "Un appareil virtuel pour tester les applications sur ordinateur",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel composant affiche efficacement une longue liste dans le système de vues classique ?",
+      "options": [
+        "RecyclerView",
+        "ScrollView seul",
+        "TextView",
+        "ImageView"
+      ],
+      "answer": "RecyclerView",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle permission est nécessaire pour accéder à Internet ?",
+      "options": [
+        "android.permission.INTERNET",
+        "android.permission.WIFI_ONLY",
+        "android.permission.NETWORK_ALL",
+        "Aucune"
+      ],
+      "answer": "android.permission.INTERNET",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie APK ?",
+      "options": [
+        "Android Package",
+        "Application Program Kit",
+        "Android Process Kernel",
+        "App Publishing Key"
+      ],
+      "answer": "Android Package",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Toast ?",
+      "options": [
+        "Un court message temporaire affiché à l'écran",
+        "Une notification permanente",
+        "Une boîte de dialogue bloquante",
+        "Un type de base de données"
+      ],
+      "answer": "Un court message temporaire affiché à l'écran",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle commande Gradle construit une version de débogage ?",
+      "options": [
+        "assembleDebug",
+        "buildRelease",
+        "runDebug",
+        "compileApk"
+      ],
+      "answer": "assembleDebug",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que l'outil adb ?",
+      "options": [
+        "Un outil en ligne de commande pour communiquer avec un appareil Android",
+        "Un éditeur de layout",
+        "Un émulateur iOS",
+        "Une bibliothèque réseau"
+      ],
+      "answer": "Un outil en ligne de commande pour communiquer avec un appareil Android",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que représente le minSdk ?",
+      "options": [
+        "La version minimale d'Android sur laquelle l'application s'installe",
+        "La taille minimale de l'APK",
+        "La mémoire minimale",
+        "Le nombre minimal d'utilisateurs"
+      ],
+      "answer": "La version minimale d'Android sur laquelle l'application s'installe",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un Fragment ?",
+      "options": [
+        "Une portion réutilisable d'interface au sein d'une activité",
+        "Un morceau d'APK",
+        "Un thread",
+        "Un fichier de log"
+      ],
+      "answer": "Une portion réutilisable d'interface au sein d'une activité",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel dossier contient les images de l'application ?",
+      "options": [
+        "res/drawable",
+        "assets/code",
+        "java/images",
+        "manifest/img"
+      ],
+      "answer": "res/drawable",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Dans quel ordre sont appelées les méthodes du cycle de vie au démarrage d'une activité ?",
+      "options": [
+        "onCreate, onStart, onResume",
+        "onStart, onCreate, onResume",
+        "onResume, onStart, onCreate",
+        "onCreate, onResume, onStart"
+      ],
+      "answer": "onCreate, onStart, onResume",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que se passe-t-il par défaut lors d'une rotation de l'écran ?",
+      "options": [
+        "L'activité est détruite puis recréée",
+        "Rien ne change",
+        "L'application se ferme",
+        "Seule la vue est retournée"
+      ],
+      "answer": "L'activité est détruite puis recréée",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un ViewModel ?",
+      "options": [
+        "Conserver les données d'interface à travers les changements de configuration",
+        "Dessiner des vues personnalisées",
+        "Gérer la base de données",
+        "Remplacer l'Activity"
+      ],
+      "answer": "Conserver les données d'interface à travers les changements de configuration",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Room ?",
+      "options": [
+        "Une bibliothèque d'abstraction au-dessus de SQLite",
+        "Un moteur de jeu",
+        "Un gestionnaire de permissions",
+        "Un composant de navigation"
+      ],
+      "answer": "Une bibliothèque d'abstraction au-dessus de SQLite",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que LiveData ?",
+      "options": [
+        "Une donnée observable qui respecte le cycle de vie des composants",
+        "Une connexion réseau en direct",
+        "Une base de données cloud",
+        "Un flux vidéo"
+      ],
+      "answer": "Une donnée observable qui respecte le cycle de vie des composants",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi ne doit-on pas faire d'appel réseau sur le thread principal ?",
+      "options": [
+        "Il bloquerait l'interface et provoquerait une erreur NetworkOnMainThreadException",
+        "Le réseau est interdit sur Android",
+        "Les réponses seraient chiffrées",
+        "Le Wi-Fi se couperait"
+      ],
+      "answer": "Il bloquerait l'interface et provoquerait une erreur NetworkOnMainThreadException",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une coroutine Kotlin ?",
+      "options": [
+        "Une unité de travail asynchrone légère qui peut être suspendue",
+        "Un thread système lourd",
+        "Une classe abstraite",
+        "Une bibliothèque graphique"
+      ],
+      "answer": "Une unité de travail asynchrone légère qui peut être suspendue",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'erreur ANR ?",
+      "options": [
+        "« Application Not Responding », quand le thread principal est bloqué trop longtemps",
+        "Une erreur de compilation",
+        "Une erreur réseau",
+        "Une permission refusée"
+      ],
+      "answer": "« Application Not Responding », quand le thread principal est bloqué trop longtemps",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que sont les permissions dangereuses (runtime permissions) ?",
+      "options": [
+        "Des permissions sensibles que l'utilisateur doit accorder pendant l'exécution",
+        "Des permissions refusées par Google",
+        "Des permissions réservées aux jeux",
+        "Des permissions accordées automatiquement"
+      ],
+      "answer": "Des permissions sensibles que l'utilisateur doit accorder pendant l'exécution",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que WorkManager ?",
+      "options": [
+        "Une API pour planifier des tâches différées garanties, même après redémarrage",
+        "Un gestionnaire de fenêtres",
+        "Un outil de tests",
+        "Un service de paiement"
+      ],
+      "answer": "Une API pour planifier des tâches différées garanties, même après redémarrage",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un Service Android ?",
+      "options": [
+        "Un composant qui effectue des opérations sans interface",
+        "Un écran de paramètres",
+        "Un serveur web",
+        "Une base de données"
+      ],
+      "answer": "Un composant qui effectue des opérations sans interface",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un BroadcastReceiver ?",
+      "options": [
+        "Un composant qui réagit à des messages diffusés par le système ou d'autres apps",
+        "Un récepteur radio",
+        "Un client HTTP",
+        "Un lecteur audio"
+      ],
+      "answer": "Un composant qui réagit à des messages diffusés par le système ou d'autres apps",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un ContentProvider ?",
+      "options": [
+        "Un composant qui partage des données structurées avec d'autres applications",
+        "Un fournisseur d'accès Internet",
+        "Un CDN",
+        "Un éditeur de texte"
+      ],
+      "answer": "Un composant qui partage des données structurées avec d'autres applications",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert le Navigation Component ?",
+      "options": [
+        "Gérer la navigation entre écrans de façon déclarative",
+        "Fournir des cartes GPS",
+        "Gérer les menus du système",
+        "Naviguer sur le web"
+      ],
+      "answer": "Gérer la navigation entre écrans de façon déclarative",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'injection de dépendances avec Hilt ?",
+      "options": [
+        "Une bibliothèque basée sur Dagger qui fournit automatiquement les dépendances",
+        "Un outil de test UI",
+        "Un gestionnaire de thèmes",
+        "Un compresseur d'images"
+      ],
+      "answer": "Une bibliothèque basée sur Dagger qui fournit automatiquement les dépendances",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que Retrofit ?",
+      "options": [
+        "Une bibliothèque cliente HTTP typée pour appeler des API",
+        "Un framework de tests",
+        "Une base de données",
+        "Un moteur de rendu"
+      ],
+      "answer": "Une bibliothèque cliente HTTP typée pour appeler des API",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un état dans Jetpack Compose ?",
+      "options": [
+        "Une valeur observée dont le changement déclenche la recomposition",
+        "Une activité suspendue",
+        "Un fichier de configuration",
+        "Un thread"
+      ],
+      "answer": "Une valeur observée dont le changement déclenche la recomposition",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait remember dans Compose ?",
+      "options": [
+        "Conserver une valeur à travers les recompositions",
+        "Sauvegarder sur le disque",
+        "Mémoriser le mot de passe",
+        "Enregistrer un log"
+      ],
+      "answer": "Conserver une valeur à travers les recompositions",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre remember et rememberSaveable ?",
+      "options": [
+        "rememberSaveable survit aussi à la recréation de l'activité",
+        "remember est persistant sur disque",
+        "rememberSaveable est plus rapide",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "rememberSaveable survit aussi à la recréation de l'activité",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que fait R8 lors d'un build de release ?",
+      "options": [
+        "Il réduit, optimise et obscurcit le code",
+        "Il signe l'application",
+        "Il publie l'application",
+        "Il génère des icônes"
+      ],
+      "answer": "Il réduit, optimise et obscurcit le code",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la recomposition dans Compose ?",
+      "options": [
+        "La réexécution des fonctions composables dont les états lus ont changé",
+        "La recompilation de l'application",
+        "Le redémarrage de l'activité",
+        "La rotation de l'écran"
+      ],
+      "answer": "La réexécution des fonctions composables dont les états lus ont changé",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi les fonctions composables doivent-elles être sans effets de bord ?",
+      "options": [
+        "Elles peuvent être exécutées souvent, dans n'importe quel ordre, voire annulées",
+        "Elles sont exécutées sur le serveur",
+        "Elles ne peuvent pas lire d'état",
+        "Le compilateur l'impose syntaxiquement"
+      ],
+      "answer": "Elles peuvent être exécutées souvent, dans n'importe quel ordre, voire annulées",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel API utiliser pour lancer un effet lié au cycle de vie d'un composable ?",
+      "options": [
+        "LaunchedEffect",
+        "GlobalScope.launch",
+        "Thread.start",
+        "AsyncTask"
+      ],
+      "answer": "LaunchedEffect",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi GlobalScope est-il déconseillé ?",
+      "options": [
+        "Ses coroutines ne sont liées à aucun cycle de vie et peuvent fuir",
+        "Il est plus lent",
+        "Il ne fonctionne pas sur Android",
+        "Il bloque le thread principal"
+      ],
+      "answer": "Ses coroutines ne sont liées à aucun cycle de vie et peuvent fuir",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel scope de coroutine est annulé automatiquement avec le ViewModel ?",
+      "options": [
+        "viewModelScope",
+        "GlobalScope",
+        "MainScope global",
+        "runBlocking"
+      ],
+      "answer": "viewModelScope",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la concurrence structurée en Kotlin ?",
+      "options": [
+        "Les coroutines enfants sont liées à un parent qui attend leur fin et propage annulation et erreurs",
+        "Une exécution uniquement séquentielle",
+        "Un pool de threads fixe",
+        "Une API de bases de données"
+      ],
+      "answer": "Les coroutines enfants sont liées à un parent qui attend leur fin et propage annulation et erreurs",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle différence entre StateFlow et SharedFlow ?",
+      "options": [
+        "StateFlow a toujours une valeur courante et ne réémet que les changements ; SharedFlow diffuse des événements sans valeur obligatoire",
+        "SharedFlow est synchrone",
+        "StateFlow ne peut avoir qu'un seul abonné",
+        "Ils sont identiques"
+      ],
+      "answer": "StateFlow a toujours une valeur courante et ne réémet que les changements ; SharedFlow diffuse des événements sans valeur obligatoire",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le mode Doze ?",
+      "options": [
+        "Une mise en veille qui limite réseau et tâches en arrière-plan quand l'appareil est inactif",
+        "Un thème sombre",
+        "Un mode développeur",
+        "Un mode de débogage USB"
+      ],
+      "answer": "Une mise en veille qui limite réseau et tâches en arrière-plan quand l'appareil est inactif",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un foreground service ?",
+      "options": [
+        "Un service visible par une notification persistante, pour une tâche que l'utilisateur perçoit",
+        "Un service lancé au premier plan de l'écran",
+        "Une activité transparente",
+        "Un service sans permission"
+      ],
+      "answer": "Un service visible par une notification persistante, pour une tâche que l'utilisateur perçoit",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le Baseline Profile ?",
+      "options": [
+        "Une liste de chemins de code critiques précompilés pour accélérer le démarrage",
+        "Le profil utilisateur par défaut",
+        "Un profil de couleur",
+        "Une configuration Gradle minimale"
+      ],
+      "answer": "Une liste de chemins de code critiques précompilés pour accélérer le démarrage",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'ART ?",
+      "options": [
+        "L'environnement d'exécution d'Android, qui compile le bytecode en code natif",
+        "Un outil de dessin",
+        "Un format d'image",
+        "Une bibliothèque d'animations"
+      ],
+      "answer": "L'environnement d'exécution d'Android, qui compile le bytecode en code natif",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un fuite de Context typique ?",
+      "options": [
+        "Garder une référence à une Activity dans un objet à durée de vie plus longue",
+        "Oublier une permission",
+        "Ne pas fermer un fichier XML",
+        "Utiliser trop de couleurs"
+      ],
+      "answer": "Garder une référence à une Activity dans un objet à durée de vie plus longue",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel outil détecte automatiquement les fuites mémoire en développement ?",
+      "options": [
+        "LeakCanary",
+        "Lint",
+        "Espresso",
+        "Robolectric"
+      ],
+      "answer": "LeakCanary",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'Espresso ?",
+      "options": [
+        "Un framework de tests d'interface instrumentés",
+        "Un compilateur Kotlin",
+        "Un serveur de build",
+        "Une bibliothèque réseau"
+      ],
+      "answer": "Un framework de tests d'interface instrumentés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la stabilité d'un type dans Compose ?",
+      "options": [
+        "La garantie que les changements sont observables, ce qui permet de sauter des recompositions",
+        "L'absence de crash",
+        "Un type immuable obligatoire",
+        "Un type serializable"
+      ],
+      "answer": "La garantie que les changements sont observables, ce qui permet de sauter des recompositions",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que Kotlin Multiplatform ?",
+      "options": [
+        "Partager du code Kotlin entre Android, iOS et d'autres plateformes",
+        "Un émulateur multiplateforme",
+        "Un IDE en ligne",
+        "Un store alternatif"
+      ],
+      "answer": "Partager du code Kotlin entre Android, iOS et d'autres plateformes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet le Process Death et comment s'y préparer ?",
+      "options": [
+        "Le système peut tuer l'app en arrière-plan ; il faut sauvegarder l'état avec SavedStateHandle",
+        "L'app ne peut pas être tuée ; rien à prévoir",
+        "L'app redémarre automatiquement au premier plan",
+        "Il suffit d'augmenter la mémoire"
+      ],
+      "answer": "Le système peut tuer l'app en arrière-plan ; il faut sauvegarder l'état avec SavedStateHandle",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que fait derivedStateOf dans Compose ?",
+      "options": [
+        "Créer un état calculé qui ne déclenche une recomposition que si son résultat change",
+        "Dupliquer un état",
+        "Persister un état",
+        "Convertir un Flow en LiveData"
+      ],
+      "answer": "Créer un état calculé qui ne déclenche une recomposition que si son résultat change",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est l'intérêt des « edge-to-edge » et des WindowInsets ?",
+      "options": [
+        "Dessiner derrière les barres système en gérant les marges pour ne pas masquer le contenu",
+        "Supprimer les barres système",
+        "Agrandir la police",
+        "Activer le mode tablette"
+      ],
+      "answer": "Dessiner derrière les barres système en gérant les marges pour ne pas masquer le contenu",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que App Startup ?",
+      "options": [
+        "Une bibliothèque pour initialiser des composants au démarrage de façon efficace",
+        "L'écran de démarrage",
+        "Le premier lancement après installation",
+        "Une option du Play Store"
+      ],
+      "answer": "Une bibliothèque pour initialiser des composants au démarrage de façon efficace",
+      "difficulty": "difficile"
+    }
+  ]
 }

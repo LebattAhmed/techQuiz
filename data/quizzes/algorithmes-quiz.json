@@ -1,0 +1,664 @@
+{
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'un algorithme ?",
+      "options": [
+        "Une suite finie d'instructions pour résoudre un problème",
+        "Un langage de programmation",
+        "Un ordinateur",
+        "Un fichier de données"
+      ],
+      "answer": "Une suite finie d'instructions pour résoudre un problème",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que mesure la complexité temporelle ?",
+      "options": [
+        "L'évolution du temps d'exécution en fonction de la taille des données",
+        "La difficulté à lire le code",
+        "Le nombre de lignes de code",
+        "La taille du fichier"
+      ],
+      "answer": "L'évolution du temps d'exécution en fonction de la taille des données",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie O(n) ?",
+      "options": [
+        "Le temps croît proportionnellement à la taille des données",
+        "Le temps est constant",
+        "Le temps double à chaque élément",
+        "Le temps est logarithmique"
+      ],
+      "answer": "Le temps croît proportionnellement à la taille des données",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle complexité est la meilleure pour de grandes données ?",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(n²)",
+        "O(2ⁿ)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel algorithme de recherche nécessite un tableau trié ?",
+      "options": [
+        "La recherche dichotomique",
+        "La recherche linéaire",
+        "Le parcours en largeur",
+        "Le tri à bulles"
+      ],
+      "answer": "La recherche dichotomique",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la complexité de la recherche dichotomique ?",
+      "options": [
+        "O(log n)",
+        "O(n)",
+        "O(1)",
+        "O(n²)"
+      ],
+      "answer": "O(log n)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la complexité de la recherche linéaire ?",
+      "options": [
+        "O(n)",
+        "O(log n)",
+        "O(1)",
+        "O(n log n)"
+      ],
+      "answer": "O(n)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la complexité du tri à bulles dans le pire cas ?",
+      "options": [
+        "O(n²)",
+        "O(n)",
+        "O(n log n)",
+        "O(log n)"
+      ],
+      "answer": "O(n²)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une fonction récursive ?",
+      "options": [
+        "Une fonction qui s'appelle elle-même",
+        "Une fonction sans paramètre",
+        "Une fonction qui boucle à l'infini",
+        "Une fonction asynchrone"
+      ],
+      "answer": "Une fonction qui s'appelle elle-même",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le cas de base d'une récursion ?",
+      "options": [
+        "La condition qui arrête les appels récursifs",
+        "Le premier appel",
+        "Le cas le plus fréquent",
+        "La valeur de retour par défaut"
+      ],
+      "answer": "La condition qui arrête les appels récursifs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que provoque une récursion sans cas de base ?",
+      "options": [
+        "Un dépassement de pile",
+        "Un résultat nul",
+        "Un tri automatique",
+        "Une exécution plus rapide"
+      ],
+      "answer": "Un dépassement de pile",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel tri insère chaque élément à sa place dans la partie déjà triée ?",
+      "options": [
+        "Le tri par insertion",
+        "Le tri rapide",
+        "Le tri fusion",
+        "Le tri par tas"
+      ],
+      "answer": "Le tri par insertion",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel tri sélectionne à chaque étape le plus petit élément restant ?",
+      "options": [
+        "Le tri par sélection",
+        "Le tri par insertion",
+        "Le tri fusion",
+        "Le tri par comptage"
+      ],
+      "answer": "Le tri par sélection",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la complexité moyenne du tri fusion ?",
+      "options": [
+        "O(n log n)",
+        "O(n²)",
+        "O(n)",
+        "O(log n)"
+      ],
+      "answer": "O(n log n)",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie O(1) ?",
+      "options": [
+        "Un temps constant, indépendant de la taille des données",
+        "Une seule boucle",
+        "Un seul élément traité",
+        "Un algorithme impossible"
+      ],
+      "answer": "Un temps constant, indépendant de la taille des données",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Combien d'étapes au plus faut-il pour trouver un élément par dichotomie parmi 1 024 éléments triés ?",
+      "options": [
+        "Environ 10",
+        "Environ 100",
+        "512",
+        "1 024"
+      ],
+      "answer": "Environ 10",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un algorithme glouton ?",
+      "options": [
+        "Un algorithme qui fait à chaque étape le choix localement optimal",
+        "Un algorithme qui consomme beaucoup de mémoire",
+        "Un algorithme qui teste toutes les possibilités",
+        "Un algorithme aléatoire"
+      ],
+      "answer": "Un algorithme qui fait à chaque étape le choix localement optimal",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure utilise le parcours en largeur (BFS) ?",
+      "options": [
+        "Une file",
+        "Une pile",
+        "Un tas",
+        "Une table de hachage"
+      ],
+      "answer": "Une file",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle structure utilise le parcours en profondeur (DFS) itératif ?",
+      "options": [
+        "Une pile",
+        "Une file",
+        "Un tas",
+        "Un tableau trié"
+      ],
+      "answer": "Une pile",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait l'algorithme de tri ?",
+      "options": [
+        "Il range les éléments selon un ordre",
+        "Il supprime les doublons",
+        "Il compte les éléments",
+        "Il chiffre les données"
+      ],
+      "answer": "Il range les éléments selon un ordre",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est le principe « diviser pour régner » ?",
+      "options": [
+        "Découper le problème en sous-problèmes, les résoudre puis combiner les résultats",
+        "Résoudre le problème en une seule passe",
+        "Tester toutes les solutions",
+        "Choisir au hasard"
+      ],
+      "answer": "Découper le problème en sous-problèmes, les résoudre puis combiner les résultats",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la complexité du tri rapide (quicksort) dans le pire cas ?",
+      "options": [
+        "O(n²)",
+        "O(n log n)",
+        "O(n)",
+        "O(log n)"
+      ],
+      "answer": "O(n²)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quand le tri rapide atteint-il son pire cas avec un pivot naïf ?",
+      "options": [
+        "Quand le pivot est toujours le plus petit ou le plus grand élément, par exemple sur un tableau déjà trié",
+        "Quand le tableau est aléatoire",
+        "Quand il y a peu d'éléments",
+        "Jamais"
+      ],
+      "answer": "Quand le pivot est toujours le plus petit ou le plus grand élément, par exemple sur un tableau déjà trié",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un tri stable ?",
+      "options": [
+        "Un tri qui conserve l'ordre relatif des éléments égaux",
+        "Un tri qui ne plante jamais",
+        "Un tri en O(n log n) garanti",
+        "Un tri en place"
+      ],
+      "answer": "Un tri qui conserve l'ordre relatif des éléments égaux",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Lequel de ces tris est stable ?",
+      "options": [
+        "Le tri fusion",
+        "Le tri par tas",
+        "Le tri rapide classique",
+        "Le tri par sélection classique"
+      ],
+      "answer": "Le tri fusion",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la programmation dynamique ?",
+      "options": [
+        "Résoudre des sous-problèmes qui se chevauchent une seule fois en mémorisant leurs résultats",
+        "Programmer avec des types dynamiques",
+        "Modifier le code à l'exécution",
+        "Utiliser uniquement des boucles"
+      ],
+      "answer": "Résoudre des sous-problèmes qui se chevauchent une seule fois en mémorisant leurs résultats",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la mémoïsation ?",
+      "options": [
+        "Mettre en cache les résultats d'appels de fonction déjà calculés",
+        "Écrire des commentaires",
+        "Libérer la mémoire",
+        "Compresser les données"
+      ],
+      "answer": "Mettre en cache les résultats d'appels de fonction déjà calculés",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la complexité du calcul naïf récursif de Fibonacci ?",
+      "options": [
+        "Exponentielle, environ O(2ⁿ)",
+        "O(n)",
+        "O(log n)",
+        "O(1)"
+      ],
+      "answer": "Exponentielle, environ O(2ⁿ)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel algorithme calcule les plus courts chemins depuis une source avec des poids positifs ?",
+      "options": [
+        "Dijkstra",
+        "Kruskal",
+        "Tri topologique",
+        "Quicksort"
+      ],
+      "answer": "Dijkstra",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi Dijkstra ne fonctionne-t-il pas avec des poids négatifs ?",
+      "options": [
+        "Il considère comme définitive la distance d'un sommet traité, ce qu'un poids négatif peut contredire",
+        "Il ne gère pas les nombres négatifs en mémoire",
+        "Il ne fonctionne que sur les arbres",
+        "Il est trop lent"
+      ],
+      "answer": "Il considère comme définitive la distance d'un sommet traité, ce qu'un poids négatif peut contredire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel algorithme gère les poids négatifs et détecte les cycles négatifs ?",
+      "options": [
+        "Bellman-Ford",
+        "Dijkstra",
+        "Prim",
+        "BFS"
+      ],
+      "answer": "Bellman-Ford",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Que donne un BFS sur un graphe non pondéré ?",
+      "options": [
+        "Les plus courts chemins en nombre d'arêtes depuis la source",
+        "Un tri des sommets",
+        "L'arbre couvrant minimal",
+        "Les composantes fortement connexes"
+      ],
+      "answer": "Les plus courts chemins en nombre d'arêtes depuis la source",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un tri topologique ?",
+      "options": [
+        "Un ordre des sommets d'un DAG respectant le sens des arêtes",
+        "Un tri par coordonnées géographiques",
+        "Un tri de nombres réels",
+        "Un tri par hauteur d'arbre"
+      ],
+      "answer": "Un ordre des sommets d'un DAG respectant le sens des arêtes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quels algorithmes calculent un arbre couvrant minimal ?",
+      "options": [
+        "Kruskal et Prim",
+        "Dijkstra et A*",
+        "Quicksort et Mergesort",
+        "BFS et DFS"
+      ],
+      "answer": "Kruskal et Prim",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la complexité spatiale ?",
+      "options": [
+        "La quantité de mémoire utilisée en fonction de la taille des données",
+        "La place du code sur le disque",
+        "La taille de l'écran",
+        "Le nombre de fichiers"
+      ],
+      "answer": "La quantité de mémoire utilisée en fonction de la taille des données",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un tri en place ?",
+      "options": [
+        "Un tri qui n'utilise qu'une mémoire supplémentaire constante ou très faible",
+        "Un tri qui ne déplace aucun élément",
+        "Un tri qui se fait sur disque",
+        "Un tri stable"
+      ],
+      "answer": "Un tri qui n'utilise qu'une mémoire supplémentaire constante ou très faible",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la technique des deux pointeurs ?",
+      "options": [
+        "Parcourir une séquence avec deux indices qui se déplacent selon une règle",
+        "Utiliser deux variables globales",
+        "Utiliser deux processeurs",
+        "Copier le tableau deux fois"
+      ],
+      "answer": "Parcourir une séquence avec deux indices qui se déplacent selon une règle",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que la technique de la fenêtre glissante ?",
+      "options": [
+        "Maintenir un intervalle mobile sur une séquence pour éviter de tout recalculer",
+        "Un algorithme de compression",
+        "Un tri par blocs",
+        "Une animation d'interface"
+      ],
+      "answer": "Maintenir un intervalle mobile sur une séquence pour éviter de tout recalculer",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le backtracking ?",
+      "options": [
+        "Explorer les solutions en revenant en arrière dès qu'un choix mène à une impasse",
+        "Annuler un commit",
+        "Trier à l'envers",
+        "Lire un fichier depuis la fin"
+      ],
+      "answer": "Explorer les solutions en revenant en arrière dès qu'un choix mène à une impasse",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la complexité du tri par comptage ?",
+      "options": [
+        "O(n + k), où k est l'étendue des valeurs",
+        "O(n log n)",
+        "O(n²)",
+        "O(log n)"
+      ],
+      "answer": "O(n + k), où k est l'étendue des valeurs",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi aucun tri par comparaison ne peut-il faire mieux que O(n log n) dans le pire cas ?",
+      "options": [
+        "Il faut au moins log₂(n!) comparaisons pour distinguer toutes les permutations",
+        "Les ordinateurs sont limités",
+        "C'est une convention",
+        "À cause de la mémoire"
+      ],
+      "answer": "Il faut au moins log₂(n!) comparaisons pour distinguer toutes les permutations",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que dit le théorème maître pour T(n) = 2T(n/2) + O(n) ?",
+      "options": [
+        "T(n) = O(n log n)",
+        "T(n) = O(n²)",
+        "T(n) = O(n)",
+        "T(n) = O(log n)"
+      ],
+      "answer": "T(n) = O(n log n)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la classe P ?",
+      "options": [
+        "Les problèmes résolubles en temps polynomial",
+        "Les problèmes probabilistes",
+        "Les problèmes parallélisables",
+        "Les problèmes premiers"
+      ],
+      "answer": "Les problèmes résolubles en temps polynomial",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la classe NP ?",
+      "options": [
+        "Les problèmes dont une solution proposée peut être vérifiée en temps polynomial",
+        "Les problèmes non polynomiaux",
+        "Les problèmes impossibles",
+        "Les problèmes non programmables"
+      ],
+      "answer": "Les problèmes dont une solution proposée peut être vérifiée en temps polynomial",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un problème NP-complet ?",
+      "options": [
+        "Un problème de NP auquel tout problème de NP peut se réduire en temps polynomial",
+        "Un problème sans solution",
+        "Un problème résolu en O(1)",
+        "Un problème complètement parallèle"
+      ],
+      "answer": "Un problème de NP auquel tout problème de NP peut se réduire en temps polynomial",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Lequel de ces problèmes est NP-complet ?",
+      "options": [
+        "Le problème SAT",
+        "Le tri d'un tableau",
+        "La recherche dichotomique",
+        "Le plus court chemin à poids positifs"
+      ],
+      "answer": "Le problème SAT",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte l'heuristique de l'algorithme A* par rapport à Dijkstra ?",
+      "options": [
+        "Elle oriente la recherche vers la cible, et garantit l'optimalité si elle ne surestime jamais",
+        "Elle permet les poids négatifs",
+        "Elle supprime le besoin de file de priorité",
+        "Elle trie les sommets"
+      ],
+      "answer": "Elle oriente la recherche vers la cible, et garantit l'optimalité si elle ne surestime jamais",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'analyse amortie ?",
+      "options": [
+        "Le coût moyen d'une opération sur une séquence d'opérations dans le pire cas",
+        "Le coût moyen sur des entrées aléatoires",
+        "Le coût de la première opération",
+        "La réduction de la complexité par le cache"
+      ],
+      "answer": "Le coût moyen d'une opération sur une séquence d'opérations dans le pire cas",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la complexité de Dijkstra avec un tas binaire ?",
+      "options": [
+        "O((V + E) log V)",
+        "O(V²)",
+        "O(E)",
+        "O(V log E²)"
+      ],
+      "answer": "O((V + E) log V)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'algorithme de Floyd-Warshall ?",
+      "options": [
+        "Le calcul des plus courts chemins entre toutes les paires de sommets en O(V³)",
+        "Un algorithme de tri",
+        "Un algorithme de compression",
+        "Un algorithme de détection de cycle dans une liste uniquement"
+      ],
+      "answer": "Le calcul des plus courts chemins entre toutes les paires de sommets en O(V³)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Que permet l'algorithme du lièvre et de la tortue (Floyd) ?",
+      "options": [
+        "Détecter un cycle dans une liste chaînée avec une mémoire constante",
+        "Trier une liste",
+        "Calculer des plus courts chemins",
+        "Équilibrer un arbre"
+      ],
+      "answer": "Détecter un cycle dans une liste chaînée avec une mémoire constante",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel algorithme trouve les composantes fortement connexes d'un graphe ?",
+      "options": [
+        "Tarjan ou Kosaraju",
+        "Kruskal",
+        "Quicksort",
+        "Huffman"
+      ],
+      "answer": "Tarjan ou Kosaraju",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le codage de Huffman ?",
+      "options": [
+        "Une compression sans perte qui donne des codes plus courts aux symboles fréquents",
+        "Un chiffrement symétrique",
+        "Un tri de chaînes",
+        "Un algorithme de graphe"
+      ],
+      "answer": "Une compression sans perte qui donne des codes plus courts aux symboles fréquents",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que l'algorithme KMP ?",
+      "options": [
+        "Une recherche de motif dans un texte en temps linéaire grâce à une table de préfixes",
+        "Un algorithme de tri",
+        "Un algorithme de plus court chemin",
+        "Un algorithme de hachage"
+      ],
+      "answer": "Une recherche de motif dans un texte en temps linéaire grâce à une table de préfixes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le principe de l'algorithme de Rabin-Karp ?",
+      "options": [
+        "Comparer des hachages glissants pour trouver un motif dans un texte",
+        "Trier les caractères",
+        "Construire un arbre de suffixes",
+        "Utiliser une pile"
+      ],
+      "answer": "Comparer des hachages glissants pour trouver un motif dans un texte",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un algorithme d'approximation ?",
+      "options": [
+        "Un algorithme qui garantit une solution proche de l'optimum avec un facteur borné",
+        "Un algorithme qui arrondit les nombres",
+        "Un algorithme aléatoire sans garantie",
+        "Un algorithme incomplet"
+      ],
+      "answer": "Un algorithme qui garantit une solution proche de l'optimum avec un facteur borné",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel problème de sac à dos se résout en temps pseudo-polynomial par programmation dynamique ?",
+      "options": [
+        "Le sac à dos 0/1 avec des poids entiers",
+        "Le sac à dos fractionnaire",
+        "Le sac à dos infini sans poids",
+        "Aucun"
+      ],
+      "answer": "Le sac à dos 0/1 avec des poids entiers",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi l'algorithme glouton est-il optimal pour le sac à dos fractionnaire ?",
+      "options": [
+        "Prendre en priorité le meilleur rapport valeur/poids donne la solution optimale quand on peut fractionner",
+        "Parce que les poids sont entiers",
+        "Il ne l'est jamais",
+        "Parce que le sac est infini"
+      ],
+      "answer": "Prendre en priorité le meilleur rapport valeur/poids donne la solution optimale quand on peut fractionner",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le problème du voyageur de commerce ?",
+      "options": [
+        "Trouver le circuit le plus court passant une fois par chaque ville",
+        "Trouver le chemin le plus court entre deux villes",
+        "Trier des villes par distance",
+        "Colorier une carte"
+      ],
+      "answer": "Trouver le circuit le plus court passant une fois par chaque ville",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le quickselect ?",
+      "options": [
+        "Un algorithme qui trouve le k-ième plus petit élément en O(n) en moyenne",
+        "Un tri rapide stable",
+        "Une recherche dichotomique",
+        "Un algorithme de sélection de pivot pour les bases de données"
+      ],
+      "answer": "Un algorithme qui trouve le k-ième plus petit élément en O(n) en moyenne",
+      "difficulty": "difficile"
+    }
+  ]
+}

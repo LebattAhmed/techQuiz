@@ -1,3 +1,664 @@
 {
-  "questions": []
+  "questions": [
+    {
+      "question": "Quel est le rôle d'un pare-feu (firewall) ?",
+      "options": [
+        "Filtrer le trafic réseau selon des règles",
+        "Accélérer la connexion Internet",
+        "Attribuer des adresses IP",
+        "Stocker les mots de passe"
+      ],
+      "answer": "Filtrer le trafic réseau selon des règles",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie VPN ?",
+      "options": [
+        "Virtual Private Network",
+        "Very Protected Network",
+        "Virtual Public Node",
+        "Verified Private Navigation"
+      ],
+      "answer": "Virtual Private Network",
+      "difficulty": "facile"
+    },
+    {
+      "question": "À quoi sert principalement un VPN ?",
+      "options": [
+        "Créer un tunnel chiffré entre deux points à travers un réseau non sûr",
+        "Augmenter la bande passante",
+        "Remplacer le DNS",
+        "Bloquer les publicités"
+      ],
+      "answer": "Créer un tunnel chiffré entre deux points à travers un réseau non sûr",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque DDoS ?",
+      "options": [
+        "Saturer un service avec un très grand nombre de requêtes venant de multiples sources",
+        "Voler un mot de passe par hameçonnage",
+        "Chiffrer les fichiers d'une victime",
+        "Intercepter un appel téléphonique"
+      ],
+      "answer": "Saturer un service avec un très grand nombre de requêtes venant de multiples sources",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie IDS ?",
+      "options": [
+        "Intrusion Detection System",
+        "Internet Defense Service",
+        "Internal Data Storage",
+        "Identity Distribution System"
+      ],
+      "answer": "Intrusion Detection System",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre un IDS et un IPS ?",
+      "options": [
+        "L'IPS peut bloquer les attaques, l'IDS se contente de les détecter",
+        "L'IDS bloque, l'IPS détecte",
+        "L'IPS est un antivirus",
+        "Il n'y a aucune différence"
+      ],
+      "answer": "L'IPS peut bloquer les attaques, l'IDS se contente de les détecter",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une DMZ ?",
+      "options": [
+        "Une zone réseau isolée hébergeant les services exposés à Internet",
+        "Un type de câble blindé",
+        "Un protocole de chiffrement",
+        "Un logiciel antivirus"
+      ],
+      "answer": "Une zone réseau isolée hébergeant les services exposés à Internet",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le phishing ?",
+      "options": [
+        "Une tentative de tromper un utilisateur pour lui voler des informations",
+        "Une technique de compression réseau",
+        "Un protocole de routage",
+        "Une attaque physique sur un serveur"
+      ],
+      "answer": "Une tentative de tromper un utilisateur pour lui voler des informations",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole remplace Telnet de manière sécurisée ?",
+      "options": [
+        "SSH",
+        "FTP",
+        "HTTP",
+        "SNMPv1"
+      ],
+      "answer": "SSH",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque « man-in-the-middle » ?",
+      "options": [
+        "Un attaquant s'intercale entre deux parties pour intercepter ou modifier leurs échanges",
+        "Un virus qui se cache au milieu d'un fichier",
+        "Une attaque qui vise uniquement les routeurs",
+        "Une surcharge du processeur"
+      ],
+      "answer": "Un attaquant s'intercale entre deux parties pour intercepter ou modifier leurs échanges",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi segmenter un réseau en VLAN ?",
+      "options": [
+        "Pour isoler des groupes de machines et limiter la propagation d'une attaque",
+        "Pour doubler le débit",
+        "Pour supprimer le besoin de routeur",
+        "Pour éviter d'utiliser des adresses IP"
+      ],
+      "answer": "Pour isoler des groupes de machines et limiter la propagation d'une attaque",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce qu'un scan de ports ?",
+      "options": [
+        "L'envoi de paquets pour découvrir quels ports et services sont ouverts sur une machine",
+        "Le nettoyage des ports USB",
+        "La vérification physique des câbles",
+        "Une mise à jour du firmware"
+      ],
+      "answer": "L'envoi de paquets pour découvrir quels ports et services sont ouverts sur une machine",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil est célèbre pour scanner les ports d'un réseau ?",
+      "options": [
+        "Nmap",
+        "Photoshop",
+        "Excel",
+        "Notepad"
+      ],
+      "answer": "Nmap",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel outil permet de capturer et analyser des paquets réseau ?",
+      "options": [
+        "Wireshark",
+        "Nmap",
+        "Hashcat",
+        "Ansible"
+      ],
+      "answer": "Wireshark",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Qu'est-ce que le principe du moindre privilège ?",
+      "options": [
+        "Donner à chaque utilisateur uniquement les droits dont il a besoin",
+        "Accorder les droits administrateur à tous",
+        "Supprimer tous les comptes inutilisés",
+        "Chiffrer tous les disques"
+      ],
+      "answer": "Donner à chaque utilisateur uniquement les droits dont il a besoin",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait un proxy filtrant ?",
+      "options": [
+        "Il contrôle et filtre l'accès aux sites web pour les utilisateurs",
+        "Il chiffre le disque dur",
+        "Il attribue les adresses IP",
+        "Il sauvegarde les données"
+      ],
+      "answer": "Il contrôle et filtre l'accès aux sites web pour les utilisateurs",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel est l'intérêt de l'authentification multifacteur (MFA) ?",
+      "options": [
+        "Exiger plusieurs preuves d'identité pour limiter l'impact d'un mot de passe volé",
+        "Accélérer la connexion",
+        "Supprimer le besoin de mot de passe fort",
+        "Chiffrer le réseau Wi-Fi"
+      ],
+      "answer": "Exiger plusieurs preuves d'identité pour limiter l'impact d'un mot de passe volé",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que signifie le « S » de SFTP ?",
+      "options": [
+        "Il passe par SSH",
+        "Simple",
+        "Standard",
+        "Speed"
+      ],
+      "answer": "Il passe par SSH",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Que fait l'usurpation d'adresse IP (IP spoofing) ?",
+      "options": [
+        "Envoyer des paquets avec une fausse adresse IP source",
+        "Voler l'adresse MAC d'une carte réseau",
+        "Changer le nom de domaine d'un site",
+        "Bloquer un port"
+      ],
+      "answer": "Envoyer des paquets avec une fausse adresse IP source",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Pourquoi désactiver les services réseau inutiles sur un serveur ?",
+      "options": [
+        "Pour réduire la surface d'attaque",
+        "Pour augmenter la taille du disque",
+        "Pour rendre le serveur invisible sur Internet",
+        "Pour économiser des adresses IP"
+      ],
+      "answer": "Pour réduire la surface d'attaque",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre un pare-feu stateless et stateful ?",
+      "options": [
+        "Le stateful suit l'état des connexions, le stateless évalue chaque paquet isolément",
+        "Le stateless est toujours plus sûr",
+        "Le stateful ne filtre que le port 80",
+        "Ce sont deux noms pour le même équipement"
+      ],
+      "answer": "Le stateful suit l'état des connexions, le stateless évalue chaque paquet isolément",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle bonne pratique s'applique à la politique par défaut d'un pare-feu ?",
+      "options": [
+        "Tout refuser par défaut et n'autoriser que le nécessaire",
+        "Tout autoriser puis bloquer ce qui pose problème",
+        "Ne filtrer que le trafic sortant",
+        "Désactiver le pare-feu la nuit"
+      ],
+      "answer": "Tout refuser par défaut et n'autoriser que le nécessaire",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que l'ARP spoofing ?",
+      "options": [
+        "Envoyer de fausses réponses ARP pour associer son adresse MAC à l'IP d'une autre machine",
+        "Usurper un nom de domaine",
+        "Saturer un switch avec des requêtes DHCP",
+        "Deviner un mot de passe Wi-Fi"
+      ],
+      "answer": "Envoyer de fausses réponses ARP pour associer son adresse MAC à l'IP d'une autre machine",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle protection limite l'ARP spoofing sur un switch ?",
+      "options": [
+        "Dynamic ARP Inspection (DAI)",
+        "Le NAT",
+        "Le protocole STP",
+        "Le QoS"
+      ],
+      "answer": "Dynamic ARP Inspection (DAI)",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque SYN flood ?",
+      "options": [
+        "Envoyer de nombreux SYN sans terminer la poignée de main pour épuiser les ressources du serveur",
+        "Inonder un serveur de requêtes DNS",
+        "Envoyer des paquets ICMP trop gros",
+        "Remplir le disque du serveur de logs"
+      ],
+      "answer": "Envoyer de nombreux SYN sans terminer la poignée de main pour épuiser les ressources du serveur",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle contre-mesure classique protège contre le SYN flood ?",
+      "options": [
+        "Les SYN cookies",
+        "L'augmentation du MTU",
+        "La désactivation de TCP",
+        "Le changement d'adresse MAC"
+      ],
+      "answer": "Les SYN cookies",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel protocole VPN fonctionne au niveau de la couche réseau (couche 3) ?",
+      "options": [
+        "IPsec",
+        "TLS",
+        "SSH",
+        "HTTPS"
+      ],
+      "answer": "IPsec",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle est la différence entre les modes transport et tunnel d'IPsec ?",
+      "options": [
+        "Le mode tunnel encapsule tout le paquet IP, le mode transport ne protège que la charge utile",
+        "Le mode transport chiffre plus fort",
+        "Le mode tunnel n'utilise pas de chiffrement",
+        "Le mode transport est réservé à IPv6"
+      ],
+      "answer": "Le mode tunnel encapsule tout le paquet IP, le mode transport ne protège que la charge utile",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un honeypot ?",
+      "options": [
+        "Un système leurre destiné à attirer et observer les attaquants",
+        "Un serveur de sauvegarde chiffré",
+        "Un pare-feu matériel",
+        "Un gestionnaire de mots de passe"
+      ],
+      "answer": "Un système leurre destiné à attirer et observer les attaquants",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le 802.1X ?",
+      "options": [
+        "Un standard de contrôle d'accès au réseau par authentification sur chaque port",
+        "Une norme de câblage Ethernet",
+        "Un protocole de routage",
+        "Un algorithme de chiffrement Wi-Fi"
+      ],
+      "answer": "Un standard de contrôle d'accès au réseau par authentification sur chaque port",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le VLAN hopping ?",
+      "options": [
+        "Une attaque permettant d'accéder au trafic d'un autre VLAN",
+        "Le déplacement d'une machine entre deux bâtiments",
+        "Le passage d'IPv4 à IPv6",
+        "Une technique d'équilibrage de charge"
+      ],
+      "answer": "Une attaque permettant d'accéder au trafic d'un autre VLAN",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert un SIEM ?",
+      "options": [
+        "Centraliser et corréler les journaux de sécurité pour détecter des incidents",
+        "Chiffrer les emails",
+        "Remplacer l'antivirus",
+        "Gérer les adresses IP"
+      ],
+      "answer": "Centraliser et corréler les journaux de sécurité pour détecter des incidents",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle version de SNMP apporte authentification et chiffrement ?",
+      "options": [
+        "SNMPv3",
+        "SNMPv1",
+        "SNMPv2c",
+        "Aucune version"
+      ],
+      "answer": "SNMPv3",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce qu'un WAF ?",
+      "options": [
+        "Un pare-feu applicatif qui filtre les requêtes HTTP",
+        "Un pare-feu pour réseaux sans fil",
+        "Un VPN pour applications web",
+        "Un antivirus pour serveurs Windows"
+      ],
+      "answer": "Un pare-feu applicatif qui filtre les requêtes HTTP",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le port knocking ?",
+      "options": [
+        "Ouvrir un port seulement après une séquence de connexions sur d'autres ports",
+        "Scanner tous les ports d'une machine",
+        "Fermer automatiquement les ports inutilisés",
+        "Changer le port SSH tous les jours"
+      ],
+      "answer": "Ouvrir un port seulement après une séquence de connexions sur d'autres ports",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Pourquoi un bastion (jump host) est-il utilisé ?",
+      "options": [
+        "Pour centraliser et contrôler les accès d'administration aux serveurs internes",
+        "Pour héberger le site web public",
+        "Pour remplacer le pare-feu",
+        "Pour stocker les sauvegardes"
+      ],
+      "answer": "Pour centraliser et contrôler les accès d'administration aux serveurs internes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'est-ce que le « DHCP starvation » ?",
+      "options": [
+        "Épuiser le pool d'adresses du serveur DHCP avec de fausses demandes",
+        "Couper le serveur DHCP du réseau",
+        "Attribuer la même IP à deux machines",
+        "Augmenter la durée des baux DHCP"
+      ],
+      "answer": "Épuiser le pool d'adresses du serveur DHCP avec de fausses demandes",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quelle fonction de switch empêche un serveur DHCP non autorisé de répondre ?",
+      "options": [
+        "DHCP snooping",
+        "Port mirroring",
+        "Spanning Tree",
+        "Link aggregation"
+      ],
+      "answer": "DHCP snooping",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Qu'apporte un pare-feu de nouvelle génération (NGFW) par rapport à un pare-feu classique ?",
+      "options": [
+        "L'inspection applicative, l'identification des applications et la prévention d'intrusion",
+        "Un débit garanti de 100 Gb/s",
+        "L'absence de règles à configurer",
+        "Le remplacement du routeur"
+      ],
+      "answer": "L'inspection applicative, l'identification des applications et la prévention d'intrusion",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "À quoi sert le « port mirroring » (SPAN) dans un contexte de sécurité ?",
+      "options": [
+        "Copier le trafic vers une sonde IDS pour l'analyser",
+        "Doubler la bande passante d'un port",
+        "Masquer un port aux scanners",
+        "Chiffrer le trafic d'un port"
+      ],
+      "answer": "Copier le trafic vers une sonde IDS pour l'analyser",
+      "difficulty": "moyen"
+    },
+    {
+      "question": "Quel est le principe du modèle Zero Trust ?",
+      "options": [
+        "Ne jamais faire confiance par défaut, vérifier chaque accès quel que soit l'emplacement réseau",
+        "Faire confiance à tout le réseau interne",
+        "Supprimer tous les mots de passe",
+        "Interdire l'accès à Internet"
+      ],
+      "answer": "Ne jamais faire confiance par défaut, vérifier chaque accès quel que soit l'emplacement réseau",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle est la principale limite d'un IDS à signatures ?",
+      "options": [
+        "Il ne détecte pas les attaques inconnues (zero-day)",
+        "Il génère forcément moins d'alertes",
+        "Il ne fonctionne qu'en IPv6",
+        "Il ne peut pas lire les en-têtes TCP"
+      ],
+      "answer": "Il ne détecte pas les attaques inconnues (zero-day)",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel protocole IPsec assure confidentialité et intégrité, contrairement à AH ?",
+      "options": [
+        "ESP",
+        "IKE",
+        "GRE",
+        "L2TP"
+      ],
+      "answer": "ESP",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est le rôle d'IKE dans IPsec ?",
+      "options": [
+        "Négocier les associations de sécurité et échanger les clés",
+        "Chiffrer les données en transit",
+        "Compresser les paquets",
+        "Router le trafic entre sites"
+      ],
+      "answer": "Négocier les associations de sécurité et échanger les clés",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi AH (Authentication Header) pose-t-il problème avec le NAT ?",
+      "options": [
+        "Il authentifie l'en-tête IP, que le NAT modifie",
+        "Il utilise le port 80",
+        "Il ne supporte pas IPv4",
+        "Il chiffre l'adresse de destination"
+      ],
+      "answer": "Il authentifie l'en-tête IP, que le NAT modifie",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que la micro-segmentation ?",
+      "options": [
+        "Appliquer des politiques de sécurité fines jusqu'au niveau de chaque charge de travail",
+        "Découper un fichier en petits paquets",
+        "Réduire la taille des VLAN à 2 machines",
+        "Fragmenter les paquets IP"
+      ],
+      "answer": "Appliquer des politiques de sécurité fines jusqu'au niveau de chaque charge de travail",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle technique d'évasion d'IDS consiste à découper une attaque en fragments ?",
+      "options": [
+        "La fragmentation IP",
+        "Le DNS tunneling",
+        "Le padding TLS",
+        "Le port knocking"
+      ],
+      "answer": "La fragmentation IP",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque par réflexion NTP (monlist) ?",
+      "options": [
+        "Une amplification DDoS exploitant une commande renvoyant une grosse réponse à une IP usurpée",
+        "Une désynchronisation volontaire des horloges",
+        "Une attaque sur les certificats expirés",
+        "Une injection de commandes dans un serveur NTP"
+      ],
+      "answer": "Une amplification DDoS exploitant une commande renvoyant une grosse réponse à une IP usurpée",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'apporte WireGuard par rapport à IPsec ou OpenVPN ?",
+      "options": [
+        "Une base de code très réduite et des primitives cryptographiques modernes fixes",
+        "Un chiffrement facultatif",
+        "Le support exclusif de TCP",
+        "L'absence de clés"
+      ],
+      "answer": "Une base de code très réduite et des primitives cryptographiques modernes fixes",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le « beaconing » détecté par l'analyse réseau ?",
+      "options": [
+        "Des connexions régulières d'une machine compromise vers un serveur de commande",
+        "Les trames de balise d'un point d'accès Wi-Fi",
+        "Les annonces BGP d'un routeur",
+        "Les requêtes ARP de démarrage"
+      ],
+      "answer": "Des connexions régulières d'une machine compromise vers un serveur de commande",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le TLS inspection (déchiffrement SSL) sur un pare-feu ?",
+      "options": [
+        "Le pare-feu déchiffre et rechiffre le trafic TLS pour l'analyser, avec sa propre AC",
+        "La vérification de la date des certificats",
+        "La désactivation de TLS 1.0",
+        "Le chiffrement du trafic HTTP en clair"
+      ],
+      "answer": "Le pare-feu déchiffre et rechiffre le trafic TLS pour l'analyser, avec sa propre AC",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel est l'intérêt de NetFlow/IPFIX en sécurité ?",
+      "options": [
+        "Collecter des métadonnées de flux pour détecter des comportements anormaux",
+        "Chiffrer les flux réseau",
+        "Accélérer le routage",
+        "Remplacer les journaux applicatifs"
+      ],
+      "answer": "Collecter des métadonnées de flux pour détecter des comportements anormaux",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'un « rogue DHCP » combiné à un MITM ?",
+      "options": [
+        "Un faux serveur DHCP qui distribue une passerelle ou un DNS contrôlé par l'attaquant",
+        "Un DHCP qui attribue des IPv6",
+        "Un DHCP mal configuré qui crash",
+        "Un DHCP chiffré"
+      ],
+      "answer": "Un faux serveur DHCP qui distribue une passerelle ou un DNS contrôlé par l'attaquant",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quel mécanisme BGP aide à limiter le détournement de préfixes ?",
+      "options": [
+        "RPKI avec Route Origin Validation",
+        "Le split horizon",
+        "Le NAT",
+        "Le protocole HSRP"
+      ],
+      "answer": "RPKI avec Route Origin Validation",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Pourquoi les attaques par « MAC flooding » visent-elles les switches ?",
+      "options": [
+        "Saturer la table CAM pour forcer le switch à diffuser le trafic sur tous les ports",
+        "Changer l'adresse IP du switch",
+        "Couper l'alimentation PoE",
+        "Désactiver les VLAN"
+      ],
+      "answer": "Saturer la table CAM pour forcer le switch à diffuser le trafic sur tous les ports",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Quelle protection contre le MAC flooding limite le nombre d'adresses MAC par port ?",
+      "options": [
+        "Port security",
+        "DHCP snooping",
+        "BPDU guard",
+        "Storm control"
+      ],
+      "answer": "Port security",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "À quoi sert BPDU guard ?",
+      "options": [
+        "Désactiver un port d'accès qui reçoit des trames Spanning Tree",
+        "Chiffrer les BPDU",
+        "Accélérer la convergence OSPF",
+        "Filtrer les requêtes DNS"
+      ],
+      "answer": "Désactiver un port d'accès qui reçoit des trames Spanning Tree",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce que le SASE ?",
+      "options": [
+        "Une architecture qui combine réseau étendu et fonctions de sécurité délivrées depuis le cloud",
+        "Un standard de chiffrement Wi-Fi",
+        "Un protocole de routage sécurisé",
+        "Un type de pare-feu matériel"
+      ],
+      "answer": "Une architecture qui combine réseau étendu et fonctions de sécurité délivrées depuis le cloud",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Qu'est-ce qu'une attaque « slowloris » ?",
+      "options": [
+        "Ouvrir de nombreuses connexions HTTP et les maintenir avec des envois très lents",
+        "Ralentir un réseau Wi-Fi par interférences",
+        "Un ver qui se propage lentement",
+        "Une injection SQL temporisée"
+      ],
+      "answer": "Ouvrir de nombreuses connexions HTTP et les maintenir avec des envois très lents",
+      "difficulty": "difficile"
+    },
+    {
+      "question": "Dans une architecture de défense en profondeur, que cherche-t-on ?",
+      "options": [
+        "Empiler plusieurs couches de protection indépendantes",
+        "Concentrer toute la sécurité sur un pare-feu unique",
+        "Supprimer la surveillance interne",
+        "Chiffrer uniquement le périmètre"
+      ],
+      "answer": "Empiler plusieurs couches de protection indépendantes",
+      "difficulty": "difficile"
+    }
+  ]
 }
