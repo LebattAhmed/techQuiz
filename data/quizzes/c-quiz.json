@@ -2,31 +2,56 @@
   "questions": [
     {
       "question": "Quel est le type de retour de la fonction main() en C ?",
-      "options": ["void", "int", "char", "float"],
+      "options": [
+        "void",
+        "int",
+        "char",
+        "float"
+      ],
       "answer": "int",
       "difficulty": "facile"
     },
     {
       "question": "Quel opérateur permet d'accéder à l'adresse d'une variable ?",
-      "options": ["*", "&", "#", "@"],
+      "options": [
+        "*",
+        "&",
+        "#",
+        "@"
+      ],
       "answer": "&",
       "difficulty": "facile"
     },
     {
       "question": "Comment déclarer un pointeur en C ?",
-      "options": ["int ptr;", "int *ptr;", "pointer int ptr;", "&int ptr;"],
+      "options": [
+        "int ptr;",
+        "int *ptr;",
+        "pointer int ptr;",
+        "&int ptr;"
+      ],
       "answer": "int *ptr;",
       "difficulty": "facile"
     },
     {
       "question": "Quelle fonction permet d'afficher du texte à l'écran ?",
-      "options": ["print()", "console.log()", "printf()", "display()"],
+      "options": [
+        "print()",
+        "console.log()",
+        "printf()",
+        "display()"
+      ],
       "answer": "printf()",
       "difficulty": "facile"
     },
     {
       "question": "Quel est le résultat de 5 / 2 en C ?",
-      "options": ["2.5", "2", "2.0", "3"],
+      "options": [
+        "2.5",
+        "2",
+        "2.0",
+        "3"
+      ],
       "answer": "2",
       "difficulty": "facile"
     },
@@ -43,7 +68,12 @@
     },
     {
       "question": "Quel mot-clé permet de créer une constante ?",
-      "options": ["constant", "#define", "const", "let"],
+      "options": [
+        "constant",
+        "#define",
+        "const",
+        "let"
+      ],
       "answer": "const",
       "difficulty": "facile"
     },
@@ -60,78 +90,133 @@
     },
     {
       "question": "Quelle boucle est préférable quand on connaît le nombre d'itérations ?",
-      "options": ["while", "for", "do-while", "loop"],
+      "options": [
+        "while",
+        "for",
+        "do-while",
+        "loop"
+      ],
       "answer": "for",
       "difficulty": "facile"
     },
     {
       "question": "Comment accéder au 3ème élément d'un tableau ?",
-      "options": ["array[3]", "array[2]", "array(3)", "array.3"],
+      "options": [
+        "array[3]",
+        "array[2]",
+        "array(3)",
+        "array.3"
+      ],
       "answer": "array[2]",
       "difficulty": "facile"
     },
     {
       "question": "Quel opérateur permet de déréférencer un pointeur ?",
-      "options": ["&", "*", "#", "->"],
+      "options": [
+        "&",
+        "*",
+        "#",
+        "->"
+      ],
       "answer": "*",
       "difficulty": "facile"
     },
     {
       "question": "Quelle fonction permet de lire une entrée utilisateur ?",
-      "options": ["scanf()", "input()", "getchar()", "read()"],
+      "options": [
+        "scanf()",
+        "input()",
+        "input_line()",
+        "read()"
+      ],
       "answer": "scanf()",
       "difficulty": "facile"
     },
     {
-      "question": "Comment terminer un programme prématurément ?",
-      "options": ["exit()", "return", "break", "stop()"],
+      "question": "Quelle fonction termine le programme immédiatement, depuis n'importe quelle fonction ?",
+      "options": [
+        "exit()",
+        "return",
+        "break",
+        "stop()"
+      ],
       "answer": "exit()",
       "difficulty": "facile"
     },
     {
       "question": "Quel est le résultat de sizeof(int) sur un système 32 bits ?",
-      "options": ["2", "4", "8", "Dépend du compilateur"],
+      "options": [
+        "2",
+        "4",
+        "8",
+        "1"
+      ],
       "answer": "4",
       "difficulty": "facile"
     },
     {
       "question": "Comment commenter une ligne en C ?",
       "options": [
-        "// Commentaire",
         "# Commentaire",
-        "/* Commentaire */",
-        "Réponses 1 et 3"
+        "-- Commentaire",
+        "// Commentaire ou /* Commentaire */",
+        "' Commentaire"
       ],
-      "answer": "Réponses 1 et 3",
+      "answer": "// Commentaire ou /* Commentaire */",
       "difficulty": "facile"
     },
     {
       "question": "Quel type utilise-t-on pour un caractère ?",
-      "options": ["string", "char", "character", "chr"],
+      "options": [
+        "string",
+        "char",
+        "character",
+        "chr"
+      ],
       "answer": "char",
       "difficulty": "facile"
     },
     {
       "question": "Comment concaténer deux chaînes de caractères ?",
-      "options": ["strcat()", "concat()", "str_concat()", "string_add()"],
+      "options": [
+        "strcat()",
+        "concat()",
+        "str_concat()",
+        "string_add()"
+      ],
       "answer": "strcat()",
       "difficulty": "facile"
     },
     {
       "question": "Quelle structure permet de regrouper différentes variables ?",
-      "options": ["array", "struct", "union", "object"],
+      "options": [
+        "array",
+        "struct",
+        "union",
+        "object"
+      ],
       "answer": "struct",
       "difficulty": "facile"
     },
     {
       "question": "Quelle fonction permet de comparer deux chaînes ?",
-      "options": ["strcmp()", "compare()", "str_diff()", "string_compare()"],
+      "options": [
+        "strcmp()",
+        "compare()",
+        "str_diff()",
+        "string_compare()"
+      ],
       "answer": "strcmp()",
       "difficulty": "facile"
     },
     {
       "question": "Comment allouer dynamiquement de la mémoire ?",
-      "options": ["alloc()", "malloc()", "new", "create()"],
+      "options": [
+        "alloc()",
+        "malloc()",
+        "new",
+        "create()"
+      ],
       "answer": "malloc()",
       "difficulty": "facile"
     },
@@ -149,12 +234,12 @@
     {
       "question": "Comment passer un tableau à une fonction en C ?",
       "options": [
-        "En passant directement le tableau",
-        "En passant un pointeur vers le premier élément",
-        "En passant la taille du tableau",
-        "Réponses 2 et 3"
+        "En copiant tout le tableau dans la pile",
+        "Via un pointeur vers le premier élément, généralement accompagné de sa taille",
+        "Avec le mot-clé ref",
+        "En le convertissant en chaîne de caractères"
       ],
-      "answer": "Réponses 2 et 3",
+      "answer": "Via un pointeur vers le premier élément, généralement accompagné de sa taille",
       "difficulty": "moyen"
     },
     {
@@ -193,12 +278,12 @@
     {
       "question": "Comment créer un type énuméré en C ?",
       "options": [
-        "enum {VAL1, VAL2};",
-        "typedef enum {VAL1, VAL2} MonEnum;",
+        "enum {VAL1, VAL2}; ou typedef enum {VAL1, VAL2} MonEnum;",
         "#define ENUM(val1, val2)",
-        "Réponses 1 et 2"
+        "enumeration MonEnum = {VAL1, VAL2};",
+        "new enum(VAL1, VAL2);"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "enum {VAL1, VAL2}; ou typedef enum {VAL1, VAL2} MonEnum;",
       "difficulty": "moyen"
     },
     {
@@ -236,7 +321,12 @@
     },
     {
       "question": "Comment copier une chaîne de caractères en C ?",
-      "options": ["strcopy()", "strdup()", "strcpy()", "string_copy()"],
+      "options": [
+        "strcopy()",
+        "strdup()",
+        "strcpy()",
+        "string_copy()"
+      ],
       "answer": "strcpy()",
       "difficulty": "moyen"
     },
@@ -265,23 +355,23 @@
     {
       "question": "Quelle est l'utilité de typedef ?",
       "options": [
-        "Créer de nouveaux types",
-        "Donner des alias à des types existants",
+        "Créer un type entièrement nouveau",
+        "Donner un alias à un type existant",
         "Définir des constantes",
-        "Réponses 1 et 2"
+        "Allouer de la mémoire"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "Donner un alias à un type existant",
       "difficulty": "moyen"
     },
     {
-      "question": "Comment implémenter le passage par référence en C ?",
+      "question": "Comment simuler le passage par référence en C ?",
       "options": [
-        "En utilisant des pointeurs",
+        "En passant un pointeur vers la variable",
         "Avec le mot-clé ref",
-        "En passant des tableaux",
-        "Réponses 1 et 3"
+        "Avec l'opérateur &&",
+        "C'est le comportement par défaut"
       ],
-      "answer": "Réponses 1 et 3",
+      "answer": "En passant un pointeur vers la variable",
       "difficulty": "moyen"
     },
     {
@@ -321,44 +411,44 @@
       "question": "Comment trier un tableau en C ?",
       "options": [
         "Avec la fonction sort()",
-        "En utilisant qsort()",
-        "En implémentant un algorithme de tri",
-        "Réponses 2 et 3"
+        "Avec qsort() de <stdlib.h> ou en implémentant son propre algorithme",
+        "Avec la méthode tableau.sort()",
+        "Avec la directive #sort"
       ],
-      "answer": "Réponses 2 et 3",
+      "answer": "Avec qsort() de <stdlib.h> ou en implémentant son propre algorithme",
       "difficulty": "moyen"
     },
     {
       "question": "Quelle est l'utilité des bits fields en C ?",
       "options": [
-        "Optimiser l'espace mémoire",
-        "Manipuler des bits individuels",
-        "Créer des masques binaires",
-        "Toutes ces réponses"
+        "Stocker des membres sur un nombre précis de bits pour économiser la mémoire",
+        "Accélérer les calculs en virgule flottante",
+        "Créer des tableaux dynamiques",
+        "Remplacer les pointeurs"
       ],
-      "answer": "Toutes ces réponses",
+      "answer": "Stocker des membres sur un nombre précis de bits pour économiser la mémoire",
       "difficulty": "moyen"
     },
     {
       "question": "Comment créer une variable globale dans plusieurs fichiers ?",
       "options": [
-        "Avec extern",
-        "En la déclarant dans un header",
         "Avec #global",
-        "Réponses 1 et 2"
+        "En la définissant dans chaque fichier .c",
+        "La définir dans un .c et la déclarer avec extern dans un header",
+        "Avec le mot-clé static"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "La définir dans un .c et la déclarer avec extern dans un header",
       "difficulty": "moyen"
     },
     {
       "question": "Comment implémenter un polymorphisme en C ?",
       "options": [
-        "Avec des pointeurs de fonctions dans des structures",
-        "En utilisant des macros",
-        "Avec l'héritage via des structures imbriquées",
-        "Réponses 1 et 3"
+        "Avec des pointeurs de fonctions dans des structures et des structures imbriquées",
+        "Avec le mot-clé virtual",
+        "Avec la surcharge de fonctions",
+        "C'est impossible en C"
       ],
-      "answer": "Réponses 1 et 3",
+      "answer": "Avec des pointeurs de fonctions dans des structures et des structures imbriquées",
       "difficulty": "difficile"
     },
     {
@@ -375,12 +465,12 @@
     {
       "question": "Comment implémenter un garbage collector en C ?",
       "options": [
-        "Avec des pointeurs intelligents",
-        "En utilisant Boehm GC",
-        "Via un comptage de références manuel",
-        "Réponses 2 et 3"
+        "Avec le mot-clé gc",
+        "Le C possède un garbage collector intégré",
+        "Avec une bibliothèque comme Boehm GC ou un comptage de références manuel",
+        "free() est appelé automatiquement à la fin des blocs"
       ],
-      "answer": "Réponses 2 et 3",
+      "answer": "Avec une bibliothèque comme Boehm GC ou un comptage de références manuel",
       "difficulty": "difficile"
     },
     {
@@ -397,12 +487,12 @@
     {
       "question": "Comment optimiser une boucle critique avec SIMD en C ?",
       "options": [
-        "Utiliser les intrinsics du compilateur",
-        "Écrire en assembleur inline",
-        "Utiliser OpenMP",
-        "Réponses 1 et 2"
+        "Avec les intrinsics du compilateur (SSE, AVX…) ou de l'assembleur inline",
+        "Avec le mot-clé register",
+        "En augmentant la taille de la pile",
+        "En remplaçant les int par des double"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "Avec les intrinsics du compilateur (SSE, AVX…) ou de l'assembleur inline",
       "difficulty": "difficile"
     },
     {
@@ -428,14 +518,14 @@
       "difficulty": "difficile"
     },
     {
-      "question": "Quelle technique permet d'implémenter des templates en C ?",
+      "question": "Quelle technique permet d'imiter les templates C++ en C ?",
       "options": [
-        "Les macros préprocesseur",
-        "Les fichiers .h avec types génériques",
-        "Les pointeurs void*",
-        "Réponses 1 et 2"
+        "Les macros du préprocesseur",
+        "Le mot-clé template",
+        "Les pointeurs const",
+        "La surcharge de fonctions"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "Les macros du préprocesseur",
       "difficulty": "difficile"
     },
     {
@@ -474,12 +564,12 @@
     {
       "question": "Quelle est la technique pour réduire le false sharing en multithread ?",
       "options": [
-        "Padding des structures",
-        "Utiliser TLS",
-        "Alignement sur ligne de cache",
-        "Réponses 1 et 3"
+        "Ajouter du padding et aligner les données sur une ligne de cache",
+        "Utiliser plus de threads",
+        "Déclarer les variables volatile",
+        "Désactiver le cache CPU"
       ],
-      "answer": "Réponses 1 et 3",
+      "answer": "Ajouter du padding et aligner les données sur une ligne de cache",
       "difficulty": "difficile"
     },
     {
@@ -529,12 +619,12 @@
     {
       "question": "Comment implémenter des exceptions en C ?",
       "options": [
-        "Avec setjmp/longjmp",
-        "Via des codes d'erreur",
-        "En utilisant goto",
-        "Réponses 1 et 2"
+        "Avec setjmp/longjmp ou des codes d'erreur",
+        "Avec les blocs try/catch natifs",
+        "Avec le mot-clé throw",
+        "C'est impossible en C"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "Avec setjmp/longjmp ou des codes d'erreur",
       "difficulty": "difficile"
     },
     {

@@ -13,31 +13,56 @@
     },
     {
       "question": "Quelle version d'IP est la plus utilisée aujourd'hui ?",
-      "options": ["IPv4", "IPv6", "IPv2", "IPv8"],
+      "options": [
+        "IPv4",
+        "IPv6",
+        "IPv2",
+        "IPv8"
+      ],
       "answer": "IPv4",
       "difficulty": "facile"
     },
     {
       "question": "Combien de bits compose une adresse IPv4 ?",
-      "options": ["32 bits", "64 bits", "128 bits", "16 bits"],
+      "options": [
+        "32 bits",
+        "64 bits",
+        "128 bits",
+        "16 bits"
+      ],
       "answer": "32 bits",
       "difficulty": "facile"
     },
     {
       "question": "Que signifie le 'P' dans IP ?",
-      "options": ["Protocole", "Protection", "Provider", "Password"],
+      "options": [
+        "Protocole",
+        "Protection",
+        "Provider",
+        "Password"
+      ],
       "answer": "Protocole",
       "difficulty": "facile"
     },
     {
       "question": "Quel appareil permet de connecter plusieurs ordinateurs en réseau ?",
-      "options": ["Switch", "Clavier", "Imprimante", "Disque dur"],
+      "options": [
+        "Switch",
+        "Clavier",
+        "Imprimante",
+        "Disque dur"
+      ],
       "answer": "Switch",
       "difficulty": "facile"
     },
     {
       "question": "Quelle est l'adresse IP locale par défaut pour la plupart des routeurs ?",
-      "options": ["192.168.1.1", "8.8.8.8", "127.0.0.1", "255.255.255.0"],
+      "options": [
+        "192.168.1.1",
+        "8.8.8.8",
+        "127.0.0.1",
+        "255.255.255.0"
+      ],
       "answer": "192.168.1.1",
       "difficulty": "facile"
     },
@@ -65,54 +90,89 @@
     },
     {
       "question": "Quelle commande permet de tester la connexion à une adresse IP ?",
-      "options": ["ping", "copy", "delete", "format"],
+      "options": [
+        "ping",
+        "copy",
+        "delete",
+        "format"
+      ],
       "answer": "ping",
       "difficulty": "facile"
     },
     {
       "question": "Quelle adresse est appelée 'localhost' ?",
-      "options": ["192.168.0.1", "127.0.0.1", "8.8.8.8", "255.255.255.255"],
+      "options": [
+        "192.168.0.1",
+        "127.0.0.1",
+        "8.8.8.8",
+        "255.255.255.255"
+      ],
       "answer": "127.0.0.1",
       "difficulty": "facile"
     },
     {
-      "question": "Quelle partie de l'adresse IP identifie le réseau ?",
+      "question": "Dans un réseau domestique en /24 (masque 255.255.255.0), quelle partie de l'adresse IP identifie le réseau ?",
       "options": [
-        "Les premiers nombres",
-        "Les derniers nombres",
-        "Les nombres du milieu",
+        "Les trois premiers nombres",
+        "Le dernier nombre",
+        "Le premier nombre uniquement",
         "Tous les nombres"
       ],
-      "answer": "Les premiers nombres",
+      "answer": "Les trois premiers nombres",
       "difficulty": "facile"
     },
     {
       "question": "Quel masque est typique pour un réseau domestique ?",
-      "options": ["255.255.255.0", "255.0.0.0", "0.0.0.255", "255.255.0.0"],
+      "options": [
+        "255.255.255.0",
+        "255.0.0.0",
+        "0.0.0.255",
+        "255.255.0.0"
+      ],
       "answer": "255.255.255.0",
       "difficulty": "facile"
     },
     {
       "question": "Quelle commande affiche votre adresse IP sous Windows ?",
-      "options": ["ipconfig", "netstat", "tracert", "msconfig"],
+      "options": [
+        "ipconfig",
+        "netstat",
+        "tracert",
+        "msconfig"
+      ],
       "answer": "ipconfig",
       "difficulty": "facile"
     },
     {
       "question": "Quelle est l'adresse IP publique de Google DNS ?",
-      "options": ["192.168.1.1", "8.8.8.8", "127.0.0.1", "10.0.0.1"],
+      "options": [
+        "192.168.1.1",
+        "8.8.8.8",
+        "127.0.0.1",
+        "10.0.0.1"
+      ],
       "answer": "8.8.8.8",
       "difficulty": "facile"
     },
     {
       "question": "Combien d'octets a une adresse IPv4 ?",
-      "options": ["2", "4", "6", "8"],
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
       "answer": "4",
       "difficulty": "facile"
     },
     {
       "question": "Quel appareil connecte un réseau local à Internet ?",
-      "options": ["Switch", "Routeur", "Hub", "Modem"],
+      "options": [
+        "Switch",
+        "Routeur",
+        "Hub",
+        "Répéteur"
+      ],
       "answer": "Routeur",
       "difficulty": "facile"
     },
@@ -129,19 +189,34 @@
     },
     {
       "question": "Quelle plage d'adresses est réservée pour les réseaux privés ?",
-      "options": ["10.x.x.x", "100.x.x.x", "200.x.x.x", "300.x.x.x"],
+      "options": [
+        "10.x.x.x",
+        "100.x.x.x",
+        "200.x.x.x",
+        "300.x.x.x"
+      ],
       "answer": "10.x.x.x",
       "difficulty": "facile"
     },
     {
       "question": "Quel protocole est utilisé pour envoyer des emails ?",
-      "options": ["HTTP", "FTP", "SMTP", "DNS"],
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "DNS"
+      ],
       "answer": "SMTP",
       "difficulty": "facile"
     },
     {
       "question": "Quelle commande montre le chemin vers une adresse IP ?",
-      "options": ["ping", "tracert", "ipconfig", "netstat"],
+      "options": [
+        "ping",
+        "tracert",
+        "ipconfig",
+        "netstat"
+      ],
       "answer": "tracert",
       "difficulty": "facile"
     },
@@ -219,7 +294,12 @@
     },
     {
       "question": "Quel protocole est utilisé par la commande ping ?",
-      "options": ["TCP", "UDP", "ICMP", "ARP"],
+      "options": [
+        "TCP",
+        "UDP",
+        "ICMP",
+        "ARP"
+      ],
       "answer": "ICMP",
       "difficulty": "moyen",
       "explanation": "La commande ping utilise ICMP (Internet Control Message Protocol) pour tester la connectivité entre hôtes."
@@ -238,14 +318,24 @@
     },
     {
       "question": "Quel port est utilisé par défaut pour le protocole HTTPS ?",
-      "options": ["80", "443", "22", "53"],
+      "options": [
+        "80",
+        "443",
+        "22",
+        "53"
+      ],
       "answer": "443",
       "difficulty": "moyen",
       "explanation": "HTTPS utilise le port 443 par défaut, tandis que HTTP utilise le port 80."
     },
     {
       "question": "Quelle commande permet d'afficher la table de routage sous Windows ?",
-      "options": ["ipconfig", "route print", "netstat", "tracert"],
+      "options": [
+        "ipconfig",
+        "route print",
+        "netstat",
+        "tracert"
+      ],
       "answer": "route print",
       "difficulty": "moyen",
       "explanation": "La commande 'route print' affiche la table de routage sous Windows, montrant comment les paquets sont acheminés."
@@ -263,18 +353,6 @@
       "explanation": "IPv6 utilise des adresses de 128 bits (contre 32 pour IPv4), offrant un espace d'adressage considérablement plus important."
     },
     {
-      "question": "Quel est le rôle d'un serveur DNS ?",
-      "options": [
-        "Attribuer des adresses IP",
-        "Traduire noms de domaine en adresses IP",
-        "Filtrer le trafic réseau",
-        "Chiffrer les communications"
-      ],
-      "answer": "Traduire noms de domaine en adresses IP",
-      "difficulty": "moyen",
-      "explanation": "Un serveur DNS (Domain Name System) convertit les noms de domaine lisibles par l'homme (comme www.example.com) en adresses IP."
-    },
-    {
       "question": "Quelle est la fonction du champ TTL dans un paquet IP ?",
       "options": [
         "Déterminer la vitesse de transmission",
@@ -288,7 +366,12 @@
     },
     {
       "question": "Quel protocole est utilisé pour le transfert sécurisé de fichiers ?",
-      "options": ["FTP", "SFTP", "HTTP", "SMTP"],
+      "options": [
+        "FTP",
+        "SFTP",
+        "HTTP",
+        "SMTP"
+      ],
       "answer": "SFTP",
       "difficulty": "moyen",
       "explanation": "SFTP (SSH File Transfer Protocol) est la version sécurisée de FTP, utilisant SSH pour chiffrer les transferts."
@@ -332,7 +415,7 @@
     {
       "question": "Quelle est la fonction du protocole ICMPv6 ?",
       "options": [
-        "Remplacer ARP dans IPv6",
+        "Attribuer des noms de domaine en IPv6",
         "Gérer le routage IPv6",
         "Fournir des messages de contrôle et d'erreur pour IPv6",
         "Chiffrer les communications IPv6"
@@ -352,18 +435,6 @@
       "answer": "Un routeur connecte des réseaux, un modem module/démodule des signaux",
       "difficulty": "moyen",
       "explanation": "Un routeur achemine les paquets entre réseaux, tandis qu'un modem convertit les signaux entre le format réseau et le format du fournisseur d'accès."
-    },
-    {
-      "question": "Quel est l'avantage principal du protocole IPv6 ?",
-      "options": [
-        "Adresses plus courtes et faciles à mémoriser",
-        "Espace d'adressage beaucoup plus important",
-        "Compatibilité totale avec IPv4",
-        "Pas besoin de configuration réseau"
-      ],
-      "answer": "Espace d'adressage beaucoup plus important",
-      "difficulty": "moyen",
-      "explanation": "IPv6 résout principalement le problème d'épuisement des adresses IPv4 en offrant un espace d'adressage considérablement plus grand (128 bits contre 32)."
     },
     {
       "question": "Comment BGP évite-t-il les boucles de routage entre systèmes autonomes ?",
@@ -524,12 +595,12 @@
     {
       "question": "Quelle est l'innovation principale de SCION par rapport à BGP ?",
       "options": [
-        "Séparation stricte du plan de contrôle et du plan de données",
+        "Le choix du chemin par l'émetteur parmi des chemins authentifiés cryptographiquement",
         "Utilisation exclusive de IPv6",
         "Suppression de toute hiérarchie dans le routage",
         "Chiffrement obligatoire de tous les paquets"
       ],
-      "answer": "Séparation stricte du plan de contrôle et du plan de données",
+      "answer": "Le choix du chemin par l'émetteur parmi des chemins authentifiés cryptographiquement",
       "difficulty": "difficile",
       "explanation": "SCION sépare radicalement la façon dont les routes sont choisies (contrôle) et comment les paquets sont acheminés (données)."
     },

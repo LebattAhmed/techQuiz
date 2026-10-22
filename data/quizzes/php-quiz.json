@@ -13,20 +13,35 @@
     },
     {
       "question": "Quel symbole utilise PHP pour désigner les variables ?",
-      "options": ["&", "$", "#", "@"],
+      "options": [
+        "&",
+        "$",
+        "#",
+        "@"
+      ],
       "answer": "$",
       "difficulty": "facile"
     },
     {
       "question": "Comment se termine un bloc de code PHP ?",
-      "options": ["</php>", "End", "?>", ";;"],
+      "options": [
+        "</php>",
+        "End",
+        "?>",
+        ";;"
+      ],
       "answer": "?>",
       "difficulty": "facile"
     },
     {
-      "question": "Quelle fonction affiche du texte en PHP ?",
-      "options": ["print()", "echo()", "display()", "show()"],
-      "answer": "echo()",
+      "question": "Quelle instruction est la plus utilisée pour afficher du texte en PHP ?",
+      "options": [
+        "write()",
+        "echo",
+        "display()",
+        "show()"
+      ],
+      "answer": "echo",
       "difficulty": "facile"
     },
     {
@@ -42,49 +57,89 @@
     },
     {
       "question": "Quelle superglobale contient les données des formulaires GET ?",
-      "options": ["$_POST", "$_GET", "$_REQUEST", "$_FORM"],
+      "options": [
+        "$_POST",
+        "$_GET",
+        "$_REQUEST",
+        "$_FORM"
+      ],
       "answer": "$_GET",
       "difficulty": "facile"
     },
     {
       "question": "Quelle fonction inclut un fichier en PHP ?",
-      "options": ["import()", "require()", "include()", "Réponses 2 et 3"],
-      "answer": "Réponses 2 et 3",
+      "options": [
+        "import()",
+        "require ou include",
+        "load()",
+        "using"
+      ],
+      "answer": "require ou include",
       "difficulty": "facile"
     },
     {
       "question": "Comment concaténer des chaînes en PHP ?",
-      "options": ["Avec +", "Avec .", "Avec &", "Avec ,"],
+      "options": [
+        "Avec +",
+        "Avec .",
+        "Avec &",
+        "Avec ,"
+      ],
       "answer": "Avec .",
       "difficulty": "facile"
     },
     {
       "question": "Quelle fonction retourne la longueur d'une chaîne ?",
-      "options": ["len()", "strlen()", "length()", "str_length()"],
+      "options": [
+        "len()",
+        "strlen()",
+        "length()",
+        "str_length()"
+      ],
       "answer": "strlen()",
       "difficulty": "facile"
     },
     {
       "question": "Comment créer un tableau en PHP ?",
-      "options": ["array()", "[]", "new Array()", "Réponses 1 et 2"],
-      "answer": "Réponses 1 et 2",
+      "options": [
+        "new Array()",
+        "array() ou []",
+        "Array.create()",
+        "{}"
+      ],
+      "answer": "array() ou []",
       "difficulty": "facile"
     },
     {
       "question": "Quelle fonction transforme une chaîne en minuscules ?",
-      "options": ["strtolower()", "lower()", "strlower()", "toLower()"],
+      "options": [
+        "strtolower()",
+        "lower()",
+        "strlower()",
+        "toLower()"
+      ],
       "answer": "strtolower()",
       "difficulty": "facile"
     },
     {
       "question": "Comment vérifier si une variable existe en PHP ?",
-      "options": ["isset()", "exists()", "defined()", "has()"],
+      "options": [
+        "isset()",
+        "exists()",
+        "defined()",
+        "has()"
+      ],
       "answer": "isset()",
       "difficulty": "facile"
     },
     {
       "question": "Quelle fonction retourne la date actuelle ?",
-      "options": ["today()", "now()", "date()", "time()"],
+      "options": [
+        "today()",
+        "now()",
+        "date()",
+        "time()"
+      ],
       "answer": "date()",
       "difficulty": "facile"
     },
@@ -101,7 +156,12 @@
     },
     {
       "question": "Quelle fonction compte le nombre d'éléments dans un tableau ?",
-      "options": ["count()", "size()", "length()", "sizeof()"],
+      "options": [
+        "count()",
+        "size()",
+        "length()",
+        "array_size()"
+      ],
       "answer": "count()",
       "difficulty": "facile"
     },
@@ -118,19 +178,34 @@
     },
     {
       "question": "Quelle superglobale contient les données de session ?",
-      "options": ["$_COOKIE", "$_SESSION", "$_ENV", "$_SERVER"],
+      "options": [
+        "$_COOKIE",
+        "$_SESSION",
+        "$_ENV",
+        "$_SERVER"
+      ],
       "answer": "$_SESSION",
       "difficulty": "facile"
     },
     {
       "question": "Comment convertir une chaîne en nombre entier ?",
-      "options": ["intval()", "(int)", "integer()", "Réponses 1 et 2"],
-      "answer": "Réponses 1 et 2",
+      "options": [
+        "integer()",
+        "intval() ou le cast (int)",
+        "toInt()",
+        "parseInt()"
+      ],
+      "answer": "intval() ou le cast (int)",
       "difficulty": "facile"
     },
     {
       "question": "Quelle fonction supprime les espaces en début et fin de chaîne ?",
-      "options": ["trim()", "strip()", "clean()", "removeSpace()"],
+      "options": [
+        "trim()",
+        "strip()",
+        "clean()",
+        "removeSpace()"
+      ],
       "answer": "trim()",
       "difficulty": "facile"
     },
@@ -150,7 +225,7 @@
       "options": [
         "== compare les valeurs, === compare les valeurs et les types",
         "=== est plus rapide que ==",
-        "== convertit les types avant comparaison, === non",
+        "=== convertit les types avant comparaison, == non",
         "Il n'y a pas de différence"
       ],
       "answer": "== compare les valeurs, === compare les valeurs et les types",
@@ -170,7 +245,7 @@
     {
       "question": "Qu'est-ce qu'une closure en PHP ?",
       "options": [
-        "Une fonction anonyme",
+        "Une fonction qui ferme une connexion",
         "Une fonction qui peut accéder à des variables hors de son scope",
         "Une méthode de classe finale",
         "Un type de commentaire"
@@ -184,7 +259,7 @@
         "Avec la fonction __autoload()",
         "En utilisant spl_autoload_register()",
         "En incluant manuellement tous les fichiers",
-        "Réponses 1 et 2"
+        "Avec la directive #autoload"
       ],
       "answer": "En utilisant spl_autoload_register()",
       "difficulty": "moyen"
@@ -203,17 +278,22 @@
     {
       "question": "Comment gérer les exceptions en PHP ?",
       "options": [
-        "Avec try/catch",
-        "Avec set_exception_handler()",
+        "Avec try/catch (et set_exception_handler() pour les exceptions non capturées)",
         "Avec trigger_error()",
-        "Réponses 1 et 2"
+        "Avec on error resume next",
+        "Avec des if/else uniquement"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "Avec try/catch (et set_exception_handler() pour les exceptions non capturées)",
       "difficulty": "moyen"
     },
     {
       "question": "Quelle méthode permet de sérialiser un objet en PHP ?",
-      "options": ["serialize()", "toJson()", "toString()", "pack()"],
+      "options": [
+        "serialize()",
+        "toJson()",
+        "toString()",
+        "pack()"
+      ],
       "answer": "serialize()",
       "difficulty": "moyen"
     },
@@ -231,24 +311,34 @@
     {
       "question": "Comment implémenter le pattern Singleton en PHP ?",
       "options": [
-        "Avec une classe finale et un constructeur privé",
+        "Avec un constructeur privé et une méthode statique getInstance()",
         "Avec des traits",
         "Avec des interfaces",
         "Avec des classes anonymes"
       ],
-      "answer": "Avec une classe finale et un constructeur privé",
+      "answer": "Avec un constructeur privé et une méthode statique getInstance()",
       "difficulty": "moyen"
     },
     {
       "question": "Quelle fonction PHP permet de générer un hash sécurisé pour les mots de passe ?",
-      "options": ["md5()", "sha1()", "password_hash()", "crypt()"],
+      "options": [
+        "md5()",
+        "sha1()",
+        "password_hash()",
+        "crypt()"
+      ],
       "answer": "password_hash()",
       "difficulty": "moyen"
     },
     {
       "question": "Comment accéder à une propriété statique dans une classe PHP ?",
-      "options": ["Avec ->", "Avec ::", "Avec self::", "Réponses 2 et 3"],
-      "answer": "Réponses 2 et 3",
+      "options": [
+        "Avec ->",
+        "Avec :: (ex. self::$prop ou static::$prop)",
+        "Avec .",
+        "Avec $this.prop"
+      ],
+      "answer": "Avec :: (ex. self::$prop ou static::$prop)",
       "difficulty": "moyen"
     },
     {
@@ -275,7 +365,12 @@
     },
     {
       "question": "Quelle méthode magique s'exécute lors de la création d'un objet ?",
-      "options": ["__construct()", "__init()", "__new()", "__start()"],
+      "options": [
+        "__construct()",
+        "__init()",
+        "__new()",
+        "__start()"
+      ],
       "answer": "__construct()",
       "difficulty": "moyen"
     },
@@ -285,31 +380,31 @@
         "Avec foreach($array as $key => $value)",
         "Avec for()",
         "Avec while(list($key, $value) = each($array))",
-        "Réponses 1 et 3"
+        "Avec array_walk_keys()"
       ],
       "answer": "Avec foreach($array as $key => $value)",
       "difficulty": "moyen"
     },
     {
-      "question": "Quelle fonction permet de filtrer les entrées utilisateur ?",
+      "question": "Quelle fonction native est dédiée à la validation et au filtrage des entrées utilisateur ?",
       "options": [
         "filter_var()",
-        "htmlentities()",
-        "strip_tags()",
-        "Toutes ces réponses"
+        "sanitize()",
+        "clean_input()",
+        "user_filter()"
       ],
-      "answer": "Toutes ces réponses",
+      "answer": "filter_var()",
       "difficulty": "moyen"
     },
     {
       "question": "Comment activer les erreurs PHP en développement ?",
       "options": [
-        "error_reporting(E_ALL)",
-        "display_errors = On",
         "log_errors = Off",
-        "Réponses 1 et 2"
+        "error_reporting(E_ALL) et display_errors = On",
+        "debug_mode(true)",
+        "set_debug(1)"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "error_reporting(E_ALL) et display_errors = On",
       "difficulty": "moyen"
     },
     {
@@ -336,8 +431,13 @@
     },
     {
       "question": "Quelle méthode permet de lire un fichier ligne par ligne ?",
-      "options": ["file()", "fgets()", "readline()", "Réponses 1 et 2"],
-      "answer": "Réponses 1 et 2",
+      "options": [
+        "fgets()",
+        "readline()",
+        "fread_line()",
+        "getline()"
+      ],
+      "answer": "fgets()",
       "difficulty": "moyen"
     },
     {
@@ -431,12 +531,12 @@
     {
       "question": "Comment implémenter une transaction ACID en PHP avec PDO ?",
       "options": [
-        "beginTransaction() + commit()/rollback()",
-        "Avec des SAVEPOINT",
-        "En utilisant des triggers SQL",
-        "Réponses 1 et 2"
+        "beginTransaction() puis commit() ou rollBack()",
+        "Uniquement avec des triggers SQL",
+        "Avec PDO::atomic()",
+        "Avec mysql_transaction()"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "beginTransaction() puis commit() ou rollBack()",
       "difficulty": "difficile"
     },
     {
@@ -478,7 +578,7 @@
         "Avec des classes qui implémentent la même interface",
         "Via l'héritage multiple",
         "En utilisant __call()",
-        "Réponses 1 et 3"
+        "Avec le mot-clé decorate"
       ],
       "answer": "Avec des classes qui implémentent la même interface",
       "difficulty": "difficile"
@@ -517,7 +617,7 @@
       "difficulty": "difficile"
     },
     {
-      "question": "Comment déboguer efficacement des problèmes de concurrence ?",
+      "question": "Quels outils ou techniques aident à traiter les problèmes de concurrence ?",
       "options": [
         "Avec des locks",
         "En utilisant des transactions",
@@ -552,12 +652,12 @@
     {
       "question": "Quelle technique utiliser pour minimiser les requêtes N+1 ?",
       "options": [
-        "Eager loading",
-        "Lazy loading avec proxy",
-        "Utiliser des jointures",
-        "Toutes ces réponses"
+        "Eager loading ou jointures SQL",
+        "Lazy loading de chaque relation dans une boucle",
+        "Exécuter une requête par élément",
+        "Supprimer les index"
       ],
-      "answer": "Toutes ces réponses",
+      "answer": "Eager loading ou jointures SQL",
       "difficulty": "difficile"
     }
   ]

@@ -2,31 +2,56 @@
   "questions": [
     {
       "question": "Quel mot-clé permet de déclarer une variable en JavaScript ?",
-      "options": ["var", "let", "const", "Toutes ces réponses"],
+      "options": [
+        "var",
+        "let",
+        "const",
+        "Toutes ces réponses"
+      ],
       "answer": "Toutes ces réponses",
       "difficulty": "facile"
     },
     {
       "question": "Comment afficher un message dans la console ?",
-      "options": ["console.log()", "print()", "log()", "display()"],
+      "options": [
+        "console.log()",
+        "print()",
+        "log()",
+        "display()"
+      ],
       "answer": "console.log()",
       "difficulty": "facile"
     },
     {
       "question": "Quel opérateur permet d'ajouter deux nombres ?",
-      "options": ["+", "-", "*", "/"],
+      "options": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
       "answer": "+",
       "difficulty": "facile"
     },
     {
-      "question": "Comment vérifier si une variable est égale à 5 ?",
-      "options": ["x = 5", "x == 5", "x === 5", "x != 5"],
-      "answer": "x == 5",
+      "question": "Comment vérifier que x est égal à 5 en valeur ET en type ?",
+      "options": [
+        "x = 5",
+        "x == 5",
+        "x === 5",
+        "x != 5"
+      ],
+      "answer": "x === 5",
       "difficulty": "facile"
     },
     {
       "question": "Quelle méthode permet de concaténer deux chaînes ?",
-      "options": ["concat()", "merge()", "join()", "add()"],
+      "options": [
+        "concat()",
+        "merge()",
+        "join()",
+        "add()"
+      ],
       "answer": "concat()",
       "difficulty": "facile"
     },
@@ -43,25 +68,45 @@
     },
     {
       "question": "Que retourne typeof 'hello' ?",
-      "options": ["string", "number", "boolean", "object"],
+      "options": [
+        "string",
+        "number",
+        "boolean",
+        "object"
+      ],
       "answer": "string",
       "difficulty": "facile"
     },
     {
       "question": "Comment ajouter un élément à un tableau ?",
-      "options": ["push()", "add()", "insert()", "append()"],
+      "options": [
+        "push()",
+        "add()",
+        "insert()",
+        "append()"
+      ],
       "answer": "push()",
       "difficulty": "facile"
     },
     {
       "question": "Quelle boucle est infinie par défaut ?",
-      "options": ["for", "while", "do...while", "Aucune"],
+      "options": [
+        "for",
+        "while",
+        "do...while",
+        "Aucune"
+      ],
       "answer": "Aucune",
       "difficulty": "facile"
     },
     {
       "question": "Comment obtenir la longueur d'une chaîne ?",
-      "options": ["str.length", "str.size", "str.count", "str.len"],
+      "options": [
+        "str.length",
+        "str.size",
+        "str.count",
+        "str.len"
+      ],
       "answer": "str.length",
       "difficulty": "facile"
     },
@@ -78,13 +123,23 @@
     },
     {
       "question": "Comment convertir un nombre en chaîne ?",
-      "options": ["String()", "toString()", "str()", "Réponses 1 et 2"],
-      "answer": "Réponses 1 et 2",
+      "options": [
+        "str(n)",
+        "String(n) ou n.toString()",
+        "n.toText()",
+        "parseString(n)"
+      ],
+      "answer": "String(n) ou n.toString()",
       "difficulty": "facile"
     },
     {
       "question": "Quelle méthode transforme une chaîne en minuscules ?",
-      "options": ["toLower()", "lowerCase()", "toLowerCase()", "minus()"],
+      "options": [
+        "toLower()",
+        "lowerCase()",
+        "toLowerCase()",
+        "minus()"
+      ],
       "answer": "toLowerCase()",
       "difficulty": "facile"
     },
@@ -92,11 +147,11 @@
       "question": "Comment créer un objet avec une propriété 'nom' ?",
       "options": [
         "{nom: 'value'}",
-        "new Object({nom: 'value'})",
-        "Object.create({nom: 'value'})",
-        "Toutes ces réponses"
+        "{nom = 'value'}",
+        "new {nom: 'value'}",
+        "Object('nom' = 'value')"
       ],
-      "answer": "Toutes ces réponses",
+      "answer": "{nom: 'value'}",
       "difficulty": "facile"
     },
     {
@@ -112,13 +167,23 @@
     },
     {
       "question": "Comment appeler une fonction nommée 'maFunc' ?",
-      "options": ["maFunc", "maFunc()", "call maFunc", "execute maFunc"],
+      "options": [
+        "maFunc",
+        "maFunc()",
+        "call maFunc",
+        "execute maFunc"
+      ],
       "answer": "maFunc()",
       "difficulty": "facile"
     },
     {
       "question": "Que retourne Boolean(0) ?",
-      "options": ["true", "false", "0", "null"],
+      "options": [
+        "true",
+        "false",
+        "0",
+        "null"
+      ],
       "answer": "false",
       "difficulty": "facile"
     },
@@ -128,20 +193,30 @@
         "// Commentaire",
         "# Commentaire",
         "-- Commentaire",
-        "/* Commentaire */"
+        "' Commentaire"
       ],
       "answer": "// Commentaire",
       "difficulty": "facile"
     },
     {
       "question": "Quelle méthode supprime le dernier élément d'un tableau ?",
-      "options": ["remove()", "delete()", "pop()", "cut()"],
+      "options": [
+        "remove()",
+        "delete()",
+        "pop()",
+        "cut()"
+      ],
       "answer": "pop()",
       "difficulty": "facile"
     },
     {
       "question": "Comment vérifier si x est supérieur à 10 ?",
-      "options": ["x > 10", "x >= 10", "x < 10", "x == 10"],
+      "options": [
+        "x > 10",
+        "x >= 10",
+        "x < 10",
+        "x == 10"
+      ],
       "answer": "x > 10",
       "difficulty": "facile"
     },
@@ -158,7 +233,12 @@
     },
     {
       "question": "Que retourne typeof null en JavaScript ?",
-      "options": ["null", "undefined", "object", "string"],
+      "options": [
+        "null",
+        "undefined",
+        "object",
+        "string"
+      ],
       "answer": "object",
       "difficulty": "moyen"
     },
@@ -187,12 +267,12 @@
     {
       "question": "Comment créer une copie superficielle d'un objet ?",
       "options": [
-        "Object.assign({}, obj)",
-        "{...obj}",
+        "Object.assign({}, obj) ou {...obj}",
         "JSON.parse(JSON.stringify(obj))",
-        "Réponses 1 et 2"
+        "obj.copy()",
+        "Object.freeze(obj)"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "Object.assign({}, obj) ou {...obj}",
       "difficulty": "moyen"
     },
     {
@@ -240,12 +320,12 @@
       "difficulty": "moyen"
     },
     {
-      "question": "Comment vérifier si une variable est NaN ?",
+      "question": "Comment vérifier de façon fiable (sans conversion de type) qu'une variable vaut NaN ?",
       "options": [
         "isNaN(variable)",
         "Number.isNaN(variable)",
         "variable === NaN",
-        "Réponses 1 et 2"
+        "variable == NaN"
       ],
       "answer": "Number.isNaN(variable)",
       "difficulty": "moyen"
@@ -297,12 +377,12 @@
     {
       "question": "Comment gérer plusieurs Promises simultanément ?",
       "options": [
-        "Promise.all()",
-        "Promise.race()",
         "Promise.some()",
-        "Réponses 1 et 2"
+        "Avec Promise.all() ou Promise.race()",
+        "Promise.together()",
+        "Promise.multi()"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "Avec Promise.all() ou Promise.race()",
       "difficulty": "moyen"
     },
     {
@@ -321,10 +401,10 @@
       "options": [
         "Object.assign({}, obj)",
         "{...obj}",
-        "JSON.parse(JSON.stringify(obj))",
-        "structuredClone(obj)"
+        "structuredClone(obj)",
+        "Object.freeze(obj)"
       ],
-      "answer": "JSON.parse(JSON.stringify(obj))",
+      "answer": "structuredClone(obj)",
       "difficulty": "moyen"
     },
     {
@@ -342,11 +422,11 @@
       "question": "Comment fonctionne async/await ?",
       "options": [
         "Ce sont des alternatives aux Promises",
-        "Ce sont des syntaxes pour gérer les Promises de manière synchrone",
+        "Ce sont des syntaxes pour écrire du code asynchrone basé sur les Promises comme du code synchrone",
         "Ce sont des méthodes pour créer des boucles",
         "Ce sont des types de fonctions"
       ],
-      "answer": "Ce sont des syntaxes pour gérer les Promises de manière synchrone",
+      "answer": "Ce sont des syntaxes pour écrire du code asynchrone basé sur les Promises comme du code synchrone",
       "difficulty": "moyen"
     },
     {
@@ -493,21 +573,21 @@
       "difficulty": "difficile"
     },
     {
-      "question": "Qu'est-ce que le 'Double Equals Coercion Algorithm' et dans quel ordre effectue-t-il les conversions ?",
+      "question": "Avec ==, que se passe-t-il quand on compare un nombre et une chaîne (ex. 5 == '5') ?",
       "options": [
-        "Number -> String -> Boolean",
-        "String -> Number -> Boolean",
-        "Boolean -> Number -> String",
-        "Il n'y a pas d'ordre défini"
+        "La chaîne est convertie en nombre",
+        "Le nombre est converti en chaîne",
+        "Les deux sont convertis en booléens",
+        "Une TypeError est levée"
       ],
-      "answer": "Number -> String -> Boolean",
+      "answer": "La chaîne est convertie en nombre",
       "difficulty": "difficile"
     },
     {
       "question": "Comment optimiser les performances d'une application JavaScript lourde ?",
       "options": [
         "Utiliser le Virtual DOM comme React",
-        "Débiter le code en Web Workers",
+        "Déporter les calculs lourds dans des Web Workers",
         "Implémenter le lazy loading et le code splitting",
         "Toutes ces réponses"
       ],
@@ -528,7 +608,7 @@
     {
       "question": "Comment fonctionne 'Object.defineProperty()' et quel est son principal avantage ?",
       "options": [
-        "Pour créer des propriétés non énumérables",
+        "Pour supprimer des propriétés",
         "Pour définir des getters/setters et propriétés immuables",
         "Pour optimiser les performances",
         "Pour dupliquer des objets"

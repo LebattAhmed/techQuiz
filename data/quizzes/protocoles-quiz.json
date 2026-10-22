@@ -1,0 +1,636 @@
+{
+  "questions": [
+    {
+      "question": "Quel protocole est utilisé pour surfer sur Internet ?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SSH",
+        "SMTP"
+      ],
+      "answer": "HTTP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole permet d'envoyer des emails ?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "DNS"
+      ],
+      "answer": "SMTP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole traduit les noms de domaine en adresses IP ?",
+      "options": [
+        "DHCP",
+        "DNS",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "DNS",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel port utilise HTTP par défaut ?",
+      "options": [
+        "21",
+        "25",
+        "80",
+        "443"
+      ],
+      "answer": "80",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est utilisé pour transférer des fichiers ?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "DNS"
+      ],
+      "answer": "FTP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole attribue automatiquement des adresses IP ?",
+      "options": [
+        "DNS",
+        "DHCP",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": "DHCP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "HTTPS est la version sécurisée de quel protocole ?",
+      "options": [
+        "FTP",
+        "HTTP",
+        "SMTP",
+        "DNS"
+      ],
+      "answer": "HTTP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est utilisé pour accéder à distance à un serveur ?",
+      "options": [
+        "FTP",
+        "SSH",
+        "SMTP",
+        "DNS"
+      ],
+      "answer": "SSH",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel port utilise HTTPS par défaut ?",
+      "options": [
+        "21",
+        "80",
+        "443",
+        "25"
+      ],
+      "answer": "443",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est utilisé pour recevoir des emails ?",
+      "options": [
+        "SMTP",
+        "POP3",
+        "FTP",
+        "HTTP"
+      ],
+      "answer": "POP3",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est plus rapide mais moins fiable ?",
+      "options": [
+        "TCP",
+        "UDP",
+        "HTTP",
+        "FTP"
+      ],
+      "answer": "UDP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est utilisé pour les requêtes ping ?",
+      "options": [
+        "TCP",
+        "UDP",
+        "ICMP",
+        "HTTP"
+      ],
+      "answer": "ICMP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est utilisé pour les vidéoconférences ?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "RTP",
+        "SMTP"
+      ],
+      "answer": "RTP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est utilisé pour partager des fichiers en pair-à-pair ?",
+      "options": [
+        "HTTP",
+        "FTP",
+        "BitTorrent",
+        "SMTP"
+      ],
+      "answer": "BitTorrent",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est utilisé pour synchroniser l'heure entre ordinateurs ?",
+      "options": [
+        "HTTP",
+        "NTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "NTP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quel protocole est utilisé pour les chats en direct ?",
+      "options": [
+        "HTTP",
+        "XMPP",
+        "FTP",
+        "DNS"
+      ],
+      "answer": "XMPP",
+      "difficulty": "facile"
+    },
+    {
+      "question": "Quelle est la différence entre TCP et UDP en termes de contrôle de flux ?",
+      "options": [
+        "TCP utilise un contrôle de flux, UDP non",
+        "UDP utilise un contrôle de flux plus strict que TCP",
+        "Les deux utilisent le même mécanisme de contrôle",
+        "Aucun des deux n'implémente de contrôle de flux"
+      ],
+      "answer": "TCP utilise un contrôle de flux, UDP non",
+      "difficulty": "moyen",
+      "explanation": "TCP implémente un mécanisme de contrôle de flux via la fenêtre glissante, alors que UDP n'en a pas."
+    },
+    {
+      "question": "Quel est le rôle du protocole ICMP ?",
+      "options": [
+        "Transférer des fichiers",
+        "Envoyer des messages d'erreur et d'état du réseau",
+        "Traduire les noms de domaine",
+        "Établir des connexions sécurisées"
+      ],
+      "answer": "Envoyer des messages d'erreur et d'état du réseau",
+      "difficulty": "moyen",
+      "explanation": "ICMP est utilisé pour envoyer des messages de contrôle comme les requêtes ping et les messages d'erreur."
+    },
+    {
+      "question": "Quelle est la fonction principale du protocole ARP ?",
+      "options": [
+        "Résoudre les noms de domaine",
+        "Traduire les adresses IP en adresses MAC",
+        "Chiffrer les communications",
+        "Attribuer des adresses IP automatiquement"
+      ],
+      "answer": "Traduire les adresses IP en adresses MAC",
+      "difficulty": "moyen",
+      "explanation": "ARP (Address Resolution Protocol) fait le lien entre les adresses IP (couche 3) et les adresses MAC (couche 2)."
+    },
+    {
+      "question": "Quel mécanisme utilise TCP pour éviter la congestion réseau ?",
+      "options": [
+        "La fenêtre de congestion (slow start, AIMD)",
+        "Détection de collision",
+        "Algorithme de backoff",
+        "Time To Live (TTL)"
+      ],
+      "answer": "La fenêtre de congestion (slow start, AIMD)",
+      "difficulty": "moyen",
+      "explanation": "TCP ajuste dynamiquement la taille de la fenêtre de transmission pour éviter la saturation du réseau."
+    },
+    {
+      "question": "Quelle est la différence entre POP3 et IMAP ?",
+      "options": [
+        "POP3 est plus sécurisé qu'IMAP",
+        "IMAP conserve les emails sur le serveur, POP3 les télécharge",
+        "POP3 permet de trier les emails dans des dossiers",
+        "IMAP ne fonctionne qu'en local"
+      ],
+      "answer": "IMAP conserve les emails sur le serveur, POP3 les télécharge",
+      "difficulty": "moyen",
+      "explanation": "IMAP synchronise avec le serveur, tandis que POP3 télécharge généralement les emails puis les supprime du serveur."
+    },
+    {
+      "question": "Quel protocole est utilisé pour le transfert sécurisé de fichiers ?",
+      "options": [
+        "FTP",
+        "SFTP",
+        "HTTP",
+        "SMTP"
+      ],
+      "answer": "SFTP",
+      "difficulty": "moyen",
+      "explanation": "SFTP (SSH File Transfer Protocol) est la version sécurisée de FTP, utilisant SSH pour le chiffrement."
+    },
+    {
+      "question": "Quelle est la fonction du champ TTL dans un paquet IP ?",
+      "options": [
+        "Déterminer la vitesse de transmission",
+        "Empêcher les paquets de circuler indéfiniment",
+        "Chiffrer le contenu du paquet",
+        "Identifier le protocole de transport"
+      ],
+      "answer": "Empêcher les paquets de circuler indéfiniment",
+      "difficulty": "moyen",
+      "explanation": "TTL (Time To Live) est décrémenté à chaque saut (hop), et le paquet est rejeté quand il atteint 0."
+    },
+    {
+      "question": "Quel protocole gère la signalisation (établissement et fin des appels) en VoIP ?",
+      "options": [
+        "HTTP",
+        "SIP",
+        "FTP",
+        "DNS"
+      ],
+      "answer": "SIP",
+      "difficulty": "moyen",
+      "explanation": "SIP (Session Initiation Protocol) est le protocole standard pour établir des sessions VoIP."
+    },
+    {
+      "question": "Quelle est la différence entre HTTP/1.1 et HTTP/2 ?",
+      "options": [
+        "HTTP/2 est plus lent",
+        "HTTP/2 permet le multiplexing",
+        "HTTP/1.1 utilise toujours HTTPS",
+        "HTTP/2 ne fonctionne pas avec les navigateurs modernes"
+      ],
+      "answer": "HTTP/2 permet le multiplexing",
+      "difficulty": "moyen",
+      "explanation": "HTTP/2 introduit le multiplexing permettant d'envoyer plusieurs requêtes en parallèle sur une même connexion."
+    },
+    {
+      "question": "Quel protocole est utilisé par les VPN de niveau 2 ?",
+      "options": [
+        "IPsec",
+        "L2TP",
+        "OpenVPN",
+        "WireGuard"
+      ],
+      "answer": "L2TP",
+      "difficulty": "moyen",
+      "explanation": "PPTP (Point-to-Point Tunneling Protocol) opère au niveau de la couche 2 du modèle OSI."
+    },
+    {
+      "question": "Quelle est la fonction de NAT ?",
+      "options": [
+        "Chiffrer les communications",
+        "Traduire des adresses IP privées en publiques",
+        "Résoudre les noms de domaine",
+        "Contrôler le flux réseau"
+      ],
+      "answer": "Traduire des adresses IP privées en publiques",
+      "difficulty": "moyen",
+      "explanation": "NAT (Network Address Translation) permet à plusieurs appareils de partager une seule IP publique."
+    },
+    {
+      "question": "Quel protocole utilise à la fois TCP et UDP ?",
+      "options": [
+        "DNS",
+        "HTTP",
+        "FTP",
+        "SMTP"
+      ],
+      "answer": "DNS",
+      "difficulty": "moyen",
+      "explanation": "DNS utilise UDP pour les requêtes simples, et TCP pour les transferts de zone (zone transfers)."
+    },
+    {
+      "question": "Quelle est la différence entre SSL et TLS ?",
+      "options": [
+        "SSL est plus récent que TLS",
+        "TLS est une extension de HTTP",
+        "TLS est le successeur de SSL",
+        "Ils sont identiques"
+      ],
+      "answer": "TLS est le successeur de SSL",
+      "difficulty": "moyen",
+      "explanation": "TLS (Transport Layer Security) est l'évolution de SSL (Secure Sockets Layer), plus sécurisé."
+    },
+    {
+      "question": "Quel mécanisme permet à un hôte IPv6 de s'auto-configurer sans serveur (sans état) ?",
+      "options": [
+        "DHCPv6",
+        "SLAAC",
+        "ARP",
+        "ICMPv6"
+      ],
+      "answer": "SLAAC",
+      "difficulty": "moyen",
+      "explanation": "SLAAC (Stateless Address Autoconfiguration) permet aux hôtes IPv6 de s'auto-configurer sans serveur DHCP."
+    },
+    {
+      "question": "Quelle est la fonction d'un serveur proxy ?",
+      "options": [
+        "Traduire les noms de domaine",
+        "Servir d'intermédiaire pour les requêtes réseau",
+        "Attribuer des adresses IP",
+        "Analyser le trafic pour détecter les virus"
+      ],
+      "answer": "Servir d'intermédiaire pour les requêtes réseau",
+      "difficulty": "moyen",
+      "explanation": "Un proxy agit comme intermédiaire entre un client et d'autres serveurs, pouvant faire du cache ou du filtrage."
+    },
+    {
+      "question": "Quel protocole transporte le flux audio/vidéo en temps réel lors d'un appel VoIP ?",
+      "options": [
+        "RTP",
+        "FTP",
+        "HTTP",
+        "SMTP"
+      ],
+      "answer": "RTP",
+      "difficulty": "moyen",
+      "explanation": "RTP (Real-time Transport Protocol) est utilisé pour le transport du flux audio/vidéo en temps réel."
+    },
+    {
+      "question": "Quelle est la différence entre un switch et un routeur ?",
+      "options": [
+        "Un switch opère au niveau 3, un routeur au niveau 2",
+        "Un routeur connecte différents réseaux, un switch connecte des appareils d'un même réseau",
+        "Un switch utilise des adresses IP, un routeur des adresses MAC",
+        "Ils sont identiques"
+      ],
+      "answer": "Un routeur connecte différents réseaux, un switch connecte des appareils d'un même réseau",
+      "difficulty": "moyen",
+      "explanation": "Les routeurs fonctionnent au niveau IP (couche 3) tandis que les switches opèrent au niveau Ethernet (couche 2)."
+    },
+    {
+      "question": "Quelle est la fonction principale de BGP ?",
+      "options": [
+        "Routage interne dans un AS",
+        "Routage entre différents systèmes autonomes (AS)",
+        "Traduction d'adresses",
+        "Résolution de noms"
+      ],
+      "answer": "Routage entre différents systèmes autonomes (AS)",
+      "difficulty": "moyen",
+      "explanation": "BGP (Border Gateway Protocol) est le protocole utilisé pour échanger des informations de routage entre différents AS sur Internet."
+    },
+    {
+      "question": "Comment le protocole BGP évite-t-il les boucles de routage entre systèmes autonomes ?",
+      "options": [
+        "En utilisant le champ TTL",
+        "Grâce à l'algorithme de Dijkstra",
+        "En analysant le chemin AS_PATH",
+        "Via des timers de maintien de session"
+      ],
+      "answer": "En analysant le chemin AS_PATH",
+      "difficulty": "difficile",
+      "explanation": "BGP examine le AS_PATH pour détecter si son propre AS est déjà dans le chemin, évitant ainsi les boucles de routage."
+    },
+    {
+      "question": "Quelle est la particularité du mécanisme de congestion control de TCP CUBIC ?",
+      "options": [
+        "Il utilise une fonction cubique pour augmenter la fenêtre",
+        "Il ignore complètement la détection de perte de paquets",
+        "Il fonctionne uniquement en environnement LAN",
+        "Il nécessite des modifications matérielles"
+      ],
+      "answer": "Il utilise une fonction cubique pour augmenter la fenêtre",
+      "difficulty": "difficile",
+      "explanation": "TCP CUBIC utilise une fonction cubique du temps depuis le dernier événement de congestion pour déterminer la croissance de la fenêtre."
+    },
+    {
+      "question": "Comment QUIC améliore-t-il les performances par rapport à TCP+TLS+HTTP/2 ?",
+      "options": [
+        "En réduisant le RTT grâce à l'établissement de connexion 0-RTT",
+        "En supprimant complètement le chiffrement",
+        "En utilisant exclusivement IPv6",
+        "En limitant la taille des paquets"
+      ],
+      "answer": "En réduisant le RTT grâce à l'établissement de connexion 0-RTT",
+      "difficulty": "difficile",
+      "explanation": "QUIC combine le handshake cryptographique et le transport, permettant des connexions plus rapides avec 0-RTT dans certains cas."
+    },
+    {
+      "question": "Quel mécanisme de MPLS permet de supporter différents QoS ?",
+      "options": [
+        "Les labels EXP (Experimental bits)",
+        "Le champ TTL",
+        "L'adressage IP inclus",
+        "La checksum"
+      ],
+      "answer": "Les labels EXP (Experimental bits)",
+      "difficulty": "difficile",
+      "explanation": "Les 3 bits EXP dans l'en-tête MPLS permettent de prioriser le trafic et d'implémenter des classes de service."
+    },
+    {
+      "question": "Comment fonctionne l'évitement de congestion dans TCP BBR ?",
+      "options": [
+        "En mesurant le RTT et le taux de livraison",
+        "En réduisant systématiquement la fenêtre de congestion",
+        "En ignorant les pertes de paquets",
+        "En utilisant des timers fixes"
+      ],
+      "answer": "En mesurant le RTT et le taux de livraison",
+      "difficulty": "difficile",
+      "explanation": "BBR (Bottleneck Bandwidth and Round-trip propagation time) modélise le réseau pour déterminer le point optimal d'envoi."
+    },
+    {
+      "question": "Quelle technique utilise OSPF pour réduire la taille de la base de données de liens ?",
+      "options": [
+        "Le partitionnement en zones hiérarchiques",
+        "La suppression périodique des LSA",
+        "L'utilisation exclusive de routes par défaut",
+        "La compression des paquets"
+      ],
+      "answer": "Le partitionnement en zones hiérarchiques",
+      "difficulty": "difficile",
+      "explanation": "OSPF divise le réseau en zones pour limiter la propagation des LSA et réduire la taille de la base de données de liens."
+    },
+    {
+      "question": "Comment HTTP/3 améliore-t-il la résistance à la perte de paquets ?",
+      "options": [
+        "En utilisant QUIC comme protocole de transport",
+        "En augmentant la taille des paquets",
+        "En désactivant le contrôle de flux",
+        "En utilisant exclusivement TCP"
+      ],
+      "answer": "En utilisant QUIC comme protocole de transport",
+      "difficulty": "difficile",
+      "explanation": "HTTP/3 sur QUIC permet une meilleure gestion des pertes grâce au multiplexing indépendant des streams."
+    },
+    {
+      "question": "Quel est l'avantage principal du protocole Segment Routing (SR) ?",
+      "options": [
+        "La simplification du plan de contrôle",
+        "L'élimination des besoins en MPLS",
+        "La suppression du besoin en adresses IP",
+        "La réduction de la taille des en-têtes"
+      ],
+      "answer": "La simplification du plan de contrôle",
+      "difficulty": "difficile",
+      "explanation": "Segment Routing simplifie l'architecture réseau en déplaçant l'intelligence vers les nœuds source."
+    },
+    {
+      "question": "Comment EVPN résout-il les limitations de VPLS ?",
+      "options": [
+        "En utilisant MP-BGP pour distribuer les adresses MAC (plan de contrôle)",
+        "En supprimant le besoin de protocoles de routage",
+        "En limitant la taille des réseaux virtuels",
+        "En utilisant exclusivement IPv6"
+      ],
+      "answer": "En utilisant MP-BGP pour distribuer les adresses MAC (plan de contrôle)",
+      "difficulty": "difficile",
+      "explanation": "EVPN utilise MP-BGP pour fournir une solution L2VPN plus évolutive que VPLS, avec meilleure gestion des MAC."
+    },
+    {
+      "question": "Quelle est la fonction principale du champ Flow Label en IPv6 ?",
+      "options": [
+        "Identifier des flux pour le QoS",
+        "Fragmenter les paquets",
+        "Chiffrer le contenu",
+        "Détecter les erreurs"
+      ],
+      "answer": "Identifier des flux pour le QoS",
+      "difficulty": "difficile",
+      "explanation": "Le Flow Label permet d'identifier des flux spécifiques pour une gestion avancée de la qualité de service."
+    },
+    {
+      "question": "Comment TLS 1.3 améliore-t-il les performances par rapport à TLS 1.2 ?",
+      "options": [
+        "En réduisant le handshake à 1 RTT (ou 0-RTT)",
+        "En augmentant la taille des clés",
+        "En supprimant le chiffrement symétrique",
+        "En utilisant exclusivement des certificats auto-signés"
+      ],
+      "answer": "En réduisant le handshake à 1 RTT (ou 0-RTT)",
+      "difficulty": "difficile",
+      "explanation": "TLS 1.3 simplifie le handshake cryptographique tout en améliorant la sécurité, permettant des connexions plus rapides."
+    },
+    {
+      "question": "Quel mécanisme de RTP permet de compenser les variations de délai (jitter) ?",
+      "options": [
+        "Le tampon de déjittering",
+        "L'augmentation de la priorité QoS",
+        "La retransmission des paquets",
+        "La compression d'en-tête"
+      ],
+      "answer": "Le tampon de déjittering",
+      "difficulty": "difficile",
+      "explanation": "RTP utilise un tampon au récepteur pour réordonner les paquets et lisser les variations de délai."
+    },
+    {
+      "question": "Comment VXLAN étend-il les réseaux locaux virtuels ?",
+      "options": [
+        "En encapsulant les trames L2 dans des paquets UDP/IP",
+        "En utilisant des adresses MAC étendues",
+        "En créant des tunnels SSL",
+        "En augmentant la taille des VLAN IDs"
+      ],
+      "answer": "En encapsulant les trames L2 dans des paquets UDP/IP",
+      "difficulty": "difficile",
+      "explanation": "VXLAN utilise une encapsulation UDP/IP pour étendre les réseaux L2 sur des infrastructures L3, avec un espace d'adressage 24 bits."
+    },
+    {
+      "question": "Quel est l'avantage principal de l'Anycast DNS ?",
+      "options": [
+        "Réduction de la latence via la réponse du serveur le plus proche",
+        "Chiffrement des requêtes DNS",
+        "Élimination du besoin en DNSSEC",
+        "Augmentation de la taille des paquets DNS"
+      ],
+      "answer": "Réduction de la latence via la réponse du serveur le plus proche",
+      "difficulty": "difficile",
+      "explanation": "L'Anycast permet à plusieurs serveurs de partager la même adresse IP, avec routage vers le plus proche."
+    },
+    {
+      "question": "Comment Geneve améliore-t-il VXLAN et NVGRE ?",
+      "options": [
+        "Avec des options extensibles via TLV",
+        "En supprimant l'encapsulation",
+        "En limitant la taille des en-têtes",
+        "En utilisant exclusivement IPv6"
+      ],
+      "answer": "Avec des options extensibles via TLV",
+      "difficulty": "difficile",
+      "explanation": "Geneve introduit un en-tête flexible avec des champs Type-Length-Value pour une meilleure extensibilité."
+    },
+    {
+      "question": "Quelle technique utilise P4 pour le traitement des paquets ?",
+      "options": [
+        "La programmation du plan de données",
+        "L'optimisation des routes BGP",
+        "La compression des en-têtes TCP",
+        "Le chiffrement matériel"
+      ],
+      "answer": "La programmation du plan de données",
+      "difficulty": "difficile",
+      "explanation": "P4 est un langage pour spécifier comment les commutateurs traitent les paquets, permettant une grande flexibilité."
+    },
+    {
+      "question": "Comment le protocole SCION améliore-t-il la sécurité du routage ?",
+      "options": [
+        "En laissant l'émetteur choisir parmi des chemins authentifiés cryptographiquement",
+        "En supprimant le besoin en BGP",
+        "En chiffrant toutes les communications",
+        "En limitant la taille des réseaux"
+      ],
+      "answer": "En laissant l'émetteur choisir parmi des chemins authentifiés cryptographiquement",
+      "difficulty": "difficile",
+      "explanation": "SCION sépare le routage en plans de contrôle et de données, avec des chemins sélectionnés et vérifiés à l'avance."
+    },
+    {
+      "question": "Quel est l'avantage principal de TCP Fast Open (TFO) ?",
+      "options": [
+        "Envoi de données pendant le handshake initial",
+        "Suppression du three-way handshake",
+        "Chiffrement sans échange de clés",
+        "Compression des en-têtes"
+      ],
+      "answer": "Envoi de données pendant le handshake initial",
+      "difficulty": "difficile",
+      "explanation": "TFO permet d'envoyer des données dès le premier paquet SYN, réduisant la latence pour les connexions ultérieures."
+    },
+    {
+      "question": "Comment eBPF optimise-t-il le traitement des paquets ?",
+      "options": [
+        "En exécutant des programmes dans le noyau sans recompilation",
+        "En remplaçant complètement le protocole TCP",
+        "En augmentant la taille des buffers",
+        "En supprimant les vérifications de sécurité"
+      ],
+      "answer": "En exécutant des programmes dans le noyau sans recompilation",
+      "difficulty": "difficile",
+      "explanation": "eBPF permet d'exécuter des programmes sandboxés dans le noyau Linux pour un traitement personnalisé des paquets."
+    },
+    {
+      "question": "Quelle innovation majeure apporte DNS over HTTPS (DoH) ?",
+      "options": [
+        "Chiffrement des requêtes DNS dans des connexions HTTPS",
+        "Compression des réponses DNS",
+        "Élimination du caching DNS",
+        "Augmentation de la taille des paquets DNS"
+      ],
+      "answer": "Chiffrement des requêtes DNS dans des connexions HTTPS",
+      "difficulty": "difficile",
+      "explanation": "DoH protège la confidentialité des requêtes DNS en les chiffrant via HTTPS, évitant l'écoute sur le réseau."
+    }
+  ]
+}

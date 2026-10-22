@@ -13,19 +13,34 @@
     },
     {
       "question": "Quel mot-clé permet de définir une fonction en Python ?",
-      "options": ["function", "def", "func", "define"],
+      "options": [
+        "function",
+        "def",
+        "func",
+        "define"
+      ],
       "answer": "def",
       "difficulty": "facile"
     },
     {
       "question": "Comment créer une liste en Python ?",
-      "options": ["list = []", "list = list()", "list = {}", "list = ()"],
+      "options": [
+        "list = []",
+        "list = <>",
+        "list = {}",
+        "list = ()"
+      ],
       "answer": "list = []",
       "difficulty": "facile"
     },
     {
       "question": "Quelle méthode permet de connaître la longueur d'une liste ?",
-      "options": ["len(list)", "list.length()", "list.size()", "length(list)"],
+      "options": [
+        "len(list)",
+        "list.length()",
+        "list.size()",
+        "length(list)"
+      ],
       "answer": "len(list)",
       "difficulty": "facile"
     },
@@ -108,7 +123,12 @@
     },
     {
       "question": "Comment accéder au premier élément d'une liste ?",
-      "options": ["list[0]", "list[1]", "list.first", "list.get(0)"],
+      "options": [
+        "list[0]",
+        "list[1]",
+        "list.first",
+        "list.get(0)"
+      ],
       "answer": "list[0]",
       "difficulty": "facile"
     },
@@ -245,7 +265,7 @@
       "difficulty": "moyen"
     },
     {
-      "question": "Comment gérer proprement les ressources avec Python ?",
+      "question": "Quelle est la façon idiomatique de gérer proprement les ressources (fichiers, connexions) en Python ?",
       "options": [
         "Avec un bloc try/finally",
         "Avec le mot-clé del",
@@ -257,14 +277,19 @@
     },
     {
       "question": "Quelle est la sortie de bool('False') en Python ?",
-      "options": ["False", "True", "None", "Erreur"],
+      "options": [
+        "False",
+        "True",
+        "None",
+        "Erreur"
+      ],
       "answer": "True",
       "difficulty": "moyen"
     },
     {
       "question": "Comment fusionner deux dictionnaires en Python 3.5+ ?",
       "options": [
-        "dict1.update(dict2)",
+        "dict1.join(dict2)",
         "{**dict1, **dict2}",
         "dict1 + dict2",
         "dict.merge(dict1, dict2)"
@@ -275,12 +300,12 @@
     {
       "question": "Qu'est-ce que le GIL (Global Interpreter Lock) ?",
       "options": [
-        "Un mécanisme qui synchronise l'accès aux objets Python",
+        "Un verrou qui ne laisse qu'un seul thread exécuter du bytecode Python à la fois",
         "Un verrou pour les variables globales",
         "Un système de gestion de mémoire",
         "Un optimiseur de bytecode"
       ],
-      "answer": "Un mécanisme qui synchronise l'accès aux objets Python",
+      "answer": "Un verrou qui ne laisse qu'un seul thread exécuter du bytecode Python à la fois",
       "difficulty": "moyen"
     },
     {
@@ -297,12 +322,12 @@
     {
       "question": "Quelle est la différence entre deepcopy et copy ?",
       "options": [
-        "deepcopy copie récursivement les objets, copy seulement la référence",
-        "copy est plus rapide que deepcopy",
+        "deepcopy copie récursivement les objets imbriqués, copy ne copie que le premier niveau",
+        "copy est toujours plus lent que deepcopy",
         "deepcopy ne fonctionne qu'avec les listes",
-        "copy crée un nouvel identifiant"
+        "copy ne fonctionne qu'avec les dictionnaires"
       ],
-      "answer": "deepcopy copie récursivement les objets, copy seulement la référence",
+      "answer": "deepcopy copie récursivement les objets imbriqués, copy ne copie que le premier niveau",
       "difficulty": "moyen"
     },
     {
@@ -330,12 +355,12 @@
     {
       "question": "Comment créer un contexte personnalisé avec with ?",
       "options": [
-        "En implémentant __enter__ et __exit__",
-        "Avec le décorateur @contextmanager",
-        "Les deux méthodes sont valides",
-        "En héritant de ContextBase"
+        "En implémentant __enter__ et __exit__, ou avec le décorateur @contextmanager",
+        "En héritant de ContextBase",
+        "Avec le décorateur @with",
+        "En définissant __open__ et __close__"
       ],
-      "answer": "Les deux méthodes sont valides",
+      "answer": "En implémentant __enter__ et __exit__, ou avec le décorateur @contextmanager",
       "difficulty": "moyen"
     },
     {
@@ -355,7 +380,7 @@
         "sorted(dict.items(), key=lambda x: x[1])",
         "dict.sort_values()",
         "dict.orderby(value)",
-        "sorted(dict, key=dict.get)"
+        "dict.sort(by='value')"
       ],
       "answer": "sorted(dict.items(), key=lambda x: x[1])",
       "difficulty": "moyen"
@@ -375,7 +400,7 @@
       "question": "Comment créer une fonction qui accepte un nombre variable d'arguments nommés ?",
       "options": [
         "def func(**kwargs)",
-        "def func(*args, **kwargs)",
+        "def func(*kwargs)",
         "def func(args...)",
         "def func(***kwargs)"
       ],
@@ -396,12 +421,12 @@
     {
       "question": "Comment vérifier si un fichier existe ?",
       "options": [
-        "os.path.exists('fichier')",
-        "pathlib.Path('fichier').exists()",
-        "Les deux méthodes sont valides",
-        "with open('fichier') as f:"
+        "os.path.exists('fichier') ou pathlib.Path('fichier').exists()",
+        "file.exists('fichier')",
+        "os.isfile.exists('fichier')",
+        "exists('fichier')"
       ],
-      "answer": "Les deux méthodes sont valides",
+      "answer": "os.path.exists('fichier') ou pathlib.Path('fichier').exists()",
       "difficulty": "moyen"
     },
     {
@@ -490,12 +515,12 @@
     {
       "question": "Comment créer un descriptor en Python ?",
       "options": [
-        "En implémentant __get__, __set__ ou __delete__",
-        "En utilisant property()",
+        "En implémentant __get__, __set__ ou __delete__ (property() en est un exemple)",
         "Avec le décorateur @descriptor",
-        "Réponses 1 et 2"
+        "En héritant de la classe Descriptor",
+        "En définissant __describe__"
       ],
-      "answer": "Réponses 1 et 2",
+      "answer": "En implémentant __get__, __set__ ou __delete__ (property() en est un exemple)",
       "difficulty": "difficile",
       "explanation": "Les descriptors sont créés via les méthodes spéciales ou la fonction property()."
     },
